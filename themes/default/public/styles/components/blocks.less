@@ -1,0 +1,112 @@
+.block--container {
+  max-width: @cont-width;
+  margin-left: -(@cont-padding);
+  margin-right: -(@cont-padding);
+}
+
+.block__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.block {
+  background-color: white;
+  box-shadow: 16px 16px 47px 2px rgba(0,0,0,.07);
+  padding: @space-lg @space-xl;
+  min-height: @space-lg;
+  margin: @space auto;
+  position: relative;
+  margin: 2rem 0;
+  .clearfix();
+  @media screen and (max-width: @screen-xs) { padding: 1.25rem; }
+  & > *:first-child {
+    margin-top: 0;
+  }
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.block--text-white {
+  * { color: white }
+  a { color: white }
+  a:hover,
+  a:focus { color: rgba(255,255,255,.9) }
+}
+
+.block--danger {
+  background-color: @brand-danger;
+  .block--text-white();
+}
+
+.block--warning {
+  background-color: @brand-warning;
+  .block--text-white();
+}
+
+.block--info {
+  background-color: @brand-info;
+  .block--text-white();
+}
+
+.block--primary {
+  background-color: @brand-primary;
+  .block--text-white();
+}
+
+.block--success {
+  background-color: @brand-success;
+  .block--text-white();
+}
+
+.block__main {
+  .block();
+  text-align: left;
+  padding: @space-md;
+  flex-basis: 98%;
+  margin: @space @cont-padding/2;
+  @media screen and (min-width: @screen-sm) {
+    flex-basis: 68%;
+  }
+  @media screen and (min-width: @screen-md) {
+    flex-basis: 73%;
+  }
+}
+
+.block__help {
+  .block();
+  background-image: url(../images/icon-help-2.svg);
+  background-size: 8rem;
+  background-position: 102% -5%;
+  background-repeat: no-repeat;
+  text-align: left;
+  margin: @space @cont-padding;
+  flex-basis: 98%;
+  @media screen and (min-width: @screen-sm) {
+    flex-basis: 28%;
+  }
+  @media screen and (min-width: @screen-md) {
+    flex-basis: 23%;
+  }
+  a {
+    color: #ff5722;
+  }
+  a:hover {
+    color: darken(#ff5722,5%);
+  }
+  > *:first-child {
+    margin-top: 0;
+  }
+  ul {
+    list-style: circle;
+  }
+  ul,ol {
+    padding-left: @space;
+  }
+  h2 {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+}
