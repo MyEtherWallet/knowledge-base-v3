@@ -1,6 +1,6 @@
 /*
-Title: Contributing to Raneto
-Sort: 2
+Title: Save Your Keys!
+Sort: 3
 */
 
 Want to report a bug, request a feature, contribute or translate Raneto? At the moment most things can be
