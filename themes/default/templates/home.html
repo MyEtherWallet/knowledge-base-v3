@@ -2,7 +2,16 @@
   <form class="home-search__form" action="{{config.base_url}}/">
     <div class="form-group">
       <h1>{{lang.home.searchTitle}}</h1>
-      <p>{{lang.home.searchSubtitle}}</p>
+      <div class="target-nav"> 
+        <button class="btn-primary" href="">Private Key</button> 
+        <button class="btn-primary" href="">Gas</button>
+        <button class="btn-primary" href="">Ledger/Trezor</button> 
+        <button class="btn-primary" href="">Tokens</button> 
+        <button class="btn-primary" href="">ENS</button>
+        <button class="btn-primary" href="">I Lost My...</button>
+        <button class="btn-primary" href="">FAQ's</button>
+      </div>
+      <br/>
       <input type="search" class="form-control" name="search" id="home-search" size="50" placeholder="{{lang.home.searchKnowledgeBase}}">
       <button type="submit" class="btn btn-primary">{{lang.global.search}}</button>
     </div>
