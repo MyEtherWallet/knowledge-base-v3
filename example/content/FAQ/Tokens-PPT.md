@@ -1,0 +1,28 @@
+/*
+Title: Tokens - PPT
+Sort: 2
+*/
+
+MyEtherWallet is a client-side interface. If you are not seeing a token, in the sidebar, you simply need to add that token to your MyEtherWallet interface in order to see the balance and send it. 
+
+[The most up to date instructions on how to do so can be found here.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
+
+[You can learn how to check the balance of your account here.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-check-the-balance-of-my-account) Specifically: use [ethplorer.io](https://ethplorer.io/) in order to take a look at your token balances. This is what you want to do instead of unlocking your account. You only want to unlock your account when you want to send a transaction, not to just check your balance.
+
+**However.** It looks like the creators of PPT are yet another example of folks with more money than sense. Another confused PPT investor was kind enough to share this information:
+
+> Address: 0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a
+
+> Symbol: PPT
+
+> Decimal: 8
+
+> I re-enter this info every time I log into MEW. On Ethplorer, the token doesn't appear with its symbol. Instead it appears as XXX.
+
+Let us know if this works for you. Or, if you figure anything out or hear from PPT, please let us know so we can share with other PPT investors and hopefully cut the confusion.
+
+Sorry we couldn't be of more help regarding this situation.
+
+Keep in touch. 
+
+Thanks
