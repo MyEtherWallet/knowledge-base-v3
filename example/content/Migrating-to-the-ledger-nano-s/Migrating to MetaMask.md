@@ -1,5 +1,5 @@
 /*
-Title: Migrating to the Ledger Nano S
+Title: Migrating to MetaMask
 Sort: 2
 */
 

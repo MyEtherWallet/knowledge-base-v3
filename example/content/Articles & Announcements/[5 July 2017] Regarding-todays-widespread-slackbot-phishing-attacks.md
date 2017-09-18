@@ -1,5 +1,5 @@
 /*
-Title: [5 July 2017] Regarding today's widespread slackbot phishing attacks...
+Title: [5 July 2017] Widespread Slackbot Phishing Attacks
 */
 
 ### Regarding today's widespread slackbot phishing attacks

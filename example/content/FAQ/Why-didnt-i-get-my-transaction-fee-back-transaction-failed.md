@@ -1,7 +1,9 @@
 /*
-Title: Why didn't I get my transaction fee (TX Fee) back even though my transaction failed?
+Title: Transaction Fees - Failed Transaction
 Sort: 2
 */
+
+"Why didn't I get my transaction fee (TX Fee) back even though my transaction failed?"
 
 **Ethereum is the network—the blockchain. Ether (ETH) is the fuel for that network. When you send tokens, interact with a contract, send ETH, or do anything else on the blockchain, you must pay for that computation. That payment is calculated in `Gas` and gas is paid in `ETH`.**
 

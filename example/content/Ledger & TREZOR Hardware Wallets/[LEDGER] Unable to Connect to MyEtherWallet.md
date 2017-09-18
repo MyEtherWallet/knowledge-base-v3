@@ -1,5 +1,5 @@
 /*
-Title: [LEDGER] Unable to Connect to MyEtherWallet
+Title: Unable to Connect Hardware Wallet on MyEtherWallet
 Sort: 2
 */
 

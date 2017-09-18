@@ -1,7 +1,9 @@
 /*
-Title: Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)
+Title: NOTICE -Hacks/Thefts from Phishing Links on 7/5/17
 Sort: 2
 */
+
+Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)
 
 #### I'm really sorry, but it sounds like you may have been the victim of a phishing attack, likely from a DM via Slack or Reddit.  
 

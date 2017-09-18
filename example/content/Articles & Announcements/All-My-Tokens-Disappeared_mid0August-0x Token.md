@@ -1,5 +1,5 @@
 /*
-Title: All my tokens disappeared ahhhhhhhh!!!!!! (Mid-August / 0x Token Sale)
+Title: All My Tokens Disappeared (Mid-Aug/0x Token Sale)
 Sort: 2
 */
 

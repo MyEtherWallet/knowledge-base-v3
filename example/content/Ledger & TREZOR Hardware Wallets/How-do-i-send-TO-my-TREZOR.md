@@ -1,5 +1,5 @@
 /*
-Title: [LEDGER] How Do I Send TO My TREZOR?
+Title: How Do I Send TO My TREZOR?
 Sort: 2
 */
 

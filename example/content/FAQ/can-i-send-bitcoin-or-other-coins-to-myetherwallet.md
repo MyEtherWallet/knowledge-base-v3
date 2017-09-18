@@ -1,7 +1,9 @@
 /*
-Title: Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?
+Title: Can I send Bitcoin or other coins to MyEtherWallet?
 Sort: 2
 */
+
+"Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?"
 
 We support ETH, ETC, Testnet ETH, and any Ethereum Standard Tokens - aka "ERC-20" Tokens.
 

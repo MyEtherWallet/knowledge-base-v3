@@ -1,14 +1,11 @@
 /*
 Title: ★ Defining Common Terms in the Ethereum / Crypto Space
+Sort: 2
 */
 
-[You can also read in Spanish]( https://myetherwallet.groovehq.com/knowledge_base/topics/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
+You can also read in Spanish]( https://myetherwallet.groovehq.com/knowledge_base/topics/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
 
 ---
-
-Words are Hard sometimes.
-
-This is a list of terms you might encounter when using the MyEtherWallet interface.  
 
 ### Wallet
 

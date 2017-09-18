@@ -1,5 +1,5 @@
 /*
-Title: I am trying to unlock my wallet but it keeps freezing / hanging.
+Title: Freezing/Hanging When Unlocking MyEtherWallet
 Sort: 2
 */
 

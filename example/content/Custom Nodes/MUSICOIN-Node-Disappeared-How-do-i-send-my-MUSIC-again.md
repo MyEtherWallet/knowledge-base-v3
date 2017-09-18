@@ -1,7 +1,9 @@
 /*
-Title: MUSICOIN Node Disappeared. How do I send my MUSIC again?
+Title: MUSICoin Node Disappeared. How to re-send MUSICCoin.
 Sort: 2
 */
+
+"MUSICOIN Node Disappeared. How do I send my MUSIC again?"
 
 We temporarily removed the MUSIC node as we had some issues with hardware wallets and lack of EIP-155 support. 
 

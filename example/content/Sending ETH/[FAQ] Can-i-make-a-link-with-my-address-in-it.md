@@ -1,5 +1,5 @@
 /*
-Title: [FAQ] Can I make a link with my address in it?
+Title: Can I make a link with my address in it?
 Sort: 2
 */
 

@@ -1,7 +1,9 @@
 /*
-Title: Couldn't everybody put in random private keys, look for a balance, and send to their own address?
+Title: Entering Random Private Keys
 Sort: 2
 */
+
+"Couldn't everybody put in random private keys, look for a balance, and send to their own address?"
 
 ### Short version
 
