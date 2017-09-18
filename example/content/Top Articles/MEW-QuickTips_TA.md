@@ -1,5 +1,6 @@
 /*
-Title: ★ MyEtherWallet's QuickTips (Site Messages)
+Title: ★ Messages That Display When Loading MyEtherWallet
+Sort: 2
 */
 
 1. Hardware wallets ensure your key isn't vulnerable to phishers. Order a TREZOR or Ledger today!

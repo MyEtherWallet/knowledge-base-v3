@@ -1,7 +1,9 @@
 /*
-Title: Adding a new token / sending custom tokens / checking balance of tokens / seeing custom token / ERC-20
+Title: Adding/Sending/Viewing of New/Custom Tokens/ERC-20 
 Sort: 2
 */
+
+Adding a new token / sending custom tokens / checking balance of tokens / seeing custom token / ERC-20
 
 ### If you are not seeing your shiny new token from that token sale in your wallet, you simply need to add it to your interface.
 

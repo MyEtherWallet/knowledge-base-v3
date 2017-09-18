@@ -1,7 +1,9 @@
 /*
-Title: How do I move from Coinbase to MyEtherWallet? [Exchange/Hosted Wallet -> MEW] 
+Title: Transferring from an Exchange to MyEtherWallet? 
 Sort: 2
 */
+
+How do I move from Coinbase to MyEtherWallet? [Exchange/Hosted Wallet -> MEW]
 
 So you want to hold your own funds? 
 

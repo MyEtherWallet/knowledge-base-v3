@@ -1,5 +1,6 @@
 /*
 Title: ★ Pro-Tips -How Not to get Scammed during a Token Sale
+Sort: 2
 */
 
 Below are some tips to prevent from being scammed during a token sale. 

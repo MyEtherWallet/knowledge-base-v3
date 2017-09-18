@@ -1,5 +1,5 @@
 /*
-Title: How can I check on the status of my TX? Can I cancel, override, overwrite, replace once a TX has been sent?
+Title: Checking the Status of a Transaction
 Sort: 2
 */
 

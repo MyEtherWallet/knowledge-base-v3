@@ -1,9 +1,11 @@
 /*
-Title: Should I keep my ETH and tokens in the same address or create different addresses?
+Title: Keeping ETH/Tokens on Single or Multiple Addresses
 Sort: 2
 */
 
-es.
+"Should I keep my ETH and tokens in the same address or create different addresses?"
+
+Yes.
 
 MyEtherWallet is just a front end. Any Ethereum address can "receive" Ethereum-based tokens ("ERC-20" tokens).
 

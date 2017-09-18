@@ -1,9 +1,9 @@
 /*
-Title: How do I see & send my ETC?
+Title: How to View and Send ETC
 Sort: 2
 */
 
-### How do I access my ETC on MyEtherWallet?
+### How do I access and send my ETC on MyEtherWallet?
 
 In order to see your ETC and interact with the ETC chain, you must first be on an ETC node. 
 

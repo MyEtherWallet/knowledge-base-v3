@@ -1,6 +1,8 @@
 /*
-Title: What do I do if my Swap didn't get completed or was canceled?
+Title: Swap NOT Completed or Cancelled
 */
+
+"What do I do if my Swap didn't get completed or was cancelled?"
 
 <p>Due to the state of the Bitcoin network, time-based transactions can be tough at times of high volume.&nbsp;</p>
 <p>If you sent coins to the address specified but have not received coins in return, please reach out to support@myetherwallet.com AND support@bity.com.</p>

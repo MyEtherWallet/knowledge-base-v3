@@ -1,7 +1,9 @@
 /*
-Title: Does MyEtherAPI have a limit on the amount of requests I can make?
+Title: MyEtherAPI - Limit Requests
 Sort: 2
 */
+
+"Does MyEtherAPI have a limit on the amount of requests I can make?"
 
 If you are a heavy user of our API or MyEtherWallet, you may get rate-limited. If so, it typically looks something like this:
 

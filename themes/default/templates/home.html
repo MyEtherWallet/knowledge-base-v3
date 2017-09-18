@@ -19,6 +19,7 @@
 </div>
 
 <div class="home-categories row">
+<div class="col col-md-10 col-md-offset-1">
   {{#pages}}
     {{#is_index}}
       {{#files.length}}
@@ -35,7 +36,8 @@
       {{/files.length}}
     {{/is_index}}
     {{^is_index}}
-      <div class="col col-md-4 col-sm-6 col-xs-12">
+    </div>
+      <div class="col col-md-10 col-md-offset-1">
         <div class="block {{class}}">
           <h2 class="panel-heading">{{title}}</h2>
           <ul class="list-group pages">

@@ -1,5 +1,5 @@
 /*
-Title: [WIP] Should I create a new address for each token I hold?
+Title: Should I create a new address for each token I hold?
 Sort: 2
 */
 

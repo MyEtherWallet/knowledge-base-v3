@@ -1,8 +1,9 @@
 /*
-Title: What does it mean if my address has uppercase and lowercase letters?
+Title: Lowercase Letters vs Uppercase Letters in Address
 Sort: 2
 */
 
+"What does it mean if my address has uppercase and lowercase letters?"
 There are two versions of Ethereum addresses: one that contains uppercase letters and one that does not:
 
 `0x7cb57b5a97eabe94205c07890be4c1ad31e486a8`

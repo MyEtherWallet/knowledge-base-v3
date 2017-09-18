@@ -54,6 +54,7 @@
     "extend": "^3.0.1",
     "fitvids": "^2.0.0",
     "glob": "^7.1.2",
+    "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
     "gulp-update": "0.0.2",

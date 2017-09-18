@@ -1,7 +1,9 @@
 /*
-Title: What is the difference between an exchange (e.g. Coinbase, Kraken, Gemini, Poloniex, Bittrex) and MyEtherWallet?
+Title: The Difference Between an Exchange and MyEtherWallet?
 Sort: 2
 */
+
+"What is the difference between an exchange (e.g. Coinbase, Kraken, Gemini, Poloniex, Bittrex) and MyEtherWallet?"
 
 Your ETH & tokens are on the blockchain, regardless of what service you use to access them. When you move them, you are sending them from one address on the blockchain to another. These are simply lines of code. Your wallet file, the user interface you interact with, the private key—these do not have funds in them. The private key gives you the ability to prove ownership over coins that are on the blockchain.
 

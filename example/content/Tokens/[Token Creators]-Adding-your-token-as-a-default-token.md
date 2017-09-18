@@ -1,5 +1,5 @@
 /*
-Title: [Token Creators] Adding your token as a Default Token
+Title: Adding your token as a Default Token
 Sort: 2
 */
 

@@ -1,5 +1,5 @@
 /*
-Title: Changing the ENS Owner / "Sending" an ENS Name to another Address
+Title: Changing ENS Owner / Sending an ENS Name to Another Address
 Sort: 2
 */
 

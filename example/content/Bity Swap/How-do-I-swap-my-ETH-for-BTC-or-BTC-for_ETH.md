@@ -1,8 +1,9 @@
 /*
-Title: How do I swap my ETH for BTC or BTC for ETH?
+Title: How to SWAP ETH for BTC or Vice Versa
 Sort: 2
 */
 
+"How do I swap my ETH for BTC or BTC for ETH?"
 <ol>
 <li>Go to the Swap page:&nbsp;<a href="https://www.myetherwallet.com/#swap" data-cke-saved-href="https://www.myetherwallet.com/#swap">https://www.myetherwallet.com/#swap</a></li>
 <li>Enter the amount of ETH or BTC you would like to exchange</li>

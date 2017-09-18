@@ -1,5 +1,5 @@
 /*
-Title: [OLD / HARD] Manually Revealing TX
+Title: Manually Revealing TX
 Sort: 2
 */
 

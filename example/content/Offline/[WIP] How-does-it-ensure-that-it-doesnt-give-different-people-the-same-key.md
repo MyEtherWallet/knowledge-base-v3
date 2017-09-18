@@ -1,7 +1,9 @@
 /*
-Title: WIP] How does it ensure that it doesn't give different people the same key?
+Title: Ensuring MyEtherWallet Does Not Generate Same Key
 Sort: 2
 */
+
+"How does it ensure that it doesn't give different people the same key?"
 
 https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed
 

@@ -1,5 +1,5 @@
 /*
-Title: Private Key Opens a Different Wallet / Two Addresses 
+Title: Private Key Opens Different Wallet / Two Addresses 
 
 Sort: 2
 */

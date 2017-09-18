@@ -1,5 +1,5 @@
 /*
-Title: [WIP] Can I check the current block number via MEW?
+Title: Can I check the current block number via MEW?
 Sort: 2
 */
 
