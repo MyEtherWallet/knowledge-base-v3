@@ -1,10 +1,13 @@
-
 <div class="home-search row">
   <form class="home-search__form" action="{{config.base_url}}/">
     <div class="form-group">
       <h1>{{lang.home.searchTitle}}</h1>
-      <input type="search" class="form-control" name="search" id="home-search" size="50" placeholder="{{lang.home.searchKnowledgeBase}}">
-      <button type="submit" class="btn btn-primary">{{lang.global.search}}</button>
+      <div class="input-group">
+        <input type="search" class="form-control" name="search" id="home-search" placeholder="{{lang.home.searchKnowledgeBase}}">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">{{lang.global.search}}</button>
+        </span>
+      </div>
     </div>
   </form>
 </div>
