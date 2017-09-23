@@ -1,5 +1,6 @@
 /*
 Title: Defining Common Terms in the Ethereum / Crypto Space
+Sort: 18
 */
 
 [You can also read in Spanish]( https://myetherwallet.groovehq.com/knowledge_base/topics/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
