@@ -28,13 +28,13 @@ Typically, if someone just says "Gas", they are talking about the "Gas Limit".
 
 ##### Analogy Time!
 
-You can think of the `gas limit` like the amount of liters/gallons/units of gas for a car. You can think of the `gas price` as the cost of that liter/gallon/unit of gas. 
+You can think of the `gas limit` like the amount of liters/gallons/units of gas for a car. You can think of the `gas price` as the cost of that liter/gallon/unit of gas.
 
-- With a car, it's `$2.50 (price)` per `gallon (unit)`. 
-- With Ethereum, it's `20 GWEI (price)` per `gas (unit)`. 
+- With a car, it's `$2.50 (price)` per `gallon (unit)`.
+- With Ethereum, it's `20 GWEI (price)` per `gas (unit)`.
 
-To fill up your "tank", it takes... 
-- `10 gallons` at `$2.50` = `$25` 
+To fill up your "tank", it takes...
+- `10 gallons` at `$2.50` = `$25`
 - `21000 units of gas` at `20 GWEI` = `0.00042 ETH`.
 
 Therefore, the total TX fee will be 0.00042 Ether.
@@ -57,7 +57,7 @@ All unused gas is refunded to you at the end of a transaction. So if you go to M
 
 ### Gas Price
 
-If you want to spend less on a transaction, you can do so by lowering the amount you pay per unit of gas. The price you pay for each unit increases or decreases how quickly your transaction will be mined. 
+If you want to spend less on a transaction, you can do so by lowering the amount you pay per unit of gas. The price you pay for each unit increases or decreases how quickly your transaction will be mined.
 
 **During normal times:**
 
@@ -71,9 +71,9 @@ If you want to spend less on a transaction, you can do so by lowering the amount
 
 * 50 GWEI would be the amount you should send in that case.
 
-* If you are trying to send *during* an Token Creation Period (but not *to* the Token Creation) you have 2 choices: wait a bit until the Token Creation Period is over, or increase the gas price over 50 GWEI. 
+* If you are trying to send *during* an Token Creation Period (but not *to* the Token Creation) you have 2 choices: wait a bit until the Token Creation Period is over, or increase the gas price over 50 GWEI.
 
-You can adjust the gas price on MyEtherWallet in the footer via the slider. It is capped at 50 GWEI in order to prevent people tying to send to Token Creation Periods from having all their transactions fail because they don't read anything. 
+You can adjust the gas price on MyEtherWallet in the footer via the slider. It is capped at 50 GWEI in order to prevent people tying to send to Token Creation Periods from having all their transactions fail because they don't read anything.
 
 [⚠ Advanced Users Only Who Want To Go 50 GWEI+ can see how here](http://i.imgur.com/47zmU0R.gif)
 
@@ -103,9 +103,9 @@ You should put whatever the token sale holders tell you to put. If you do not kn
 
 Not necessarily. The risk in increasing it is that you could still not get in, and pay the fee anyways. The gas will NOT be returned to you if you send with a too-low gas limit, too early, or too late in the Token Creation Period.
 
-First, see if the token sale has a max gas price. If they do, use that as the gas price. Both Status and Bancor had a max gas of 50 GWEI. 
+First, see if the token sale has a max gas price. If they do, use that as the gas price. Both Status and Bancor had a max gas of 50 GWEI.
 
-If they let you send with any amount of gas price, you should decide how much you are will to invest, and how much you are willing to spend on that attempt to invest. **You must assume that you will pay the full fee and get nothing in return during Token Creation Periods.** Take the gas limit (e.g. 200000), multiply by the gas price (e.g. 50 GWEI or 0.00000005 ETH) and that is how much you will pay for your attempt to get in. 
+If they let you send with any amount of gas price, you should decide how much you are will to invest, and how much you are willing to spend on that attempt to invest. **You must assume that you will pay the full fee and get nothing in return during Token Creation Periods.** Take the gas limit (e.g. 200000), multiply by the gas price (e.g. 50 GWEI or 0.00000005 ETH) and that is how much you will pay for your attempt to get in.
 
 Before the BAT Token Creation Period, the average gas price was 20 GWEI (the default) for Token Creation Periods. Now it's who-the-fuck-even-knows:
 
@@ -135,11 +135,10 @@ A very awesome miner, miningpoolhub, accepts a 2 GWEI price, but their blocks ar
 [http://ethgasstation.info/calculator.php](http://ethgasstation.info/calculator.php) will let you estimate how long it will be before your transaction is accepted at a certain gas price.
 
 ### Related
-
 *   [What is gas (StackExchange)](https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum)
 *   [What is gas? (CryptoCompare)](https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/)
 *   [Can someone explain gas to me?](https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/)
-*   [I don't understand the concept of gas.  
+*   [I don't understand the concept of gas.
     ](https://www.reddit.com/r/ethereum/comments/3fnpr1/can_someone_possibly_explain_the_concept_of/)
 
 ### Sources

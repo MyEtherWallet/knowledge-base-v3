@@ -1,9 +1,9 @@
 /*
-Title: Can I send Bitcoin or other coins to MyEtherWallet?
-Sort: 2
+Title: Does MyEtherWallet support Bitcoin or other coins (LTC STEEM ZEC)?
+Sort: 6
 */
 
-"Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?"
+### "Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?"*
 
 We support ETH, ETC, Testnet ETH, and any Ethereum Standard Tokens - aka "ERC-20" Tokens.
 
@@ -13,9 +13,8 @@ We recommend [Exodus.io](https://www.exodus.io/) as a client-side, mutli-coin so
 
 Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
 
-Best of luck!
 
-### Related
+### Related Reading
 
 - [How can I add a non-default token to MEW?](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
 

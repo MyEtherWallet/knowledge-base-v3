@@ -1,5 +1,5 @@
 /*
-Title: Keeping ETH/Tokens on Single or Multiple Addresses
+Title: Keeping ETH / Tokens on Single or Multiple Addresses
 Sort: 2
 */
 

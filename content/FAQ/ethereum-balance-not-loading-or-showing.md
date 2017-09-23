@@ -1,5 +1,5 @@
 /*
-Title: Balances are not loading or showing on MyEtherWallet
+Title: Balances not loading or showing on MyEtherWallet
 Sort: 2
 */
 
@@ -7,7 +7,7 @@ This is most likely due to the fact that you are behind a firewall, you have ref
 
 Here are some things you can try to troubleshoot:
 
-1. Hard refresh the page. On Chrome on OSX you hit `cmd`+`shift`+`r`. On a PC, I assume it is `ctrl`+`shift`+`r`. 
+1. Hard refresh the page. On Chrome on OSX you hit `cmd`+`shift`+`r`. On a PC, I assume it is `ctrl`+`shift`+`r`.
 
 2. Check your internet / firewall.
 

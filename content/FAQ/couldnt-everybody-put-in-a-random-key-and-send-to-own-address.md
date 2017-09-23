@@ -31,16 +31,12 @@ Of course, this all assumes that keys are generated in a truly random way & with
 
 ---
 
-### Related
+### Related Reading
 
 -  [BIP-39s (mnemonic phrases & Ledger Hardware Wallets)](https://www.reddit.com/r/ledgerwallet/comments/6cjvam/probability_of_seed_phrase_collisionbrute_forcing/
 )
 
 - [How does it ensure that it doesn't give different people the same key?](https://myetherwallet.groovehq.com/knowledge_base/topics/wip-how-does-it-ensure-that-it-doesnt-give-different-people-the-same-key)
-
-
-
-### Further Reading
 
 - [Not all private keys are valid on the curve](https://crypto.stackexchange.com/questions/30269/are-all-possible-ec-private-keys-valid)
 
