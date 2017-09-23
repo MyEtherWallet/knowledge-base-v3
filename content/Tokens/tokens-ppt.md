@@ -1,9 +1,9 @@
 /*
 Title: Tokens - PPT
-Sort: 2
+Sort: 12
 */
 
-MyEtherWallet is a client-side interface. If you are not seeing a token, in the sidebar, you simply need to add that token to your MyEtherWallet interface in order to see the balance and send it. 
+MyEtherWallet is a client-side interface. If you are not seeing a token, in the sidebar, you simply need to add that token to your MyEtherWallet interface in order to see the balance and send it.
 
 [The most up to date instructions on how to do so can be found here.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
 
@@ -23,6 +23,6 @@ Let us know if this works for you. Or, if you figure anything out or hear from P
 
 Sorry we couldn't be of more help regarding this situation.
 
-Keep in touch. 
+Keep in touch.
 
 Thanks

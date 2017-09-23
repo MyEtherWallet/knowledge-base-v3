@@ -1,9 +1,9 @@
 /*
 Title: Does MyEtherWallet have an API?
-Sort: 2
+Sort: 20
 */
 
-We do, it's just not widely promoted as we go down sometimes and have some outstanding items we would like to clean up (like being 100% consistent with Etherscan and Infura). 
+We do, it's just not widely promoted as we go down sometimes and have some outstanding items we would like to clean up (like being 100% consistent with Etherscan and Infura).
 
 Here are the API docs for MEW, Etherscan, and Infura (the three main providers of public nodes):
 

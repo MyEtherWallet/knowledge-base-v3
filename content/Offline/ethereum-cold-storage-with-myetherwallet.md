@@ -1,6 +1,6 @@
 /*
-Title: How do I use MEW for cold storage?
-Sort: 2
+Title: Using MyEtherWallet for cold storage
+Sort: 4
 */
 
 ### Preface
@@ -9,14 +9,12 @@ The following assumes you are **not** using a Ledger or TREZOR hardware wallet. 
 
 To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
 
----
 
 ### An amazing guide: Tails + KeePass + USB + MEW
 
 [https://steemit.com/cryptocurrency/@tomshwom/tomshwom-s-advanced-crypto-security-guide-part-3-creating-a-secure-wallet](https://steemit.com/cryptocurrency/@tomshwom/tomshwom-s-advanced-crypto-security-guide-part-3-creating-a-secure-wallet
 )
 
----
 
 You can run MyEtherWallet.com on your computer and this computer can be a cold-storage or offline computer. This means it is a computer that is not connected to the internet and _will never be connected to the internet again._ You can generate a wallet completely offline & send Ether or Tokens from the "Send Offline" page.
 
@@ -55,7 +53,6 @@ It is recommended that you store backups of both forms of your key (the keystore
 
 This prevents loss of the private key & password due to: dead hard drive, lost USB drive, wet piece of paper, etc. Keep in mind that physical loss can affect an entire area (e.g. fire, flood).
 
----
 
 ### We cannot recover your key
 
@@ -64,9 +61,7 @@ MyEtherWallet is not a web wallet and cannot recover your private key or passwor
 We are a client-side interface that allows you to interact with the Ethereum blockchain. Please secure & back up your key like the millions of dollars it could some day be worth.
 
 
----
-
-### Further Reading
+### Related Reading
 
 * [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.groovehq.com/knowledge_base/topics/what-are-the-different-formats-of-a-private-key)
 

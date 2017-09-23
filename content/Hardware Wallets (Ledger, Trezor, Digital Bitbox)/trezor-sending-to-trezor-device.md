@@ -1,9 +1,9 @@
 /*
 Title: How Do I Send TO My TREZOR?
-Sort: 2
+Sort: 4
 */
 
-#### Here is how you can get your address to send to your TREZOR
+### Here is how you can get your address to send to your TREZOR
 
 1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/#send-transaction).
 2.  Check to make sure you are using an ETH node by looking at the Node Switcher in the upper right corner.

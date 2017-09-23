@@ -1,6 +1,6 @@
 /*
 Title: How can MyEtherWallet send "offline"?
-Sort: 2
+Sort: 8
 */
 
 First thing you need to understand is that every address already "exists". When you "create a wallet" you are not actually doing anything on the blockchain or communicating with the blockchain in any way.
@@ -30,10 +30,11 @@ You can generate a transaction offline using the same MyEtherWallet software in 
 
 This way your private key can remain secure on the offline device and be used to generate a valid transaction for the online device to broadcast.
 
-[Further Reading](https://www.reddit.com/r/ethereum/comments/6n5qja/how_can_myetherwallet_create_a_private_key_while/)
+### Further Reading
+- [https://www.reddit.com/r/ethereum/comments/6n5qja/how_can_myetherwallet_create_a_private_key_while/](https://www.reddit.com/r/ethereum/comments/6n5qja/how_can_myetherwallet_create_a_private_key_while/)
 
 
-Adapted from comments by:
+### Adapted from comments by:
 
 * [/u/chickenbreth](https://www.reddit.com/r/ethtrader/comments/6hqycv/how_can_mew_send_coins_offline/)
 

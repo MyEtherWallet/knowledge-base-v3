@@ -1,13 +1,13 @@
 /*
-[ELIExpert] Keypairs, presale files & encryption
-Sort: 2
+Keypairs, presale files & encryption
+Sort: 6
 */
 
 *This is part of a series where Taylor pull's sweet comments she's made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts. Many are unpolished & contain typos, specific references to previous discussions or the user, and gratuitous cursing.*
 
 ---
 
-> Is the "bkp" component of a presale json file a SHA3 hash of the wallet password? 
+> Is the "bkp" component of a presale json file a SHA3 hash of the wallet password?
 
 ---
 
@@ -15,7 +15,7 @@ No. Your bkp is not the SHA3 of your password.
 
 It's really quite simple. In the beginning, god said genwallet and...
 
-1. [genwallet says](https://github.com/tagawa/website/blob/master/pyethtool/pyethtool.py#L129):     
+1. [genwallet says](https://github.com/tagawa/website/blob/master/pyethtool/pyethtool.py#L129):
     - `genwallet(opts['seed'],pw,email)`
 
 2. You say "here's my email and pw"
@@ -26,7 +26,7 @@ It's really quite simple. In the beginning, god said genwallet and...
 4. [so now you need to get your `encseed`](https://github.com/tagawa/website/blob/master/pyethtool/pyethtool.py#L56):
     - `encseed = aes.encryptData(pbkdf2(pw),seed)`
 
-5. [so we head over to mr. aes and say whats up](https://github.com/tagawa/website/blob/master/pyethtool/aes.py#L590-L611):     
+5. [so we head over to mr. aes and say whats up](https://github.com/tagawa/website/blob/master/pyethtool/aes.py#L590-L611):
     - `def encryptData(key, data, mode=AESModeOfOperation.modeOfOperation["CBC"], iv=None):`
     - `........`
     - `........`
@@ -63,21 +63,21 @@ or...
     "withwallet": aes.encryptData(pbkdf2(wallet['bkp']),seed).encode('hex'),
 
 
-Get it now? 
+Get it now?
 
 ----
 
-> no 
+> no
 
 > how does all this stuff tie together & is there a way to bruteforce a presale file with hashcat if you've forgotten the password and you've already tried walletrecoveryservices.com?
 
 ---
 
-Haha. I know how it all fits together but I don't *really* understand it. It's all encryption and really complex math and stuff like that. 
+Haha. I know how it all fits together but I don't *really* understand it. It's all encryption and really complex math and stuff like that.
 
 **ELI5: encryption**
 
-In the most basic sense: you take 2 pieces of information, hash something, combine them, do something else, take the first X bytes, and you've got yourself a keyset. To decrypt it, you do the opposite. 
+In the most basic sense: you take 2 pieces of information, hash something, combine them, do something else, take the first X bytes, and you've got yourself a keyset. To decrypt it, you do the opposite.
 
 It's sort of like this:
 
@@ -107,13 +107,13 @@ How would one crack the `encseed` to get the `seed`? The getseed function from p
 
 `return seed`
 
-First step is: `aes.decryptData(pbkdf2(pw),encseed.decode('hex'))`. This will return a seed no matter what you give it. It doesn't know what is "right" or "wrong". What makes a private key "the correct private key" is that it accesses the address that you want to access. So we must then take a few add'l steps in order to know whether this is the seed you are looking for. 
+First step is: `aes.decryptData(pbkdf2(pw),encseed.decode('hex'))`. This will return a seed no matter what you give it. It doesn't know what is "right" or "wrong". What makes a private key "the correct private key" is that it accesses the address that you want to access. So we must then take a few add'l steps in order to know whether this is the seed you are looking for.
 
 - get the seed
 
 - derive the private key from that seed
 
-- derive the address from that private key 
+- derive the address from that private key
 
 - check to see if that address is the address that holds your presale ETH.
 
@@ -126,13 +126,13 @@ From wikipedia:
 
 >PBKDF2 applies a pseudorandom function, such as a cryptographic hash, cipher, or hash-based message authentication code (HMAC), to the input password or passphrase along with a salt value and repeats the process many times to produce a derived key, which can then be used as a cryptographic key in subsequent operations. **The added computational work makes password cracking much more difficult, and is known as key stretching.**
 
-The bolded part is what you need to know. Instead of just going 
+The bolded part is what you need to know. Instead of just going
 
-- password -> hashed password 
+- password -> hashed password
 
-It goes 
+It goes
 
-- password -> (MATH * 10000000) -> hashed password. 
+- password -> (MATH * 10000000) -> hashed password.
 
 Thus, when going backwards, you must include the (MATH * 10000000) which adds valuable time to each test your run. Instead of a single test taking .00000001 second, it may take .0001 second or 1 second.
 
@@ -144,15 +144,15 @@ How much time it takes is dependent on:
 
 - the amount of inputs you feed it (how many passwords you want it to try)
 
-- your hardware 
+- your hardware
 
-- the efficiency of the code itself. 
+- the efficiency of the code itself.
 
 - number of PBKDF2 rounds used in presale files
 
 [ethcracker](https://github.com/lexansoft/ethcracker/blob/master/src/crypto/cracker.go), is written in Go and it supports a bunch of different wallet types. It also allows you to feed it components of your password. Botha are awesome features.
 
-[pyethrecover](https://github.com/ryepdx/pyethrecover) is written in python and just strips out all the unnecessaries from pyethtool (what I've been referencing in this thread). 
+[pyethrecover](https://github.com/ryepdx/pyethrecover) is written in python and just strips out all the unnecessaries from pyethtool (what I've been referencing in this thread).
 
 [hashcat](https://hashcat.net/hashcat/) is another tool but not specifically for Ethereum or presale files so you are going to have to set it up to do this. As described above, the password is only one of the steps that you need to take. You must first derive the seed, then derive the private key, and then see if that private key derives the correct address. hashcat is better if you have a list of salted passwords from a hack.
 
@@ -163,7 +163,7 @@ I would recommend going with pyethrecover or ethcracker. I would grab a [list of
 
 I would also prioritize your password guesses into maybe 10 or so groups. For example: if you are 90% certain that it ends with 01, do that set first. If you threw it "mydeaddogsnickname" just because it's a teeny tiny possibility, do that last. The number of passwords you are attempting to brute force is going to make the biggest difference in speed at this point.
 
-Don't be scared to reach out to the developers of those programs via Github. I know /u/ryepdx is super smart and has developed a lot of stuff for Ethereum and used to be around reddit all the time. He may have some cool insights for you or be able to assist. Donations inspire developers to be more helpful, FYI. 
+Don't be scared to reach out to the developers of those programs via Github. I know /u/ryepdx is super smart and has developed a lot of stuff for Ethereum and used to be around reddit all the time. He may have some cool insights for you or be able to assist. Donations inspire developers to be more helpful, FYI.
 
 Best of luck. And if you end up testing both pyethrecover and ethcracker, make sure to post your findings on their repos or on reddit or something. Sharing information about what you've learned improves everyone's experience.
 
@@ -178,7 +178,7 @@ Basically, presale happened before sha3 spec was finalized.....so eth's sha3 is 
 ---
 
 
-##### Source
+### Source
 
 - [reddit](https://www.reddit.com/r/ethereum/comments/5ees2q/is_the_bkp_component_of_a_presale_json_file_a/)
 

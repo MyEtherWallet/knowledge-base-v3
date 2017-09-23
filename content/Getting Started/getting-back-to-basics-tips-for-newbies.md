@@ -1,33 +1,33 @@
 /*
-Title: ★ Getting Back to the Basics: 10 Tips for Newbies
+Title: Getting Back to the Basics: 10 Tips for Newbies
+Sort: 16
 */
 
 ### Tips
 
 1. Never hand-type your address.
 
-2. Use the version of your address that has uppercase letters. 
+2. Use the version of your address that has uppercase letters.
 
 3. Never hand type your private key / keystore file. Triple-check the words for mnemonic keys if hand typing (there are still mistakes you can make).
 
-4. Always send a small amount of ETH, ensure everything goes well & it arrives at the destination you wanted it to, before sending all the ETH. 
+4. Always send a small amount of ETH, ensure everything goes well & it arrives at the destination you wanted it to, before sending all the ETH.
 
-5. For new wallets, especially cold storage, send small amount in, send small amount **out** from new wallet, before sending full amount in in. 
+5. For new wallets, especially cold storage, send small amount in, send small amount **out** from new wallet, before sending full amount in in.
 
 6. Save / back up your private key in a separate location BEFORE sending ETH/Tokens to it.
 
 7. Don't email your private key.
 
-8. Don't post your private key on Reddit, Twitter, Slack. 
+8. Don't post your private key on Reddit, Twitter, Slack.
 
-9. Don't store your private key on Dropbox or another cloud storage service. 
+9. Don't store your private key on Dropbox or another cloud storage service.
 
-10. Double & triple check your work. Look at what you are sending. Look at how much you are sending. Look at what address you are sending too. 
+10. Double & triple check your work. Look at what you are sending. Look at how much you are sending. Look at what address you are sending too.
 
 Be fucking careful.
 
 
----
 
 ### Hardware Wallets
 

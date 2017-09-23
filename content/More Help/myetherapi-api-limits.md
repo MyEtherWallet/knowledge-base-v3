@@ -1,6 +1,6 @@
 /*
-Title: MyEtherAPI - Limit Requests
-Sort: 2
+Title: Does MyEtherAPI limit on the amount of requests I can make?
+Sort: 15
 */
 
 "Does MyEtherAPI have a limit on the amount of requests I can make?"
@@ -15,17 +15,17 @@ If you are a heavy user of our API or MyEtherWallet, you may get rate-limited. I
         at XMLHttpRequest._setReadyState (/home/drone/projects/mew/asset-position-disposal/node_modules/xhr2/lib/xhr2.js:354:12)
         at XMLHttpRequest._onHttpResponseEnd (/home/drone/projects/mew/asset-position-disposal/node_modules/xhr2/lib/xhr2.js:509:12)
         at IncomingMessage.<anonymous> (/home/drone/projects/mew/asset-position-disposal/node_modules/xhr2/lib/xhr2.js:469:24)
-        at emitNone (events.js:110:20)    
-        at IncomingMessage.emit (events.js:207:7)                                
-        at endReadableNT (_stream_readable.js:1047:12)                           
+        at emitNone (events.js:110:20)
+        at IncomingMessage.emit (events.js:207:7)
+        at endReadableNT (_stream_readable.js:1047:12)
         at _combinedTickCallback (internal/process/next_tick.js:102:11)
 
 
 ([source](https://ethereum.stackexchange.com/questions/24737/myetherwallet-json-rpc-interface-ratelimiting/25113#25113))
 
-MyEtherWallet, at the time of this writing, rate-limits at 400 requests / minute (or about 6 requests / second). This is in order to prevent DDOS's like we have seen before, or people using our nodes to excess and making us pay an even larger bill. Our goal is to allow individuals to interact with Ethereum, not provide uber-robust infrastructure for all your heart's desires. This should be more than enough for a single person's use, but feel free to tell us why you need more and we can adjust. 
+MyEtherWallet, at the time of this writing, rate-limits at 400 requests / minute (or about 6 requests / second). This is in order to prevent DDOS's like we have seen before, or people using our nodes to excess and making us pay an even larger bill. Our goal is to allow individuals to interact with Ethereum, not provide uber-robust infrastructure for all your heart's desires. This should be more than enough for a single person's use, but feel free to tell us why you need more and we can adjust.
 
-If you are going to be using it more than 400 req / minute on average, or just want to ensure uptime, we strongly recommend you get your own node. 
+If you are going to be using it more than 400 req / minute on average, or just want to ensure uptime, we strongly recommend you get your own node.
 
 Our backend infrastructure is on AWS and is open-source via Docker + CloudFormation walkthrough thingy and you can actually do it yourself and run your own public or private node via these instructions: [https://github.com/MyEtherWallet/docker-geth-lb](https://github.com/MyEtherWallet/docker-geth-lb)
 

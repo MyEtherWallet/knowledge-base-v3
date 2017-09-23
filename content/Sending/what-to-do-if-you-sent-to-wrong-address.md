@@ -1,14 +1,14 @@
 /*
-Title: Sent to the Wrong Address
-Sort: 2
+Title: What to do if you sent to the wrong address
+Sort: 3
 */
 
-  
+
 I’m really sorry but MyEtherWallet is not a "web wallet". You do not create an account or give us your ETH or tokens to hold onto. We are simply an interface that allows you to easily interact with the Ethereum blockchain.
 
-**In order to ensure your security & privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet. We only have access to the information that is publicly available on the blockchain.**  
+**In order to ensure your security & privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet. We only have access to the information that is publicly available on the blockchain.**
 
-Unfortunately, this means we cannot:
+##### Unfortunately, this means we cannot:
 
 *   Reverse or cancel transactions
 *   Access you account

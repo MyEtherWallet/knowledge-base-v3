@@ -1,12 +1,14 @@
 /*
-Title: ★ MyEtherWallet's QuickTips (Site Messages)
+Title: MyEtherWallet's QuickTips
+Sort: 20
 */
+
 
 1. Hardware wallets ensure your key isn't vulnerable to phishers. Order a TREZOR or Ledger today!
 
-2. This Chrome Extension warns you if you go to a malicious site: https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn
+2. This Chrome Extension warns you if you go to a malicious site: [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 
-3. We have the MyEtherWallet Chrome Extension: https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm
+3. We have the MyEtherWallet Chrome Extension: [https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 
 4. [The MEW Philosophy] Education is Key: Ethereum, security, privacy, importance of controlling your keys & how the blockchain works
 
@@ -40,7 +42,7 @@ Title: ★ MyEtherWallet's QuickTips (Site Messages)
 
 19. Do not trust any address except the one posted on the official site
 
-20. Do you know another language? Help keep MEW translations up to date! https://www.reddit.com/r/ethereum/comments/4z55s2
+20. Do you know another language? Help keep MEW translations up to date! [https://www.reddit.com/r/ethereum/comments/4z55s2](https://www.reddit.com/r/ethereum/comments/4z55s2)
 
 21. Don't click on links from Slackbots or Slack DMs
 
@@ -48,25 +50,25 @@ Title: ★ MyEtherWallet's QuickTips (Site Messages)
 
 23. Don't trust DMs or Emails. We will never DM you or email except in response to you
 
-24. Don't enter your private key to check your balance. Use https://etherscan.io/
+24. Don't enter your private key to check your balance. Use [https://etherscan.io/](https://etherscan.io/)
 
 25. Don’t click any link regarding crypto, money, banking. Always navigate directly.
 
 26. Don’t click on advertisements.
 
-27. Double check the URL: it's always https://www.myetherwallet.com
+27. Double check the URL: it's always [https://www.myetherwallet.com](https://www.myetherwallet.com)
 
-28. Follow us on Twitter for important alerts: https://twitter.com/myetherwallet
+28. Follow us on Twitter for important alerts: [https://twitter.com/myetherwallet](https://twitter.com/myetherwallet)
 
 29. For new accounts, especially cold storage, send small amount in & out
 
-30. https://ethplorer.io/ allows you to easily see token balances and transfers
+30. [https://ethplorer.io/ allows you to easily see token balances and transfers](https://ethplorer.io/) allows you to easily see token balances and transfers
 
 31. If you ever have an Issue with you Swap, click the orange "Issue with your Swap?" button on the Swap page. This will get you help fastest!
 
 32. If you have accidentally visited or typed a malicious site, clean out your recent history and autocomplete
 
-33. If you mistyped your private key, you can try the tool at the bottom of our helpers page: https://www.myetherwallet.com/helpers.htm
+33. If you mistyped your private key, you can try the tool at the bottom of our helpers page: [https://www.myetherwallet.com/helpers.htm](https://www.myetherwallet.com/helpers.html)
 
 34. Install an adblocker that actually turns off Google/Bing Ads
 
@@ -92,15 +94,15 @@ Title: ★ MyEtherWallet's QuickTips (Site Messages)
 
 45. ONLY unlock your wallet when you want to send a transaction
 
-46. Our helpers page is full of nifty helpers, like WEI <-> ETH converter and debugging ENS reveals! https://www.myetherwallet.com/helpers.htm
+46. Our helpers page is full of nifty helpers, like WEI <-> ETH converter and debugging ENS reveals! [https://www.myetherwallet.com/helpers.htm](https://www.myetherwallet.com/helpers.html)
 
 47. Phishers try to trick you with scary messages. Don't fall for them
 
 48. Private Key (unencrypted): The unencrypted text version of your private key, meaning no PW is necessary. Keep it *offline*, like on *paper*!
 
-49. Pro-tip: When asking for help, be nice. Grouchy-pants get helped slower than a 1 GWEI TX on a token sale day. ?? 
+49. Pro-tip: When asking for help, be nice. Grouchy-pants get helped slower than a 1 GWEI TX on a token sale day. ??
 
-50. See what gas price you should use at http://ethgasstation.info
+50. See what gas price you should use at [http://ethgasstation.info](http://ethgasstation.info)
 
 51. Send a test transaction first & make sure it arrives at intended destination before sending all the ETH
 
@@ -114,9 +116,9 @@ Title: ★ MyEtherWallet's QuickTips (Site Messages)
 
 56. Use the version of your address that has uppercase letters. It has a checksum
 
-57. Want to dive deeper? Check out our friends at https://theethereum.wiki
+57. Want to dive deeper? Check out our friends at [https://theethereum.wiki](https://theethereum.wiki)
 
-58. Want to dive deeper? Check out this list: https://github.com/Scanate/EthList/blob/master/README.md
+58. Want to dive deeper? Check out this list: [https://github.com/Scanate/EthList/blob/master/README.md](https://github.com/Scanate/EthList/blob/master/README.md)
 
 59. Worried about your device being compromised? Get yourself a Ledger or Trezor Hardware Wallet
 

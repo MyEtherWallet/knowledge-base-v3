@@ -1,6 +1,6 @@
 /*
 Title: How To Create Wallet & Send / Receive ETH
-Sort: 10
+Sort: 12
 */
 
 <div class="video__wrapper">

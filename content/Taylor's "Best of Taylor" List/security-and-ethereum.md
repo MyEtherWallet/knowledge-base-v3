@@ -1,6 +1,6 @@
 /*
-[FUTURE] Let's talk about security on Ethereum
-Sort: 2
+Let's talk about security on Ethereum
+Sort: 10
 */
 
 ### Really, you just have to read it here:

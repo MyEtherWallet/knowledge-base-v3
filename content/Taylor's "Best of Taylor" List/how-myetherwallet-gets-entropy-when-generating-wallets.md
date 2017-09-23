@@ -1,5 +1,5 @@
 /*
-[ELIExpert] Ethereum Account Generation & how MEW gets entropy 
+Title: Ethereum Account Generation & how MyEtherWallet gets Entropy
 Sort: 2
 */
 
@@ -16,7 +16,7 @@ We use the window.crypto method which is a cryptographically secure pseudo-rando
 Again: http://i.imgur.com/7eO4jiH.jpg
 
 This avoids situations (see: TrueCrypt) where you think you are happily RNG-ing away with proper entropy (e.g. using the Windows Crypto API + mouse movements) but since the Windows Crypto API actually didn't initialize, you're really only getting entropy from mouse movements. As the TrueCrypt audit stated, "When this happens, Truecrypt
-should barf and catch fire. Instead it silently accepts this failure and continues to generate keys." We don't generate keys in that situation, because we avoid that situation entirely. No window.crypto = no key generated. 
+should barf and catch fire. Instead it silently accepts this failure and continues to generate keys." We don't generate keys in that situation, because we avoid that situation entirely. No window.crypto = no key generated.
 
 Let me just say it again: http://i.imgur.com/7eO4jiH.jpg
 
@@ -34,15 +34,15 @@ Source: https://www.w3.org/TR/WebCryptoAPI/#Crypto-method-getRandomValues & http
 
 The browser (Chrome, Firefox, Microsoft not-IE<11) have then implemented that spec which partially relies on entropy for the OS.
 
-As far as entropy on your system itself: it's no longer the case that a new computer has little or no entropy. That window has been vastly reduced to very specific times during boot where there is no system activity or the entropy sources are completely unavailable. This obviously doesn't apply here as you have already booted AND already opened your browser. In addition, as described in the spec: "these sources should be used to **seed** a cryptographic pseudo-random number generator that can then return suitable values efficiently". 
+As far as entropy on your system itself: it's no longer the case that a new computer has little or no entropy. That window has been vastly reduced to very specific times during boot where there is no system activity or the entropy sources are completely unavailable. This obviously doesn't apply here as you have already booted AND already opened your browser. In addition, as described in the spec: "these sources should be used to **seed** a cryptographic pseudo-random number generator that can then return suitable values efficiently".
 
-Standard methods from where entropy comes from for CSPRNGs:
+### Standard methods from where entropy comes from for CSPRNGs:
 
 - Windows: `RtlGenRandom`
 
 - Linux: `getrandom (if available)` or `/dev/urandom (older Linux kernels)`
 
-- OpenBSD: `getentropy()` or `arc4random_buf()` with ChaCha20 (not RC4) 
+- OpenBSD: `getentropy()` or `arc4random_buf()` with ChaCha20 (not RC4)
 
 - Other Unix-like (including OS X): `/dev/urandom`
 
@@ -92,6 +92,6 @@ FIPS are federal standards and this one is the standard for generating random nu
 
 ---
 
-##### Source
+### Source
 
 - [https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/](https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/)

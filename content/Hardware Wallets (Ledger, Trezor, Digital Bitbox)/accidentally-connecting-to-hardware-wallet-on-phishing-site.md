@@ -1,9 +1,10 @@
 /*
-Title: Accessing a Phishing Site via TREZOR/Ledger?
-Sort: 2
+Title: Can your keys be compromised on a phishing site if you use a hardware wallet?
+Sort: 20
 */
 
-"If you are using a Ledger or TREZOR & use a phishing site by accident, can your keys be compromised?"
+
+*"If you are using a Ledger or TREZOR & use a phishing site by accident, can your keys be compromised?"*
 
 Your key NEVER leaves your Ledger or TREZOR hardware wallet, so even if you were to use a phishing site, your accounts that are on your Ledger would not be compromised.
 

@@ -1,6 +1,6 @@
 /*
 Title: Private Key Not Working
-Sort: 2
+Sort: 10
 */
 
 Be sure there is not a space at the beginning or end of your private key. We validate based on the number of characters. If you saved another version (for example, the UTC / Keystore file) it may also be worth trying that file as well.

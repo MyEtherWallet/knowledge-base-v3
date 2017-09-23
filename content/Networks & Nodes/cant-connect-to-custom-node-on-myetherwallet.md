@@ -1,6 +1,6 @@
 /*
 Title: Unable to Connect to Custom Node
-Sort: 4
+Sort: 10
 */
 
 *   Verify the URL you entered is correct.
@@ -13,4 +13,4 @@ Sort: 4
 *   Try removing the node and adding it again.
 *   Try changing the node in the top-right corner to ETH (Etherscan.io) or ETH (Infurio.io).
 *   Try using Google Chrome, or a different browser.
-*   Ensure you do not have a firewall or something else that may be blocking the connection. 
+*   Ensure you do not have a firewall or something else that may be blocking the connection.

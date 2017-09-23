@@ -1,11 +1,10 @@
 /*
-Title: Adding your token as a Default Token
-Sort: 2
+Title: Adding your Token as a Default Token
+Sort: 6
 */
 
-### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-send-tokens-and-add-custom-tokens)
 
----
+### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-send-tokens-and-add-custom-tokens)
 
 ### 1. If you have a token that other people also have, or will have in the coming days, you can add it to our site. You will need:
 
@@ -15,8 +14,6 @@ Sort: 2
 *   **Your official Website and/or**** Slack / Reddit / Forum / Chat / Whatever **
 *   **Your <span style="text-decoration: underline;">direct</span> customer support email**
     *   Due to high numbers of token sale holders NOT providing support to their investors, we will remove your token if you do not help the people who made you millionaires.
-
----
 
 ### 2. Submit your Tokens as Default Tokens
 
@@ -33,8 +30,6 @@ Sort: 2
 *   Click the "Create Pull Request" button.....twice.
 *   That's it. You successfully made a new pull request! Tell all your friends.
 *   We will now review it and pull it in and it will be made live on the site. We may also ask you questions if something is confusing for whatever reason.
-
----
 
 ### 3. Add your token sale address & manual gas limits to ensure a smooth sale
 
@@ -53,7 +48,6 @@ Sort: 2
 *   That's it. You successfully made a new pull request! Tell all your friends.
 *   We will now review it and pull it in and it will be made live on the site. We may also ask you questions if something is confusing for whatever reason.
 
----
 
 ### 4. Adding your Contract / ABI
 

@@ -1,5 +1,5 @@
-/*
-Title: How to Add / Send / View Custom Tokens on MyEtherWallet 
+x/*
+Title: How to Add / Send / View Custom Tokens on MyEtherWallet
 Sort: 2
 */
 
@@ -26,7 +26,7 @@ In the future, we may add this token as a "Default" token on MyEtherWallet. In t
 
 To remove a custom token, click the little ( - ) icon next to your token. This will remove it from the interface. It is not deleting or removing the tokens themselves. They are still safely in your wallet, we promise.
 
-### Related 
+### Related Reading
 
 - [Can I store any coin in MyEtherWallet?](https://myetherwallet.groovehq.com/knowledge_base/topics/can-i-send-my-steem-slash-btc-slash-ltc-slash-nem-slash-to-myetherwallet)
 

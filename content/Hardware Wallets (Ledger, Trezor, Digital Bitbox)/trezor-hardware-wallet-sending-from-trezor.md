@@ -1,6 +1,6 @@
 /*
-Title: [LEDGER] How Do I Send FROM My TREZOR?
-Sort: 2
+Title: How Do I Send FROM My TREZOR?
+Sort: 6
 */
 
 1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/#send-transaction).
