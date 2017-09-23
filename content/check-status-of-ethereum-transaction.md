@@ -1,6 +1,6 @@
 /*
-Title: Checking or Replacing a TX After it's Been Sent
-Sort: 10
+Title: Checking the Status of a Transaction
+Sort: 2
 */
 
 ### How can I check on the status of my transaction? 
@@ -11,6 +11,7 @@ Sort: 10
 
 - Our Check TX Status Page via TX hash: https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status
 
+---
 
 ### Can I cancel, override, overwrite, replace, or do anything once a transaction has been sent?
 
@@ -34,7 +35,7 @@ There is no guarantee this will work, nor that it will work every time. This too
 
 ---
 
-##### Do not take this article or features on MyEtherWallet as an indication that you can cancel a transaction you accidentally sent to the wrong address, or get your ETH back once it has been sent. 
+##### SERIOUSLY! Do not take this article or features on MyEtherWallet as an indication that you can cancel a transaction you accidentally sent to the wrong address, or get your ETH back once it has been sent. 
 
 ##### It is **only** regarding finding, checking, and potentially replacing transactions that have been stuck in the transaction pool for very long period of time.
 
@@ -59,6 +60,8 @@ There is no guarantee this will work, nor that it will work every time. This too
     - **Pending Transaction Found:** Your transaction was located in the TX Pool of the node you are connected to. It is currently pending (waiting to be mined). There is a chance you can cancel or replace this transaction.
 
 
+---
+
 
 ### "Replacing" vs "Canceling" Transactions
 
@@ -67,6 +70,9 @@ There is no guarantee this will work, nor that it will work every time. This too
 - **Replacing**: Generating a `XX  ETH` transaction to `Someone Else's Address` with the purpose of doing something (e.g. sending, revealing an ENS bid) *while simultaneously* not having a previous transaction go through. 
 
 The reason we recommend `Canceling` over  `Replacing` is that it is not guaranteed your second transaction will actually replace your first one. Your first transaction could still be mined first, invalidating your second transaction. Choosing to replace a transaction with a new one could lead to more confusion, headaches, and pending ETH, or ETH spent unnecessarily in the form of gas. This is especially true if your first transaction is mined anyways, which is possible. 
+
+
+---
 
 
 #### Canceling a Transaction
@@ -82,6 +88,8 @@ The reason we recommend `Canceling` over  `Replacing` is that it is not guarante
 4. A dialog will appear. Click the "Yes, I'm Sure" button to send. 
 
 5. A new `TX Hash` will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn't show up immediately, stop. Breath. Count to 20. *Then* click refresh.
+
+---
 
 #### Replacing a Transaction (Advanced Users Only)
 
@@ -106,6 +114,8 @@ The reason we recommend `Canceling` over  `Replacing` is that it is not guarante
 9. A new `TX Hash` will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn't show up immediately, stop. Breath. Count to 20. *Then* click refresh.
 
 
+---
+
 
 ### Final Notes
 
@@ -114,9 +124,6 @@ The reason we recommend `Canceling` over  `Replacing` is that it is not guarante
 - The TX pool varies from node to node. This means that a TX may be pending in `ETH (Infura.io)`'s txpool, but *not* `ETH (MyEtherWallet)`'s txpool. For this reason, you should try all three nodes we offer.
 
 - If possible, use the same computer / browser that you used to send the transaction. We are working on further mitigating internal differences between our 10 nodes and their 10 txpools. For now, using the same computer / browser will increase liklihood you connect to the same as before if you are using the `ETH (MyEtherWallet)` node. 
-
-
-### Related Articles
 
 - [You can learn more about gas & gas limit vs gas price here.](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas)
 

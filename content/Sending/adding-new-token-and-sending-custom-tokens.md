@@ -1,5 +1,5 @@
 /*
-Title: Adding/Sending/Viewing of New/Custom Tokens/ERC-20 
+Title: How to Add / Send / View Custom Tokens on MyEtherWallet 
 Sort: 2
 */
 

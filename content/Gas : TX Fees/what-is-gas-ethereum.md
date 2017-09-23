@@ -5,19 +5,14 @@ Sort: 2
 
 ![](https://s3.amazonaws.com/groovehq/uploaded/u69bid7b81o6arx56zxwo67txvl9v6ls82ma49r2li4tocdm6t?1498421641)
 
-*Note, for this guide we reference `Token Creation Periods`. You may know these as "ICOs" but [that is a terrible word and we're not going to use it anymore.](https://youtu.be/5J8BL60_zj8?t=1241)*
-
----
 
 ### Introduction
 
-**Ethereum is the network—the blockchain. Ether (ETH) is the fuel for that network. When you send tokens, interact with a contract, send ETH, or do anything else on the blockchain, you must pay for that computation. That payment is calculated in `Gas` and gas is paid in `ETH`.**
+Ethereum is the network—the blockchain. Ether (ETH) is the fuel for that network. When you send tokens, interact with a contract, send ETH, or do anything else on the blockchain, you must pay for that computation. That payment is calculated in `Gas` and gas is paid in `ETH`.
 
 You are paying for the *computation*, regardless of whether your transaction succeeds or fails. Even if it fails, the miners must validate and execute your transaction *(compute)* and therefore you must pay for that computation just like you would pay for a successful transaction.
 
 You can see your TX fee (`gas limit` * `gas price`) in ETH & USD when you search for your transaction on [etherscan.io](https://etherscan.io/tx/0x9f5080adb96fc251fb87387ec4a1f77506cb59e14ef1d87d3a018a0cd41a9eeb). This is not a TX  fee that MyEtherWallet, or any other service provider, receives. This fee is paid to miners for mining transactions, putting them into blocks, and securing the blockchain.
-
----
 
 
 ### Overview
@@ -48,7 +43,6 @@ Sending tokens will typically take `~50000` gas to `~100000` gas, so the total T
 
 [You can use our tool to calculate GWEI <-> WEI <-> USD here](https://www.myetherwallet.com/helpers.html), which can be helpful when you want to know your TX fee in ETH, rather than GWEI.
 
----
 
 ### Gas Limit
 
@@ -60,7 +54,6 @@ All unused gas is refunded to you at the end of a transaction. So if you go to M
 
 \*21000 is the gas limit for standard transactions
 
----
 
 ### Gas Price
 
@@ -85,8 +78,6 @@ You can adjust the gas price on MyEtherWallet in the footer via the slider. It i
 [⚠ Advanced Users Only Who Want To Go 50 GWEI+ can see how here](http://i.imgur.com/47zmU0R.gif)
 
 
----
-
 ### Will increasing the gas price get it mined faster? Does setting a low gas price mean it won't ever be mined?
 
 The transaction fees go to the miner who mines your block. When miners mine a block, they have to decide which transactions to include. They can choose to include no transactions, or they can choose to randomly select transactions. In order to encourage miners to include transactions in blocks you want to set a "Gas Price" that is high enough to make them _want_ to include it (since it is entirely up to them).
@@ -96,14 +87,10 @@ _Most_ miners follow a very simple strategy for inclusion. They include transact
 You want to set the Gas Price high enough so that a miner includes your transaction in a block. If you are in a hurry, you can set the Gas Price higher, so that you jump ahead of everyone in line. If you are not in a hurry, you just need to set a number high enough so that someone eventually includes your transaction.
 
 
-
----
-
 ### Why should I set a low Gas Price?
 
 Because it's cheaper and because with the increasing price of ETH compared to USD, a transaction that used to cost half a cent, may cost a few cents. More expensive transactions, like bidding on an ENS name, can now cost a dollar or more! As a user, you should try sending non-urgent transactions with a lower gas price as the more transactions that occur at the lower gas price, the more likely miners will lower their minimums.
 
----
 
 ### Should I increase the gas limit for token sales, though?
 
@@ -111,7 +98,6 @@ You should put whatever the token sale holders tell you to put. If you do not kn
 
 **Increasing the amount to 1 500 000 or more will **not** increase the likelihood of getting in. All it will do is fill up the blocks faster and you will lose that TX fee if it doesn't go through. We have never seen a token sale that requires over a 800 000 gas limit.**
 
----
 
 ### So I should send with a hugeeeeeeeee gas price for token sales, right?
 
@@ -137,7 +123,6 @@ Before the BAT Token Creation Period, the average gas price was 20 GWEI (the def
 
 That's right. Someone paid $6000+ to send a failed transaction. Ouch, indeed.
 
----
 
 ### Where can I see what miners are accepting?
 
@@ -149,6 +134,13 @@ A very awesome miner, miningpoolhub, accepts a 2 GWEI price, but their blocks ar
 
 [http://ethgasstation.info/calculator.php](http://ethgasstation.info/calculator.php) will let you estimate how long it will be before your transaction is accepted at a certain gas price.
 
----
+### Related
 
+*   [What is gas (StackExchange)](https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum)
+*   [What is gas? (CryptoCompare)](https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/)
+*   [Can someone explain gas to me?](https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/)
+*   [I don't understand the concept of gas.  
+    ](https://www.reddit.com/r/ethereum/comments/3fnpr1/can_someone_possibly_explain_the_concept_of/)
+
+### Sources
 Thank you to Veen for the art, /u/MicahZoltu random slack diatribe on gas, and various redditors who have commented on gas over the years for this post. Very little of this is our original content. It is heaps of peoples comments and information, cleaned up and organized over the past year.

@@ -1,9 +1,9 @@
 /*
-Title: ★ What is nonce?
-Sort: 2
+Title: What is Nonce?
+Sort: 4
 */
 
-#### In Ethereum, every transaction has a `nonce`. The nonce is the `number of transactions sent from a given address.` 
+### In Ethereum, every transaction has a `nonce`. The nonce is the `number of transactions sent from a given address.` 
 
 Each time you send a transaction, the nonce increases by `1`. There are rules about what transactions are valid transactions and the nonce is used to enforce some of these rules. Specifically:
 
@@ -11,7 +11,7 @@ Each time you send a transaction, the nonce increases by `1`. There are rules ab
 
 - **No Skipping!** You cannot have a transaction with a nonce of `2` mined if you have not already sent transactions with a nonce of `1` and `0`.
 
-#### Why?
+### Why?
 
 This field prevents double-spends as the nonce is the order the transactions go in. In order for a double-spend to be "successful", you typically...
 
@@ -27,6 +27,6 @@ This field prevents double-spends as the nonce is the order the transactions go 
 
 This is why exchanges wait for you to have a certain number of confirmations before allowing you to trade freshly-deposited funds.
 
-#### In Ethereum, the above is not possible
+### In Ethereum, the above is not possible
 
 In Ethereum, this method of "double-spending" is not possible because each transaction has a nonce included with it. Even if you attempt to do the above, it will not work as the second transaction (nonce of `3`) cannot be mined before the first transaction (nonce of `2`).
