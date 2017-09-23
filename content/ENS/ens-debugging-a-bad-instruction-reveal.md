@@ -1,6 +1,6 @@
 /*
 Title: Debugging a [BAD INSTRUCTION] Reveal
-Sort: 2
+Sort: 4
 */
 
 ### 1\. Make sure you actually placed a bid:

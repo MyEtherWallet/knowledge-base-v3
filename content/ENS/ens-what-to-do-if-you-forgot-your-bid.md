@@ -1,6 +1,6 @@
 /*
 Title: What to do if you forgot how much you bid
-Sort: 5
+Sort: 10
 */
 
 ### First, look up your address on [etherscan.io](https://etherscan.io) in order to find the transaction in which you placed your bid. 

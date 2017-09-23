@@ -1,6 +1,6 @@
 /*
 Title: Brute-Forcing Secret Word Phrases
-Sort: 2
+Sort: 16
 */
 
 The following is from /u/eth-o-licious2 on reddit:

@@ -1,6 +1,6 @@
 /*
 Title: Setting the resolver for an ENS name
-Sort: 3
+Sort: 6
 */
 
 ### Set the Resolver for your Name

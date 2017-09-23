@@ -1,6 +1,6 @@
 /*
 Title: Changing the ENS owner or transferring an ENS Name
-Sort: 4
+Sort: 8
 */
 
 #### Transferring a Domain (Best Practice) 

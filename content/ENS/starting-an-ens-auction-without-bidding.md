@@ -1,6 +1,6 @@
 /*
 Title: Starting an Auction without Bidding
-Sort: 2
+Sort: 14
 */
 
 You can open an auction without bidding. It's not the simplest thing in the world, but it's not the worst. It looks harder than it is:

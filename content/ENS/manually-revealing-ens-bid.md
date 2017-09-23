@@ -1,6 +1,6 @@
 /*
 Title: Manually revealing your ENS bid
-Sort: 6
+Sort: 12
 */
 
 ### Get Your Bid TX Hash

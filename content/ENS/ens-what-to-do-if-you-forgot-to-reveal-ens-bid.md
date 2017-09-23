@@ -1,6 +1,6 @@
 /*
 Title: What to do if you forgot to reveal your ENS bid
-Sort: 1
+Sort: 2
 */
 
 ### If there are other bidders
