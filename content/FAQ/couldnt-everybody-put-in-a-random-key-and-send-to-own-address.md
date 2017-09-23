@@ -1,9 +1,8 @@
 /*
-Title: Entering Random Private Keys
-Sort: 2
+Title: Couldn't everybody put in random private keys, look for a balance, and send to their own address?
+Sort: 16
 */
 
-"Couldn't everybody put in random private keys, look for a balance, and send to their own address?"
 
 ### Short version
 
@@ -39,7 +38,7 @@ Of course, this all assumes that keys are generated in a truly random way & with
 
 - [How does it ensure that it doesn't give different people the same key?](https://myetherwallet.groovehq.com/knowledge_base/topics/wip-how-does-it-ensure-that-it-doesnt-give-different-people-the-same-key)
 
----
+
 
 ### Further Reading
 
@@ -51,9 +50,8 @@ Of course, this all assumes that keys are generated in a truly random way & with
 
 - [Randomness of Private Keys Explained](https://www.reddit.com/r/ethereum/comments/6s1wzp/probably_a_stupid_question_about_mew_vulnerability/)
 
----
 
-##### Sources
+### Sources
 
 - [https://www.reddit.com/r/ledgerwallet/comments/6cjvam/probability_of_seed_phrase_collisionbrute_forcing/](https://www.reddit.com/r/ledgerwallet/comments/6cjvam/probability_of_seed_phrase_collisionbrute_forcing/)
 

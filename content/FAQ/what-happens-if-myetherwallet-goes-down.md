@@ -1,6 +1,6 @@
 /*
-Title: What happens if your site goes down?
-Sort: 2
+Title: What happens if MyEtherWallet goes down?
+Sort: 18
 */
 
 MyEtherWallet is not a web wallet. You don't have a login, and nothing ever gets saved to our servers. It is simply an interface that allows you to interact with the blockchain.

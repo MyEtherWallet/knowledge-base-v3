@@ -1,6 +1,6 @@
 /*
 Title: Should I create a new address for each token I hold?
-Sort: 2
+Sort: 8
 */
 
 The choice is yours. Your address can hold ETH & any ERC-20 tokens so you don't need to. Some people like to split up what funds are held where.

@@ -1,11 +1,10 @@
 /*
-[GUIDE] How to buy Ethereum (ETH)  with USD
-Sort: 2
+[GUIDE] How to buy Ethereum (ETH) with USD
+Sort: 12
 */
 
 ### Hello and welcome to Ethereum!
 
-I don't know how this comment became the de-facto guide, but it's really not the best as it doesn't have any pictures and doesn't introduce you to Ethereum properly. 
 
 Ethereum and digital currencies are a pretty new world and in this new world, things can be a little bit different. First, you are responsible for your stuff. Your investments, your choices, your security. There are no babysitters or undo buttons or a bank to call up and reverse your transaction. The power of the blockchain is this, but it's also a dangerous thing if you are expecting to have all the cushy things you've come to enjoy.
 
@@ -17,7 +16,6 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 - **Be skeptical. Does the person have an ulterior motive? Is that too good to be true?**
 
----
 
 ### Still with me? Good! Let's dive deeper!
 
@@ -29,7 +27,7 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 - [And even more links to awesome things just because](https://myetherwallet.groovehq.com/knowledge_base/topics/resources-for-diving-deeper)
 
----
+
 
 ### Now, the fun part! How-To Buy ETH
 
@@ -57,7 +55,6 @@ The private key is like a password, but way more intense. Plus, it's a password 
 In Ethereum Wallet, go to the top bar and find `ACCOUNTS` -> `BACKUP` -> `ACCOUNTS`. It'll open up a folder and inside you will see a file. This file is your private key. Copy this to a USB drive and safely store the USB drive in a different physical location than your computer (in case your house explodes).
 
 
----
 
 ### Alternative steps 1-5:
 
@@ -65,11 +62,11 @@ If you already have BTC, you can use Shapeshift.io, Bity.com, or Changelly to co
 
 Then create a Ethereum Wallet account and back it up. In Circle or Coinbase, send all the BTC to that address. The ETH will appear in your ETH wallet in ~20 minutes.
 
----
+
 
 ### Alternative steps 6-8:
 
-Ethereum Wallet is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
+Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
 ). 
 
 
@@ -77,7 +74,7 @@ Ethereum Wallet is highly recommended but some people have issues installing & s
 
 - [MyEtherWallet.com](http://www.myetherwallet.com/) or [MEW Chrome Extension](https://www.reddit.com/r/ethereum/comments/44vbef/myetherwallet_chrome_extension_the_beta_has/)
 
-- [JAXX - multi-platform, multi-currency](http://jaxx.io/)
+- [JAXX](http://jaxx.io/) - multi-platform, multi-currency
 
 - [Exodus.io](https://www.exodus.io/) - multi-currency desktop app
 
@@ -96,12 +93,10 @@ I have outlined the steps above like you should do it all as fast as possible. S
 
 - [And even more links to awesome things just because](https://myetherwallet.groovehq.com/knowledge_base/topics/resources-for-diving-deeper)
 
---- 
+
 
 ### Enjoy!
 
 ---
 
-##### Source
-
--[https://ethereum.stackexchange.com/questions/1915/how-do-i-buy-ethereum-with-usd](https://ethereum.stackexchange.com/questions/1915/how-do-i-buy-ethereum-with-usd)
+*Originally posted on StackExchange: [https://ethereum.stackexchange.com/questions/1915/how-do-i-buy-ethereum-with-usd](https://ethereum.stackexchange.com/questions/1915/how-do-i-buy-ethereum-with-usd)*
