@@ -1,6 +1,6 @@
 /*
 Title: Sending & Adding Tokens
-Sort: 2
+Sort: 6
 */
 
 [Ethplorer.io](https://ethplorer.io/) is a great way to explore tokens and find the decimals of a token.
