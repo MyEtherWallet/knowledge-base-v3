@@ -121,44 +121,6 @@ th {
     border-top: 0;
   }
 }
-.table-mnemonic {
-  border-bottom: 0;
-  font-weight: 400;
-  th {
-    border-bottom: 1px solid @gray-lighter;
-    vertical-align: bottom;
-  }
-  td:first-child {
-    font-family: @font-family-monospace;
-  }
-  tr:last-child td:first-child {
-    text-align: left;
-  }
-  tr:last-child:not(.mnemonic-custom-row),
-  tr:first-child {
-    background-color: white!important;
-  }
-  &.table>tbody>tr>td, &.table>tbody>tr>th, &.table>tfoot>tr>td, &.table>tfoot>tr>th, &.table>thead>tr>td, &.table>thead>tr>th {
-    padding: .25rem;
-  }
-  .mnemonic-custom-row {
-    input[type="text"]  {
-      margin: -5px;
-      display: inline;
-      width: 70%;
-      max-width: 15rem;
-    }
-  }
-  label {
-    margin: .15rem;
-  }
-
-}
-
-
-// Hover effect
-//
-// Placed here since it has to come after the potential zebra striping
 
 .table-hover {
   > tbody > tr:hover {

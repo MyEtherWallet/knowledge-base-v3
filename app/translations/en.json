@@ -1,75 +1,75 @@
 {
-  "global": {
-    "yes"             : "Yes",
-    "no"              : "No",
-    "search"          : "Search",
-    "cancel"          : "Cancel",
-    "save"            : "Save",
-    "close"           : "Close",
-    "lastUpdated"     : "Last updated on",
+  "global" : {
+    "yes"                     : "Yes",
+    "no"                      : "No",
+    "search"                  : "Search",
+    "cancel"                  : "Cancel",
+    "save"                    : "Save",
+    "close"                   : "Close",
+    "lastUpdated"             : "Last updated on",
 
-    "pageName"        : "Page name",
-    "addPage"         : "Add page",
-    "reallyDeletePage": "Are you sure you want to delete this page?",
-    "mainArticles"    : "Main articles",
-    "editor"          : "Editor"
+    "pageName"                : "Page name",
+    "addPage"                 : "Add page",
+    "reallyDeletePage"        : "Are you sure you want to delete this page?",
+    "mainArticles"            : "Main articles",
+    "editor"                  : "Editor"
   },
 
-  "api": {
-    "loginSuccessful"   : "Login Successful",
-    "invalidCredentials": "Invalid Username/Password Combination",
-    "pageSaved"         : "Page Saved",
-    "pageDeleted"       : "Page Deleted",
-    "categoryCreated"   : "Category Created",
-    "pageCreated"       : "Page Created"
+  "api" : {
+    "loginSuccessful"         : "Login Successful",
+    "invalidCredentials"      : "Invalid Username/Password Combination",
+    "pageSaved"               : "Page Saved",
+    "pageDeleted"             : "Page Deleted",
+    "categoryCreated"         : "Category Created",
+    "pageCreated"             : "Page Created"
   },
 
-  "error": {
-    "404": "Whoops. Looks like this page doesn't exist."
+  "error" : {
+    "404"                     : "Whoops. Looks like this page doesn't exist."
   },
 
-  "edit": {
-    "preview"      : "Preview",
-    "editor"       : "Editor",
-    "pageSaved"    : "Page Successfully Saved",
-    "pageSaveError": "Error Saving Page",
-    "headerMetaInfo" : "Meta information",
-    "lableMetaTitle": "Title",
-    "lableMetaDescription": "Description",
-    "lableMetaSort": "Sort"
+  "edit" : {
+    "preview"                 : "Preview",
+    "editor"                  : "Editor",
+    "pageSaved"               : "Page Successfully Saved",
+    "pageSaveError"           : "Error Saving Page",
+    "headerMetaInfo"          : "Meta information",
+    "lableMetaTitle"          : "Title",
+    "lableMetaDescription"    : "Description",
+    "lableMetaSort"           : "Sort"
   },
 
-  "home": {
-    "searchKnowledgeBase": "Search the knowledge base",
+  "home" : {
+    "searchKnowledgeBase"     : "Search the knowledge base",
     "searchKnowledgeBaseAgain": "Try another search...",
-    "searchTitle": "The fastest way to get the help you need.",
-    "searchSubtitle": "Our current email wait times are 2-4 days. Please utilize the knowledge base before emailing us. We have worked very hard to make this a useful tool for you."
+    "searchTitle"             : "The fastest way to get the help you need.",
+    "searchSubtitle"          : "Our current email wait times are 2-4 days. Please utilize the knowledge base before emailing us. We have worked very hard to make this a useful tool for you."
   },
 
-  "login": {
-    "login"   : "Login",
-    "logout"  : "Logout",
-    "username": "Username",
-    "password": "Password"
+  "login" : {
+    "login"                   : "Login",
+    "logout"                  : "Logout",
+    "username"                : "Username",
+    "password"                : "Password"
   },
 
-  "page": {
-    "addCategory": "Add category",
-    "addPage"    : "Add page",
-    "deletePage" : "Delete",
-    "editPage"   : "Edit",
-    "actions"    : "Actions",
-    "useful"     : "Was this article helpful?",
-    "useful_0"   : "Not at all.",
-    "useful_5"   : "Meh.",
-    "useful_9"   : "Yes, thank you.",
+  "page" : {
+    "addCategory"             : "Add category",
+    "addPage"                 : "Add page",
+    "deletePage"              : "Delete",
+    "editPage"                : "Edit",
+    "actions"                 : "Actions",
+    "useful"                  : "Was this article helpful?",
+    "useful_0"                : "Not at all.",
+    "useful_5"                : "Meh.",
+    "useful_9"                : "Yes, thank you.",
 
-    "needHelp"   : "Still need help?",
-    "getInTouch" : "Send a message."
+    "needHelp"                : "Still need help?",
+    "getInTouch"              : "Send a message."
   },
 
-  "search": {
-    "resultsFor"  : "Search results for",
-    "noResultsFor": "Nothing found for"
+  "search" : {
+    "resultsFor"              : "Search results for",
+    "noResultsFor"            : "Nothing found for"
   }
 }

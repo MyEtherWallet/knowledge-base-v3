@@ -36,28 +36,28 @@
 @font-size-pixels-xl                         : @base+1px; // for xl screens
 @font-size-pixels-sm                         : @base+px; // for small screens
 
-@font-size-large-bump                        : 2.25rem; // 33.75
-@font-size-large                             : 1.33rem; // 28.5
-@font-size-medium-bump                       : 1.50rem; // 22.5
-@font-size-medium                            : 1.30rem; // 19.5
-@font-size-bump-more                         : 1.15rem; // 17.25
-@font-size-bump                              : 1.07rem; // 16.05
-@font-size-base                              : 1.00rem; // 15
-@font-size-small                             : 0.90rem; // 13.8
-@font-size-xs                                : 0.75rem; // 12
+@font-size-large-bump                        : 2rem;
+@font-size-large                             : 1.33rem;
+@font-size-medium-bump                       : 1.50rem;
+@font-size-medium                            : 1.30rem;
+@font-size-bump-more                         : 1.15rem;
+@font-size-bump                              : 1.07rem;
+@font-size-base                              : 1.00rem;
+@font-size-small                             : 0.90rem;
+@font-size-xs                                : 0.75rem;
 
 @font-size-h1                                : @font-size-large-bump;
-@font-size-h2                                : @font-size-large;
-@font-size-h3                                : @font-size-medium-bump;
-@font-size-h4                                : @font-size-medium;
-@font-size-h5                                : @font-size-bump-more;
-@font-size-h6                                : @font-size-bump;
+@font-size-h2                                : @font-size-medium-bump;
+@font-size-h3                                : @font-size-medium;
+@font-size-h4                                : @font-size-bump-more;
+@font-size-h5                                : @font-size-bump;
+@font-size-h6                                : @font-size-base;
 
 @line-height-base                            : 1.4;
 @line-height-computed                        : 1.4;
 
-@headings-font-family                        : @font-family-monospace;
-@headings-font-weight                        : 200;
+@headings-font-family                        : @font-family-base;
+@headings-font-weight                        : 400;
 @headings-line-height                        : 1.2;
 @headings-color                              : inherit;
 
@@ -143,7 +143,7 @@
 @input-bg-disabled                           : @gray-lightest;
 @input-color                                 : #333333;
 @input-border                                : darken(@gray-lighter,10%);
-@input-border-focus                          : @brand-primary;
+@input-border-focus                          : darken(@gray-lighter,10%);
 @input-color-placeholder                     : @gray;
 
 @input-height-base                           : 2.55rem;

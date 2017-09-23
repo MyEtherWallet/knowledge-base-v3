@@ -90,9 +90,9 @@ gulp.task('copy', function () {
              .pipe(gulp.dest(dest));
 });
 
-gulp.task('watchJS',      function() { gulp.watch(theme_srcFolder + '**/*.js', ['scripts']     ) })
+gulp.task('watchJS',      function() { gulp.watch(scripts_srcFolder + '**/*.js'      , ['scripts'] ) })
 
-gulp.task('watchSTYLES',  function() { gulp.watch(theme_srcFolder + '**/*[.css,.less]',  ['styles'] ) })
+gulp.task('watchSTYLES',  function() { gulp.watch(style_srcFolder + '**/*[*.less]' , ['styles']  ) })
 
 gulp.task('watch', ['watchJS', 'watchSTYLES'])
 

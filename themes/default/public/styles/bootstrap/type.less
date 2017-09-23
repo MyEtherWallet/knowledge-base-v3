@@ -36,7 +36,7 @@ h6, .h6 {
 }
 
 h1, .h1 { font-size: @font-size-h1; font-weight: 400; margin-top: .25em;}
-h2, .h2 { font-size: @font-size-h2; text-transform: uppercase; font-weight: 200; color: #0e97c0; }
+h2, .h2 { font-size: @font-size-h2; text-transform: capitalize; }
 h3, .h3 { font-size: @font-size-h3; font-weight: 700; font-weight: 500; }
 h4, .h4 { font-size: @font-size-h4; font-weight: 700; }
 h5, .h5 { font-size: @font-size-h5; font-weight: 400; }
@@ -65,16 +65,24 @@ strong, .strong {
 
 
 a {
-  color: @link-color;
+  color: @brand-primary;
   text-decoration: none;
   cursor: pointer;
   transition: @transition;
 
-  &:hover           { opacity: .8; color: @link-hover-color; transition: @transition;}
-  &:active, &:focus { opacity: 1; transition: @transition;}
-
+  &:hover,
+  &:focus {
+    color: @brand-primary;
+    transition: @transition;
+  }
+  &:active {
+    opacity: 1; transition: @transition;
+  }
   &:focus {
     .tab-focus();
+  }
+  &:visited {
+    color: darken(@brand-primary, 10%);
   }
 }
 
@@ -287,7 +295,6 @@ address {
 
 .mono,
 .form-control {
-  font-family: @font-family-monospace;
   font-weight: normal;
   letter-spacing: .02em;
 }

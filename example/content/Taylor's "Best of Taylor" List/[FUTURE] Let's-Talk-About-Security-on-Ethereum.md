@@ -1,8 +1,0 @@
-/*
-[FUTURE] Let's talk about security on Ethereum
-Sort: 2
-*/
-
-##### Source
-
-- [https://www.reddit.com/r/ethereum/comments/6orxtt/lets_talk_about_security_on_ethereum/](https://www.reddit.com/r/ethereum/comments/6orxtt/lets_talk_about_security_on_ethereum/)
