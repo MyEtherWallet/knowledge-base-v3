@@ -3,8 +3,8 @@ Title: Brute-Forcing Secret Word Phrases
 Sort: 16
 */
 
-The following is from /u/eth-o-licious2 on reddit:
- [https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/](https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/)
+*The following is from /u/eth-o-licious2 on reddit:
+ [https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/](https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/)*
 
 ----
 
@@ -24,7 +24,7 @@ Once you have that all you need to do is replace the information that the four v
 
 Putting in the address you bid from, ENS name you bid on, amount you bid, and your three word secret into that page will display the `New Bid Data` output that needs to match what you get from your bid transaction. The python script will run through all the possible three word combinations until it finds the New Bid Data output that matches what's on your bid transaction (which you put into the python script). Once the script has finished you can test the result by filling out the MEW Helpers Page.
 
-Some assumptions I made: 
+Some assumptions I made:
 
 * MEW generates the three words from the same mnemonic list of 2048 terms that Trezor uses
 

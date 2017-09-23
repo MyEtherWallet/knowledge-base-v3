@@ -9,7 +9,7 @@ Sort: 24
 
 ### Get your TX ID of your original bid. Under "input data" it should look like:
 
-`Function: newBid(bytes32 sealedBid)MethodID: 0xce92dced[0]:69faf18dd0953d9124d7917234b0efc05c78fd0d9abfc6ffb32d512680fdbb65`
+`Function: newBid(bytes32 sealedBid) MethodID: 0xce92dced[0]:69faf18dd0953d9124d7917234b0efc05c78fd0d9abfc6ffb32d512680fdbb65`
 
 ##### Get the information that will match your bid via [https://etherscan.io/address/0x6090a6e47849629b7245dfa1ca21d94cd15878ef#readContract](https://etherscan.io/address/0x6090a6e47849629b7245dfa1ca21d94cd15878ef#readContract), under shaBid:
 

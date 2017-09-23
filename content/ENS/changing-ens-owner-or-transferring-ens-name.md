@@ -3,7 +3,7 @@ Title: Changing the ENS owner or transferring an ENS Name
 Sort: 8
 */
 
-#### Transferring a Domain (Best Practice) 
+### Transferring a Domain (Best Practice)
 
 1.  Search for your domain on [etherscan.io](https://etherscan.io/enslookup?q=yourname.eth)
 2.  Copy the `Label Hash`.
@@ -14,9 +14,7 @@ Sort: 8
 7.  Unlock your wallet and send.
 
 
----
-
-#### Only setting Owner 
+### Only setting Owner
 
 *WARNING: If you only change the owner, the deed owner can get the name back.*
 
@@ -28,6 +26,8 @@ Sort: 8
 6.  Paste the `address` of the new owner in owner. 
 7.  Unlock your wallet and rock and roll.
 
-(Thanks goes to [/u/feauxley](https://www.reddit.com/r/ethereum/comments/6d01r1/changing_ens_owner_address_using_myetherwallet/))
+---
+
+*(Thanks goes to [/u/feauxley](https://www.reddit.com/r/ethereum/comments/6d01r1/changing_ens_owner_address_using_myetherwallet/))*
 
 
