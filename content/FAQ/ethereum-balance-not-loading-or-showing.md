@@ -1,6 +1,7 @@
 /*
 Title: Balances not loading or showing on MyEtherWallet
 Sort: 2
+Category: FAQ
 */
 
 This is most likely due to the fact that you are behind a firewall, you have refreshed the page a bunch of times and hit your hourly-API-limit, or our nodes are under extreme strain and are refusing to return your balance information.

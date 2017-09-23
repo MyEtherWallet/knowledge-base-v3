@@ -1,6 +1,7 @@
 /*
 Title: Should I keep my ETH / Tokens on Single or Multiple Addresses?
 Sort: 6
+Category: Addresses
 */
 
 

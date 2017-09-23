@@ -1,6 +1,7 @@
 /*
 Title: Account not showing up on the blockchain
 Sort: 4
+Category: Addresses
 */
 
 *"Why hasn't the account I just created show up in the blockchain explorer? (e.g. etherchain, etherscan)"*

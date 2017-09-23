@@ -1,6 +1,7 @@
 /*
 Title: ETH or Tokens sent to or from exchange haven't shown up
 Sort: 4
+Category: FAQ
 */
 
 First, check the transaction on [https://etherscan.io/](https://etherscan.io/) and ensure that there is no red ( ! ) symbol by the transaction.

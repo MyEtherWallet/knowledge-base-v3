@@ -1,6 +1,7 @@
 /*
 Title: Manually revealing your ENS bid
 Sort: 12
+Category: ENS
 */
 
 ### Get Your Bid TX Hash

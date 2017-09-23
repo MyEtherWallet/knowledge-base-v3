@@ -1,6 +1,7 @@
 /*
 Title: What to do if you forgot to reveal your ENS bid
 Sort: 2
+Category: ENS
 */
 
 ### If there are other bidders
@@ -11,7 +12,7 @@ You can get 0.5% back by manually revealing, [as written up here](https://myethe
 
 ### If There Are No Other Bidders
 
-As soon as the auction is over, please start a new auction for the same name. 
+As soon as the auction is over, please start a new auction for the same name.
 
 Three days later, reveal your original bid and you will get it. Do not tell anyone else about your name (unless you are emailing us for support because we can't help you otherwise) during this period.
 

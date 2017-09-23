@@ -1,6 +1,7 @@
 /*
 Title: How do I interact with a Multisig Contract?
 Sort: 20
+Category: FAQ
 */
 
 Go to the [Contract tab](https://www.myetherwallet.com/#contracts).

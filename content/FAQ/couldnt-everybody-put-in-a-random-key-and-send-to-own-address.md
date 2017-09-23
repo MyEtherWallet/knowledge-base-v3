@@ -1,6 +1,7 @@
 /*
 Title: Couldn't everybody put in random private keys, look for a balance, and send to their own address?
 Sort: 16
+Category: FAQ
 */
 
 

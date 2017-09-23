@@ -1,11 +1,12 @@
 /*
 Title: Where Can I Buy / Sell / Trade / Exchange my ETH or Tokens?
 Sort: 14
+Category: FAQ
 */
 
 Here is a list of reputable services you can use the following services to buy and sell ETH / Tokens / fiat (USD, EUR, etc.). There are many, many more out there but these are the ones I am familar with.
 
-Always google "<service name> scam" and read about people's experiences before choosing to send to a random service or website.  
+Always google "<service name> scam" and read about people's experiences before choosing to send to a random service or website.
 
 Not all exchanges support all coin types and fiat types, so take a look around to find one that fits your location and circumstances.
 

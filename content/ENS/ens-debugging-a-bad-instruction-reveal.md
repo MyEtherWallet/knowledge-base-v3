@@ -1,6 +1,7 @@
 /*
 Title: Debugging a [BAD INSTRUCTION] Reveal
 Sort: 4
+Category: ENS
 */
 
 ### 1\. Make sure you actually placed a bid:

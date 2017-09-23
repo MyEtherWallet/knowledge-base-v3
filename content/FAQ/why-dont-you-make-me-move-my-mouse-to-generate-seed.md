@@ -1,6 +1,7 @@
 /*
 Title: Why don't you make me move my mouse to generate a seed?
 Sort: 32
+Category: FAQ
 */
 
 ### Some sites generate entropy ("seed") the private key via mouse movements. Since MyEtherWallet.com doesn't do this, does it mean my private key isn't truly random? Is this safe?

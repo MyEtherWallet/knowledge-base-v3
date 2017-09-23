@@ -1,6 +1,7 @@
 /*
 [GUIDE] How to buy Ethereum (ETH) with USD
 Sort: 12
+Category: FAQ
 */
 
 ### Hello and welcome to Ethereum!
@@ -8,7 +9,7 @@ Sort: 12
 
 Ethereum and digital currencies are a pretty new world and in this new world, things can be a little bit different. First, you are responsible for your stuff. Your investments, your choices, your security. There are no babysitters or undo buttons or a bank to call up and reverse your transaction. The power of the blockchain is this, but it's also a dangerous thing if you are expecting to have all the cushy things you've come to enjoy.
 
-Secondly, most of the people involved in this world are pretty technical and sometimes forget how different things are. Take your time, ask questions, ask for clarification reach out for help, read the instructions, read the warnings, hang out, and try to learn new things. 
+Secondly, most of the people involved in this world are pretty technical and sometimes forget how different things are. Take your time, ask questions, ask for clarification reach out for help, read the instructions, read the warnings, hang out, and try to learn new things.
 
 - **Scams and [phishing sites](https://www.google.com/safebrowsing/static/faq.html#q1) and malicious links exist. Trust messages and random links about as much as those in your spambox. Verify verify verify.**
 
@@ -45,12 +46,12 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 7. When you run it, it'll prompt you to make a new account. Create a password that you will never ever forget and create the account. Then, it'll give you an address that starts with 0x.. This what you will enter on your exchange to move your ETH from their account to your own.
 
-8. To safely keep your account you have 3 pieces of information: 
+8. To safely keep your account you have 3 pieces of information:
    * Your address (0x7573aB.....)
    * Your password
    * Your private key
 
-The private key is like a password, but way more intense. Plus, it's a password that is protected by another password. In Ethereum Wallet, this private key is in the form of a `keystore file`. You need to make a backup of this in case anything happens to your computer. 
+The private key is like a password, but way more intense. Plus, it's a password that is protected by another password. In Ethereum Wallet, this private key is in the form of a `keystore file`. You need to make a backup of this in case anything happens to your computer.
 
 In Ethereum Wallet, go to the top bar and find `ACCOUNTS` -> `BACKUP` -> `ACCOUNTS`. It'll open up a folder and inside you will see a file. This file is your private key. Copy this to a USB drive and safely store the USB drive in a different physical location than your computer (in case your house explodes).
 
@@ -67,7 +68,7 @@ Then create a Ethereum Wallet account and back it up. In Circle or Coinbase, sen
 ### Alternative steps 6-8:
 
 Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
-). 
+).
 
 
 **Just, MAKE SURE YOU BACK IT UP PLEASE.**

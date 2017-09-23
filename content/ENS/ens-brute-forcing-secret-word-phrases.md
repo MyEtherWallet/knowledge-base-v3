@@ -1,6 +1,7 @@
 /*
 Title: Brute-Forcing Secret Word Phrases
 Sort: 16
+Category: ENS
 */
 
 *The following is from /u/eth-o-licious2 on reddit:

@@ -1,6 +1,7 @@
 /*
 Title: Does MyEtherWallet support Bitcoin or other coins (LTC STEEM ZEC)?
 Sort: 6
+Category: FAQ
 */
 
 ### "Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?"*

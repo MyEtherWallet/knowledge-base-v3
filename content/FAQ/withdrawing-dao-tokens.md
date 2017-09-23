@@ -1,6 +1,7 @@
 /*
 Title: Withdrawing DAO tokens
 Sort: 26
+Category: FAQ
 */
 
 ###You need to run the older version of MyEtherWallet (v3.3.7) to access the old DAO pages:

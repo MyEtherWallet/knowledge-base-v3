@@ -1,6 +1,7 @@
 /*
 Title: Manually Reveang ENS Bids (Hard)
 Sort: 24
+Category: ENS
 */
 
 ### Use our new tool...
