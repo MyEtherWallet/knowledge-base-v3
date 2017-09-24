@@ -101,12 +101,10 @@
 // Button input groups
 // -------------------------
 .input-group-btn {
-  position: relative;
   font-size: 0;
   white-space: nowrap;
-
-  // Negative margin for spacing, position for bringing hovered/focused/actived
-  // element above the siblings.
+  margin: 2rem 0;
+  padding: 0;
   > .btn {
     position: relative;
     margin-bottom: 0;
@@ -136,6 +134,8 @@
     > .btn-group {
       z-index: 2;
       margin-left: -1px;
+      margin-top: 1px;
+      padding: 12px;
     }
   }
 }
