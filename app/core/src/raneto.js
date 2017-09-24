@@ -240,7 +240,7 @@ class Raneto {
       if (stat.isFile() && path.extname(shortPath) === '.md') {
         try {
 
-          const file     = fs.readFileSync(filePath);
+          const file   = fs.readFileSync(filePath);
           let slug     = shortPath;
           let pageSort = 0;
 

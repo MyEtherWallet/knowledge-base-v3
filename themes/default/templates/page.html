@@ -1,14 +1,58 @@
 <div class="row">
-  <div class="col-sm-3 hidden-xs">
 
-    <ul class="menu">
+  <main class="col-sm-9 page__main content">
 
+      <nav class="breadcrumbs">
+        <a class="breadcrumbs__home" href="{{config.base_url}}">Home</a>
+        ›
+        <a class="breadcrumbs__category" href="{{config.base_url}}/{{slug}}">{{meta.category}}</a>
+        ›
+        <span class="breadcrumbs__category">{{#meta.title}}{{meta.title}}{{/meta.title}}</span>
+      </nav>
+
+      <article class="block block__content clearfix">
+        {{#meta.title}}
+          <h1 class="page__title">{{meta.title}}</h1>
+        {{/meta.title}}
+
+        {{{content}}}
+      </article>
+
+      <section class="page__meta row">
+        <div class="meta__helpful col-sm-6">
+          {{lang.page.useful}} &nbsp;&nbsp;
+          <a href="#"> {{lang.page.useful_0}} </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"> {{lang.page.useful_5}} </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"> {{lang.page.useful_9}} </a>
+        </div>
+
+        <time class="meta__updated col-sm-6 text-right">
+          <p>{{lang.global.lastUpdated}} {{last_modified}}</p>
+        </time>
+
+        <div class="meta__contact col-xs-12">
+          <p>{{lang.page.needHelp}} <a href="mailto:{{config.support_email}}">{{lang.page.getInTouch}}</a></p>
+        </div>
+
+    </section>
+
+  </main>
+
+
+
+  <aside class="page__aside col-sm-3">
+
+    <ul class="nav__aside">
       {{#pages}}
-        <li class="category">
+        <li class="nav__item--category">
           {{^is_index}}
-            <h5 class="category-title {{slug}}">{{title}}</h5>
+            <a href="{{config.base_url}}/{{slug}}" class="{{slug}}">
+              <h5 class="category__title">{{title}}</h5>
+            </a>
           {{/is_index}}
-          <ul class="pages">
+          <ul class="nav__item--page">
             {{#files}}
               <li class="page{{#active}} active{{/active}}">
                 {{^active}}<a href="{{config.base_url}}/{{slug}}">{{/active}}
@@ -20,53 +64,9 @@
         </li>
       {{/pages}}
     </ul>
-  </div>
 
-  <div class="col-sm-9">
+  </aside>
 
-    <section class="content">
 
-      <p>
-        <a href="{{config.base_url}}">Home</a>
-        ›
-        <a href="{{config.base_url}}/{{meta.slug}}">{{meta.category}}</a>
-        ›
-        {{#meta.title}}{{meta.title}}{{/meta.title}}
-      </p>
 
-      <article class="block block__header clearfix">
-        {{#meta.title}}
-          <h1 class="title">{{meta.title}}</h1>
-        {{/meta.title}}
-      </article>
-
-      <article class="block block__content clearfix">
-        {{{content}}}
-      </article>
-
-      <section class="page-meta clearfix">
-        <p>
-          {{lang.page.useful}} &nbsp;&nbsp;
-          <a href="#"> {{lang.page.useful_0}} </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#"> {{lang.page.useful_5}} </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#"> {{lang.page.useful_9}} </a>
-        </p>
-
-        <div class="row">
-          <div class="contact-support col-sm-6">
-            <p>{{lang.page.needHelp}} <a href="mailto:{{config.support_email}}">{{lang.page.getInTouch}}</a></p>
-          </div>
-
-          <div class="last-updated col-sm-6 text-right">
-            <p>{{lang.global.lastUpdated}} {{last_modified}}</p>
-          </div>
-        </div>
-
-      </section>
-
-    </section>
-
-  </div>
 </div>

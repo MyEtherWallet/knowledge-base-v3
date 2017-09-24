@@ -1,25 +1,25 @@
-<div class="home-search row">
-  <form class="home-search__form" action="{{config.base_url}}/">
+<div class="home__search row">
+  <form class="search__form" action="{{config.base_url}}/">
     <div class="form-group">
       <h1>{{lang.home.searchTitle}}</h1>
       <div class="input-group">
-        <input type="search" class="form-control" name="search" id="home-search" placeholder="{{lang.home.searchKnowledgeBase}}">
+        <input type="search" class="form-control" name="search" id="home__search" size="50" placeholder="{{lang.home.searchKnowledgeBase}}">
         <span class="input-group-btn">
-          <button class="btn btn-primary" type="button">{{lang.global.search}}</button>
+          <button type="submit" class="btn btn-primary">{{lang.global.search}}</button>
         </span>
       </div>
     </div>
   </form>
 </div>
 
-<div class="home-categories row">
+<div class="home__categories row">
   {{#pages}}
 
     {{#is_index}}
       {{#files.length}}
         <div class="col-sm-4 col-xs-12">
           <div class="block {{class}}">
-            <h2 class="panel-heading">{{lang.global.mainArticles}}</h2>
+            <h2 class="panel__heading">{{lang.global.mainArticles}}</h2>
             <ul class="list-group pages">
               {{#files}}
                 <li class="list-group-item page"><a href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
@@ -34,7 +34,7 @@
     {{^is_index}}
       <div class="col-sm-4 col-xs-12">
         <div class="block {{class}}">
-          <h2 class="panel-heading" data-toggle="collapse" data-target="#demo">{{title}}</h2>
+          <h2 class="panel__heading" data-toggle="collapse" data-target="#demo">{{title}}</h2>
           <ul class="list-group pages collapse" id="demo">
             {{#files}}
               {{^is_directory}}
@@ -63,6 +63,6 @@
           </ul>
         </div>
       </div>
-
+    {{/is_index}}
   {{/pages}}
 </div>

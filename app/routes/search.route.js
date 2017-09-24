@@ -31,7 +31,7 @@ function route_search (config, raneto) {
       pages         : pageListSearch,
       search        : searchQuery,
       searchResults : searchResults,
-      body_class    : 'page-search',
+      body_class    : 'page__search',
       lang          : config.lang,
       loggedIn      : false,
       username      : null

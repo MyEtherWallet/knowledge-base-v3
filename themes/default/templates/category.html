@@ -1,27 +1,16 @@
-<H1>HELLO CATEGORY YOU DID IT</H1>
-
-<div class="category-search row">
-  <form class="category-search__form" action="{{config.base_url}}/">
-    <div class="form-group">
-      <h1>{{lang.category.searchTitle}}</h1>
-      <div class="input-group">
-        <input type="search" class="form-control" name="search" id="home-search" placeholder="{{lang.home.searchKnowledgeBase}}">
-        <span class="input-group-btn">
-          <button class="btn btn-primary" type="button">{{lang.global.search}}</button>
-        </span>
-      </div>
-    </div>
-  </form>
+<div class="home__search row">
+  <h1>{{catTitle}}</h1>
+  <h1>{{catSlug}}</h1>
 </div>
 
-<div class="category-categories row">
+<div class="home__categories row">
   {{#pages}}
 
     {{#is_index}}
       {{#files.length}}
         <div class="col-sm-4 col-xs-12">
           <div class="block {{class}}">
-            <h2 class="panel-heading">{{lang.global.mainArticles}}</h2>
+            <h2 class="panel__heading">{{lang.global.mainArticles}}</h2>
             <ul class="list-group pages">
               {{#files}}
                 <li class="list-group-item page"><a href="{{config.base_url}}/{{slug}}">{{title}}</a></li>
@@ -36,7 +25,7 @@
     {{^is_index}}
       <div class="col-sm-4 col-xs-12">
         <div class="block {{class}}">
-          <h2 class="panel-heading" data-toggle="collapse" data-target="#demo">{{title}}</h2>
+          <h2 class="panel__heading" data-toggle="collapse" data-target="#demo">{{title}}</h2>
           <ul class="list-group pages collapse" id="demo">
             {{#files}}
               {{^is_directory}}
@@ -65,6 +54,6 @@
           </ul>
         </div>
       </div>
-
+    {{/is_index}}
   {{/pages}}
 </div>

@@ -13,7 +13,7 @@ function handler (config) {
       status     : err.status,
       message    : config.lang.error[status] || err.message,
       error      : {},
-      body_class : 'page-error',
+      body_class : 'page__error',
       loggedIn   : ((config.authentication || config.authentication_for_edit) ? req.session.loggedIn : false)
     });
 
