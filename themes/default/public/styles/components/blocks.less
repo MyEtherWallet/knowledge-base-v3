@@ -27,6 +27,27 @@
   & > *:last-child {
     margin-bottom: 0;
   }
+  .category-swap,
+  .category-e-n-s,
+  .category-getting-started,
+  .category-networks,
+  .category-best-of,
+  .category-offline,
+  .category-private-keys-passwords,
+  .category-f-a-q,
+  .category-migration,
+  .category-security-and-phishing,
+  .category-diving-deeper,
+  .category-sending,
+  .category-gas-and-tx-fees,
+  .category-hardware-wallets,
+  .category-transactions,
+  .category-tokens{
+    position: absolute;
+    z-index: 9999;
+    left: 1rem;
+    right: 1rem;
+  }
 }
 
 .block__header,
@@ -83,4 +104,11 @@
   @media screen and (min-width: @screen-md) {
     flex-basis: 73%;
   }
+}
+
+.category-swap{
+    position: absolute;
+    z-index: 9999;
+    left: 1rem;
+    right: 1rem;
 }

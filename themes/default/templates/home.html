@@ -34,8 +34,8 @@
     {{^is_index}}
       <div class="col-sm-4 col-xs-12">
         <div class="block {{class}}">
-          <h2 class="panel__heading" data-toggle="collapse" data-target="#demo">{{title}}</h2>
-          <ul class="list-group pages collapse" id="demo">
+          <h2 class="panel__heading" data-toggle="collapse" data-target="#{{slug}}">{{title}}</h2>
+          <ul class="list-group pages collapse" id="{{slug}}">
             {{#files}}
               {{^is_directory}}
                 <li class="list-group-item page"><a href="{{config.base_url}}/{{slug}}" >{{title}}</a></li>
