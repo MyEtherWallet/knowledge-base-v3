@@ -43,8 +43,8 @@ function route_home (config, raneto) {
       meta          : config.home_meta,
       last_modified : get_last_modified(config,config.home_meta,template_filepath),
       lang          : config.lang,
-      loggedIn      : ((config.authentication || config.authentication_for_edit) ? req.session.loggedIn : false),
-      username      : ((config.authentication || config.authentication_for_edit) ? req.session.username : null)
+      loggedIn      : false,
+      username      : null
     });
 
   };
