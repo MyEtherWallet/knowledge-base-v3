@@ -33,6 +33,6 @@ To remove a custom token, click the little ( - ) icon next to your token. This w
 
 ### Related Reading
 
-- [Can I store any coin in MyEtherWallet?](https://myetherwallet.github.io/knowledge-base/can-i-send-my-steem-slash-btc-slash-ltc-slash-nem-slash-to-myetherwallet)
+- [Can I store any coin in MyEtherWallet?](https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)
 
-- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/i-just-created-a-new-token-can-you-add-it-to-mew)
+- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html)

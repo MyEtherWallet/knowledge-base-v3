@@ -20,8 +20,8 @@ At the end of the day, it's up to you though.
 
 ### Related Reading
 
-- [What is Gas?](https://myetherwallet.github.io/knowledge-base/what-is-gas)
+- [What is Gas?](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
 
-- [How to See & Add Custom Tokens](https://myetherwallet.github.io/knowledge-base/how-do-i-send-tokens-and-add-custom-tokens)
+- [How to See & Add Custom Tokens](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
 
-- [Which tokens does MEW support?](https://myetherwallet.github.io/knowledge-base/can-i-send-my-steem-slash-btc-slash-ltc-slash-nem-slash-to-myetherwallet)
+- [Which tokens does MEW support?](https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)
