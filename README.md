@@ -2,12 +2,6 @@
 Live site can be found [here](https://myetherwallet.github.io/knowledge-base/).
 
 
-Quick Start Guide
-Install Node.js# MyEtherWallet Knowledge Base
-
-Live site can be found [here](https://myetherwallet.github.io/knowledge-base/).
-
-
 ### Quick Start Guide
 To build this project locally, you need to have Node.js installed. Clone the project with Git and run:
 
