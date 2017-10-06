@@ -1,8 +1,8 @@
 {
 "title"       : "[MEW -> MetaMask] Moving from a MyEtherWallet key to MetaMask",
 "sort"        : "1",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

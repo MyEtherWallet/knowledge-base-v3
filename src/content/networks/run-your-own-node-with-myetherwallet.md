@@ -1,8 +1,8 @@
 {
 "title"       : "Running MyEtherWallet w/ your own, personal node",
 "sort"        : "8",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%

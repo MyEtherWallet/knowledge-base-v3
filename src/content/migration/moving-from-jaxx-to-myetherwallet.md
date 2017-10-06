@@ -1,8 +1,8 @@
 {
 "title"       : "[Jaxx -> MEW] Access Jaxx account on MyEtherWallet",
 "sort"        : "6",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

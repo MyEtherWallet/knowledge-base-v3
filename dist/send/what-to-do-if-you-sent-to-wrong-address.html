@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>MyEtherWallet Support</title>
-<meta name="description" content="Security &amp; Phishing">
+<meta name="description" content="Sending ETH &amp; Tokens">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
@@ -60,54 +60,29 @@
       <nav class="breadcrumbs">
         <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
         ›
-        <!-- <a class="breadcrumbs__category" href="../security-and-phishing/"> -->
-        Security &amp; Phishing
+        <!-- <a class="breadcrumbs__category" href="../send/"> -->
+        Sending ETH &amp; Tokens
         <!-- </a> -->
         ›
-        <span class="breadcrumbs__category">Securely use MyEtherWallet</span>
+        <span class="breadcrumbs__category">What to do if you sent to the wrong address</span>
       </nav>
 
       <article class="block block__content clearfix">
-          <h1 class="page__title">Securely use MyEtherWallet</h1>
+          <h1 class="page__title">What to do if you sent to the wrong address</h1>
           </p>
-<p><em>This is part of a series where Taylor pull&#39;s sweet comments she&#39;s made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts. Many are unpolished &amp; contain typos, specific references to previous discussions, and gratuitous cursing.</em></p>
-<hr>
-<h3 id="preface">Preface</h3>
-<p>This guide assumes that you just received a Trezor and Cryptosteel in the mail. Which hardware wallet you chose is not integral to the guide -- any hardware wallet will do. The cryptosteel is not necessary to follow the guide, but protects against fire, flood, and decay, and so comes highly recommended.*</p>
-<h3 id="onwards">Onwards</h3>
-<p>This is awesome that you already ordered a <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends">hardware wallet</a>! Of course, you have to recognize the serious responsibility that comes from holding your own private key. If you lose it, make a mistake, forget your passphrase, etc, no one can save you, truly you are in control of your own destiny :)</p>
-<h3 id="terminology-mnemonic">Terminology -- Mnemonic</h3>
-<p>This will be a list of 12-24 english words, taken from a master list of 2048 possible words, and is also often referred to as your private key or seed phrase.</p>
-<p>These words are what you store in the cryptosteel. Every word is unique given the first 4 letters, e.g., these and thesaurus cannot both be words because they both start with &#39;thes&#39;. So you&#39;ll notice the cryptosteel only has space for 4 letters on each word. It is incredibly important that you keep your mnemonic safe from prying eyes. <strong>NEVER store it digitally -- in a text file, in an encrypted file, in a picture, just don&#39;t do it.</strong> That will violate the security model of the Trezor (which is that your mnemonic only gets stored on the Trezor and is never exposed to a potentially compromised machine, all general purpose computing devices are potentially infected).</p>
-<h3 id="before-you-get-started">Before you Get Started</h3>
+<p>I’m really sorry but MyEtherWallet is not a &quot;web wallet&quot;. You do not create an account or give us your ETH or tokens to hold onto. We are simply an interface that allows you to easily interact with the Ethereum blockchain.</p>
+<p><strong>In order to ensure your security &amp; privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet. We only have access to the information that is publicly available on the blockchain.</strong></p>
+<h5 id="unfortunately-this-means-we-cannot-">Unfortunately, this means we cannot:</h5>
 <ul>
-<li><p>Before moving significant funds around, always start with a test transaction of a small amount to make sure you got everything right.</p>
-</li>
-<li><p>Also, it is very important that you are able to recover your Trezor from the mnemonic. What you should do, to start, is transfer a small amount of BTC, like .005. Then, complete the process of storing your mnemonic in your cryptosteel (transferring the words from paper to the steel). Then, wipe your Trezor, and follow instructions to recover Trezor from mnemonic, using your cryptosteel as a reference (don&#39;t use any other backup—use the backup you will be using in the future in case you actually lose / destroy / need to reset your TREZOR.</p>
-</li>
+<li>Reverse or cancel transactions</li>
+<li>Access you account</li>
+<li>Recover your account</li>
+<li>Send your ETH or Tokens from one address to another</li>
+<li>Recover your private key</li>
+<li>Recover or reset your password</li>
 </ul>
-<p>Now, if you load up your wallet and have access to the test amount of BTC, great! You can now lose or otherwise destroy your Trezor and rest assured that you can recover from the cryptosteel.</p>
-<h3 id="importance-of-guarding-and-securing-your-mnemonic">Importance of guarding and securing your mnemonic</h3>
-<ul>
-<li><p>Anyone that views and remembers mnemonic can take all your crypto.</p>
-</li>
-<li><p>Never ever store this anywhere digitally, except for loading it into the Trezor.</p>
-</li>
-<li><p>If you lose your mnemonic AND your hardware wallet breaks, or becomes otherwise unusable, your crypto are all lost forever.</p>
-</li>
-</ul>
-<p>Obviously, this would be quite devastating -- and this is why the Trezor and cryptosteel are so important. The Trezor protects your private key from hackers, in case your computer is infected with malware. And the cryptosteel protects the mnemonic from fire, flood, etc.</p>
-<h3 id="passwords">Passwords</h3>
-<p>One big decision you will have to make is whether to use a passphrase or not. The point of a passphrase is to protect your mnemonic -- if you have a strong passphrase and someone gains access to your mnemonic, it is of no value to them. The passphrase is like an extra word tacked on to the end of your mnemonic, though it is free form like a password, and you should never write it down. If you do use one, make sure it has upper case, lower case, numbers , and symbols, should be at least 10 characters, ideally longer. There are pros and cons to both using a passphrase vs not using a passphrase.</p>
-<p>Without a passphrase, there is nothing to forget. You are protected from yourself and it is easier to manage things like inheritance. But you are not protected from a thief finding your mnemonic.</p>
-<p>With a passphrase, a thief needs to steal your mnemonic and install a keylogger on your machine, which is a much more difficult attack to execute. BUT, if you forget your passphrase, your crypto is lost forever, there is no way to recover. You could potentially write it down, and store it, somewhere geographically separate from where you keep the mnemonic.</p>
-<p>Last thing I&#39;ll say.. no one knows what the future holds but a bear market is likely on the horizon, and could last for years (2014 and first half of 2015 was the last long bear market). So, pick an amount you plan to invest, and make buys strategically over time (1-3yrs). This way, if the market dips hard after your first couple buys, you are actually happy cause that means you are going to buy a bunch of cheap coins. And if the market goes up, then you&#39;re starting off with returns, so also happy.</p>
-<p>I&#39;d recommend keeping at least 15-40% of your blockfolio in Bitcoin, depending on your tolerance for risk and horizon for needing to spend the funds. Think of it like bonds vs stocks in a traditional portfolio. Also, try out the app &#39;blockfolio&#39; for your phone to track your net asset value.</p>
-<p>Good luck, lemme know if you have any questions!</p>
-<hr>
-<ul>
-<li><a href="https://www.reddit.com/r/CryptoCurrency/comments/6vo0tw/a_guide_for_newbies_on_how_to_properly_and/">source: /u/drewshaver</a></li>
-</ul>
+<p>If the account belongs to someone or an exchange, you should attempt to reach out to them to find out if you can recover your ETH. You can see if it is an account in use by searching it on etherscan.io and seeing if there are any other transactions to or from the account.</p>
+<p>Again, I’m really sorry.</p>
 
       </article>
 

@@ -98,68 +98,68 @@ var Category = {
   slug: 'addresses',
   sort : '1'
 },
-'Gas and TX Fees' : {
-  slug: 'gas-and-tx-fees',
-  sort : '2'
-},
-'Offline' : {
-  slug: 'offline',
-  sort : '3'
-},
-'Tokens' : {
-  slug: 'tokens',
-  sort : '4'
-},
 'Best Of' : {
   slug: 'best-of',
-  sort : '5'
-},
-'Getting Started' : {
-  slug: 'getting-started',
-  sort : '6'
-},
-'Private Keys & Passwords' : {
-  slug: 'private-keys-passwords',
-  sort : '7'
-},
-'Transactions' : {
-  slug: 'transactions',
-  sort : '8'
+  sort : '2'
 },
 'Diving Deeper' : {
   slug: 'diving-deeper',
-  sort : '9'
-},
-'Hardware Wallets' : {
-  slug: 'hardware-wallets',
-  sort : '10'
-},
-'Security & Phishing' : {
-  slug: 'security-and-phishing',
-  sort : '11'
+  sort : '3'
 },
 'ENS' : {
   slug: 'ens',
-  sort : '12'
-},
-'Importing / Exporting from MEW' : {
-  slug: 'migration',
-  sort : '13'
-},
-'Sending ETH & Tokens' : {
-  slug: 'sending',
-  sort : '14'
+  sort : '4'
 },
 'FAQ' : {
   slug: 'faq',
-  sort : '15'
+  sort : '5'
 },
-'Networks' : {
+'Gas & Transaction Fees' : {
+  slug: 'gas',
+  sort : '6'
+},
+'Getting Started' : {
+  slug: 'getting-started',
+  sort : '7'
+},
+'Hardware Wallets' : {
+  slug: 'hardware-wallets',
+  sort : '8'
+},
+'Migrating to/from MyEtherWallet' : {
+  slug: 'migration',
+  sort : '9'
+},
+'Networks & Nodes' : {
   slug: 'networks',
-  sort : '16'
+  sort : '10'
+},
+'Offline' : {
+  slug: 'offline',
+  sort : '11'
+},
+'Private Keys & Passwords' : {
+  slug: 'private-keys-passwords',
+  sort : '12'
+},
+'Security & Phishing' : {
+  slug: 'security',
+  sort : '13'
+},
+'Sending ETH & Tokens' : {
+  slug: 'send',
+  sort : '14'
 },
 'Swap' : {
   slug: 'swap',
+  sort : '15'
+},
+'Tokens' : {
+  slug: 'tokens',
+  sort : '16'
+},
+'Transactions' : {
+  slug: 'transactions',
   sort : '17'
 }
 }

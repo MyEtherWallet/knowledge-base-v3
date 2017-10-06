@@ -1,8 +1,8 @@
 {
 "title"       : "Unable to Connect to Custom Node",
 "sort"        : "10",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%

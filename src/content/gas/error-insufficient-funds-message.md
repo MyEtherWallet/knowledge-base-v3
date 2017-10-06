@@ -1,8 +1,8 @@
 {
 "title"       : "Error: Cannot send due to Insufficient funds",
 "sort"        : "4",
-"category"    : "Gas and TX Fees",
-"description" : "Gas and TX Fees"
+"category"    : "Gas & Transaction Fees",
+"description" : "Gas & Transaction Fees"
 }
 
 ---%

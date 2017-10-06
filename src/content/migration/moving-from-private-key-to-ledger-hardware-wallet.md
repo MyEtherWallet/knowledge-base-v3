@@ -1,8 +1,8 @@
 {
 "title"       : "[MEW -> Ledger]  Moving from a MyEtherWallet key to Ledger Hardware Wallet",
 "sort"        : "2",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

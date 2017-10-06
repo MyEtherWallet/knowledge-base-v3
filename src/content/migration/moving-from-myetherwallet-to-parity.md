@@ -1,8 +1,8 @@
 {
 "title"       : "[MEW -> Parity] Access MyEtherWallet account in Parity",
 "sort"        : "3",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

@@ -1,8 +1,8 @@
 {
 "title"       : "Sending Expanse (EXP) using MyEtherWallet",
 "sort"        : "6",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%

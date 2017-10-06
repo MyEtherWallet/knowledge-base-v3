@@ -1,8 +1,8 @@
 {
-"title"       : "Where is the Mist / geth / pre-sale wallet file?",
+"title"       : "[MEW -> Mist] Access MyEtherWallet account in Geth / Mist",
 "sort"        : "10",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

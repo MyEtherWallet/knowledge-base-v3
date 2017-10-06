@@ -1,8 +1,8 @@
 {
 "title"       : "Using a hardware wallet with a custom node",
 "sort"        : "12",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%

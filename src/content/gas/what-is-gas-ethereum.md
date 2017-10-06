@@ -1,8 +1,8 @@
 {
 "title"       : "What is Gas?",
 "sort"        : "2",
-"category"    : "Gas and TX Fees",
-"description" : "Gas and TX Fees"
+"category"    : "Gas & Transaction Fees",
+"description" : "Gas & Transaction Fees"
 }
 
 ---%

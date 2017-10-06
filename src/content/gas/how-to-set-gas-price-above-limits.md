@@ -1,8 +1,8 @@
 {
 "title"       : "Setting gas price above the slider limits",
 "sort"        : "6",
-"category"    : "Gas and TX Fees",
-"description" : "Gas and TX Fees"
+"category"    : "Gas & Transaction Fees",
+"description" : "Gas & Transaction Fees"
 }
 
 ---%

@@ -1,8 +1,8 @@
 {
 "title"       : "Accessing & Sending MUSICOIN via MyEtherWallet",
 "sort"        : "4",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%

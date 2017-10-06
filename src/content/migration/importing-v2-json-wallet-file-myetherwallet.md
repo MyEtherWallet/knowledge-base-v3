@@ -1,8 +1,8 @@
 {
 "title"       : "Import a V2 JSON file / private key?",
 "sort"        : "14",
-"category"    : "Importing / Exporting from MEW",
-"description" : "Importing / Exporting from MEW"
+"category"    : "Migrating to/from MyEtherWallet",
+"description" : "Migrating to/from MyEtherWallet"
 }
 
 ---%

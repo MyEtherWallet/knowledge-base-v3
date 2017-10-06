@@ -1,8 +1,8 @@
 {
 "title"       : "Accessing & Sending Ethereum Classic (ETC) via MyEtherWallet",
 "sort"        : "1",
-"category"    : "Networks",
-"description" : "Networks"
+"category"    : "Networks & Nodes",
+"description" : "Networks & Nodes"
 }
 
 ---%
