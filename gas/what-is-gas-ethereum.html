@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>MyEtherWallet Support</title>
-<meta name="description" content="Security &amp; Phishing">
+<meta name="description" content="Gas &amp; Transaction Fees">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
@@ -60,67 +60,109 @@
       <nav class="breadcrumbs">
         <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
         ›
-        <!-- <a class="breadcrumbs__category" href="../security-and-phishing/"> -->
-        Security &amp; Phishing
+        <!-- <a class="breadcrumbs__category" href="../gas/"> -->
+        Gas &amp; Transaction Fees
         <!-- </a> -->
         ›
-        <span class="breadcrumbs__category">Pro-Tips -How Not to get Scammed during a Token Sale</span>
+        <span class="breadcrumbs__category">What is Gas?</span>
       </nav>
 
       <article class="block block__content clearfix">
-          <h1 class="page__title">Pro-Tips -How Not to get Scammed during a Token Sale</h1>
+          <h1 class="page__title">What is Gas?</h1>
           </p>
-<h3 id="below-are-some-tips-to-prevent-from-being-scammed-during-a-token-sale-">Below are some tips to prevent from being scammed during a token sale.</h3>
-<ol>
-<li><p>Use Google instead of clicking messages in DMs or on Twitter</p>
-</li>
-<li><p>Double-Check the URL. Is it the same as the message received?</p>
-</li>
-<li><p>Google the name of the token + &quot;twitter&quot;</p>
-</li>
-<li><p>Check out the Twitter account. Everything looking good still?</p>
-</li>
-<li><p>Check out the address on etherscan.io</p>
-</li>
-<li><p>And always make sure you are on the correct MyEtherWallet, too!</p>
-</li>
-</ol>
-<p>The screenshots below point out specific things to check to make sure you are interacting with the correct site.</p>
-<h3 id="1-use-google-instead-of-clicking-messages-in-dms-or-on-twitter">1. Use Google instead of clicking messages in DMs or on Twitter</h3>
-<p><img src="http://i.imgur.com/XwiVCSY.jpg" alt=""></p>
-<p>So you received a message, saw a tweet, or whatever about hot new ICO. Don&#39;t click. Google the name of the token + &quot;token contribution&quot; or &quot;ethereum&quot; or &quot;token&quot;.</p>
-<h3 id="2-check-the-url-is-it-the-same-as-the-message-received-">2. Check the URL. Is it the same as the message received?</h3>
-<p><img src="http://i.imgur.com/8wmJRYg.jpg" alt=""></p>
-<p>Okay....but how do I know this is the <em>right</em> URL?</p>
-<h3 id="3-google-the-name-of-the-token-twitter-">3. Google the name of the token + &quot;twitter&quot;</h3>
-<p><img src="http://i.imgur.com/cLC6kWK.jpg" alt=""></p>
-<h3 id="4-check-out-the-twitter-everything-looking-good-still-">4. Check out the Twitter. Everything looking good still?</h3>
-<p><img src="http://i.imgur.com/EYwqZpL.jpg" alt=""></p>
-<p>On Twitter, check the URL and the USERNAME of the account. Be on the lookout for weird things like _ or captial-i&#39;s that look like l&#39;s or O&#39;s that look like 0&#39;s. This indicate a scammer.</p>
-<p>Followers, images, tweets and the name of the Twitter account are cloned by fake accounts. Ignore those.</p>
-<p>You have followers in common. This is a good sign! The URL they provide match the URL you were on earlier. So let&#39;s get the address.....</p>
-<h3 id="5-check-out-the-address-on-etherscan-io">5. Check out the address on etherscan.io</h3>
-<p><img src="http://i.imgur.com/i99arJz.jpg" alt=""></p>
-<p>....and let&#39;s check the comments on Etherscan.</p>
-<p>Does it have any comments? Are they all angry people who had their funds stolen?</p>
-<p>Or is there some add&#39;l verification that this is legit? Again, never rely on a single comment—this adds to the fact that all this information is consistent &amp; correct.</p>
-<h3 id="6-and-always-make-sure-you-are-on-the-correct-myetherwallet-too-">6. And always make sure you are on the correct MyEtherWallet, too!</h3>
-<p><img src="http://i.imgur.com/dvRFMFy.jpg" alt=""></p>
-<p>And finally, when you go to contribute, make sure you are on a legit version of MyEtherWallet.com (<a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>)</p>
-<p>Check the URL. Check the SSL. Check the v3.9.9.5 (for district0x only). Don&#39;t rely on the version number, but its another good way to easily spot a scam site.</p>
-<p>Check the address.  Check the AddressIcon (the colorful blob of colors that corresponds to your address. It is an easy way to see if the address matches across two places.)</p>
-<p>In this case, district0x&#39;s is kinda pinky-yellow and the address starts with 0xF80.</p>
-<p><img src="http://i.imgur.com/1OvTydO.jpg" alt=""></p>
-<p>Sweetness.</p>
-<p><strong>Oh, and now the URL on MyEtherWallet displays on load &amp; node-change. This is another easy reminder to let you know if you are on a scam site.</strong></p>
-<p><img src="http://i.imgur.com/853xSIc.jpg" alt=""></p>
-<p>Originally posted on reddit:</p>
+<p><img src="https://s3.amazonaws.com/groovehq/uploaded/u69bid7b81o6arx56zxwo67txvl9v6ls82ma49r2li4tocdm6t?1498421641" alt=""></p>
+<h3 id="introduction">Introduction</h3>
+<p>Ethereum is the network—the blockchain. Ether (ETH) is the fuel for that network. When you send tokens, interact with a contract, send ETH, or do anything else on the blockchain, you must pay for that computation. That payment is calculated in <code>Gas</code> and gas is paid in <code>ETH</code>.</p>
+<p>You are paying for the <em>computation</em>, regardless of whether your transaction succeeds or fails. Even if it fails, the miners must validate and execute your transaction <em>(compute)</em> and therefore you must pay for that computation just like you would pay for a successful transaction.</p>
+<p>You can see your TX fee (<code>gas limit</code> * <code>gas price</code>) in ETH &amp; USD when you search for your transaction on <a href="https://etherscan.io/tx/0x9f5080adb96fc251fb87387ec4a1f77506cb59e14ef1d87d3a018a0cd41a9eeb">etherscan.io</a>. This is not a TX  fee that MyEtherWallet, or any other service provider, receives. This fee is paid to miners for mining transactions, putting them into blocks, and securing the blockchain.</p>
+<h3 id="overview">Overview</h3>
+<p><strong>When you hear <code>gas</code>, the person is either talking about:</strong></p>
 <ul>
-<li><p><a href="https://www.reddit.com/r/ethereum/comments/6o04b2/protips_how_not_to_get_scammed_during_a_token_sale/">https://www.reddit.com/r/ethereum/comments/6o04b2/protips_how_not_to_get_scammed_during_a_token_sale/</a></p>
+<li>Gas Limit</li>
+<li>Gas Price</li>
+</ul>
+<p>The total cost of a transaction (the &quot;TX fee&quot;) is the <code>Gas Limit</code> * <code>Gas Price</code>.</p>
+<p>Typically, if someone just says &quot;Gas&quot;, they are talking about the &quot;Gas Limit&quot;.</p>
+<h5 id="analogy-time-">Analogy Time!</h5>
+<p>You can think of the <code>gas limit</code> like the amount of liters/gallons/units of gas for a car. You can think of the <code>gas price</code> as the cost of that liter/gallon/unit of gas.</p>
+<ul>
+<li>With a car, it&#39;s <code>$2.50 (price)</code> per <code>gallon (unit)</code>.</li>
+<li>With Ethereum, it&#39;s <code>20 GWEI (price)</code> per <code>gas (unit)</code>.</li>
+</ul>
+<p>To fill up your &quot;tank&quot;, it takes...</p>
+<ul>
+<li><code>10 gallons</code> at <code>$2.50</code> = <code>$25</code></li>
+<li><code>21000 units of gas</code> at <code>20 GWEI</code> = <code>0.00042 ETH</code>.</li>
+</ul>
+<p>Therefore, the total TX fee will be 0.00042 Ether.</p>
+<p>Sending tokens will typically take <code>~50000</code> gas to <code>~100000</code> gas, so the total TX fee increases to <code>0.001 ETH - 0.002 ETH</code>.</p>
+<p><a href="https://www.myetherwallet.com/helpers.html">You can use our tool to calculate GWEI &lt;-&gt; WEI &lt;-&gt; USD here</a>, which can be helpful when you want to know your TX fee in ETH, rather than GWEI.</p>
+<h3 id="gas-limit">Gas Limit</h3>
+<p>The <code>gas limit</code> is called the limit because it&#39;s the maximum amount of units of gas you are willing to spend on a transaction. This avoids situations where there is an error somewhere in the contract, and you spend 1 ETH....10 ETH....1000 ETH..... going in circles but arriving no where.</p>
+<p>However, the units of gas necessary for a transaction are already defined by how much code is executed on the blockchain. If you do not want to spend as much on gas, lowering the gas limit won&#39;t help much. You must include enough gas to cover the computational resources you use or your transaction will fail due to an <code>Out of Gas</code> Error.</p>
+<p>All unused gas is refunded to you at the end of a transaction. So if you go to MyEtherWallet, send 1 ETH to out donation address ( ? ), and use a gas limit of 400000 you will receive 400000 - 21000* back.  However, if you were sending 1 ETH to a contract and your transaction to the contract fails (say, the Token Creation Period is already over), you will use the entire 400000 and receive nothing back.</p>
+<p>*21000 is the gas limit for standard transactions</p>
+<h3 id="gas-price">Gas Price</h3>
+<p>If you want to spend less on a transaction, you can do so by lowering the amount you pay per unit of gas. The price you pay for each unit increases or decreases how quickly your transaction will be mined.</p>
+<p><strong>During normal times:</strong></p>
+<ul>
+<li>40 GWEI Gas Price will almost always get you into the next block.</li>
+<li>20 GWEI will usually get you within the next few blocks.</li>
+<li>2 GWEI will usually get you within the next few minutes.</li>
+</ul>
+<p><strong>During Token Creation Periods, these costs go crazy due to supply / demand:</strong></p>
+<ul>
+<li><p>50 GWEI is the <code>max gas price</code> most new Token Creation Period contracts will accept. Anything above that and your TX will fail. Most is the keyword here—check with the Token Creation Period you wish to invest in <em>before</em> said Token Creation Period begins.</p>
 </li>
-<li><p><a href="https://twitter.com/myetherwallet/status/887267415930814467">https://twitter.com/myetherwallet/status/887267415930814467</a></p>
+<li><p>50 GWEI would be the amount you should send in that case.</p>
+</li>
+<li><p>If you are trying to send <em>during</em> an Token Creation Period (but not <em>to</em> the Token Creation) you have 2 choices: wait a bit until the Token Creation Period is over, or increase the gas price over 50 GWEI.</p>
 </li>
 </ul>
+<p>You can adjust the gas price on MyEtherWallet in the footer via the slider. It is capped at 50 GWEI in order to prevent people tying to send to Token Creation Periods from having all their transactions fail because they don&#39;t read anything.</p>
+<p><a href="http://i.imgur.com/47zmU0R.gif">⚠ Advanced Users Only Who Want To Go 50 GWEI+ can see how here</a></p>
+<h3 id="will-increasing-the-gas-price-get-it-mined-faster-does-setting-a-low-gas-price-mean-it-won-t-ever-be-mined-">Will increasing the gas price get it mined faster? Does setting a low gas price mean it won&#39;t ever be mined?</h3>
+<p>The transaction fees go to the miner who mines your block. When miners mine a block, they have to decide which transactions to include. They can choose to include no transactions, or they can choose to randomly select transactions. In order to encourage miners to include transactions in blocks you want to set a &quot;Gas Price&quot; that is high enough to make them <em>want</em> to include it (since it is entirely up to them).</p>
+<p><em>Most</em> miners follow a very simple strategy for inclusion. They include transactions they received sorted from highest Gas Price to lowest, then include them until either the block is full or they reach one that has a Gas Price set lower than they are willing to bother with.</p>
+<p>You want to set the Gas Price high enough so that a miner includes your transaction in a block. If you are in a hurry, you can set the Gas Price higher, so that you jump ahead of everyone in line. If you are not in a hurry, you just need to set a number high enough so that someone eventually includes your transaction.</p>
+<h3 id="why-should-i-set-a-low-gas-price-">Why should I set a low Gas Price?</h3>
+<p>Because it&#39;s cheaper and because with the increasing price of ETH compared to USD, a transaction that used to cost half a cent, may cost a few cents. More expensive transactions, like bidding on an ENS name, can now cost a dollar or more! As a user, you should try sending non-urgent transactions with a lower gas price as the more transactions that occur at the lower gas price, the more likely miners will lower their minimums.</p>
+<h3 id="should-i-increase-the-gas-limit-for-token-sales-though-">Should I increase the gas limit for token sales, though?</h3>
+<p>You should put whatever the token sale holders tell you to put. If you do not know, then ask, <strong>before the token sale</strong>. This ensures that your transaction won&#39;t fail due to an &quot;Out of Gas&quot; error. Typically, a 200000 gas limit will be enough, but some require more.</p>
+<p><strong>Increasing the amount to 1 500 000 or more will </strong>not<strong> increase the likelihood of getting in. All it will do is fill up the blocks faster and you will lose that TX fee if it doesn&#39;t go through. We have never seen a token sale that requires over a 800 000 gas limit.</strong></p>
+<h3 id="so-i-should-send-with-a-hugeeeeeeeee-gas-price-for-token-sales-right-">So I should send with a hugeeeeeeeee gas price for token sales, right?</h3>
+<p>Not necessarily. The risk in increasing it is that you could still not get in, and pay the fee anyways. The gas will NOT be returned to you if you send with a too-low gas limit, too early, or too late in the Token Creation Period.</p>
+<p>First, see if the token sale has a max gas price. If they do, use that as the gas price. Both Status and Bancor had a max gas of 50 GWEI.</p>
+<p>If they let you send with any amount of gas price, you should decide how much you are will to invest, and how much you are willing to spend on that attempt to invest. <strong>You must assume that you will pay the full fee and get nothing in return during Token Creation Periods.</strong> Take the gas limit (e.g. 200000), multiply by the gas price (e.g. 50 GWEI or 0.00000005 ETH) and that is how much you will pay for your attempt to get in.</p>
+<p>Before the BAT Token Creation Period, the average gas price was 20 GWEI (the default) for Token Creation Periods. Now it&#39;s who-the-fuck-even-knows:</p>
+<ul>
+<li>40 GWEI * 200000 == 0.008 ETH == $2.08 USD</li>
+<li>70 GWEI * 200000 == 0.014 ETH == $3.64 USD</li>
+<li>100 GWEI * 200000 == 0.02 ETH == $5.20 USD</li>
+</ul>
+<h5 id="absurd-gas-prices-from-the-bat-token-creation-period">Absurd Gas Prices From the BAT Token Creation Period</h5>
+<ul>
+<li>118 GWEI * 200000 == 0.0236 ETH == $6.13 USD</li>
+<li>7590 GWEI * 200000 == 1.518 ETH == $394.68 USD</li>
+<li>58000 GWEI * 200000 == 11.6 ETH == $3,016 USD</li>
+</ul>
+<p><img src="https://s3.amazonaws.com/groovehq/uploaded/9m3i4qusym67q6jpgyfibnlnmxslyj0hgs79waizcmsva9u5un?1496991455" alt=""></p>
+<p>That&#39;s right. Someone paid $6000+ to send a failed transaction. Ouch, indeed.</p>
+<h3 id="where-can-i-see-what-miners-are-accepting-">Where can I see what miners are accepting?</h3>
+<p>Start here: <a href="http://ethgasstation.info/">http://ethgasstation.info/</a></p>
+<p>(At the time of this writing) Below 20 GWEI the blocks are almost all full, which means if you set lower than that you&#39;ll have to wait in line with everyone else.</p>
+<p>A very awesome miner, miningpoolhub, accepts a 2 GWEI price, but their blocks are always full and they only account for 9% of mining which means about 1 in every 10 blocks (~150 seconds) will accept transactions with 2 GWUI gas price and when it does it is full so you may have to wait for a few of those.</p>
+<p><a href="http://ethgasstation.info/calculator.php">http://ethgasstation.info/calculator.php</a> will let you estimate how long it will be before your transaction is accepted at a certain gas price.</p>
+<h3 id="related">Related</h3>
+<ul>
+<li><a href="https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum">What is gas (StackExchange)</a></li>
+<li><a href="https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/">What is gas? (CryptoCompare)</a></li>
+<li><a href="https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/">Can someone explain gas to me?</a></li>
+<li><a href="https://www.reddit.com/r/ethereum/comments/3fnpr1/can_someone_possibly_explain_the_concept_of/">I don&#39;t understand the concept of gas.
+</a></li>
+</ul>
+<h3 id="sources">Sources</h3>
+<p>Thank you to Veen for the art, /u/MicahZoltu random slack diatribe on gas, and various redditors who have commented on gas over the years for this post. Very little of this is our original content. It is heaps of peoples comments and information, cleaned up and organized over the past year.</p>
 
       </article>
 

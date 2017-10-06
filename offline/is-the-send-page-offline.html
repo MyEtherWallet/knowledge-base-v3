@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>MyEtherWallet Support</title>
-<meta name="description" content="Security &amp; Phishing">
+<meta name="description" content="Offline">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
@@ -60,58 +60,17 @@
       <nav class="breadcrumbs">
         <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
         ›
-        <!-- <a class="breadcrumbs__category" href="../security-and-phishing/"> -->
-        Security &amp; Phishing
+        <!-- <a class="breadcrumbs__category" href="../offline/"> -->
+        Offline
         <!-- </a> -->
         ›
-        <span class="breadcrumbs__category">Ensuring MyEtherWallet doesn&#x27;t give different people the same private key</span>
+        <span class="breadcrumbs__category">Using MyEtherWallet for cold storage</span>
       </nav>
 
       <article class="block block__content clearfix">
-          <h1 class="page__title">Ensuring MyEtherWallet doesn&#x27;t give different people the same private key</h1>
+          <h1 class="page__title">Using MyEtherWallet for cold storage</h1>
           </p>
-<p>&quot;How does it ensure that it doesn&#39;t give different people the same key?&quot;</p>
-<p><a href="https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed">https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed</a></p>
-<hr>
-<p>The wallet private key is not given, it is randomly generated, then the public key (and thus address) is derived from it. Potentially someone else could randomly generate the same private key, but the chances of that happening are unbelievably tiny - I&#39;m not sure how many millions of years of trying it&#39;d take, but it&#39;s a lot.</p>
-<hr>
-<p>The answer to your first question is is one of my favorite parts about Eth (and cryptocurrency in general).</p>
-<p>Nobody assigns you the address. The blockchain doesn&#39;t assign you the address. You get to just pick it yourself.</p>
-<p>You pick the private key, which is a number in between 0 and 1461501637330902918203684832716283019655932542976.</p>
-<p>Go ahead, just pick one. Don&#39;t tell anyone! There, that&#39;s your private key. That number gives you access to all the funds in that account.</p>
-<p>If you happened to pick one that someone else is using, you now have access to all of their funds. If someone else happens to pick the one that you just picked, now they have access to all of your funds. That&#39;s why it&#39;s important that the one you picked is really really random and that you never let anyone see it.</p>
-<p>It&#39;s that simple. Pick a number, that&#39;s your account. Cross your fingers that nobody else picks it!</p>
-<p>The mind blowing part is that this is actually secure. That number up there is so large that if you truly did a good job picking your number randomly, then the odds that anyone else picks it is infintesimal. (1/that number).</p>
-<p>Don&#39;t believe me? Go ahead, there are billions of dollars worth of value in the blockchain. You should set up a computer program to generate tons of these numbers and check each one to see whether they have any money in them. It&#39;s all yours if you can find one!</p>
-<p>Disclaimer: NEVER actually pick your private key out of your own brain. It turns out humans are really bad at picking random numbers, even when we think we&#39;re good at it. Use a secure random number generator like the one in MEW or Ledger or Trezor.</p>
-<hr>
-<p>Because there are 2160 possible bitcoin addresses exist.</p>
-<p>That&#39;s 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.</p>
-<p>The wallet can generate a private key - public address pair randomly for you without having to tell the network which one you&#39;ll be using because there are so many possibilities that you can just pick one. And once someone sends funds to your address the network (wallet) simply just checks if the format of your address is acceptable or not.</p>
-<p>It is theoretically possible to generate an address that&#39;s already being used but the chances of that happening is just unimaginable.</p>
-<p>There are approximately 7.5 x 1018 grains of sand on Earth.</p>
-<p>That&#39;s</p>
-<p>7500000000000000000</p>
-<p>compared to</p>
-<p>1461501637330902918203684832716283019655932542976</p>
-<p>That number is so unfathomably big that even if you were to generate one address for each grain of sand on Earth every second, and do it for as long as old the galaxy is ~13.21 billion years, you&#39;d still be nowhere near likely to have found even a single duplicate.</p>
-<p>But what makes it impossible to find and bruteforce any specific address is that it would costs more energy than the Sun has.</p>
-<hr>
-<p>Here is a bit of helpful perspective on that number: the estimated age of the universe is about 4.32 x 1017 seconds. The number of possible addresses is on the order of 1049 .</p>
-<p>In order to use up half of the possible addresses in 4.32 x 1017 seconds, you would need to make approx 1.6 x 1031 addresses per second. That&#39;s 16 nonillion addresses. Per second. For the entire life of the universe so far. That&#39;s to use up half of the addresses.</p>
-<p>Even if the blockchain is in active, vigorous use for the next ten thousand years, the chances of a duplicate private key are stochastically zero.</p>
-<hr>
-<h3 id="related">Related</h3>
-<ul>
-<li><a href="https://myetherwallet.github.io/knowledge-base/couldnt-everybody-put-in-random-private-keys-look-for-a-balance-and-send-to-their-own-address">Couldn&#39;t everybody put in random private keys, look for a balance, and send to their own address?</a></li>
-</ul>
-<h3 id="sources">Sources</h3>
-<ul>
-<li><p><a href="https://www.reddit.com/r/ethereum/comments/6fr2lx/updated_its_time_to_get_real_stop_relying_on/diki8iz/">adapted from this reddit thread</a></p>
-</li>
-<li><p><a href="http://decypher.tv/series/ethereum-development/video/2">a video about keys</a></p>
-</li>
-</ul>
+<p>No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka &quot;send&quot;). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an &quot;Offline Transaction&quot; page so that you can ensure your private keys are on an offline/airgapped computer at all times.</p>
 
       </article>
 

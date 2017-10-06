@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>MyEtherWallet Support</title>
-<meta name="description" content="Sending ETH &amp; Tokens">
+<meta name="description" content="Gas &amp; Transaction Fees">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
@@ -60,30 +60,37 @@
       <nav class="breadcrumbs">
         <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
         ›
-        <!-- <a class="breadcrumbs__category" href="../sending/"> -->
-        Sending ETH &amp; Tokens
+        <!-- <a class="breadcrumbs__category" href="../gas/"> -->
+        Gas &amp; Transaction Fees
         <!-- </a> -->
         ›
-        <span class="breadcrumbs__category">Sending ETH</span>
+        <span class="breadcrumbs__category">Error: Cannot send due to Insufficient funds</span>
       </nav>
 
       <article class="block block__content clearfix">
-          <h1 class="page__title">Sending ETH</h1>
-          </p>
-<p>If you plan to move a large amount of ether, you should test sending a small amount to your wallet first to ensure everything goes as planned.</p>
-<ol>
-<li>Navigate to the &quot;Send Ether &amp; Tokens&quot; page.</li>
-<li>Select your wallet file -or- your private key and unlock your wallet.</li>
-<li>If the wallet is encrypted, a text box will automatically appear. Enter the password.</li>
-<li>Click the &quot;Unlock Wallet&quot; button.</li>
-<li>Enter the address you would like to send to in the &quot;To Address:&quot; field.</li>
-<li>Enter the amount you would like to send. You can also click the &quot;Send Entire Balance&quot; link if you would like the transfer the entire balance.</li>
-<li>Click &quot;Generate Transaction&quot;.</li>
-<li>A couple more fields will appear. This is your browser generating the transaction.</li>
-<li>Click the blue &quot;Send Transaction&quot; button below that.</li>
-<li>A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click &quot;Yes, I am sure! Make transaction.&quot; button.</li>
-<li>The transaction will be submitted. The TX ID will display. You can click that TX ID to see it on the blockchain.</li>
-</ol>
+          <h1 class="page__title">Error: Cannot send due to Insufficient funds</h1>
+          
+If you are getting the error, <code>&quot;Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX&quot;</code>, it means you do not have enough <strong>ETH</strong> in your account to cover the cost of gas.</p>
+<p>Each transaction (including token and contract transactions) require gas and that gas is paid in ETH. You can think of this like a transaction fee.</p>
+<h3 id="solution-send-0-01-eth-to-that-account-in-order-to-be-able-to-make-the-transaction-">Solution: Send 0.01 ETH to that account in order to be able to make the transaction.</h3>
+<p>A standard TX will be <code>21000</code> gas &amp; a gas price of <code>0.00000002 ETH</code> so the total TX fee will be <code>0.00042 ETH</code>. With tokens, the amount of gas is typically <code>z50000 gas - 100000 gas</code>, so the total TX fee increases to <code>0.001 ETH - 0.002 ETH</code>.</p>
+<p>The number displayed in that error message is the amount required to cover the cost of the transaction in Wei. Take that number, divide by <code>1000000000000000000</code>. This will give you the amount of Ether you need to send to that account to make the transaction.</p>
+<h3 id="more-information-about-gas">More Information About Gas</h3>
+<ul>
+<li>A standard TX will be 21000 gas &amp; a gas price of 0.00000002 ETH so the total TX fee will be 0.00042 Ether.</li>
+<li>With tokens, the amount of gas is typically 50000 gas - 100000 gas, so the total TX fee increases to 0.001 ETH - 0.002 ETH.</li>
+<li>The amount of ETH or tokens you are sending <span>does not</span> affect the amount of gas you need.</li>
+<li><em>GAS LIMIT</em> is the maximum amount of GAS you will send with your transaction. This is in units of GAS.</li>
+<li><em>GAS PRICE</em>, which you will not see except on the Offline page, is how much each unit of gas costs. We set it at 0.00000002 ETH.</li>
+</ul>
+<h3 id="related-reading">Related Reading</h3>
+<ul>
+<li><a href="https://myetherwallet.github.io/knowledge-base/what-is-gas">What is Gas?</a></li>
+<li><a href="https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum">What is gas (StackExchange)</a></li>
+<li><a href="https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/">What is gas? (CryptoCompare)</a></li>
+<li><a href="https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/">Can someone explain gas to me?</a></li>
+<li><a href="https://www.reddit.com/r/ethereum/comments/3fnpr1/can_someone_possibly_explain_the_concept_of/">I don&#39;t understand the concept of gas.</a></li>
+</ul>
 
       </article>
 

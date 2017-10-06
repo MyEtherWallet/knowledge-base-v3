@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>MyEtherWallet Support</title>
-<meta name="description" content="Sending ETH &amp; Tokens">
+<meta name="description" content="Security &amp; Phishing">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
@@ -60,29 +60,53 @@
       <nav class="breadcrumbs">
         <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
         ›
-        <!-- <a class="breadcrumbs__category" href="../sending/"> -->
-        Sending ETH &amp; Tokens
+        <!-- <a class="breadcrumbs__category" href="../security/"> -->
+        Security &amp; Phishing
         <!-- </a> -->
         ›
-        <span class="breadcrumbs__category">What to do if you sent to the wrong address</span>
+        <span class="breadcrumbs__category">How to restore access to your accounts if you lose/destroy your device w/ Google Authenticator (2FA)</span>
       </nav>
 
       <article class="block block__content clearfix">
-          <h1 class="page__title">What to do if you sent to the wrong address</h1>
+          <h1 class="page__title">How to restore access to your accounts if you lose/destroy your device w/ Google Authenticator (2FA)</h1>
           </p>
-<p>I’m really sorry but MyEtherWallet is not a &quot;web wallet&quot;. You do not create an account or give us your ETH or tokens to hold onto. We are simply an interface that allows you to easily interact with the Ethereum blockchain.</p>
-<p><strong>In order to ensure your security &amp; privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet. We only have access to the information that is publicly available on the blockchain.</strong></p>
-<h5 id="unfortunately-this-means-we-cannot-">Unfortunately, this means we cannot:</h5>
+<p><em>This is part of a series where Taylor pull&#39;s sweet comments she&#39;s made in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts. These are first drafts. Please excuse the typos, unclear statements, specific references to previous discussions, and gratuitous cursing.</em></p>
+<hr>
+<p>My phone got stuck in bootloop a ways back so I am intimately familiar with this situation.</p>
+<p>The easiest way is:</p>
+<h1 id="save-your-backup-codes-">SAVE YOUR BACKUP CODES!</h1>
+<p>When you created your 2FA sign on with most sites, including Google, they provided you with <code>backup codes</code>. These are typically 10 codes made up of random character sequences like <code>we44 k29d lw0d jwld nels 39ik</code> and so forth. Each of of these can be used once in case you do not have access to authenticator.</p>
+<p>Store these like you do a private key. Do not save them to your computer or dropbox. Do not send them. Do not post them on reddit. Write them down or print them out and store in 2 physically different locations.</p>
+<p>The other option, which is actually way easier especially since my phone dies from constantly getting notifications, is to <strong>set up your 2FA on two devices whenever you enable 2FA or create a new account</strong>. Perhaps you can make use of that old, rooted, Amazon Kindle or iPhone 5. Factory reset &amp; ensure it&#39;s not able to connect to the WiFi &amp; turn on airplane mode.</p>
+<p>You can also <strong>print out the QR code itself</strong> that you use to add to Google Authenticator originally so that if you ever need to re-set up 2FA, you can do so. If you don&#39;t have a printer, you can typically click the &quot;show code&quot; or &quot;can&#39;t read the qr code?&quot; or something and get a text version that you can then write down. Protip: make sure you label what this QR code or text code is (e.g. &quot;2FA for Poloniex&quot;).</p>
+<h3 id="how-to-be-secure-while-being-able-to-recover-your-2fa">How to be Secure while being able to recover your 2FA</h3>
 <ul>
-<li>Reverse or cancel transactions</li>
-<li>Access you account</li>
-<li>Recover your account</li>
-<li>Send your ETH or Tokens from one address to another</li>
-<li>Recover your private key</li>
-<li>Recover or reset your password</li>
+<li><p>Do NOT ever store your username, password, and 2FA phrase / QR code / recovery codes in the same location. This includes your password manager. Write that shit down or print it. Keep it separate. If they are together, it&#39;s not 2FA.</p>
+</li>
+<li><p>Whenever you hand write something, best if you handwrite it twice in case you mix something up or accidentally write so messily you can&#39;t read it anymore. Always write it down, set up Google Authenticator from the key you <em>wrote down</em> (not the one on the screen), and then verify via the code that displays on your phone.</p>
+</li>
 </ul>
-<p>If the account belongs to someone or an exchange, you should attempt to reach out to them to find out if you can recover your ETH. You can see if it is an account in use by searching it on etherscan.io and seeing if there are any other transactions to or from the account.</p>
-<p>Again, I’m really sorry.</p>
+<h3 id="that-said-most-2fa-is-surprisingly-insecure-bc-usability-">That said: most 2FA is surprisingly insecure bc usability.</h3>
+<p>It isn&#39;t inherently insecure, but it was surprisingly easy to regain access to all my accounts even though I had minimal backup codes stored in a multitude of locations over a few years.</p>
+<ol>
+<li><p>Are you logged into Google on another device? Can you add a recovery phone number, email address, or turn off 2FA without needing to log in again?</p>
+</li>
+<li><p>Do you already have a backup phone number or email address set up? Chances are you do because Google incessantly bugs you to set it up. If so, you can easily bypass 2FA. (Note: this <strong>is</strong> inherently insecure. For the best security you do NOT want to have a backup email or phone number. If you don&#39;t understand why, try to regain access to your Google account right now without 2FA. Can you do it? Now, if you get that recovery email or text, don&#39;t use it yet. Instead, go through the process again, this time saying you don&#39;t have access to 2FA, email, or phone. Holy shit, what is that? A fucking security question about your first car which you&#39;ve posted about 1000 times on Facebook &amp; Twitter and wrote your college essay on?! Nice. Get your backup codes. Remove your other recovery options. Now.)</p>
+</li>
+<li><p>Do you have the recovery codes somewhere on your computer? Google (and others) really make it hard for you to blatantly disregard their instructions. It basically says &quot;SAVE THIS SHIT NOW, BRO&quot;. Chances are, even if you didn&#39;t remember doing it, there is a text document or screenshot somewhere with this necessary information.</p>
+</li>
+<li><p>Do you have an old phone that you had Google Authenticator on with some access?</p>
+</li>
+</ol>
+<p>For non-Google accounts, it&#39;s pretty easy to restore access in one way or another, either via the above methods or going through the process of bypassing 2FA with your email account. A pain, but not impossible.</p>
+<p>You can also break out that old computer and see if you are still logged in anywhere and can disable it. Or see if there are other access methods, like SSHing in or oauth where you can set up a new account via a Facebook or Twitter account that uses the same email address as the account you already have and see if you can sneak in that way.</p>
+<p>There are a few that you will not be able to get into. In those cases, you will need to reach out to the service itself and see what you would need to provide in order to get them to turn of 2FA for you or otherwise bypass.</p>
+<p>I would actually strongly encourage everyone to have a beer, turn off your phone, and see what accounts you can get into without your 2FA codes. If you can get it, you need to adjust your settings to be more secure <strong>AFTER you actually have viable, secure, offline backups of the recovery codes.</strong></p>
+<hr>
+<h3 id="source">Source</h3>
+<ul>
+<li><a href="https://www.reddit.com/r/ethtrader/comments/6vwk7p/what_happens_if_you_lose_your_phone_with_google/">https://www.reddit.com/r/ethtrader/comments/6vwk7p/what_happens_if_you_lose_your_phone_with_google/</a></li>
+</ul>
 
       </article>
 
