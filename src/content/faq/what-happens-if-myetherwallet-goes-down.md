@@ -14,4 +14,4 @@ If MyEtherWallet.com goes down, you would have to find another way (like geth or
 
 You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily.
 
-You can also run [MyEtherWallet locally](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-run-myetherwallet-dot-com-offline-slash-locally) and/or [connect it to your own node](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-connect-to-a-custom-node).
+You can also run [MyEtherWallet locally](https://myetherwallet.github.io/knowledge-base/how-do-i-run-myetherwallet-dot-com-offline-slash-locally) and/or [connect it to your own node](https://myetherwallet.github.io/knowledge-base/how-can-i-connect-to-a-custom-node).

@@ -14,9 +14,9 @@ Unfortunately, once a transaction is on the blockchain, it's final. We do what
 
 ### In order to prevent this from happening in the future please:
 
-0. [Read: Protecting yourself and your funds](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
+0. [Read: Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)
 1.  Bookmark [https://www.myetherwallet.com/](https://www.myetherwallet.com/)  and only access the site via your own bookmark.
-3. Get a [Ledger or Trezor](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends) -or- create a [new, secure wallet](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-create-a-new-wallet) & back it up offline.
+3. Get a [Ledger or Trezor](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends) -or- create a [new, secure wallet](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet) & back it up offline.
 4.  Move all funds from all accounts you have to this new, secure account as soon as possible.
 
 ### In order to help us determine how this happened:

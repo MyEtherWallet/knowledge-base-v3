@@ -17,4 +17,4 @@
 *  `/home/you/.local/share/io.parity.ethereum`
 
 
-### [How to get your keystore fille](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-import-a-wallet-created-with-myetherwallet-into-geth-slash-ethereum-wallet-slash-mist)
+### [How to get your keystore fille](https://myetherwallet.github.io/knowledge-base/how-do-i-import-a-wallet-created-with-myetherwallet-into-geth-slash-ethereum-wallet-slash-mist)

@@ -24,13 +24,13 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 ### Still with me? Good! Let's dive deeper!
 
-- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-the-difference-between-an-exchange-eg-coinbase-kraken-gemini-poloniex-bittrex-and-myetherwallet)
+- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.github.io/knowledge-base/what-is-the-difference-between-an-exchange-eg-coinbase-kraken-gemini-poloniex-bittrex-and-myetherwallet)
 
-- [Learn how to protect your funds!](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
+- [Learn how to protect your funds!](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)
 
-- [10 Tips for Noobs](https://myetherwallet.groovehq.com/knowledge_base/topics/getting-back-to-the-basics-10-tips-for-newbies) & [Words are Hard](https://myetherwallet.groovehq.com/knowledge_base/topics/words-are-hard-defining-common-terms-in-the-ethereum-slash-crypto-space) are both great intros.
+- [10 Tips for Noobs](https://myetherwallet.github.io/knowledge-base/getting-back-to-the-basics-10-tips-for-newbies) & [Words are Hard](https://myetherwallet.github.io/knowledge-base/words-are-hard-defining-common-terms-in-the-ethereum-slash-crypto-space) are both great intros.
 
-- [And even more links to awesome things just because](https://myetherwallet.groovehq.com/knowledge_base/topics/resources-for-diving-deeper)
+- [And even more links to awesome things just because](https://myetherwallet.github.io/knowledge-base/resources-for-diving-deeper)
 
 
 
@@ -71,7 +71,7 @@ Then create a Ethereum Wallet account and back it up. In Circle or Coinbase, sen
 
 ### Alternative steps 6-8:
 
-Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
+Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.github.io/knowledge-base/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
 ).
 
 
@@ -90,13 +90,13 @@ Mist is highly recommended but some people have issues installing & syncing it. 
 
 I have outlined the steps above like you should do it all as fast as possible. Stop. Breath. There is no rush. Take your time moving your funds from an exchange to your own wallet. Test with a small amount first. Get the feel for things and make mistakes with *small amounts* rather than all your money! If you skipped them earlier or didn't understand them, take the time to re-read it now.
 
-- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-the-difference-between-an-exchange-eg-coinbase-kraken-gemini-poloniex-bittrex-and-myetherwallet)
+- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.github.io/knowledge-base/what-is-the-difference-between-an-exchange-eg-coinbase-kraken-gemini-poloniex-bittrex-and-myetherwallet)
 
-- [Learn how to protect your funds!](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
+- [Learn how to protect your funds!](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)
 
-- [10 Tips for Noobs](https://myetherwallet.groovehq.com/knowledge_base/topics/getting-back-to-the-basics-10-tips-for-newbies) & [Words are Hard](https://myetherwallet.groovehq.com/knowledge_base/topics/words-are-hard-defining-common-terms-in-the-ethereum-slash-crypto-space) are both great intros.
+- [10 Tips for Noobs](https://myetherwallet.github.io/knowledge-base/getting-back-to-the-basics-10-tips-for-newbies) & [Words are Hard](https://myetherwallet.github.io/knowledge-base/words-are-hard-defining-common-terms-in-the-ethereum-slash-crypto-space) are both great intros.
 
-- [And even more links to awesome things just because](https://myetherwallet.groovehq.com/knowledge_base/topics/resources-for-diving-deeper)
+- [And even more links to awesome things just because](https://myetherwallet.github.io/knowledge-base/resources-for-diving-deeper)
 
 
 

@@ -18,7 +18,7 @@ In order to see your ETC and interact with the ETC chain, you must first be on a
 
 2. Unlock your wallet to send ETC, or otherwise interact with the ETC chain.
 
-3. You can see your ETC balance by clicking the "View Wallet Info" page in the navigation and selected -> "View with Address Only". You can also [check your balance](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-check-the-balance-of-my-account) on a blockchain explorer.
+3. You can see your ETC balance by clicking the "View Wallet Info" page in the navigation and selected -> "View with Address Only". You can also [check your balance](https://myetherwallet.github.io/knowledge-base/how-do-i-check-the-balance-of-my-account) on a blockchain explorer.
 
 In order to switch back to ETH, simply change the node back to an ETH node in the upper right.
 

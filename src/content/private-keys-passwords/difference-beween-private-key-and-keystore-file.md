@@ -36,7 +36,7 @@ However, for additional functionality (like protecting it with a password) there
     *   MyEtherWallet does not currently derive mnemonic phrases, but may in the future.
 
 ### Ledger or TREZOR Hardware Wallets
-    *   [Learn More Here](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends)
+    *   [Learn More Here](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends)
 
 ### JSON File (unencrypted) -- deprecated
     *   This is the unencrypted, JSON format of your private key. 
@@ -44,4 +44,4 @@ However, for additional functionality (like protecting it with a password) there
     *   This means you do not need the password but anyone who finds your JSON can access your wallet & Ether without the password.
 
 ### Parity Phrase -- deprecated
-    *   [Learn More Here](https://myetherwallet.groovehq.com/knowledge_base/topics/parity-phrases-no-longer-supported)
+    *   [Learn More Here](https://myetherwallet.github.io/knowledge-base/parity-phrases-no-longer-supported)

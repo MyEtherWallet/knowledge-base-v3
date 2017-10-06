@@ -28,11 +28,11 @@
 
 This is too much for one post so help spread the word: Private keys are *private*. Use hardware wallets. Use cold storage. Go offline. Check URLs.
 
-*   [Creating a wallet offline is the shit](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet)
+*   [Creating a wallet offline is the shit](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet)
 
-*   [Getting a](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-create-a-new-wallet) [Ledger or Trezor Hardware Wallet](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends) is even better.
+*   [Getting a](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet) [Ledger or Trezor Hardware Wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends) is even better.
 
-*   [You can sign transactions offline so your key never touches a phishing site!](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-make-an-offline-transaction)
+*   [You can sign transactions offline so your key never touches a phishing site!](https://myetherwallet.github.io/knowledge-base/how-do-i-make-an-offline-transaction)
 
 - Install EAL to block malicious / phishing sites: [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 
@@ -46,9 +46,9 @@ This is too much for one post so help spread the word: Private keys are *private
 
 *   Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 
-*   Guide on [How to Prevent Loss & Theft](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds).
+*   Guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds).
 
-*   [Protips: How not to get scammed](https://myetherwallet.groovehq.com/knowledge_base/topics/pro-tips-how-not-to-get-scammed-during-a-token-sale) *(needs cleanup and to be more generic)*
+*   [Protips: How not to get scammed](https://myetherwallet.github.io/knowledge-base/pro-tips-how-not-to-get-scammed-during-a-token-sale) *(needs cleanup and to be more generic)*
 
 
 ### 3. Report the absolute living daylights out of the malicious URLs
@@ -120,7 +120,7 @@ This is too much for one post so help spread the word: Private keys are *private
 
 - **Other References:**
 
-    - [https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash)
+    - [https://myetherwallet.github.io/knowledge-base/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash](https://myetherwallet.github.io/knowledge-base/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash)
 
     - [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn (Anti-Phishing CX)](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn (Anti-Phishing CX))
 

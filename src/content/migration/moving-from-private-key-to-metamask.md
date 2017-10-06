@@ -30,6 +30,6 @@
 5. You should now be shown a menu with your account, balance, and transaction history. To transfer your funds from your old account to your newly setup MetaMask wallet, head to MyEtherWallet.
 6. Unlock your account with your mnemonic or private key, and you will be greeted by the familiar send ether & tokens menu. To find out the address of your MetaMask wallet, you can press the three dots in the menu (...) and click `Copy Address to clipboard`. 7. Paste the address in MyEtherWallet, and transfer all tokens & ether to your MetaMask address (ctrl + v to paste).
 
-    To read more about transferring funds, click [here](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
+    To read more about transferring funds, click [here](https://myetherwallet.github.io/knowledge-base/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
 
 

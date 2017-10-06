@@ -165,7 +165,7 @@ var Category = {
 }
 
 gulp.task('generate_page_array', function() {
-  return gulp.src(content_srcFolder + '*/*.md')
+  return gulp.src(content_srcFolder + '**/*.md')
     .pipe(tap(function(file) {
     var name = path.basename(file.path, ".md");
     var contents = file.contents.toString();
@@ -173,11 +173,13 @@ gulp.task('generate_page_array', function() {
     if (index !== -1) {
       var data = JSON.parse(contents.slice(0, index));
           data.url = file.relative.replace(".md", ".html");
-          data.slug = file.relative.replace(".md", "");
+          data.slug = data.url.replace(".html", "");
       var category = data.category;
           data.catSlug = Category[category]['slug'];
           data.catSort = Category[category]['sort'];
-          data.slug = file.relative.replace(category+"/", "");
+          data.email = 'support@myetherwallet.com';
+          data.base_url = 'https://myetherwallet.github.io/knowledge-base/';
+          data.slug = data.slug.replace(category+"/", "");
       Data.pages[name] = data;
       contents = contents.slice(index+4, contents.length);
       file.contents = new Buffer(contents, "utf-8");
@@ -189,12 +191,10 @@ gulp.task('templates', ['generate_page_array'], function() {
   return gulp.src(layouts_srcFolder + 'single.hbs')
     .pipe(tap(function(file) {
       var template = Handlebars.compile(file.contents.toString());
-      return gulp.src(content_srcFolder + '*/*.md')
+      return gulp.src(content_srcFolder + '**/*.md')
         .pipe(markdown())
         .pipe(tap(function(file) {
           var name = path.basename(file.path, ".html");
-          console.log(name)
-
           var data = Data.pages[name]
               data.contents = file.contents.toString();
           var contents = data.contents;
@@ -226,16 +226,16 @@ gulp.task('homepage', ['generate_page_array'], function() {
     .pipe(gulp.dest( dest_folder ));
 });
 
-gulp.task('watchJS',      function() { gulp.watch(scripts_srcFolder + '**/*.js' , ['scripts'] ) })
+gulp.task('watchJS',       function() { gulp.watch(scripts_srcFolder + '**/*.js' , ['scripts']  )             })
 
-gulp.task('watchSTYLES',  function() { gulp.watch(style_srcFolder + '**/*.less' , ['styles']  ) })
+gulp.task('watchSTYLES',   function() { gulp.watch(style_srcFolder + '**/*.less' , ['styles']   )             })
 
-gulp.task('watchCONTENT',  function() { gulp.watch(content_srcFolder + '**/*.md' , ['templates']  ) })
+gulp.task('watchCONTENT',  function() { gulp.watch(content_srcFolder + '**/*.md' , ['templates'])             })
 
-gulp.task('watchTEMPLATE',  function() { gulp.watch(content_srcFolder + '**/*.hbs' , ['templates', 'homepage']  ) })
+gulp.task('watchTEMPLATE', function() { gulp.watch(content_srcFolder + '**/*.hbs', ['templates', 'homepage']) })
 
 gulp.task('watch', ['watchJS', 'watchSTYLES', 'watchCONTENT', 'watchTEMPLATE'])
 
-gulp.task('build', ['scripts', 'styles', 'templates', 'homepage']);
+gulp.task('build', ['scripts', 'styles', 'homepage', 'templates']);
 
 gulp.task('default', ['build', 'watch']);

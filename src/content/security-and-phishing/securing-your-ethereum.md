@@ -17,7 +17,7 @@ One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and ma
 *   [Buy a Ledger Nano S](https://www.ledgerwallet.com/r/fa4b?path=/products/)
 *   [Buy a TREZOR](https://trezor.io/?a=myetherwallet.com)
 
-If you don't want one of these nifty devices, use [cold storage](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet) for a majority of your savings. Please. Pretty please.
+If you don't want one of these nifty devices, use [cold storage](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet) for a majority of your savings. Please. Pretty please.
 
 ### 2. Bookmark your crypto sites.
 *  Use those bookmarks and only those.
@@ -25,7 +25,7 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 
 ### 3. Install [the EAL Chrome Extension](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or the [MetaMask Chrome Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) to warn you if you go to a crypto-phishing link.
 
-### 4. [Use MEW Locally / Offline](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet).
+### 4. [Use MEW Locally / Offline](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet).
 
 ### 5. Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 *  Don’t click any link regarding anything crypto, money, banking, or a service like Dropbox / Google Drive / Gmail in any email ever.
@@ -91,6 +91,6 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 
 ##### Internal Use
 
-We highly recommend that you read our guide on [How to Prevent Loss & Theft](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds) for some recommendations on how to be proactive about your security.
+We highly recommend that you read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds) for some recommendations on how to be proactive about your security.
 
-We highly recommend that you read our guide on How to Prevent Loss & Theft for some recommendations on how to be proactive about your security: https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds
+We highly recommend that you read our guide on How to Prevent Loss & Theft for some recommendations on how to be proactive about your security: https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds

@@ -10,7 +10,7 @@
 
 ### Preface
 
-The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends).
+The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends).
 
 To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
 
@@ -68,6 +68,6 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 ### Related Reading
 
-* [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.groovehq.com/knowledge_base/topics/what-are-the-different-formats-of-a-private-key)
+* [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.github.io/knowledge-base/what-are-the-different-formats-of-a-private-key)
 
-* [Protecting yourself and your funds](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
+* [Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)

@@ -28,7 +28,7 @@ We are always trying to improve how we estimate gas as contracts become more com
 
 ### Related
 
-*   [What is Gas?](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas)
+*   [What is Gas?](https://myetherwallet.github.io/knowledge-base/what-is-gas)
 *   [What is gas (StackExchange)](https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum)
 *   [What is gas? (CryptoCompare)](https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/)
 *   [Can someone explain gas to me?](https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/)

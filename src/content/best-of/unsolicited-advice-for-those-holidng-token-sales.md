@@ -36,7 +36,7 @@
 
 11. Encourage users to get a hardware wallet or run MEW offline or run a full node.
 
-12. Get your token on MEW & provide custom message when users enter your address: https://myetherwallet.groovehq.com/knowledge_base/topics/i-just-created-a-new-token-can-you-add-it-to-mew
+12. Get your token on MEW & provide custom message when users enter your address: https://myetherwallet.github.io/knowledge-base/i-just-created-a-new-token-can-you-add-it-to-mew
 
 You are free to use, modify, or shamelessely steal any information in our knowledge base. A shoutout is nice, but not required. Take advantage of this. https://myetherwallet.groovehq.com/help_center
 
@@ -71,13 +71,13 @@ You are free to use, modify, or shamelessely steal any information in our knowle
 
 - Encourage people to install [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) (uses above to block malicious sites)
 
-- Encourage people to be secure: [https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds](https://myetherwallet.groovehq.com/knowledge_base/topics/protecting-yourself-and-your-funds)
+- Encourage people to be secure: [https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)
 
 - Look over how 0x did things to prevent scams. Philippe is like the best ever, touch base with him for the code for Slack if you need it (blacklists and auto-deletes malicious messages). [https://blog.0xproject.com/a-note-on-scams-and-phishing-attempts-e2d72577a470](https://blog.0xproject.com/a-note-on-scams-and-phishing-attempts-e2d72577a470)
 
 - MetaCert also provides similar functionality. Paul (Founder) is on Twitter and loves helping ICO's protect their investors. Get in touch with him.
 
-- Starter template on  what to tell people who get phished: [https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash](https://myetherwallet.groovehq.com/knowledge_base/topics/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash)
+- Starter template on  what to tell people who get phished: [https://myetherwallet.github.io/knowledge-base/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash](https://myetherwallet.github.io/knowledge-base/hacks-thefts-and-stolen-funds-due-to-phishing-links-between-7-slash-5-slash-2017-slackbot-scambot-phishing-slash-reddit-dm-slash)
 
 ![](https://s3.amazonaws.com/groovehq/uploaded/5ad1awvinnwksqtyd3hmisnz7fp3pfd7ju23jyi4y6ccuir79f?1505121643)
 

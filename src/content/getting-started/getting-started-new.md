@@ -14,15 +14,15 @@ MyEtherWallet gives you the ability to generate new wallets so you can store you
 
 In order to get started:
 
-1. [Create a new wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-create-a-new-wallet)
+1. [Create a new wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet)
 
-2. [Back up the wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-save-slash-backup-my-wallet)
+2. [Back up the wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-save-slash-backup-my-wallet)
 
-3. [Verify you have access to this new wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-verify-i-have-access-to-my-new-wallet)
+3. [Verify you have access to this new wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-verify-i-have-access-to-my-new-wallet)
 
-4. [Transfer ETH / Tokens to this new wallet.](https://myetherwallet.groovehq.com/knowledge_base/topics/where-can-i-buy-or-sell-my-eth-or-tokens)
+4. [Transfer ETH / Tokens to this new wallet.](https://myetherwallet.github.io/knowledge-base/where-can-i-buy-or-sell-my-eth-or-tokens)
 
-5. [Check your Balance](https://myetherwallet.groovehq.com/knowledge_base/topics/how-do-i-check-the-balance-of-my-account)
+5. [Check your Balance](https://myetherwallet.github.io/knowledge-base/how-do-i-check-the-balance-of-my-account)
 
 ---
 

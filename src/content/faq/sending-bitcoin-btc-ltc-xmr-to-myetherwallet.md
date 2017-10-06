@@ -16,14 +16,14 @@ You can use [Bity.com](https://bity.com/) or [Shapeshift.io](http://shapeshift.i
 
 We recommend [Exodus.io](https://www.exodus.io/) as a client-side, mutli-coin solution.
 
-Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
+Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.github.io/knowledge-base/how-to-see-a-new-token-in-myetherwallet)
 
 
 ### Related Reading
 
-- [How can I add a non-default token to MEW?](https://myetherwallet.groovehq.com/knowledge_base/topics/how-to-see-a-new-token-in-myetherwallet)
+- [How can I add a non-default token to MEW?](https://myetherwallet.github.io/knowledge-base/how-to-see-a-new-token-in-myetherwallet)
 
-- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.groovehq.com/knowledge_base/topics/i-just-created-a-new-token-can-you-add-it-to-mew)
+- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/i-just-created-a-new-token-can-you-add-it-to-mew)
 
 
 ### Default Tokens

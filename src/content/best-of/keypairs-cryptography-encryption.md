@@ -39,7 +39,7 @@ The blockchain simply checks if the transaction you want to send (e.g. `1 ETH` t
 
 I could sign a transaction saying `0x92fbC3.....` wants to send `1 ETH` to `0x2a9F48....` with any key I wanted to. I could just make it up off the top of my head. But it would fail check #2, and therefore never be accepted into the blockchain, and therefore the funds (which are your funds) would never move.
 
-The only way to move funds is to send those funds with a transaction signed by the private key that corresponds to the address you are sending from. And the amount of private keys available is so insanely large that it would take a fuckload of years to ever be able to guess someone else's private key. It's quite simple. ([More on that here if you are interested](https://myetherwallet.groovehq.com/knowledge_base/topics/couldnt-everybody-put-in-random-private-keys-look-for-a-balance-and-send-to-their-own-address))
+The only way to move funds is to send those funds with a transaction signed by the private key that corresponds to the address you are sending from. And the amount of private keys available is so insanely large that it would take a fuckload of years to ever be able to guess someone else's private key. It's quite simple. ([More on that here if you are interested](https://myetherwallet.github.io/knowledge-base/couldnt-everybody-put-in-random-private-keys-look-for-a-balance-and-send-to-their-own-address))
 
 
 
