@@ -9,7 +9,7 @@
 
 
 
-### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://myetherwallet.github.io/knowledge-base/how-do-i-send-tokens-and-add-custom-tokens)
+### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
 
 ### 1. If you have a token that other people also have, or will have in the coming days, you can add it to our site. You will need:
 

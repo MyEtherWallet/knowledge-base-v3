@@ -21,9 +21,9 @@ Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). 
 
 ### Related Reading
 
-- [How can I add a non-default token to MEW?](https://myetherwallet.github.io/knowledge-base/how-to-see-a-new-token-in-myetherwallet)
+- [How can I add a non-default token to MEW?](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
 
-- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/i-just-created-a-new-token-can-you-add-it-to-mew)
+- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html)
 
 
 ### Default Tokens

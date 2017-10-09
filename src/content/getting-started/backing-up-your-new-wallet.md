@@ -52,6 +52,6 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 * [Video!](https://www.youtube.com/watch?v=phht73IvUDI&feature=youtu.be&a)
 
-* [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.github.io/knowledge-base/what-are-the-different-formats-of-a-private-key)
+* [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html)
 
-* [Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)
+* [Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html)

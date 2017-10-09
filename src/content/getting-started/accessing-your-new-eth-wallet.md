@@ -38,13 +38,13 @@ For this reason, it is very, very important to keep your private key a secret an
 
 ### Related Reading
 
-- Backing up your wallet
+- [Backing up your wallet](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 
 - Sending ETH & Tokens
 
-- Protecting Yourself and Your Funds
+- [Protecting Yourself and Your Funds](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
 
-- Difference between an exchange and MyEtherWallet
+- [Difference between an exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/getting-started/what-is-the-difference-between-an-exchange-and-myetherwallet.html)
 
 
 
