@@ -16,7 +16,7 @@ You can use [Bity.com](https://bity.com/) or [Shapeshift.io](http://shapeshift.i
 
 We recommend [Exodus.io](https://www.exodus.io/) as a client-side, mutli-coin solution.
 
-Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.github.io/knowledge-base/how-to-see-a-new-token-in-myetherwallet)
+Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html)
 
 
 ### Related Reading
