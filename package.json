@@ -27,7 +27,9 @@
     "gulp-shell": "*",
     "gulp-tap": "^1.0.1",
     "gulp-uglify": "*",
+    "gulp-webserver": "^0.9.1",
     "handlebars": "^4.0.10",
+    "just-handlebars-helpers": "^1.0.13",
     "run-sequence": "*",
     "underscore": "^1.8.3"
   }
