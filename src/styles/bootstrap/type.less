@@ -5,7 +5,8 @@ h1, h2, h3, h4, h5, h6,
   line-height: @headings-line-height;
   color: @headings-color;
   letter-spacing: .02em;
-
+  margin-top: 1em;
+  margin-bottom: .5em;
   small,
   .small {
     font-weight: normal;
@@ -17,8 +18,6 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: @space;
-  margin-bottom: @space-sm;
   color: #383838;
   small,.small {
     font-size: 65%;
@@ -28,8 +27,6 @@ h3, .h3 {
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: @space;
-  margin-bottom: @space-sm;
   small, .small {
     font-size: 75%;
   }
@@ -43,7 +40,7 @@ h5, .h5 { font-size: @font-size-h5; font-weight: 400; }
 h6, .h6 { font-size: @font-size-h6; font-weight: 400; }
 
 p {
-  margin: 0 0 1em;
+  margin: .5em 0;
   font-weight: 400;
   strong, .strong, &.strong {
     font-weight: 500;
@@ -175,7 +172,8 @@ ul ul {
 }
 
 li {
-  margin-bottom: .5em;
+  margin-top: .4em;
+  margin-bottom: .4em;
   strong {
     font-weight: 500;
   }

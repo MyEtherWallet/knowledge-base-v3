@@ -120,7 +120,8 @@ gulp.task('gen_categories_array', function() {
       "slug"  : slug,
       "sort"  : sort
     }
-    console.log( 'Data.categories[slug]' + Data.categories[slug] )
+    console.log( 'Data.categories[slug]          - gen_categories_array:')
+    console.log ( Data.categories[slug] )
     return gulp.src(content_srcFolder + '**/*.md')
   }))
   .pipe(notify(onSuccess('gen_categories_array')))
@@ -141,7 +142,8 @@ gulp.task('gen_page_array', ['gen_categories_array'], function() {
         data.cat_title = Data.categories[data.cat_slug].title
         data.slug      = data.slug.slice( index+1, data.slug.length ).replace(".html", "")
     Data.pages[name]   = data
-    console.log ( 'Data.pages[name]' + Data.pages[name] )
+    console.log ( '01 Data.pages[name]           - gen_page_array: ' )
+    console.log ( Data.pages[name] )
     contents = contents.slice(index+4, contents.length)
     file.contents = new Buffer(contents, "utf-8")
   }))
@@ -161,6 +163,8 @@ gulp.task('layout_home', ['gen_page_array'], function() {
       categories : Data.categories
     })
     file.contents = new Buffer(html, "utf-8");
+    console.log( '02 Data.pages                  - gen_page_array: ' )
+    console.log ( Data.pages )
   }))
   .pipe(rename(function(path) {
     path.extname = ".html";
@@ -198,11 +202,12 @@ gulp.task('layout', ['gen_page_array'], function() {
     var template = Handlebars.compile(file.contents.toString());
     return gulp.src(content_srcFolder + '**/*.md')
       .pipe(tap(function(file) {
-        console.log(file.path)
+        console.log ( '03 file.path              - layout:')
         var name = path.basename(file.path);
-        console.log(name)
+        console.log ( '04 name                   - layout:');
         var data = Data.pages[name]
-        console.log ('Data.pages[name]' + Data.pages[name])
+        console.log ( '05 Data.pages[name]       - layout:');
+        console.log ( Data.pages[name])
             data.contents = file.contents.toString();
         var contents = data.contents;
         var index = data.contents.indexOf("---%");
