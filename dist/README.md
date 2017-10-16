@@ -1,2 +1,0 @@
-# MyEtherWallet Knowledge Base
-

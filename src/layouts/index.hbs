@@ -6,8 +6,7 @@
 <title>MyEtherWallet Support</title>
 <meta name="description" content="{{description}}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
+<link rel="stylesheet" href="./kb-master.min.css">
 <link rel="apple-touch-icon" sizes="180x180" href="https://myetherwallet.github.io/knowledge-base/images/fav/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://myetherwallet.github.io/knowledge-base/images/fav/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://myetherwallet.github.io/knowledge-base/images/fav/favicon-16x16.png">
@@ -55,37 +54,17 @@
 
 
   <div class="home__search row">
-    <h3> We apologize for the ad-hoc nature of this new knowledge base.</h3>
-    <br />
-    <p>We are working on mitigating an attack on our original knowledge base but wanted to get up the content in the meantime.</h3>
-    <p>We will be pushing updates all week to implement better templates and search.</p>
-    <p>If you have any questions, please do not hesitate to email us at support@myetherwallet.com in the meantime.</p>
-    <p><strong> Thank you for your patience.</strong></p>
-
-<!--
-    <form class="search__form" action="/">
-      <div class="form-group">
-        <h1>Search</h1>
-        <div class="input-group">
-          <input type="search" class="form-control" name="search" id="home__search" size="50" placeholder="Search">
-          <span class="input-group-btn">
-            <button type="submit" class="btn btn-primary">Search</button>
-          </span>
+    <h3>Search topics</h3>
+        <div id="search-box">
+            <!-- SearchBox widget will appear here -->
         </div>
-      </div>
-    </form>
--->
-
+        <div id="hits">
+            <!-- Hits widget will appear here -->
+        </div>
+        <div id="pagination-container">
+            <!-- Pagination widget will appear here -->
+        </div>
   </div>
-
-
-  {{#each pages }}
-    <div class="home__categories row block">
-      <small class="col-sm-4 text-right">{{category}}</small>
-          <a class="col-sm-8" href="https://myetherwallet.github.io/knowledge-base/{{url}}" title="{{title}}">{{title}}</a>
-    </div>
-  {{/each}}
-
 
   <section class="page__meta row">
     <div class="meta__contact col-xs-12">
@@ -185,6 +164,10 @@
       </section>
     </article>
   </footer>
-
+<script src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/algoliasearch/2.9/algoliasearch.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.0/dist/instantsearch.min.js"></script>
+<script src="./kb-master.min.js"></script>
   </body>
   </html>
