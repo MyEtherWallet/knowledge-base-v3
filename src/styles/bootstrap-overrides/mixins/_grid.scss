@@ -1,0 +1,9 @@
+@mixin make-gutters($gutters: $grid-gutter-widths) {
+  @each $breakpoint in map-keys($gutters) {
+    @include media-breakpoint-up($breakpoint) {
+      $gutter: map-get($gutters, $breakpoint);
+      padding-right: $gutter;
+      padding-left:  $gutter;
+    }
+  }
+}

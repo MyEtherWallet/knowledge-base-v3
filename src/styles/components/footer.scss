@@ -1,0 +1,117 @@
+// footer
+.pre-footer {
+  padding: $space;
+  box-shadow: $space $space 47px 0px rgba(0,0,0,.07);
+  margin-top: 5rem;
+  background-color: white;
+  text-align: center;
+  p {
+    font-size: $font-size-md;
+  }
+}
+
+
+.footer {
+  background-color: $navy-dark;
+  color: white;
+  font-size: $font-size-sm;
+  margin-top: 5rem;
+  h5{
+    margin-top: $space-sm;
+    margin-bottom: $space-xs;
+    font-size: $font-size-base;
+    font-weight: 500;
+    i {
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+    }
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  li, p {
+    font-size: $font-size-xs;
+    margin: .25em 0;
+  }
+  a {
+    color: #7fe5ff;
+    font-weight: 400;
+    &:visited {
+      color: #7fe5ff;
+    }
+    &:hover,
+    &:focus {
+      color: darken(#7fe5ff, 10%);
+    }
+  }
+  small {
+    font-size: 0.6rem;
+  }
+}
+
+.footer--logo {
+  width: 100%;
+  height: auto;
+  max-width: 16rem;
+}
+
+
+.footer--col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: $space $space-xl;
+  @include media-breakpoint-down(xs) {
+    max-width: 100%;
+  }
+}
+
+.footer--left {
+  @extend .footer--col;
+  max-width: 22rem;
+  flex-grow: 1;
+}
+.footer--cent {
+  @extend .footer--col;
+  max-width: 34rem;
+  flex-grow: 2;
+  ul, li:last-child { margin-bottom: 0; }
+}
+.footer--righ {
+  @extend .footer--col;
+  max-width: 28rem;
+  flex-grow: 1;
+}
+
+.footer__icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+
+.footer__pill-wrap {
+  flex-direction: row;
+}
+
+a.footer__pill {
+  display: inline;
+  background: $brand-primary;
+  padding: 3px 12px;
+  border-radius: 30px;
+  color: white;
+  &:visited {
+    color: white;
+  }
+  &:focus,
+  &:hover {
+    color: #0e97c0;
+    background: white;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,58 @@
+.page__single .header {
+  margin-bottom: $space-lg;
+}
+
+.page__main {
+  padding-right: 0;
+}
+
+.breadcrumbs {
+  margin: $space 0 0 0
+}
+
+.breadcrumbs__home { }
+.breadcrumbs__category { }
+.breadcrumbs__category { }
+
+.page__title {
+  margin-top: 0;
+}
+
+.page__meta {
+  text-align: center;
+}
+
+.meta__helpful { }
+
+.meta__updated {
+  color: $gray-light;
+  font-size: $font-size-sm;
+}
+
+.meta__contact {
+  margin-top: $space;
+}
+
+.page__aside {
+  padding: $space-lg $space $space-lg 0;
+}
+
+.nav__aside {
+  list-style: none;
+}
+
+.nav__item--category {
+  list-style: none;
+  font-size: $font-size-xs;
+  .category__title {
+    font-size: $font-size-sm;
+    margin: 1em 0 5px;
+  }
+}
+
+.nav__item--page {
+  display: none;
+  margin-top: 0;
+  list-style: none;
+  padding: 0 $space-sm;
+}

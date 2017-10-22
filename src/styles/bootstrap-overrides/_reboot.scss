@@ -1,0 +1,15 @@
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+  transition: 250ms ease-in-out all;
+
+  @include hover-focus {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+    transition: 250ms ease-in-out all;
+  }
+  &:visited {
+    color: darken($link-hover-color, 5%);
+    transition: 250ms ease-in-out all;
+  }
+}

@@ -1,0 +1,119 @@
+$white                      :  #ffffff                                                    ;
+$black                      :  #000000                                                    ;
+$gray-dark                  :  #292b2c                                                    ;
+$gray-darker                :  darken($gray-dark, 5%)                                     ;
+$gray-light                 :  #636c72                                                    ;
+$gray-lighter               :  #eceeef                                                    ;
+$gray-lightest              :  #f7f7f9                                                    ;
+$gray                       :  #464a4c                                                    ;
+
+$pink                       :  #e91e63                                                    ;
+$red                        :  #d9534f                                                    ;
+$orangered                  :  #ff5722                                                    ;
+$orange                     :  #ff9800                                                    ;
+$yellow                     :  #ffd500                                                    ;
+$green                      :  #5cb85c                                                    ;
+$teal                       :  #5bc0de                                                    ;
+$blue                       :  #0e97c0                                                    ;
+$navy                       :  #163151                                                    ;
+$navy-dark                  :  #102138                                                    ;
+$purple                     :  #613d7c                                                    ;
+
+$brand-danger               :  $pink                                                      ;
+$brand-info                 :  $navy                                                      ;
+$brand-orangered            :  $orange                                                    ;
+$brand-primary              :  $blue                                                      ;
+$brand-success              :  $green                                                     ;
+$brand-warning              :  $orange                                                    ;
+
+$body-bg                    :  #fbfbfb                                                    ;
+$text-color                 :  $gray-dark                                                 ;
+
+$link-color                 :  $brand-primary                                             ;
+$link-decoration            :  none                                                       ;
+$link-hover-color           :  darken($link-color, 10%)                                   ;
+$link-hover-decoration      :  none                                                       ;
+
+// Typography
+$font-family-sans-serif     :  'Lato', sans-serif                                         ;
+$font-family-serif          :  Georgia, "Times New Roman", Times, serif                   ;
+$font-family-monospace      :  Menlo, Monaco, Consolas, "Courier New", monospace          ;
+$font-family-base           :  $font-family-sans-serif                                    ;
+
+$base                       :  15                                                         ;
+$font-size-pixels           :  $base+px                                                   ;
+$font-size-pixels-xl        :  $base+1px                                                  ;
+$font-size-pixels-sm        :  $base+px                                                   ;
+
+$headings-font-weight       :  300                                                        ;
+$headings-margin-bottom     :  0.75em                                                     ;
+$headings-margin-top        :  1.00em                                                     ;
+
+
+$font-size-xl               :  2.00rem                                                    ;
+$font-size-lg               :  1.75rem                                                    ;
+$font-size-md-bump          :  1.50rem                                                    ;
+$font-size-md               :  1.30rem                                                    ;
+$font-size-bump-more        :  1.15rem                                                    ;
+$font-size-bump             :  1.07rem                                                    ;
+$font-size-base             :  1.00rem                                                    ;
+$font-size-sm               :  0.90rem                                                    ;
+$font-size-xs               :  0.75rem                                                    ;
+
+$space-xs                   :  0.25rem                                                    ;
+$space-sm                   :  0.50rem                                                    ;
+$space                      :  1.00rem                                                    ;
+$space-md                   :  1.50rem                                                    ;
+$space-lg                   :  2.00rem                                                    ;
+$space-xl                   :  2.50rem                                                    ;
+
+$enable-rounded             :  false                                                      ;
+
+$btn-padding-x              :  1.00rem                                                    ;
+$btn-padding-y              :  0.50rem                                                    ;
+$btn-line-height            :  1.25                                                       ;
+$btn-font-weight            :  $font-weight-normal                                        ;
+$btn-box-shadow             :  inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075);
+$btn-focus-box-shadow       :  0 0 0 2px rgba($brand-primary, .25)                        ;
+$btn-active-box-shadow      :  inset 0 3px 5px rgba($black,.125)                          ;
+
+$btn-primary-color          :  $white                                                     ;
+$btn-primary-bg             :  $brand-primary                                             ;
+$btn-primary-border         :  $btn-primary-bg                                            ;
+
+$btn-secondary-color        :  $gray-dark                                                 ;
+$btn-secondary-bg           :  $white                                                     ;
+$btn-secondary-border       :  #ccc                                                       ;
+
+$btn-info-color             :  $white                                                     ;
+$btn-info-bg                :  $brand-info                                                ;
+$btn-info-border            :  $btn-info-bg                                               ;
+
+$btn-success-color          :  $white                                                     ;
+$btn-success-bg             :  $brand-success                                             ;
+$btn-success-border         :  $btn-success-bg                                            ;
+
+$btn-warning-color          :  $white                                                     ;
+$btn-warning-bg             :  $brand-warning                                             ;
+$btn-warning-border         :  $btn-warning-bg                                            ;
+
+$btn-danger-color           :  $white                                                     ;
+$btn-danger-bg              :  $brand-danger                                              ;
+$btn-danger-border          :  $btn-danger-bg                                             ;
+
+$btn-link-disabled-color    :  $gray-light                                                ;
+
+$btn-padding-x-sm           :  0.50rem                                                    ;
+$btn-padding-y-sm           :  0.25rem                                                    ;
+
+$btn-padding-x-lg           :  1.50rem                                                    ;
+$btn-padding-y-lg           :  0.75rem                                                    ;
+
+$btn-block-spacing-y        :  0.50rem                                                    ;
+$btn-toolbar-margin         :  0.50rem                                                    ;
+
+$btn-border-radius          :  $border-radius                                             ;
+$btn-border-radius-lg       :  $border-radius-lg                                          ;
+$btn-border-radius-sm       :  $border-radius-sm                                          ;
+
+$btn-transition             :  all .2s ease-in-out                                        ;

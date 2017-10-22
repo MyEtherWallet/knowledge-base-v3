@@ -10,20 +10,21 @@ const data               = require( 'gulp-data'               )
 const frontMatter        = require( 'gulp-front-matter'       )
 const fs                 = require( 'fs'                      )
 const gulp               = require( 'gulp'                    )
-const Handlebars         = require( 'handlebars'              )
 const H                  = require( 'just-handlebars-helpers' )
+const Handlebars         = require( 'handlebars'              )
 const layout             = require( 'gulp-layout'             )
-const less               = require( 'gulp-less'               )
 const markdown           = require( 'gulp-markdown'           )
 const notify             = require( 'gulp-notify'             )
 const path               = require( 'path'                    )
 const plumber            = require( 'gulp-plumber'            )
 const rename             = require( 'gulp-rename'             )
 const runSequence        = require( 'run-sequence'            )
+const sass               = require( 'gulp-sass'               )
 const shell              = require( 'gulp-shell'              )
 const tap                = require( 'gulp-tap'                )
 const uglify             = require( 'gulp-uglify'             )
-
+const Vinyl              = require( 'vinyl'                   )
+const file               = require( 'gulp-file'               )
 // custom variables
 const srcFolder          = 'src/'
 const dstFolder          = 'dist/'
@@ -68,14 +69,14 @@ function notifyFunc(msg) {
 
 
 // styles: Compile and Minify style / CSS Files
-const style_srcFile  = 'kb-master.less';
+const style_srcFile  = 'kb-master.scss';
 const style_destFile = 'kb-master.min.css';
 
 gulp.task('styles', function() {
   return gulp.src( style_srcFolder + style_srcFile )
 
     .pipe(      plumber({ errorHandler: onError                                       }) )
-    .pipe(         less({     compress: false                                         }) )
+    .pipe(         sass(                                                               ) )
     .pipe( autoprefixer({     browsers: ['last 4 versions', 'iOS > 7'], remove: false }) )
     .pipe(      cssnano({ autoprefixer: false, safe: true                             }) )
     .pipe(       rename(                style_destFile                                )  )
@@ -89,7 +90,7 @@ gulp.task('styles', function() {
 // Rebuild JS
 const scripts_destFile = 'kb-master.min.js';
 
-gulp.task( 'scripts', function() {
+gulp.task( 'scripts', ['lunr_index'], function() {
   return gulp.src( scripts_srcFolder + '**/*.js' )
     .pipe( plumber({ errorHandler: onError }) )
     .pipe(  concat(   scripts_destFile      ) )
@@ -98,157 +99,144 @@ gulp.task( 'scripts', function() {
     .pipe( gulp.dest( dstFolder ) )
 })
 
-var Data = {
-  pages: {}
-};
-
-var Category = {
-  'Addresses': {
-    slug: 'addresses',
-    sort: '1'
+/*
+var Context = {
+  base_url : 'https://myetherwallet.github.io/knowledge-base/',
+  pages : {
+    'creating-new-accounts-for-eth-and-tokens.html' : {
+      cat_slug    : '',
+      cat_title   : '',
+      category    : '',
+      content     : '',
+      description : '',
+      slug        : '',
+      sort        : '',
+      title       : '',
+      url         : ''
+    }
   },
-  'Best Of': {
-    slug: 'best-of',
-    sort: '2'
-  },
-  'Diving Deeper': {
-    slug: 'diving-deeper',
-    sort: '3'
-  },
-  'ENS': {
-    slug: 'ens',
-    sort: '4'
-  },
-  'FAQ': {
-    slug: 'faq',
-    sort: '5'
-  },
-  'Gas & Transaction Fees': {
-    slug: 'gas',
-    sort: '6'
-  },
-  'Getting Started': {
-    slug: 'getting-started',
-    sort: '7'
-  },
-  'Hardware Wallets': {
-    slug: 'hardware-wallets',
-    sort: '8'
-  },
-  'Migrating to/from MyEtherWallet': {
-    slug: 'migration',
-    sort: '9'
-  },
-  'Networks & Nodes': {
-    slug: 'networks',
-    sort: '10'
-  },
-  'Offline': {
-    slug: 'offline',
-    sort: '11'
-  },
-  'Private Keys & Passwords': {
-    slug: 'private-keys-passwords',
-    sort: '12'
-  },
-  'Security & Phishing': {
-    slug: 'security',
-    sort: '13'
-  },
-  'Sending ETH & Tokens': {
-    slug: 'send',
-    sort: '14'
-  },
-  'Swap': {
-    slug: 'swap',
-    sort: '15'
-  },
-  'Tokens': {
-    slug: 'tokens',
-    sort: '16'
-  },
-  'Transactions': {
-    slug: 'transactions',
-    sort: '17'
+  category : {
+    'Addresses' : {
+      title       : '',
+      slug        : '',
+      sort        : ''
+    }
   }
 }
+*/
+
+var Context = {
+  //base_url : 'https://myetherwallet.github.io/knowledge-base/',
+  base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
+  pages : {},
+  category : {},
+  this_category: {}
+};
+
+var Search = [{
+  slug : '',
+  name : '',
+  text : ''
+}]
+
+
+
+gulp.task('gen_cats', function() {
+  return gulp.src( content_srcFolder + '**/*.cat' )
+
+    .pipe( tap( function( file ) {
+
+      var filename        = path.basename( file.path, '.cat' )
+      var content         = file.contents.toString()
+      var data            = JSON.parse( content )
+          data.base_url   = Context.base_url
+
+      Context.category[data.title] = data
+
+    }))
+
+    .pipe( notify ( onSuccess ( 'gen_cats' ) ) )
+})
 
 
 
 
 
-gulp.task('generate_page_array', function() {
+gulp.task('gen_pages', ['gen_cats'], function() {
   return gulp.src(content_srcFolder + '**/*.md')
 
     .pipe( tap( function( file ) {
 
-      var name            = path.basename( file.path, ".md" )
-      var contents        = file.contents.toString()
-      var index           = contents.indexOf( "---%" )
+      var filename           = path.basename( file.path, '.md' )
+      var content            = file.contents.toString()
+      var index              = content.indexOf( '---%' )
 
-      if (index !== -1) {
-        var data          = JSON.parse(contents.slice(0, index))
-            data.url      = file.relative.replace('.md', '.html')
-            data.slug     = data.url.replace('.html', '')
-        var category      = data.category
-            data.catSlug  = Category[category]['slug']
-            data.catSort  = Category[category]['sort']
-            data.email    = 'support@myetherwallet.com'
-            data.base_url = 'https://myetherwallet.github.io/knowledge-base/'
-            data.slug     = data.slug.replace(category + "/", "")
+      var data               = JSON.parse( content.slice( 0, index ) )
+          // data.title         = data.title
+          // data.sort          = data.sort
+          // data.category      = data.category
+          // data.description   = data.description
+          data.url           = file.relative.replace( '.md', '.html' )
+          data.cat_slug      = Context.category[data.category].slug
+          data.cat_title     = data.category
+          data.slug          = filename.replace( file.path, '' )
+          data.content       = file.contents.toString()
+          var index          = data.content.indexOf('---%')
+          data.content       = data.content.slice( index + 4, data.content.length )
+          data.content       = markdown.marked( data.content )
+          data.base_url      = Context.base_url
 
-        Data.pages[name]  = data
+      Context.pages[filename] = data
 
-        contents          = contents.slice(index + 4, contents.length)
-        file.contents     = new Buffer(contents, 'utf-8')
+    }))
 
+    .pipe( notify ( onSuccess ( 'gen_pages' ) ) )
+
+})
+
+
+
+gulp.task('gen_search_index', ['gen_pages'], function() {
+  return gulp.src(content_srcFolder + '**/*.md')
+
+    .pipe( tap( function( file ) {
+
+      var filename           = path.basename( file.path, '.md' )
+      var content            = file.contents.toString()
+      var index              = content.indexOf( '---%' )
+
+      var data               = JSON.parse( content.slice( 0, index ) )
+          data.content       = file.contents.toString()
+          data.content       = data.content.slice( index + 4, 300 )
+          data.content       = data.content.replace( '[', '\ ', '#', '*', '[', ']' , "" )
+
+      var data2 = {
+        "slug" : filename.replace( file.path, '' ),
+        "name" : data.title,
+        "text" : data.title + ' ' + data.description + ' ' + data.content
       }
 
-      return gulp.src( content_srcFolder + '**/*.md' )
+      Search.push( data2 );
 
     }))
-
-    .pipe( notify ( onSuccess ( 'gen_categories_array' ) ) )
 })
 
 
+// Lunr
+gulp.task('lunr_index', ['gen_search_index'], function(){
+  var search = JSON.stringify( Search )
+      search = "var lunrindx = " + search
+  return file('lunr-index.js', search, { src: true })
+    .pipe(gulp.dest('src/scripts'));
+});
 
 
 
 
-gulp.task('gen_page_array', ['gen_categories_array'], function() {
-  return gulp.src(content_srcFolder + '**/*.md')
+// Home Page
 
-    .pipe( tap( function( file ) {
+gulp.task('layout_home', ['gen_pages'], function() {
 
-      var name           = path.basename( file.path, '.md' )
-      var contents       = file.contents.toString()
-      var index          = contents.indexOf( '---%' )
-      var data           = JSON.parse( contents.slice( 0, index ) )
-          data.url       = file.relative.replace( '.md', '.html' )
-          data.slug      = data.url.replace( '.html', '' )
-          index          = data.slug.indexOf( '/' )
-          data.cat_slug  = data.slug.slice( 0, index )
-          data.cat_title = Data.categories[data.cat_slug].title
-          data.slug      = data.slug.slice( index + 1, data.slug.length ).replace( '.html', '' )
-
-      Data.pages[name]   = data
-
-      contents           = contents.slice( index + 4, contents.length )
-      file.contents      = new Buffer( contents, 'utf-8' )
-
-    }))
-
-    .pipe( notify ( onSuccess ( 'gen_page_array' ) ) )
-
-})
-
-
-
-
-
-
-gulp.task('layout_home', ['gen_page_array'], function() {
   return gulp.src( layouts_srcFolder + 'index.hbs' )
 
     .pipe( plumber({ errorHandler: onError }) )
@@ -257,20 +245,21 @@ gulp.task('layout_home', ['gen_page_array'], function() {
 
       H.registerHelpers( Handlebars );
 
-      var template = Handlebars.compile(file.contents.toString());
-      var html     = template({
-        pages:      Data.pages,
-        global:     Data.global,
-        categories: Data.categories
-      })
+      var template = Handlebars.compile( file.contents.toString() )
 
-      file.contents = new Buffer(html, 'utf-8');
+      var result   = template( Context )
+
+      file.contents = new Buffer( result , 'utf-8');
 
     }))
 
-    .pipe(rename(function(path) {
+    .pipe( rename(function(path) {
       path.extname = '.html';
     }))
+
+    .pipe( gulp.dest( dstFolder ) )
+
+    .pipe( notify ( onSuccess ( 'layout_home' ) ) )
 
 })
 
@@ -278,7 +267,59 @@ gulp.task('layout_home', ['gen_page_array'], function() {
 
 
 
-gulp.task('templates', ['generate_page_array'], function() {
+
+
+
+
+
+// Category Pages
+
+gulp.task('layout_cats', ['gen_pages'], function() {
+
+  return gulp.src( layouts_srcFolder + 'category.hbs' )
+
+    .pipe( plumber({ errorHandler: onError }) )
+
+    .pipe( tap(function( file ) {
+
+      H.registerHelpers( Handlebars );
+
+      var template = Handlebars.compile( file.contents.toString() )
+
+      return gulp.src( content_srcFolder + '**/*.cat' )
+
+      .pipe( tap( function( file ) {
+
+        var filename              = path.basename( file.path, '.cat' )
+        var content               = file.contents.toString()
+        var data                  = JSON.parse( content )
+
+        Context.this_category     = data
+
+        var result                = template( Context )
+
+        file.contents             = new Buffer( result , 'utf-8');
+
+      }))
+
+      .pipe(rename({
+        basename: "index",
+        extname: ".html"
+      }))
+
+      .pipe( gulp.dest( dstFolder ) )
+
+    }))
+
+    .pipe( notify ( onSuccess ( 'layout_home' ) ) )
+
+})
+
+
+
+// Single pages
+
+gulp.task('layout_single', ['gen_pages'], function() {
 
   return gulp.src( layouts_srcFolder + 'single.hbs' )
 
@@ -292,77 +333,47 @@ gulp.task('templates', ['generate_page_array'], function() {
 
       return gulp.src( content_srcFolder + '**/*.md' )
 
-        .pipe(markdown())
-
         .pipe( tap( function( file ) {
-          var name          = path.basename( file.path )
-          var data          = Data.pages[name]
-              data.contents = file.contents.toString()
-          var contents      = data.contents
-          var index         = data.contents.indexOf('---%')
 
-          if (index !== -1) {
-            data.contents = data.contents.slice( index + 4, contents.length )
-          }
+          var filename      = path.basename( file.path, '.md' )
 
-          var html = template( data )
-          file.contents = new Buffer( html, 'utf-8' )
+          var result        = template( Context.pages[filename] )
+
+          file.contents     = new Buffer( result, 'utf-8' )
+
         }))
 
-        .pipe(gulp.dest( dstFolder ))
+        .pipe( rename(function(path) {
+          path.extname = '.html';
+        }))
+
+        .pipe( gulp.dest( dstFolder ) )
+
     }))
-    .pipe( notify ( onSuccess ( 'layout' ) ) )
+
+    .pipe( notify ( onSuccess ( 'layout_single' ) ) )
 })
 
 
 
 
 
-gulp.task('homepage', ['generate_page_array'], function() {
-
-  return gulp.src(layouts_srcFolder + 'index.hbs')
-
-    .pipe( plumber( { errorHandler: onError } ) )
-
-    .pipe( tap( function( file, t ) {
-
-      var template = Handlebars.compile( file.contents.toString() )
-
-      var html = template({
-        title: 'MyEtherWallet Knowledge Base',
-        pages: Data.pages
-      })
-
-      file.contents = new Buffer( html, "utf-8" )
-
-    }))
-
-    .pipe( rename( function(path) { path.extname = ".html" } ) )
-
-    .pipe( gulp.dest( dstFolder ) )
-
-})
+gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.js',   ['scripts'])               })
 
 
+gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles'])                })
 
 
-
-gulp.task( 'watchJS',       function() { gulp.watch(scripts_srcFolder + '**/*.js',   ['scripts'])               })
-
-
-gulp.task( 'watchSTYLES',   function() { gulp.watch(style_srcFolder   + '**/*.less', ['styles'])                })
+gulp.task( 'watch_content',  function() { gulp.watch(content_srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats', 'lunr_index']) })
 
 
-gulp.task( 'watchCONTENT',  function() { gulp.watch(content_srcFolder + '**/*.md',   ['templates'])             })
+gulp.task( 'watch_template', function() { gulp.watch(content_srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats', 'lunr_index']) })
 
 
-gulp.task( 'watchTEMPLATE', function() { gulp.watch(content_srcFolder + '**/*.hbs',  ['templates', 'homepage']) })
+gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'watch',   ['watchJS', 'watchSTYLES', 'watchCONTENT', 'watchTEMPLATE'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats', 'lunr_index'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'homepage', 'templates']              )
-
-
-gulp.task( 'default', ['build', 'watch']                                          )
+gulp.task( 'default', ['build', 'watch']                                              )

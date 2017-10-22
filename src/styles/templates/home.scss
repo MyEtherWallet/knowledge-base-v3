@@ -1,0 +1,49 @@
+.home__categories {
+  margin-top: $space;
+  margin-bottom: $space;
+
+  .col-12 {
+    margin-bottom: $space;
+  }
+
+  .block {
+    height: 100%;
+    width: 100%;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+}
+
+
+
+.cat__title h2 {
+  color: $text-color;
+  margin-top: 0;
+}
+
+
+
+.home__search {
+  text-align: center;
+  padding-top: $space-xl;
+  padding-bottom: $space-xl;
+  background-color: white;
+  box-shadow: 16px 16px 47px 2px rgba(0,0,0,.07);
+  .input-group {
+    max-width: 40rem;
+    margin: $space auto;
+  }
+}
