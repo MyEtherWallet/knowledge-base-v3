@@ -14,15 +14,15 @@ MyEtherWallet gives you the ability to generate new wallets so you can store you
 
 In order to get started:
 
-1. [Create a new wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet)
+1. [Create a new wallet.](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html)
 
-2. [Back up the wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-save-slash-backup-my-wallet)
+2. [Back up the wallet.](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 
-3. [Verify you have access to this new wallet.](https://myetherwallet.github.io/knowledge-base/how-do-i-verify-i-have-access-to-my-new-wallet)
+3. [Verify you have access to this new wallet.](https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html)
 
-4. [Transfer ETH / Tokens to this new wallet.](https://myetherwallet.github.io/knowledge-base/where-can-i-buy-or-sell-my-eth-or-tokens)
+4. [Transfer ETH / Tokens to this new wallet.](https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html)
 
-5. [Check your Balance](https://myetherwallet.github.io/knowledge-base/how-do-i-check-the-balance-of-my-account)
+5. [Check your Balance](https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html)
 
 ---
 
