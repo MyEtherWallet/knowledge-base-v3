@@ -90,7 +90,7 @@ gulp.task('styles', function() {
 // Rebuild JS
 const scripts_destFile = 'kb-master.min.js';
 
-gulp.task( 'scripts', ['lunr_index'], function() {
+gulp.task( 'scripts', function() {
   return gulp.src( scripts_srcFolder + '**/*.js' )
     .pipe( plumber({ errorHandler: onError }) )
     .pipe(  concat(   scripts_destFile      ) )
