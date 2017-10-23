@@ -14,7 +14,7 @@ So you want to hold your own funds?
 
 Are you sure?
 
-### Please understand [The Difference Between an Exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/what-is-the-difference-between-an-exchange-eg-coinbase-kraken-gemini-poloniex-bittrex-and-myetherwallet).
+### Please understand [The Difference Between an Exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html).
 
 MyEtherWallet is not a "web wallet". You do not create an account or give us your ETH or tokens to hold onto. We are simply an interface that allows you to easily interact with the Ethereum blockchain. In order to ensure your security & privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet.
 
@@ -31,13 +31,13 @@ It means that **you are ultimately responsible for your safety & security.**
 -  You must back up your key in an external location and never, ever lose it.
 -  You must not share this private key with anyone nor enter it on a random site.
 
-We also highly recommend that you read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds) and take steps to be proactive about your security.
+We also highly recommend that you read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html) and take steps to be proactive about your security.
 
 Good?
 
 Good! :)
 
-### Next, head over to our  [Getting Started Guide](https://myetherwallet.github.io/knowledge-base/how-do-i-save-slash-backup-my-wallet) and make a new wallet and back it up.
+### Next, head over to our  [Getting Started Guide](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html) and make a new wallet and back it up.
 
 ### Then, unlock your wallet and copy the address from the sidebar.
 

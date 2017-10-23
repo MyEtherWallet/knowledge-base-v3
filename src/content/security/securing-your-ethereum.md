@@ -17,7 +17,7 @@ One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and ma
 *   [Buy a Ledger Nano S](https://www.ledgerwallet.com/r/fa4b?path=/products/)
 *   [Buy a TREZOR](https://trezor.io/?a=myetherwallet.com)
 
-If you don't want one of these nifty devices, use [cold storage](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet) for a majority of your savings. Please. Pretty please.
+If you don't want one of these nifty devices, use [cold storage](https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html) for a majority of your savings. Please. Pretty please.
 
 ### 2. Bookmark your crypto sites.
 *  Use those bookmarks and only those.
@@ -25,7 +25,7 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 
 ### 3. Install [the EAL Chrome Extension](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or the [MetaMask Chrome Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) to warn you if you go to a crypto-phishing link.
 
-### 4. [Use MEW Locally / Offline](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet).
+### 4. [Use MEW Locally / Offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html).
 
 ### 5. Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 *  Don’t click any link regarding anything crypto, money, banking, or a service like Dropbox / Google Drive / Gmail in any email ever.
@@ -77,20 +77,4 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 
 #### 19. Lastly: use your brain
 
-* Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest fucker on Earth...or if you find yourself asking, "I wonder why I haven't seen this on reddit yet", there is likely a reason. ?
-
-
-
-
----
-
----
-
----
-
-
-##### Internal Use
-
-We highly recommend that you read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds) for some recommendations on how to be proactive about your security.
-
-We highly recommend that you read our guide on How to Prevent Loss & Theft for some recommendations on how to be proactive about your security: https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds
+* Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest fucker on Earth...or if you find yourself asking, "I wonder why I haven't seen this on reddit yet", there is likely a reason.

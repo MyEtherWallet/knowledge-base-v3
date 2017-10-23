@@ -59,4 +59,4 @@ Then, in a new tab, go to [https://etherscan.io/enslookup?q=yourname.eth](https:
 ##### You should probably also save the finalize data. This will allow you to easily finalize the transaction in a few days.
 
 
-##### If you forgot to save your secret key, [read this](https://myetherwallet.github.io/knowledge-base/brute-forcing-secret-word-phrases)
+##### If you forgot to save your secret key, [read this](https://myetherwallet.github.io/knowledge-base/ens/ens-brute-forcing-secret-word-phrases.html)

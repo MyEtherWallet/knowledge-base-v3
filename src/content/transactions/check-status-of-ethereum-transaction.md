@@ -123,7 +123,7 @@ The reason we recommend `Canceling` over  `Replacing` is that it is not guarante
 
 ### Related Articles
 
-- [You can learn more about gas & gas limit vs gas price here.](https://myetherwallet.github.io/knowledge-base/what-is-gas)
+- [You can learn more about gas & gas limit vs gas price here.](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
 
-- [You can learn more about nonce here](https://myetherwallet.github.io/knowledge-base/what-is-nonce)
+- [You can learn more about nonce here](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html)
 

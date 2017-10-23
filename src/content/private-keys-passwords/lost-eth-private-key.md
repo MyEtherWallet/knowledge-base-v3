@@ -29,6 +29,6 @@ We're really sorry but MyEtherWallet is not a "web wallet". You do not create an
 *   If you know _when_ you created it, look through all files during that time period for any documents or screenshots.
 *   Generate a new wallet via [https://www.myetherwallet.com/#generate-wallet](https://www.myetherwallet.com/#generate-wallet) and take a look and the different options you may have downloaded or saved. Sometimes that can jog your memory.
 
-In the future, we highly recommend you print out a paper version of your wallet and keep it in multiple physical locations. [You can read more about how to safely back up your wallet here.](https://myetherwallet.github.io/knowledge-base/how-do-i-save-slash-backup-my-wallet)
+In the future, we highly recommend you print out a paper version of your wallet and keep it in multiple physical locations. [You can read more about how to safely back up your wallet here.](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 
 Again, I'm really sorry.
