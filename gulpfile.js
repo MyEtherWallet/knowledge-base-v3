@@ -126,8 +126,8 @@ var Context = {
 */
 
 var Context = {
-  //base_url : 'https://myetherwallet.github.io/knowledge-base/',
-  base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
+  base_url : 'https://myetherwallet.github.io/knowledge-base/',
+  //base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
   pages : {},
   category : {},
   this_category: {}
@@ -364,16 +364,16 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles'])                })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(content_srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats', 'lunr_index']) })
+gulp.task( 'watch_content',  function() { gulp.watch(content_srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(content_srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats', 'lunr_index']) })
+gulp.task( 'watch_template', function() { gulp.watch(content_srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats', 'lunr_index'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats'] )
 
 
 gulp.task( 'default', ['build', 'watch']                                              )
