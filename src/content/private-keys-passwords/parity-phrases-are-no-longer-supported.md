@@ -12,8 +12,8 @@ MyEtherWallet aims to deliver an easy-to-use and secure platform. Due to a rapid
 
 ### If you are using a Parity Phrase
 
-1.  [Generate a new wallet, securely. ](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet)
-2.  [Back up your new wallet, securely.](https://myetherwallet.github.io/knowledge-base/how-do-i-save-slash-backup-my-wallet)
+1.  [Generate a new wallet, securely. ](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html)
+2.  [Back up your new wallet, securely.](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 3.  Go to the [Send page.](https://www.myetherwallet.com/#send-transaction)
 4.  Unlock your new wallet. 
 5.  Copy your address on the left hand side.

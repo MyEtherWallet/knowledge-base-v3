@@ -27,7 +27,7 @@ You may choose to continue to use the Chrome Extension or go back to using the w
 
 ### Geth
 
-*   [Instructions for Mac, PCs, and LInux can be found here](https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth-or-mist)
+*   [Instructions for Mac, Windows, and Linux can be found here](https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth-or-mist)
 
 
 ### Remember

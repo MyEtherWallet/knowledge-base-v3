@@ -10,7 +10,7 @@
 
 ### Preface
 
-The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends).
+The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html).
 
 To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
 

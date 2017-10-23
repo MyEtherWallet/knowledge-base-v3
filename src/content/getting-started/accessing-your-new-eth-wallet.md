@@ -40,11 +40,11 @@ For this reason, it is very, very important to keep your private key a secret an
 
 - [Backing up your wallet](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 
-- Sending ETH & Tokens
+- [Sending ETH & Tokens](https://myetherwallet.github.io/knowledge-base/send/)
 
 - [Protecting Yourself and Your Funds](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
 
-- [Difference between an exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/getting-started/what-is-the-difference-between-an-exchange-and-myetherwallet.html)
+- [Difference between an exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
 
 
 

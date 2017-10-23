@@ -28,15 +28,15 @@ We are working with exchanges & lawyers to provide lists of accounts & domains, 
 ### Move your Funds ASAP & Protect Yourself Moving Forward
 
 *   Create new accounts, safely, and move any funds from any existing accounts to these new accounts as soon as you are in a place to do so. (Rushing does not help, doing it safely is the most important thing.)
-    *   [Get a ](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet)[Ledger or Trezor Hardware Wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends) (safest!)
-    *   [How to Create a Cold Storage Wallet](https://myetherwallet.github.io/knowledge-base/how-do-i-safely-slash-offline-slash-cold-storage-with-myetherwallet) (still really safe!)
-    *   [How to Create a New Wallet](https://myetherwallet.github.io/knowledge-base/how-do-i-create-a-new-wallet)
+    *   [Get a Ledger or Trezor Hardware Wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) (safest!)
+    *   [How to Create a Cold Storage Wallet](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html) (still really safe!)
+    *   [How to Create a New Wallet](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html)
 *   Never enter your private keys, passwords, sensitive data on a website that you were sent via message
 *   ONLY unlock your wallet when you want to send a transaction. Check your balance via [https://etherscan.io/](https://etherscan.io/) or [https://ethplorer.io/](https://ethplorer.io/)
 *   Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 *   [Install the Chrome Extension that will warn you if you attempt to navigate to a malicious site](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 *   [Install the MetaMask Chrome Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 *   [Install the MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
-*   **Read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/protecting-yourself-and-your-funds)**
+*   **Read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)**
 
 ### Again, we are really sorry.
