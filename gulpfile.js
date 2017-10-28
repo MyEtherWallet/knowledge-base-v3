@@ -64,6 +64,16 @@ function notifyFunc(msg) {
 }
 
 
+gulp.task('copy', function() {
+
+    gulp.src( img_srcFolder )
+      .pipe(gulp.dest( dstFolder + 'images/' ))
+
+    return gulp.src( srcFolder + 'styleguide.html' )
+      .pipe(gulp.dest( dstFolder ))
+
+    .pipe(notify(onSuccess( 'Copy' )))
+});
 
 
 
@@ -373,7 +383,7 @@ gulp.task( 'watch_template', function() { gulp.watch(content_srcFolder + '**/*.h
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats', 'copy'] )
 
 
 gulp.task( 'default', ['build', 'watch']                                              )
