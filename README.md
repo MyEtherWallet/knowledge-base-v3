@@ -8,7 +8,7 @@ To build this project locally, you need to have Node.js installed. Clone the pro
  ```
  cd knowledge-base
  npm install
- npm run dev
+ gulp
  ```
 
  This will run Gulp to build the project and watch for changes. You can open `knowledge-base/dist/index.html` to view your local copy.
