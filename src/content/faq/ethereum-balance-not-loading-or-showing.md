@@ -20,9 +20,9 @@ Here are some things you can try to troubleshoot:
 
 3. Try connecting to a different network in the top-right corner. If you are interacting with the Ethereum blockchain, you have three nodes to choose from:
 
-*    MyEtherWallet
-*    Etherscan.io
-*    Infura.io
+  *    MyEtherWallet
+  *    Etherscan.io
+  *    Infura.io
 
 
 Choosing one that you are not currently connected to may solve your problem.
