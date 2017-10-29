@@ -108,8 +108,8 @@ $btn-link-disabled-color    :  $gray-light                                      
 $btn-padding-x-sm           :  0.50rem                                                    ;
 $btn-padding-y-sm           :  0.25rem                                                    ;
 
-$btn-padding-x-lg           :  1.50rem                                                    ;
-$btn-padding-y-lg           :  0.75rem                                                    ;
+$btn-padding-x-lg           :  1.00rem                                                    ;
+$btn-padding-y-lg           :  0.50rem                                                    ;
 
 $btn-block-spacing-y        :  0.50rem                                                    ;
 $btn-toolbar-margin         :  0.50rem                                                    ;
@@ -254,3 +254,9 @@ $custom-file-text : (
     en : "Browse"
   )
 ) !default;
+
+
+
+$modal-lg                                     :  1200px                               ;
+$modal-md                                     :  900px                                ;
+$modal-sm                                     :  700px                                ;

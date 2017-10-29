@@ -1,7 +1,23 @@
 .list-group-item {
   justify-content: space-between;
+  position: relative;
+  padding-right: 3rem;
   &:after {
     content: "\2192";
     margin: 0 1em;
+    position: absolute;
+    right: 0;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+
+.kb_helpers .list-group-item {
+  background-color: #f4f4f4;;
+  font-weight: 500;
+  &:hover {
+    background: darken( #f4f4f4, 5% );
   }
 }

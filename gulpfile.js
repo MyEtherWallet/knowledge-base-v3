@@ -138,6 +138,7 @@ var Context = {
 var Context = {
   base_url : 'https://myetherwallet.github.io/knowledge-base/',
   //base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
+  //base_url : 'http://localhost/',
   pages : {},
   category : {},
   this_category: {}
@@ -274,6 +275,35 @@ gulp.task('layout_home', ['gen_pages'], function() {
 })
 
 
+// Contact Page
+
+gulp.task('layout_contact', ['gen_pages'], function() {
+
+  return gulp.src( [ layouts_srcFolder+'contact.hbs', layouts_srcFolder+'form.hbs'  ] )
+
+    .pipe( plumber({ errorHandler: onError }) )
+
+    .pipe( tap(function( file, t ) {
+
+      H.registerHelpers( Handlebars );
+
+      var template = Handlebars.compile( file.contents.toString() )
+
+      var result   = template( Context )
+
+      file.contents = new Buffer( result , 'utf-8');
+
+    }))
+
+    .pipe( rename(function(path) {
+      path.extname = '';
+    }))
+
+    .pipe( gulp.dest( dstFolder ) )
+
+    .pipe( notify ( onSuccess ( 'layout_contact' ) ) )
+
+})
 
 
 
@@ -374,16 +404,16 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles'])                })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats']) })
+gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_contact', 'layout_cats']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats']) })
+gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_contact', 'layout_cats']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_single',  'layout_cats', 'copy'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_single',  'layout_cats', 'copy'] )
 
 
 gulp.task( 'default', ['build', 'watch']                                              )
