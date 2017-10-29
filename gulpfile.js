@@ -66,7 +66,7 @@ function notifyFunc(msg) {
 
 gulp.task('copy', function() {
 
-    gulp.src( img_srcFolder )
+    gulp.src( img_srcFolder + '**/*/' )
       .pipe(gulp.dest( dstFolder + 'images/' ))
 
     return gulp.src( srcFolder + 'styleguide.html' )
@@ -276,10 +276,9 @@ gulp.task('layout_home', ['gen_pages'], function() {
 
 
 // Contact Page
-
 gulp.task('layout_contact', ['gen_pages'], function() {
 
-  return gulp.src( [ layouts_srcFolder+'contact.hbs', layouts_srcFolder+'form.hbs'  ] )
+  return gulp.src( layouts_srcFolder+'contact.hbs' )
 
     .pipe( plumber({ errorHandler: onError }) )
 
@@ -295,18 +294,47 @@ gulp.task('layout_contact', ['gen_pages'], function() {
 
     }))
 
-    .pipe( rename(function(path) {
-      path.extname = '';
-    }))
+      .pipe(rename({
+        basename: "index",
+        extname: ".html"
+      }))
 
-    .pipe( gulp.dest( dstFolder ) )
+    .pipe( gulp.dest( dstFolder + 'contact/' ) )
 
     .pipe( notify ( onSuccess ( 'layout_contact' ) ) )
 
 })
 
 
+// form Page
+gulp.task('layout_form', ['gen_pages'], function() {
 
+  return gulp.src( layouts_srcFolder+'form.hbs' )
+
+    .pipe( plumber({ errorHandler: onError }) )
+
+    .pipe( tap(function( file, t ) {
+
+      H.registerHelpers( Handlebars );
+
+      var template = Handlebars.compile( file.contents.toString() )
+
+      var result   = template( Context )
+
+      file.contents = new Buffer( result , 'utf-8');
+
+    }))
+
+      .pipe(rename({
+        basename: "index",
+        extname: ".html"
+      }))
+
+    .pipe( gulp.dest( dstFolder + 'form/' ) )
+
+    .pipe( notify ( onSuccess ( 'layout_form' ) ) )
+
+})
 
 
 
@@ -404,16 +432,16 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles'])                })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_contact', 'layout_cats']) })
+gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_contact', 'layout_cats']) })
+gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_single',  'layout_cats', 'copy'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_form', 'layout_single',  'layout_cats', 'copy'] )
 
 
 gulp.task( 'default', ['build', 'watch']                                              )
