@@ -9,25 +9,19 @@
   <meta property="og:site_name"           content="Security &amp; Phishing: Securely use MyEtherWallet | MyEtherWallet Knowledge Base">
   <meta name="twitter:title"              content="Security &amp; Phishing: Securely use MyEtherWallet | MyEtherWallet Knowledge Base">
   <meta name="apple-mobile-web-app-title" content="Security &amp; Phishing: Securely use MyEtherWallet | MyEtherWallet Knowledge Base">
-
   <base href="security/how-to-securely-store-and-guard-your-private-key.html">
   <link href="security/how-to-securely-store-and-guard-your-private-key.html" rel="canonical">
   <meta content="security/how-to-securely-store-and-guard-your-private-key.html" property="og:url">
   <meta content="security/how-to-securely-store-and-guard-your-private-key.html" name="twitter:url">
-
   <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
   <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
-
   <meta name="description"         content="Security &amp; Phishing">
   <meta property="og:description"  content="Security &amp; Phishing">
   <meta name="twitter:description" content="Security &amp; Phishing">
-
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
   <meta name="google-site-verification" content="cm_SdZ2NyEycvuM81evpS5fpFaqJ1UjHofAymetwmaw" />
-
-  <meta name="referrer" content="origin">
-
+  <meta name="referrer" content="same-origin">
   <link href="https://myetherwallet.github.io/knowledge-base/images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
   <link href="https://myetherwallet.github.io/knowledge-base/images/fav/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
   <link href="https://myetherwallet.github.io/knowledge-base/images/fav/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
@@ -38,7 +32,6 @@
   <meta name="msapplication-config" content="https://myetherwallet.github.io/knowledge-base/images/fav/browserconfig.xml">
   <meta name="theme-color" content="#1d6986">
   <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://myetherwallet.github.io/knowledge-base/images/myetherwallet-logo-banner.png">
@@ -243,10 +236,32 @@
 
 
 <!-- Pre-Footer -->
-<section class="page__meta">
-  <h1>Need Help? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></h1>
+<section class="page__meta" style="display:none;">
+  <button type="button"
+          class="btn btn-primary btn-lg modal__trigger"
+          data-toggle="modal"
+          data-target="#contact-form">
+    Need Help? Message Us
+  </button>
 </section>
 
+<div class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="modal-form__title" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+    <div class="modal-content">
+
+      <iframe src="https://myetherwallet.github.io/knowledge-base/form"></iframe>
+      <section class="modal__close--lg">
+        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal" aria-label="Close">
+          Close
+        </button>
+      </section>
+
+    </div>
+  </div>
+</div>
 
 
 <!-- Footer -->
@@ -439,6 +454,11 @@
     </section>
   </article>
 </footer>
+
+<script>
+  if ( typeof receiveMessage == 'function' )
+    window.addEventListener("message", receiveMessage, false);
+</script>
 
 </body>
 </html>
