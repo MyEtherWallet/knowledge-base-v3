@@ -15,11 +15,11 @@
 */
 
 
-$(document).on('click', '#sendFormBtn', function(e){
+$(document).on('click', '#help-form--btn', function(e){
   validateForm(e)
 })
 
-$('select').on('change', function(e) {
+$(document).on('change', '#main_sub--input', function(e) {
   updateAddlFields(e)
 })
 
@@ -74,7 +74,7 @@ function updateAddlFields(e) {
 
 function submitForm() {
 
-  var form = $('#fa-form-1')
+  var form         = $('#fa-form-1')
 
   var body_fields = [ 'main_sub', 'addl_addr', 'addl_tx', 'addl_1', 'addl_2', 'main_msg' ]
 
@@ -83,24 +83,67 @@ function submitForm() {
   // make new string that will be used for the body to submit the form
   $.each( body_fields, function(i, el){
     elem       = $( '#' + el )
-    elem_val = $( '#' + el + '--input' ).val()
+    elem_val   = $( '#' + el + '--input' ).val()
     elem_label = $( '#' + el + '--label' ).text()
     if ( elem_val.length > 0 ) {
       body_text += elem_label
+      body_text += '\n'
       body_text += elem_val
       body_text += '\n\n'
     }
-
   })
 
-  $('#textarea_body').val( body_text )
+  var url          = getUrl()
 
-  console.log(form.serializeArray())
-  console.log( body_text)
+  var browser_info = getBrowserInfo()
+
+  $('#textarea_body').val( body_text + url + browser_info )
+
+  console.log( form.serializeArray() )
+
+  console.log( body_text + url + browser_info)
+
+  // alert( ' form submitted ')
+
+  form.attr('action', 'https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063')
 
   form.submit()
 }
 
+
+function getUrl() {
+  url  ='Sent From'
+  url += '\n'
+  url += window.location.href
+  url += '\n\n'
+
+  return url
+}
+
+function getBrowserInfo() {
+  console.log(platform)
+
+  browser  = 'Browser'
+  browser += '\n'
+  browser += platform.name
+
+  browser += '\n\n'
+  browser += 'OS'
+  browser += '\n'
+  browser += platform.os.family
+
+  browser += '\n\n'
+  browser += 'Environment'
+  browser += '\n'
+  browser += platform.description
+
+  browser += '\n\n'
+  browser += 'UA'
+  browser += '\n'
+  browser += platform.ua
+
+  return browser
+}
 
 function displayFlex(el) {
   el.css('display', 'flex')
@@ -122,7 +165,7 @@ function resetAddlFields() {
 }
 
 
-function showHelpers( the_subject  ) {
+function showHelpers( the_subject ) {
   $('.helpers--' + the_subject ).show() // e.g. helpers--accessing-wallet
 }
 
@@ -134,42 +177,42 @@ function showFields( the_subject  ) {
         // do nothing
         break;
       case 'accessing-wallet':
-        displayFlex( addl_addr )
-        displayFlex( addl_1 )
-        updateLabel( addl_1, 'What type of wallet file?' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1') )
+        updateLabel( $('#addl_1'), 'What type of wallet file?' )
         break;
       case 'adding-tokens':
-        displayFlex( addl_addr )
-        displayFlex( addl_1    )
-        updateLabel( addl_1, 'Which token?' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1   ') )
+        updateLabel( $('#addl_1'), 'Which token?' )
         break;
       case 'coinbase':
         // do something
         break;
       case 'ens':
-        displayFlex( addl_addr )
-        displayFlex( addl_1 )
-        updateLabel( addl_1, 'What\' the ENS name?' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1') )
+        updateLabel( $('#addl_1'), 'What\' the ENS name?' )
         break;
       case 'exchanging':
-        displayFlex( addl_addr )
-        displayFlex( addl_1 )
-        updateLabel( addl_1, 'Which exchange?' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1') )
+        updateLabel( $('#addl_1'), 'Which exchange?' )
         break;
       case 'getting-started':
         // do something
         break;
       case 'keystore-file':
-        displayFlex( addl_addr )
+        displayFlex( $('#addl_addr') )
         break;
       case 'hardware-wallet':
-        displayFlex( addl_addr )
-        displayFlex( addl_1 )
-        updateLabel( addl_1, 'Is there an error message?' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1') )
+        updateLabel( $('#addl_1'), 'Is there an error message?' )
         break;
       case 'phishing':
-        displayFlex( addl_addr )
-        updateLabel( addl_1, 'Do you know the URL you visited?' )
+        displayFlex( $('#addl_addr') )
+        updateLabel( $('#addl_1'), 'Do you know the URL you visited?' )
         break;
       case 'lost-password':
         // do something
@@ -181,7 +224,7 @@ function showFields( the_subject  ) {
         // do something
         break;
       case 'nodes-networks':
-        updateLabel( addl_1, 'What type of network or node?' )
+        updateLabel( $('#addl_1'), 'What type of network or node?' )
         break;
       case 'other':
         // do something
@@ -190,18 +233,18 @@ function showFields( the_subject  ) {
         // do something
         break;
       case 'sending-transaction':
-        displayFlex( addl_addr )
-        displayFlex( addl_tx )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_tx') )
         // do something
         break;
       case 'sending-tokens':
-        displayFlex( addl_addr )
-        displayFlex( addl_tx )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_tx') )
         break;
       case 'swap':
-        displayFlex( addl_addr )
-        displayFlex( addl_1 )
-        updateLabel( addl_1, 'Ref #' )
+        displayFlex( $('#addl_addr') )
+        displayFlex( $('#addl_1') )
+        updateLabel( $('#addl_1'), 'Ref #' )
         break;
       default:
   }
