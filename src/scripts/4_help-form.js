@@ -66,10 +66,12 @@ function submitForm() {
 
   var form         = $('#fa-form-1')
 
-  // Message
+
+
+  // Message       --> MESSAGE BODY
   var message  = $('#main_msg--input' ).val() + '\n\n'
 
-  // Add'l Fields
+  // Add'l Fields  --> MESSAGE BODY
   var addl_array = [ 'addl_addr', 'addl_tx', 'addl_1', 'addl_2', 'main_sub' ]
   var addl_fields = ''
   $.each( addl_array, function(i, el){
@@ -82,28 +84,29 @@ function submitForm() {
     }
   })
 
-  // URL
+  // URL --> TO NOTE VIA API
   var url    = ''
       url += 'Doc Ref        ' + ': ' + document.referrer  + '\n'
       url += 'Window Loc     ' + ': ' + window.location.href  + '\n'
 
-  // Browser Info
+  // Browser Info --> TO NOTE VIA API
   var browser  = 'Browser        ' + ': ' + platform.name        + '\n'
       browser += 'OS             ' + ': ' + platform.os.family   + '\n'
       browser += 'Full Env.      ' + ': ' + platform.description + '\n'
       browser += 'UA             ' + ': ' + platform.ua
 
-  $('#textarea_body').val( message + addl_fields + url + browser )
 
-  console.log( message + addl_fields + url + browser )
 
-  //console.log( form.serializeArray() )
 
-  //alert( ' form submitted ')
+  //  --> TO NOTE VIA API
+  var note =  url + browser
 
+  // --> TO MESSAGE
+  var message_body = message + addl_fields
+  $('#textarea_body').val( message + addl_fields)
   form.attr('action', 'https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063')
-
   form.submit()
+
 }
 
 function displayFlex(el) {
