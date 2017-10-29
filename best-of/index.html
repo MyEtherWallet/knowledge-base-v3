@@ -184,9 +184,33 @@
 
 
 <!-- Pre-Footer -->
-<section class="page__meta">
-  <h1>Need Help? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></h1>
+<section class="page__meta" style="display:none;">
+  <button type="button"
+          class="btn btn-primary btn-lg modal__trigger"
+          data-toggle="modal"
+          data-target="#contact-form">
+    Need Help? Message Us
+  </button>
 </section>
+
+<div class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="modal-form__title" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+    <div class="modal-content">
+
+      <iframe src="https://myetherwallet.github.io/knowledge-base/form/"></iframe>
+
+      <section class="modal__close--lg">
+        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal" aria-label="Close">
+          Close
+        </button>
+      </section>
+
+    </div>
+  </div>
+</div>
 
 
 
