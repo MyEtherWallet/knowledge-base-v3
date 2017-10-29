@@ -35,5 +35,8 @@
     "run-sequence": "*",
     "underscore": "^1.8.3",
     "vinyl": "^2.1.0"
+  },
+  "dependencies": {
+    "zepto": "^1.2.0"
   }
 }

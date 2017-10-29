@@ -374,10 +374,10 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles'])                })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(content_srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats']) })
+gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md',   ['layout_single', 'layout_home', 'layout_cats']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(content_srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats']) })
+gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs',  ['layout_single', 'layout_home', 'layout_cats']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
