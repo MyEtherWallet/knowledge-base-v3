@@ -532,7 +532,7 @@
         method="POST"
         name="fa-form-1"
         id="fa-form-1"
-        action="https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063"
+        action=""
         enctype="multipart/form-data"
         accept-charset="utf-8"
       >
@@ -541,39 +541,36 @@
   <!-- Main Fields -->
         <!-- Field: Your Name -->
         <section class="form-group row" id="main_name">
-          <label for="name" class="col-2 col-form-label" id="main_name--label">
-            Your Name
-          </label>
+          <label for="name" class="col-2 col-form-label" id="main_name--label">Your Name</label>
           <div class="col-10">
             <input class="form-control"
                    type="text"
                    name="name"
-                   id="main_name--input">
+                   id="main_name--input"
+                   required>
           </div>
         </section>
 
         <!-- Field: Your Email -->
         <section class="form-group row" id="main_email">
-          <label for="email" class="col-2 col-form-label" id="main_email--label">
-            Your Email
-          </label>
+          <label for="email" class="col-2 col-form-label" id="main_email--label">Your Email</label>
           <div class="col-10">
             <input class="form-control"
                    type="email"
                    name="email"
-                   id="main_email--input">
+                   id="main_email--input"
+                   required>
           </div>
         </section>
 
         <!-- Field: Subject -->
         <section class="form-group row" id="main_sub">
-          <label for="subject" class="col-2 col-form-label" id="main_sub--label">
-            Subject
-          </label>
+          <label for="subject" class="col-2 col-form-label" id="main_sub--label">Subject</label>
           <div class="col-10">
             <select class="form-control"
                     name="subject"
-                    id="main_sub--input">
+                    id="main_sub--input"
+                    required>
 
               <option value="">                   What Can We Help You With? </option>
               <option value="accessing-wallet">   Accessing Wallet           </option>
@@ -616,16 +613,19 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Accessing your new wallet
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/faq/unlocking-keystore-file-freezes-browser.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    When I unlock via keystore file, it freezes my browser
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/migration/"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Migrating to &amp; from MyEtherWallet
               </a>
@@ -643,6 +643,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Adding Custom Tokens
               </a>
@@ -650,6 +651,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Token Creators: Adding your Token as a Default Token
               </a>
@@ -667,6 +669,7 @@
             <div class="list-group">
               <a href="#"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Cras justo odios
               </a>
@@ -685,16 +688,19 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/ens/ens-debugging-a-bad-instruction-reveal.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Debugging a [BAD INSTRUCTION] Reveal
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/ens/ens-what-to-do-if-you-forgot-to-reveal-ens-bid.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    What to do if you forgot to reveal your ENS bid
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/ens/"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    All ENS Articles
               </a>
@@ -712,11 +718,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Where Can I Buy / Sell / Trade / Exchange my ETH or Tokens?
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    ETH or Tokens sent to or from exchange haven't shown up
               </a>
@@ -734,11 +742,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Creating a new wallet
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-tutorials-for-beginners.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Video: Getting started with MyEtherWallet: Tutorials for Beginners
               </a>
@@ -756,11 +766,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/faq/unlocking-keystore-file-freezes-browser.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    When I unlock via keystore file, it freezes my browser
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Differences between a private key & keystore file
               </a>
@@ -778,31 +790,37 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-unable-to-connect-on-myetherwallet.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Unable to Connect to Hardware Wallet
               </a>
               <a href="https://doc.satoshilabs.com/trezor-apps/mew.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Getting Started: TREZOR
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-sending-to-trezor-device.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    How to send TO your TREZOR
               </a>
               <a href="https://ledger.groovehq.com/knowledge_base/topics/how-to-use-myetherwallet-with-ledger"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Getting Started: Ledger Hardware Wallet
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    How to send TO your Ledger Hardware Wallet
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    All Hardware Wallet Articles
               </a>
@@ -820,11 +838,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Phish, Hacks, Thefts &amp; stolen funds due to phishing messages on Slack / Reddit / Google Ads
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Protecting Yourself and Your Funds
               </a>
@@ -842,6 +862,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-ethereum-wallet-password.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Lost Password Article
               </a>
@@ -859,6 +880,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-eth-private-key.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Lost Private Key
               </a>
@@ -876,6 +898,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Getting Started: MetaMask
               </a>
@@ -893,6 +916,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/networks/"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Networks &amp; Nodes Articles
               </a>
@@ -910,21 +934,25 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Differences between a private key & keystore file
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Private Key opens a different account / two addresses
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/private-key-not-working.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Private Key Not Working
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Change your wallet password (Unencrypted -> Encrypted)
               </a>
@@ -942,11 +970,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/send/how-to-send-eth.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Sending ETH
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/migration/"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Migrating to &amp; from MyEtherWallet
               </a>
@@ -964,6 +994,7 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Sending Tokens
               </a>
@@ -978,11 +1009,13 @@
             <div class="list-group">
               <a href="https://myetherwallet.github.io/knowledge-base/swap/swap-wasnt-completed-or-was-canceled.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Swap wasn't completed or was canceled
               </a>
               <a href="https://myetherwallet.github.io/knowledge-base/swap/trading-eth-btc-rep-bity-swap.html"
                  class="list-group-item list-group-item-action"
+                 target="_blank"
                  rel="noopener noreferrer">
                    Swapping ETH, BTC, REP on MyEtherWallet via Bity
               </a>
@@ -997,9 +1030,7 @@
 
         <!-- Field: Your Address -->
         <section class="form-group row form__addl-field" id="addl_addr">
-          <label for="address" class="col-2 col-form-label" id="addl_addr--label">
-            Your Address
-          </label>
+          <label for="address" class="col-2 col-form-label" id="addl_addr--label">Your Address</label>
           <div class="col-10">
             <input class="form-control"
                    type="text"
@@ -1011,9 +1042,7 @@
 
         <!-- Field: Your TX Hash -->
         <section class="form-group row form__addl-field" id="addl_tx">
-          <label for="tx_hash" class="col-2 col-form-label" id="addl_tx--label">
-            Your TX Hash
-          </label>
+          <label for="tx_hash" class="col-2 col-form-label" id="addl_tx--label">Your TX Hash</label>
           <div class="col-10">
             <input class="form-control"
                    type="text"
@@ -1025,9 +1054,7 @@
 
         <!-- Field: Addl Field 1 -->
         <section class="form-group row form__addl-field" id="addl_1">
-          <label for="addl_info_1" class="col-2 col-form-label" id="addl_1--label">
-            Your Address
-          </label>
+          <label for="addl_info_1" class="col-2 col-form-label" id="addl_1--label">Your Address</label>
           <div class="col-10">
             <input class="form-control"
                    type="text"
@@ -1038,9 +1065,7 @@
 
         <!-- Field: Add'l Field 2 -->
         <section class="form-group row form__addl-field" id="addl_2">
-          <label for="addl_info_2" class="col-2 col-form-label" id="addl_2--label">
-            Your TX Hash
-          </label>
+          <label for="addl_info_2" class="col-2 col-form-label" id="addl_2--label">Your TX Hash</label>
           <div class="col-10">
             <input class="form-control"
                    type="text"
@@ -1051,14 +1076,13 @@
 
         <!-- Field: Main Msg Textarea -->
         <section class="form-group row" id="main_msg">
-          <label for="message" class="col-2 col-form-label" id="main_msg--label">
-            More Details
-          </label>
+          <label for="message" class="col-2 col-form-label" id="main_msg--label">More Details</label>
           <div class="col-10">
             <textarea class="form-control"
                       name="message"
                       id="main_msg--input"
                       rows="3"
+                      required
                       aria-describedby="detailsHelper"></textarea>
             <small id="detailsHelper" class="form-text text-muted">Please include as much detail as possible so that we can help as quickly, without having to ask you questions first.</small>
           </div>
@@ -1067,11 +1091,7 @@
 
         <!-- Field: Screenshot -->
         <section class="form-group row">
-          <label for="attachment" class="col-2 col-form-label">
-            <span class="sr-only">
-              Screenshot <small>(Optional)</small>
-            </span>
-          </label>
+          <label for="attachment" class="col-2 col-form-label"><span class="sr-only">Screenshot (Optional)</span></label>
           <div class="col-10">
             <input class="form-control-file"
                    type="file"
@@ -1088,7 +1108,7 @@
         <!-- Send Button -->
         <section class="form-group row">
           <div class="offset-sm-2 col-sm-10">
-            <button id="sendFormBtn" class="btn btn-primary">
+            <button id="help-form--btn" class="btn btn-primary">
               Send message
             </button>
           </div>
