@@ -2,7 +2,9 @@
 "title"       : "Getting Back to the Basics: 10 Tips for Newbies",
 "sort"        : "16",
 "category"    : "Getting Started",
-"description" : "Getting Started"
+"description" : "Getting Started",
+"date_published" : "2015-10-05T08:00:00+08:00",
+"date_modified"  : "2017-10-16T08:00:00+08:00"
 }
 
 ---%

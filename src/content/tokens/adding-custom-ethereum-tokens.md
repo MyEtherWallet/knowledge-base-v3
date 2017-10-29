@@ -2,7 +2,9 @@
 "title"       : "Adding Custom Ethereum (ERC-20) Tokens",
 "sort"        : "8",
 "category"    : "Tokens",
-"description" : "Tokens"
+"description" : "Tokens",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-09-26T08:00:00+08:00"
 }
 
 ---%

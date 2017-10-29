@@ -2,7 +2,9 @@
 "title"       : "Can I turn on 2FA for MyEtherWallet?",
 "sort"        : "7",
 "category"    : "Security & Phishing",
-"description" : "Security & Phishing"
+"description" : "Security & Phishing",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-08-23T08:00:00+08:00"
 }
 
 ---%

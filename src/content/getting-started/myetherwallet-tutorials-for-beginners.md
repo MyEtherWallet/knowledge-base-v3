@@ -2,7 +2,9 @@
 "title"       : "Getting started with MyEtherWallet: Tutorials for Beginners",
 "sort"        : "22",
 "category"    : "Getting Started",
-"description" : "Getting Started"
+"description" : "Getting Started",
+"date_published" : "2015-07-15T08:00:00+08:00",
+"date_modified"  : "2017-09-13T08:00:00+08:00"
 }
 
 ---%

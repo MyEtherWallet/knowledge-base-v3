@@ -2,7 +2,9 @@
 "title"       : "Links you Should Read Next",
 "sort"        : "10",
 "category"    : "Diving Deeper",
-"description" : "Diving Deeper"
+"description" : "Diving Deeper",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-09-26T08:00:00+08:00"
 }
 
 ---%

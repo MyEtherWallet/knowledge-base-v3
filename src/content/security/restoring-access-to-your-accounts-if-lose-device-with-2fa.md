@@ -2,7 +2,9 @@
 "title"       : "How to restore access to your accounts if you lose/destroy your device w/ Google Authenticator (2FA)",
 "sort"        : "10",
 "category"    : "Security & Phishing",
-"description" : "Security & Phishing"
+"description" : "Security & Phishing",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-09-26T08:00:00+08:00"
 }
 
 ---%

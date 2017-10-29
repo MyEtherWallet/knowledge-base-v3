@@ -2,7 +2,9 @@
 "title"       : "[MEW -> MetaMask] Moving from MyEtherWallet to MetaMask",
 "sort"        : "1",
 "category"    : "Migrating to/from MyEtherWallet",
-"description" : "Migrating to/from MyEtherWallet"
+"description" : "Migrating to/from MyEtherWallet",
+"date_published" : "2017-10-08T08:00:00+08:00",
+"date_modified"  : "2017-10-28T08:00:00+08:00"
 }
 
 ---%
@@ -39,7 +41,7 @@ Damn!
 
 8. You can write your 12 words down and store it in a safe, or [engrave it in metal](https://cryptosteel.com/). This will make sure that it never gets lost, even if your house catches fire. If using paper, you should store a second copy in a different phsyical location.
 
-#### Remember! Do not share this key with anyone! If you do, they can access your account and send all your coins to themselves. 
+#### Remember! Do not share this key with anyone! If you do, they can access your account and send all your coins to themselves.
 
 
 ## Transferring your Funds
@@ -50,17 +52,17 @@ Damn!
 
 3. No? Okay! Onwards!
 
-4. Unlock your account how you typically do. 
+4. Unlock your account how you typically do.
 
-5. Get your address from Metamask. Click the orange extension icon, click the three dots (...) next to your new account, and click `Copy Address to clipboard`. 
+5. Get your address from Metamask. Click the orange extension icon, click the three dots (...) next to your new account, and click `Copy Address to clipboard`.
 
 ![](../images/moving-from-private-key-to-metamask_02.jpg)
 
 6. Paste your MetaMask address in the `To Address` field on MyEtherWallet.
 
-7. First, send all your tokens. Click "Load Token Balances" in the sidebar and wait for allllllllll those tokens to load. 
+7. First, send all your tokens. Click "Load Token Balances" in the sidebar and wait for allllllllll those tokens to load.
 
-8. Select your token from the dropdown. 
+8. Select your token from the dropdown.
 
 9. Click "Send Entire Balance" button.
 
@@ -68,7 +70,7 @@ Damn!
 
 10. Generate & send the transaction. Ensure they were sent successfully and you can see them in MetaMask.
 
-11. Repeat with all your tokens and then, last but not least, your ETH. 
+11. Repeat with all your tokens and then, last but not least, your ETH.
 
 12. Next time you want to send your ETH or Tokens, simply go to [MyEtherWallet](https://www.myetherwallet.com/), click the "Metamask / Mist" option, and click "Connect to MetaMask" button. You will instantly connect. How easy is that?!
 

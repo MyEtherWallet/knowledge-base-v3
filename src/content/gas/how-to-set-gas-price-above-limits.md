@@ -2,7 +2,9 @@
 "title"       : "Setting gas price above the slider limits",
 "sort"        : "6",
 "category"    : "Gas & Transaction Fees",
-"description" : "Gas & Transaction Fees"
+"description" : "Gas & Transaction Fees",
+"date_published" : "2017-06-20T08:00:00+08:00",
+"date_modified"  : "2017-06-20T08:00:00+08:00"
 }
 
 ---%

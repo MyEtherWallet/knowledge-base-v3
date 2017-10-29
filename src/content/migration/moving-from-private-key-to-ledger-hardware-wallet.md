@@ -2,7 +2,9 @@
 "title"       : "[MEW -> Ledger]  Moving from a MyEtherWallet key to Ledger Hardware Wallet",
 "sort"        : "2",
 "category"    : "Migrating to/from MyEtherWallet",
-"description" : "Migrating to/from MyEtherWallet"
+"description" : "Migrating to/from MyEtherWallet",
+"date_published" : "2017-10-08T08:00:00+08:00",
+"date_modified"  : "2017-10-28T08:00:00+08:00"
 }
 
 ---%

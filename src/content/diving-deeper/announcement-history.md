@@ -2,7 +2,9 @@
 "title"       : "Announcement History",
 "sort"        : "25",
 "category"    : "Diving Deeper",
-"description" : "Diving Deeper"
+"description" : "Diving Deeper",
+"date_published" : "2017-08-12T08:00:00+08:00",
+"date_modified"  : "2017-05-17T08:00:00+08:00"
 }
 
 ---%

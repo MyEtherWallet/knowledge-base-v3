@@ -2,7 +2,9 @@
 "title"       : "Checking or Replacing a TX After it's Been Sent",
 "sort"        : "10",
 "category"    : "Transactions",
-"description" : "Transactions"
+"description" : "Transactions",
+"date_published" : "2017-10-08T08:00:00+08:00",
+"date_modified"  : "2017-10-28T08:00:00+08:00"
 }
 
 ---%

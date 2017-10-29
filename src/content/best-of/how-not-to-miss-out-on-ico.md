@@ -2,7 +2,9 @@
 "title"       : "Best ways to mitigate missing out on that hot ICO",
 "sort"        : "18",
 "category"    : "Best Of",
-"description" : "Best Of"
+"description" : "Best Of",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-09-26T08:00:00+08:00"
 }
 
 ---%

@@ -2,7 +2,9 @@
 "title"       : "Ensuring MyEtherWallet doesn't give different people the same private key",
 "sort"        : "12",
 "category"    : "Security & Phishing",
-"description" : "Security & Phishing"
+"description" : "Security & Phishing",
+"date_published" : "2017-07-05T08:00:00+08:00",
+"date_modified"  : "2017-09-26T08:00:00+08:00"
 }
 
 ---%

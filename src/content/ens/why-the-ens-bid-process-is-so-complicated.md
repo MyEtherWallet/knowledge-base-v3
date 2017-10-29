@@ -2,7 +2,9 @@
 "title"       : "Why the ENS bid process is so complicated",
 "sort"        : "18",
 "category"    : "ENS",
-"description" : "ENS"
+"description" : "ENS",
+"date_published" : "2017-05-05T08:00:00+08:00",
+"date_modified"  : "2017-05-05T08:00:00+08:00"
 }
 
 ---%
