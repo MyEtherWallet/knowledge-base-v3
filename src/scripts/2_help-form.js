@@ -86,8 +86,9 @@ function submitForm() {
     elem_val = $( '#' + el + '--input' ).val()
     elem_label = $( '#' + el + '--label' ).text()
     if ( elem_val.length > 0 ) {
-      body_text += elem_label + ": " + elem_val;
-      body_text += '/n/r/<br>'
+      body_text += elem_label
+      body_text += elem_val
+      body_text += '\n\n'
     }
 
   })
