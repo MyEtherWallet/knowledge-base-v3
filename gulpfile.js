@@ -245,98 +245,59 @@ gulp.task('lunr_index', ['gen_search_index'], function(){
 
 
 // Home Page
-
 gulp.task('layout_home', ['gen_pages'], function() {
-
   return gulp.src( layouts_srcFolder + 'index.hbs' )
-
     .pipe( plumber({ errorHandler: onError }) )
-
     .pipe( tap(function( file, t ) {
-
       H.registerHelpers( Handlebars );
-
       var template = Handlebars.compile( file.contents.toString() )
-
       var result   = template( Context )
-
       file.contents = new Buffer( result , 'utf-8');
-
     }))
-
     .pipe( rename(function(path) {
       path.extname = '.html';
     }))
-
     .pipe( gulp.dest( dstFolder ) )
-
     .pipe( notify ( onSuccess ( 'layout_home' ) ) )
-
 })
 
 
 // Contact Page
 gulp.task('layout_contact', ['gen_pages'], function() {
-
   return gulp.src( layouts_srcFolder+'contact.hbs' )
-
     .pipe( plumber({ errorHandler: onError }) )
-
     .pipe( tap(function( file, t ) {
-
       H.registerHelpers( Handlebars );
-
       var template = Handlebars.compile( file.contents.toString() )
-
       var result   = template( Context )
-
       file.contents = new Buffer( result , 'utf-8');
-
     }))
-
-      .pipe(rename({
-        basename: "index",
-        extname: ".html"
-      }))
-
+    .pipe(rename({
+      basename: "index",
+      extname: ".html"
+    }))
     .pipe( gulp.dest( dstFolder + 'contact/' ) )
-
     .pipe( notify ( onSuccess ( 'layout_contact' ) ) )
-
 })
 
 
 // form Page
 gulp.task('layout_form', ['gen_pages'], function() {
-
   return gulp.src( layouts_srcFolder+'form.hbs' )
-
     .pipe( plumber({ errorHandler: onError }) )
-
     .pipe( tap(function( file, t ) {
-
       H.registerHelpers( Handlebars );
-
       var template = Handlebars.compile( file.contents.toString() )
-
       var result   = template( Context )
-
       file.contents = new Buffer( result , 'utf-8');
-
     }))
-
-      .pipe(rename({
-        basename: "index",
-        extname: ".html"
-      }))
-
+    .pipe(rename({
+      basename: "index",
+      extname: ".html"
+    }))
     .pipe( gulp.dest( dstFolder + 'form/' ) )
-
     .pipe( notify ( onSuccess ( 'layout_form' ) ) )
-
 })
-
-
 
 
 
