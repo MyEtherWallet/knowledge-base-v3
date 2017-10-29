@@ -18,9 +18,16 @@
   }
 }
 
+.kb_helpers,
+.block--sm {
+  @extend .block;
+  padding: $space;
+  min-height: $space;
+}
+
 .block__content {
   margin: $space auto;
-  padding: $space*2 $space*3;
+  padding: 5% 6%;
 }
 
 .block--text-white {

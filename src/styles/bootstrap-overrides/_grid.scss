@@ -1,0 +1,18 @@
+.container-xl {
+  @include make-container();
+  max-width: map-get($grid-breakpoints, 'xl');
+}
+.container-lg {
+  @include make-container();
+  max-width: map-get($grid-breakpoints, 'lg');
+}
+.container-md {
+  @include make-container();
+  max-width: map-get($grid-breakpoints, 'md');
+}
+.container-sm {
+  @include make-container();
+  max-width: map-get($grid-breakpoints, 'sm');
+}
+
+

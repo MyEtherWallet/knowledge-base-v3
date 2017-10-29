@@ -1,0 +1,7 @@
+.list-group-item {
+  justify-content: space-between;
+  &:after {
+    content: "\2192";
+    margin: 0 1em;
+  }
+}

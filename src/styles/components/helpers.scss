@@ -1,0 +1,37 @@
+.container--kb-form {
+  padding: $space*2 $space;
+  margin-top: $space*2;
+  background-color: white;
+  box-shadow: 16px 16px 47px 2px rgba(0,0,0,.07);
+  h1 { margin-top: 0; }
+}
+
+.helpers__title {
+  display: block;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
+}
+
+.helpers__subtitle {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.kb_helpers {
+  display: none;
+  margin-bottom: $space;
+  margin-top: -($space-sm);
+  &:after {
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    content: "Still need help? Continue filling out the form below to send. :)";
+  }
+}
+
+.form__addl-field {
+  display: none;
+}
