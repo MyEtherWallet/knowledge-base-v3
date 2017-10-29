@@ -21,7 +21,7 @@
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
   <meta name="google-site-verification" content="cm_SdZ2NyEycvuM81evpS5fpFaqJ1UjHofAymetwmaw" />
-  <meta name="referrer" content="same-origin">
+  <meta name="referrer" content="origin">
   <link href="{{base_url}}images/fav/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
   <link href="{{base_url}}images/fav/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
   <link href="{{base_url}}images/fav/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
@@ -669,13 +669,5 @@
   </section>
 
 </form>
-
-<script>
-if ( window.self!==window.top && typeof sendMsgToParent=='function' )
-  sendMsgToParent()
-if ( typeof childReceiveMessage=='function' )
-  window.addEventListener("message", childReceiveMessage, false);
-</script>
-
 </body>
 </html>

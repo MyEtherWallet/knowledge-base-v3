@@ -83,18 +83,9 @@ function submitForm() {
   })
 
   // URL
-  var hasRef = (document.referrer != null) && (document.referrer.length != 0)
-  var hasLoc = (window.location.href != null) && (window.location.href.length != 0)
   var url    = ''
-
-  //if( _parentLoc )
-    url += 'iFrame Parent  ' + ': ' + _parentLoc + '\n'
-  //if( hasRef     )
-    url += 'Doc Ref        ' + ': ' + document.referrer  + '\n'
-  //if( _childLoc  )
-    url += 'iFrame Child   ' + ': ' + _childLoc  + '\n'
-  //if( hasLoc     )
-    url += 'Window Loc     ' + ': ' + window.location.href  + '\n'
+      url += 'Doc Ref        ' + ': ' + document.referrer  + '\n'
+      url += 'Window Loc     ' + ': ' + window.location.href  + '\n'
 
   // Browser Info
   var browser  = 'Browser        ' + ': ' + platform.name        + '\n'
@@ -235,33 +226,4 @@ function showFields( the_subject  ) {
         break;
       default:
   }
-}
-
-
-
-var _childLoc  = ''
-var _parentLoc = ''
-
-function childReceiveMessage(event) {
-  console.log('event.origin: ' + event.origin )
-
-  if (event.origin !== 'https://myetherwallet.github.io/knowledge-base/')
-    return
-
-  window._parentLoc = event.data;
-  console.log('_parentLoc: ' + window._parentLoc )
-}
-
-function sendMsgToParent() {
-  window._childLoc = window.location.href
-  console.log( '_childLoc: ' + window._childLoc)
-  window.parent.postMessage( window._childLoc, 'https://myetherwallet.github.io/knowledge-base/')
-}
-
-function receiveMessage(event) {
-  window._parentLoc = window.location.href;
-  console.log( '_childLoc event: ' + event.origin )
-  console.log( '_childLoc receiveMessage: ' + event.data )
-  console.log( '_parentLoc receiveMessage: ' + window._parentLoc )
-  event.source.postMessage( window._parentLoc, 'https://myetherwallet.github.io/knowledge-base/' )
 }
