@@ -69,6 +69,9 @@ gulp.task('copy', function() {
     gulp.src( img_srcFolder + '**/*/' )
       .pipe(gulp.dest( dstFolder + 'images/' ))
 
+    gulp.src( srcFolder + 'sitemap.xml' )
+      .pipe(gulp.dest( dstFolder ))
+
     return gulp.src( srcFolder + 'styleguide.html' )
       .pipe(gulp.dest( dstFolder ))
 
