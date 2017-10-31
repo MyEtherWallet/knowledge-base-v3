@@ -92,9 +92,7 @@ function submitForm() {
     'UA             ' + ': ' + platform.ua
   */
 
-  var debug_info  = '<p style="font-style:italic; font-size: 12px; color: #555">'
-      debug_info += platform.description + ' | ' + document.referrer + ' | ' + window.location.href
-      debug_info += '</p>'
+  var debug_info  = '\n\n Debug Info: ' + platform.description + ' \n via ' + document.referrer + ' or ' + window.location.href
 
 
   $('#textarea_body').val( message + addl_fields + debug_info)
