@@ -66,13 +66,11 @@ function submitForm() {
 
   var form         = $('#fa-form-1')
 
-
-
-  // Message       --> MESSAGE BODY
+  // Message
   var message  = $('#main_msg--input' ).val() + '\n\n'
 
-  // Add'l Fields  --> MESSAGE BODY
-  var addl_array = [ 'addl_addr', 'addl_tx', 'addl_1', 'addl_2', 'main_sub' ]
+  // Add'l Fields
+  var addl_array = [ 'addl_addr', 'addl_tx', 'addl_1', 'addl_2']
   var addl_fields = ''
   $.each( addl_array, function(i, el){
     elem       = $( '#' + el )
@@ -85,24 +83,28 @@ function submitForm() {
   })
 
   /*
-  // URL --> TO NOTE VIA API
-  var url    = ''
-      url += 'Doc Ref        ' + ': ' + document.referrer  + '\n'
-      url += 'Window Loc     ' + ': ' + window.location.href  + '\n'
+    'Doc Ref        ' + ': ' + document.referrer  + '\n'
+    'Window Loc     ' + ': ' + window.location.href  + '\n'
 
-  // Browser Info --> TO NOTE VIA API
-  var browser  = 'Browser        ' + ': ' + platform.name        + '\n'
-      browser += 'OS             ' + ': ' + platform.os.family   + '\n'
-      browser += 'Full Env.      ' + ': ' + platform.description + '\n'
-      browser += 'UA             ' + ': ' + platform.ua
+    'Browser        ' + ': ' + platform.name        + '\n'
+    'OS             ' + ': ' + platform.os.family   + '\n'
+    'Full Env.      ' + ': ' + platform.description + '\n'
+    'UA             ' + ': ' + platform.ua
   */
 
-  var debug_info  =  '<p style="font-style:italic; font-size: 12px; color: #555">'
+  var debug_info  = '<p style="font-style:italic; font-size: 12px; color: #555">'
       debug_info += platform.description + ' | ' + document.referrer + ' | ' + window.location.href
-  var debug_info =  + '</p>'
+      debug_info += '</p>'
 
 
   $('#textarea_body').val( message + addl_fields + debug_info)
+
+  $('addl_addr' ).val('')
+  $('addl_tx' ).val('')
+  $('addl_1' ).val('')
+  $('addl_2' ).val('')
+  $('#main_msg--input' ).val('')
+
   form.attr('action', 'https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063')
   form.submit()
 
