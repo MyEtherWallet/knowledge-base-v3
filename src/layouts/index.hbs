@@ -166,13 +166,17 @@
     {{#each category as |value key|}}
       <div class="col-12 col-sm-4">
         <div class="block">
-          <a href="{{../base_url}}{{slug}}" title="{{title}}" class="cat__title"> <h2>{{title}}</h2>
+          <a href="{{../base_url}}{{slug}}" title="{{title}}" class="cat__title" target="_parent">
+            <h2>{{title}}</h2>
           </a>
           <ul>
             {{#each ../pages}}
               {{#if (eq cat_title key) }}
-                <li><a href="{{../base_url}}{{url}}" title="{{title}}">{{title}}
-                </a></li>
+                <li>
+                  <a href="{{../base_url}}{{url}}" title="{{title}}" target="_parent">
+                    {{title}}
+                  </a>
+                </li>
               {{/if}}
             {{/each}}
           </ul>

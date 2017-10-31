@@ -84,6 +84,7 @@ function submitForm() {
     }
   })
 
+  /*
   // URL --> TO NOTE VIA API
   var url    = ''
       url += 'Doc Ref        ' + ': ' + document.referrer  + '\n'
@@ -94,16 +95,14 @@ function submitForm() {
       browser += 'OS             ' + ': ' + platform.os.family   + '\n'
       browser += 'Full Env.      ' + ': ' + platform.description + '\n'
       browser += 'UA             ' + ': ' + platform.ua
+  */
+
+  var debug_info  =  '<p style="font-style:italic; font-size: 12px; color: #555">'
+      debug_info += platform.description + ' | ' + document.referrer + ' | ' + window.location.href
+  var debug_info =  + '</p>'
 
 
-
-
-  //  --> TO NOTE VIA API
-  var note =  url + browser
-
-  // --> TO MESSAGE
-  var message_body = message + addl_fields
-  $('#textarea_body').val( message + addl_fields)
+  $('#textarea_body').val( message + addl_fields + debug_info)
   form.attr('action', 'https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063')
   form.submit()
 
