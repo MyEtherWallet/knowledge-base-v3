@@ -67,7 +67,7 @@ function submitForm() {
   var form         = $('#fa-form-1')
 
   // Message
-  var message  = $('#main_msg--input' ).val() + '\n\n'
+  var message  = $('#main_msg--input' ).val() + '\n\n\n'
 
   // Add'l Fields
   var addl_array = [ 'addl_addr', 'addl_tx', 'addl_1', 'addl_2']
@@ -78,7 +78,7 @@ function submitForm() {
     elem_label = $( '#' + el + '--label' ).text()
     if ( elem_val.length > 0 ) {
       addl_fields += elem_label + ': ' + elem_val
-      addl_fields += '\n\n'
+      addl_fields += '\n'
     }
   })
 
@@ -92,15 +92,15 @@ function submitForm() {
     'UA             ' + ': ' + platform.ua
   */
 
-  var debug_info  = '\n\n Debug Info: ' + platform.description + ' \n via ' + document.referrer + ' or ' + window.location.href
+  var debug_info  = '\n\nDebug Info: ' + platform.description + ' \n via ' + document.referrer + ' or ' + window.location.href
 
 
   $('#textarea_body').val( message + addl_fields + debug_info)
 
-  $('addl_addr' ).val('')
-  $('addl_tx' ).val('')
-  $('addl_1' ).val('')
-  $('addl_2' ).val('')
+  $('#addl_addr--input' ).val('')
+  $('#addl_tx--input' ).val('')
+  $('#addl_1--input' ).val('')
+  $('#addl_2--input' ).val('')
   $('#main_msg--input' ).val('')
 
   form.attr('action', 'https://webhook.frontapp.com/forms/myetherwallet/69b21d13db5e11724f5ed625582edf518f24d345f5b7d9162684319532ff33f8b5e3ef8069cf05dcb2718c3e53b42063')
