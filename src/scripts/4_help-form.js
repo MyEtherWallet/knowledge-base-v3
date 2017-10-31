@@ -67,7 +67,7 @@ function submitForm() {
   var form         = $('#fa-form-1')
 
   // Message
-  var message  = $('#main_msg--input' ).val() + '\n\n\n'
+  var message  = '\n' + $('#main_msg--input' ).val() + '\n\n'
 
   // Add'l Fields
   var addl_array = [ 'addl_addr', 'addl_tx', 'addl_1', 'addl_2']
@@ -92,7 +92,7 @@ function submitForm() {
     'UA             ' + ': ' + platform.ua
   */
 
-  var debug_info  = '\n\nDebug Info: ' + platform.description + ' \n via ' + document.referrer + ' or ' + window.location.href
+  var debug_info  = '\nDebug Info: ' + platform.description + ' \n via ' + document.referrer + ' or ' + window.location.href
 
 
   $('#textarea_body').val( message + addl_fields + debug_info)
