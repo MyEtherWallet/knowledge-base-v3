@@ -17,7 +17,7 @@
 
 3. MetaMask will block you w/ a big red warning if you go to a malicious site [found on our blacklists](https://github.com/409H/EtherAddressLookup/blob/master/blacklists/domains.json). Look at all these crypto phishing websites!
 
-![](../images/moving-from-private-key-to-metamask_03.jpg)
+![](../../images/moving-from-private-key-to-metamask_03.jpg)
 
 Damn!
 
@@ -27,7 +27,7 @@ Damn!
 
 2. Check to make sure it's the legit one. Are there are ton of positive reviews? Are there a ton of users? If so, it's probably the right one.
 
-![](../images/moving-from-private-key-to-metamask_01.jpg)
+![](../../images/moving-from-private-key-to-metamask_01.jpg)
 
 3. Install it by clicking "Add to Chrome".
 
@@ -56,7 +56,7 @@ Damn!
 
 5. Get your address from Metamask. Click the orange extension icon, click the three dots (...) next to your new account, and click `Copy Address to clipboard`.
 
-![](../images/moving-from-private-key-to-metamask_02.jpg)
+![](../../images/moving-from-private-key-to-metamask_02.jpg)
 
 6. Paste your MetaMask address in the `To Address` field on MyEtherWallet.
 
