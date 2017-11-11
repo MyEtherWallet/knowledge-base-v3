@@ -1,5 +1,5 @@
 {
-"title"       : "Using MyEtherWallet for cold storage",
+"title"       : "Is the 'Send Ether & Tokens' page offline?",
 "sort"        : "4",
 "category"    : "Offline",
 "description" : "Offline",
