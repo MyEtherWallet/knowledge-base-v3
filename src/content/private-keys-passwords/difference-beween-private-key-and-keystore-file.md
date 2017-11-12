@@ -1,5 +1,5 @@
 {
-"title"       : "Differences between a private key & keystore file",
+"title"       : "Differences between wallet types (e.g. private key vs keystore)",
 "sort"        : "12",
 "category"    : "Private Keys & Passwords",
 "description" : "Private Keys & Passwords",
@@ -30,6 +30,8 @@ However, for additional functionality (like protecting it with a password) there
 *  This Keystore file matches the format used by Mist so you can easily import it in the future. 
 *  Make sure to have multiple backups.
 
+![](https://myetherwallet.github.io/knowledge-base/images/wallet-types/keystore-file.jpg)
+
 ### Mnemonic Phrases
 *  Typically these come in 12-word or 24-words. 
 *  They can derive multiple addreses - meaning your phrase actually is able to create multiple accounts, addresses, and private keys. 
@@ -41,6 +43,8 @@ However, for additional functionality (like protecting it with a password) there
 *  If someone were to find your unencrypted private key, they could access your wallet without a password. 
 *  For this reason, encrypted versions are typically recommended. 
 *  However, you should print the paper wallet or save this in an **offline** environment (like a piece of paper or USB drive). This ensures a lost password does not result in lost ETH, and acts as another backup.
+
+![](https://myetherwallet.github.io/knowledge-base/images/wallet-types/private-key.jpg)
 
 ### Parity Phrase -- deprecated
 *  [Learn More Here](https://myetherwallet.github.io/knowledge-base/parity-phrases-no-longer-supported)
