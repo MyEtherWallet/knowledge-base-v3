@@ -10,7 +10,7 @@
 
 ---%
 
-<center>![](https://i.imgur.com/1Frrqt3.jpg)</center>
+<center>![](https://i.imgur.com/EsdYMSe.jpg)</center>
 
 
 A `Not a valid ERC-20 token` error can occur when an incorrect contract address was added as a custom token. Be sure to use the correct contract address, you can find the contract address by following either of the following instructions:
