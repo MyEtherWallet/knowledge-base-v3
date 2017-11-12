@@ -18,7 +18,7 @@ You can encrypt your private key by using our Chrome Extension, or importing you
 
 ### Chrome Extension
 
-1.  Download and install our [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en).
+1.  Download and install our [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en).
 2.  Add a new wallet using your private key.
 3.  Enter a password and save this wallet.
 4.  Go to the "My Wallets" page and click the yellow "view" icon.

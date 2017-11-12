@@ -73,7 +73,7 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 ### 17. The guys who just finish their token sale don't want to sell you tokens via Slack DM.
 * Neither does that smokin' hot 125px x 125px avatar.
 
-### 18. [Download the MEW Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en).
+### 18. [Download the MEW Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en).
 
 ### 19. ONLY unlock your wallet when you want to send a transaction. Check your balance via https://etherscan.io/, https://ethplorer.io/
 
