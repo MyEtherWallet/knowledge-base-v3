@@ -4,15 +4,17 @@
 "category"    : "Addresses",
 "description" : "Addresses",
 "date_published" : "2017-07-05T08:00:00+08:00",
-"date_modified"  : "2017-09-26T08:00:00+08:00"
+"date_modified"  : "2017-11-11T08:00:00+08:00"
 }
 
 ---%
 
 
-MyEtherWallet is just a front end. Any Ethereum address can "receive" Ethereum-based tokens ("ERC-20" tokens).
+MyEtherWallet is just a front end interface that enables you to talk directly with the blockchain.
 
-MEW enables you (through a front end) to send tokens / coins from your address, view your token balance, etc. It has no bearing on your address's ability to receive tokens.
+Any Ethereum address can receive and store Ethereum-based tokens ("ERC-20" tokens).
+
+MEW enables you (through an interface) to send tokens from your address, view your token balance, etc. However, MyEtherWallet's existence has no bearing on your address's ability to receive tokens.
 
 Whether you store all your ETH and tokens in the same address is up to you. Some people prefer to have different wallets. Some people have a smaller "hot" wallet that is kept on their computer with small amounts of the coins they hold while keeping a majority of their funds in a cold-storage wallet.
 
