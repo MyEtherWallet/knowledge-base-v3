@@ -1,10 +1,10 @@
 {
-"title"       : "Using MyEtherWallet for cold storage",
+"title"       : "Is the 'Send Ether & Tokens' page offline?",
 "sort"        : "4",
 "category"    : "Offline",
 "description" : "Offline",
 "date_published" : "2017-07-05T08:00:00+08:00",
-"date_modified"  : "2017-09-26T08:00:00+08:00"
+"date_modified"  : "2017-11-11T09:07:00+08:00"
 }
 
 ---%
