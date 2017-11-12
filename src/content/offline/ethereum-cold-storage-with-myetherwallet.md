@@ -1,6 +1,6 @@
 {
 "title"       : "Using MyEtherWallet for cold storage",
-"sort"        : "4",
+"sort"        : "04",
 "category"    : "Offline",
 "description" : "Offline",
 "date_published" : "2017-07-05T08:00:00+08:00",
@@ -25,7 +25,7 @@ To save / backup your Ledger or TREZOR device, simply write down the 24-word phr
 
 You can run MyEtherWallet.com on your computer and this computer can be a cold-storage or offline computer. This means it is a computer that is not connected to the internet and _will never be connected to the internet again._ You can generate a wallet completely offline & send Ether or Tokens from the "Send Offline" page.
 
-### How-To
+### How To
 
 * Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest).
 * Click on `etherwallet-vX.X.X.X.zip`.

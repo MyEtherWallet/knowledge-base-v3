@@ -1,6 +1,6 @@
 {
 "title"       : "What's the Difference Between an Exchange and MyEtherWallet?",
-"sort"        : "2",
+"sort"        : "40",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-07-15T08:00:00+08:00",

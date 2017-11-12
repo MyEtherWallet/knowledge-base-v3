@@ -1,6 +1,6 @@
 {
 "title"       : "Transaction has a [Bad jump destination] or [Out of Gas] error",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Transactions",
 "description" : "Transactions",
 "date_published" : "2017-07-05T08:00:00+08:00",

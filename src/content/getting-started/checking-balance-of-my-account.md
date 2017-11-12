@@ -1,6 +1,6 @@
 {
-"title"       : "How Do I Check the Balance of My Account?",
-"sort"        : "13",
+"title"       : "Checking the Balance of Your Account",
+"sort"        : "25",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-10-05T08:00:00+08:00",

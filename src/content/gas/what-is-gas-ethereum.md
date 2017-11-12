@@ -1,6 +1,6 @@
 {
 "title"       : "What is Gas?",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Gas & Transaction Fees",
 "description" : "Gas & Transaction Fees",
 "date_published" : "2017-07-05T08:00:00+08:00",

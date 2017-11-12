@@ -1,6 +1,6 @@
 {
 "title"       : "'Not checksummed' shows when I enter an address",
-"sort"        : "3",
+"sort"        : "03",
 "category"    : "Addresses",
 "description" : "Addresses",
 "date_published" : "2017-07-05T08:00:00+08:00",

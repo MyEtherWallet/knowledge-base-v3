@@ -1,6 +1,6 @@
 {
 "title"       : "Sending & Adding Tokens",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "Sending ETH & Tokens",
 "description" : "Sending ETH & Tokens",
 "date_published" : "2017-07-05T08:00:00+08:00",

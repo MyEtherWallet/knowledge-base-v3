@@ -1,6 +1,6 @@
 {
 "title"       : "Swap wasn't completed or was canceled",
-"sort"        : "1",
+"sort"        : "01",
 "category"    : "Swap",
 "description" : "Swap",
 "date_published" : "2017-07-05T08:00:00+08:00",

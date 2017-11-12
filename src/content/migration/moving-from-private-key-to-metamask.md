@@ -1,6 +1,6 @@
 {
-"title"       : "[MEW -> MetaMask] Moving from MyEtherWallet to MetaMask",
-"sort"        : "1",
+"title"       : "[MEW ➡ MetaMask] Moving from MyEtherWallet to MetaMask",
+"sort"        : "01",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",
 "date_published" : "2017-10-08T08:00:00+08:00",

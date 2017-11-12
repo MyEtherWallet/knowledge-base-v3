@@ -1,6 +1,6 @@
 {
 "title"       : "Protecting Yourself and Your Funds",
-"sort"        : "4",
+"sort"        : "20",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-07-15T08:00:00+08:00",

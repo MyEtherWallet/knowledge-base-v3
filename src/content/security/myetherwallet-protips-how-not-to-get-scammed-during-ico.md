@@ -1,35 +1,37 @@
 {
-"title"       : "Pro-Tips -How Not to get Scammed during a Token Sale",
+"title"       : "Pro-Tips: How Not to get Scammed & Phished",
 "sort"        : "14",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
 "date_published" : "2017-07-05T08:00:00+08:00",
-"date_modified"  : "2017-09-26T08:00:00+08:00"
+"date_modified"  : "2017-11-11T08:00:00+08:00"
 }
 
 ---%
 
 
 
-### Below are some tips to prevent from being scammed during a token sale.
+### Below are some tips to reduce the risk of you losing your hard-earned coins.
 
-1. Use Google instead of clicking messages in DMs or on Twitter
+0. Install [EtherAddressLookup](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn). These warn you if you go to a malcious website.
 
-2. Double-Check the URL. Is it the same as the message received?
+1. Did you just get sent a link to a token sale, MyEtherWallet, etherdelta, Shapeshift, or Ebay? **Don't click it!** Instead, search for that service on Google. Click the top one **that is not an ad.**
 
-3. Google the name of the token + "twitter"
+1. You **do not** have to enter your private key for an airdrop. Don't enter your private key on random sites!
+
+2. Double-Check the URL. Are there any weird characters? Symbols? It is `shapshift` instead of `shapeshift`? Or `myelherwallet` instead of `myetherwallet`?
+
+3. Token sale or exchange? Google the name of the token + "twitter"
 
 4. Check out the Twitter account. Everything looking good still?
 
-5. Check out the address on etherscan.io
-
-6. And always make sure you are on the correct MyEtherWallet, too!
+5. Sending to an address? Check out the address on etherscan.io.
+6.
 
 The screenshots below point out specific things to check to make sure you are interacting with the correct site.
 
 
-
-### 1. Use Google instead of clicking messages in DMs or on Twitter
+### 1. Use Google instead of clicking links sent to you
 
 ![](http://i.imgur.com/XwiVCSY.jpg)
 
@@ -88,7 +90,7 @@ Sweetness.
 
 
 
-Originally posted on reddit:
+### Originally posted on reddit:
 
 - [https://www.reddit.com/r/ethereum/comments/6o04b2/protips_how_not_to_get_scammed_during_a_token_sale/](https://www.reddit.com/r/ethereum/comments/6o04b2/protips_how_not_to_get_scammed_during_a_token_sale/)
 

@@ -1,6 +1,6 @@
 {
-"title"       : "Keypairs, presale files & encryption",
-"sort"        : "6",
+"title"       : "On Components of the Ethereum Pre-Sale File & Encryption",
+"sort"        : "06",
 "category"    : "Best Of",
 "description" : "Best Of",
 "date_published" : "2017-07-05T08:00:00+08:00",
@@ -164,7 +164,7 @@ How much time it takes is dependent on:
 [hashcat](https://hashcat.net/hashcat/) is another tool but not specifically for Ethereum or presale files so you are going to have to set it up to do this. As described above, the password is only one of the steps that you need to take. You must first derive the seed, then derive the private key, and then see if that private key derives the correct address. hashcat is better if you have a list of salted passwords from a hack.
 
 
-**Recommendations**
+#### Recommendations
 
 I would recommend going with pyethrecover or ethcracker. I would grab a [list of 100k passwords from somewhere](https://github.com/danielmiessler/SecLists/tree/master/Passwords) and give it that to pyethrecover and see how long it takes. Then do the same with ethcracker (with ethcracker, this pw list would be your one component and you wouldn't use that functionality). Whichever one is fastest, use that. If ethcracker is slower when providing it with multiple components, generate all the possible passwords from components first and then feed it that list.
 

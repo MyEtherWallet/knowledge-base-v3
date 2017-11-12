@@ -1,6 +1,6 @@
 {
 "title"       : "How Do I Send TO My TREZOR?",
-"sort"        : "4",
+"sort"        : "04",
 "category"    : "Hardware Wallets",
 "description" : "Hardware Wallets",
 "date_published" : "2015-07-15T08:00:00+08:00",
@@ -12,7 +12,7 @@
 
 1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/#send-transaction).
 
-2. Check to make sure you are using an ETH node by looking at the 
+2. Check to make sure you are using an ETH node by looking at the
 
 3. Network Switcher in the top-right corner.
 

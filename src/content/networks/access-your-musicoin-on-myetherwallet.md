@@ -1,6 +1,6 @@
 {
 "title"       : "Accessing & Sending MUSICOIN via MyEtherWallet",
-"sort"        : "4",
+"sort"        : "04",
 "category"    : "Networks & Nodes",
 "description" : "Networks & Nodes",
 "date_published" : "2017-10-08T08:00:00+08:00",
@@ -22,7 +22,7 @@ We also advise you to ensure you are using addreses on the MUSICOIN chain that i
 
 Any transactions sent on the MUSICOIN chain can be replayed on a different chain.
 
-### How-to
+### How To
 
 1. Select custom at the very bottom of the network dropdown in top right
 2. NAME: MUSICOIN

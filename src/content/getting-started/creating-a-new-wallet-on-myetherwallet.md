@@ -1,6 +1,6 @@
 {
-"title"       : "Creating a new wallet",
-"sort"        : "8",
+"title"       : "How to Create a Wallet",
+"sort"        : "05",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-10-05T08:00:00+08:00",
@@ -16,7 +16,7 @@ The following assumes you are **not** using a Ledger or TREZOR hardware wallet. 
 
 To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
 
-### How-To
+### How To
 
 * Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/).
 * Enter a strong but easy to remember password. Do not forget it.

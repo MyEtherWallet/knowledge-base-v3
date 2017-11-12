@@ -1,6 +1,6 @@
 {
-"title"       : "Accessing & Sending Ethereum Classic (ETC) via MyEtherWallet 🎥",
-"sort"        : "1",
+"title"       : "How to Send Ethereum Classic (ETC) via MyEtherWallet 🎥",
+"sort"        : "01",
 "category"    : "Networks & Nodes",
 "description" : "Networks & Nodes",
 "date_published" : "2017-10-08T08:00:00+08:00",
@@ -12,7 +12,7 @@
 
 *I sent ETC to my ETH wallet by mistake.*
 
-### How-to
+### How To
 
 In order to see your ETC and interact with the ETC chain, you must first be on an ETC node.
 

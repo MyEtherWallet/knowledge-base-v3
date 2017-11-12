@@ -1,6 +1,6 @@
 {
 "title"       : "Swapping ETH, BTC, REP on MyEtherWallet via Bity",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Swap",
 "description" : "Swap",
 "date_published" : "2017-07-05T08:00:00+08:00",

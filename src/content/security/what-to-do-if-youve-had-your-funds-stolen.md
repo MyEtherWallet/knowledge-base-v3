@@ -1,6 +1,6 @@
 {
 "title"       : "What to do if you've been had your funds stolen?",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
 "date_published" : "2017-07-05T08:00:00+08:00",

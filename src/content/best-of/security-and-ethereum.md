@@ -1,5 +1,5 @@
 {
-"title"       : "Let's talk about security on Ethereum",
+"title"       : "Improving Security on Ethereum",
 "sort"        : "10",
 "category"    : "Best Of",
 "description" : "Best Of",

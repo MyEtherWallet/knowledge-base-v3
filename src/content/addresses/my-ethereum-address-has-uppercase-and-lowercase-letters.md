@@ -1,6 +1,6 @@
 {
 "title"       : "Ethereum address has uppercase and lowercase letters",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Addresses",
 "description" : "Addresses",
 "date_published" : "2017-07-05T08:00:00+08:00",

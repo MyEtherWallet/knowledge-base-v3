@@ -1,6 +1,6 @@
 {
-"title"       : "Accessing your New Wallet",
-"sort"        : "12",
+"title"       : "How to Access Your Wallet",
+"sort"        : "15",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2017-06-20T08:00:00+08:00",
@@ -47,8 +47,3 @@ For this reason, it is very, very important to keep your private key a secret an
 - [Protecting Yourself and Your Funds](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
 
 - [Difference between an exchange and MyEtherWallet](https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
-
-
-
-
-

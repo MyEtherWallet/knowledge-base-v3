@@ -1,6 +1,6 @@
 {
 "title"       : "Protecting Yourself and Your Funds",
-"sort"        : "1",
+"sort"        : "01",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
 "date_published" : "2017-07-05T08:00:00+08:00",

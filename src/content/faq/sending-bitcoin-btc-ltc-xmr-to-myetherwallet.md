@@ -1,6 +1,6 @@
 {
 "title"       : "Does MyEtherWallet support Bitcoin or other coins (LTC STEEM ZEC)?",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "FAQ",
 "description" : "FAQ",
 "date_published" : "2017-06-20T08:00:00+08:00",

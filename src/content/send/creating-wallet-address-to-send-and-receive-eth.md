@@ -1,5 +1,5 @@
 {
-"title"       : "How To Create Wallet & Send / Receive ETH  🎥",
+"title"       : "How To Create Wallet & Send / Receive ETH 🎥",
 "sort"        : "12",
 "category"    : "Sending ETH & Tokens",
 "description" : "Sending ETH & Tokens",

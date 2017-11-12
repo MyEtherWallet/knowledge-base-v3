@@ -36,7 +36,7 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 
 
-### Now, the fun part! How-To Buy ETH
+### Now, the fun part! How To Buy ETH
 
 1. Create an account on Gemini or Coinbase or Kraken.
 

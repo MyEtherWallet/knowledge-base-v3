@@ -1,6 +1,6 @@
 {
 "title"       : "MyEtherWallet's QuickTips",
-"sort"        : "20",
+"sort"        : "45",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-07-15T08:00:00+08:00",

@@ -1,21 +1,23 @@
 {
-"title"       : "Saving & backing up your wallet",
+"title"       : "How to Properly Save & Back Up Your Wallet",
 "sort"        : "10",
 "category"    : "Getting Started",
 "description" : "Getting Started",
 "date_published" : "2015-10-05T08:00:00+08:00",
-"date_modified"  : "2017-10-16T08:00:00+08:00"
+"date_modified"  : "2017-11-11T08:00:00+08:00"
 }
 
 ---%
 
 
-
 ### Preface
 
-The following assumes you are not using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends). To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
+The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html).
 
-### How-To
+To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
+
+
+### How To
 
 * Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/).
 * Enter a strong but easy to remember password. Do not forget it.

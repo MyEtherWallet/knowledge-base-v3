@@ -1,6 +1,6 @@
 {
 "title"       : "How to run MyEtherWallet offline / locally",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Offline",
 "description" : "Offline",
 "date_published" : "2017-07-05T08:00:00+08:00",

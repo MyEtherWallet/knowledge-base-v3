@@ -1,6 +1,6 @@
 {
 "title"       : "Phish, Hacks, Thefts & stolen funds due to phishing messages on Slack / Reddit / Google Ads",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
 "date_published" : "2017-07-05T08:00:00+08:00",

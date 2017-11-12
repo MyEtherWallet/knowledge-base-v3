@@ -1,6 +1,6 @@
 {
 "title"       : "Should I keep my ETH / Tokens on Single or Multiple Addresses?",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "Addresses",
 "description" : "Addresses",
 "date_published" : "2017-07-05T08:00:00+08:00",

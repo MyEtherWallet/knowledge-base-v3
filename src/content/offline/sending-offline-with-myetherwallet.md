@@ -1,6 +1,6 @@
 {
 "title"       : "How can MyEtherWallet send offline?",
-"sort"        : "8",
+"sort"        : "08",
 "category"    : "Offline",
 "description" : "Offline",
 "date_published" : "2017-07-05T08:00:00+08:00",

@@ -1,10 +1,10 @@
 {
-"title"       : "Manually Reveang ENS Bids (Hard)",
+"title"       : "Manually Revealing ENS Bids (Hard)",
 "sort"        : "24",
 "category"    : "ENS",
 "description" : "ENS",
 "date_published" : "2017-07-05T08:00:00+08:00",
-"date_modified"  : "2017-09-26T08:00:00+08:00"
+"date_modified"  : "2017-11-11T08:00:00+08:00"
 }
 
 ---%

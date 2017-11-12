@@ -1,6 +1,6 @@
 {
 "title"       : "Hardware Wallet Recommendations",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "Hardware Wallets",
 "description" : "Hardware Wallets",
 "date_published" : "2015-07-15T08:00:00+08:00",

@@ -1,6 +1,6 @@
 {
-"title"       : "Keypairs, presale files & encryption",
-"sort"        : "4",
+"title"       : "On Keypairs & Encryption",
+"sort"        : "04",
 "category"    : "Best Of",
 "description" : "Best Of",
 "date_published" : "2017-07-05T08:00:00+08:00",

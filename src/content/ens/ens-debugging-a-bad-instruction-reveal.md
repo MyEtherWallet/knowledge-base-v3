@@ -1,6 +1,6 @@
 {
 "title"       : "Debugging a [BAD INSTRUCTION] Reveal",
-"sort"        : "4",
+"sort"        : "04",
 "category"    : "ENS",
 "description" : "ENS",
 "date_published" : "2017-07-05T08:00:00+08:00",

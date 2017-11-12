@@ -1,6 +1,6 @@
 {
 "title"       : "Transaction Failed - Out of Gas",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "Transactions",
 "description" : "Transactions",
 "date_published" : "2017-07-05T08:00:00+08:00",

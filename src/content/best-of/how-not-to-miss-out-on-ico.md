@@ -1,5 +1,5 @@
 {
-"title"       : "Best ways to mitigate missing out on that hot ICO",
+"title"       : "Best Ways to Avoid Missing Out on That ICO",
 "sort"        : "18",
 "category"    : "Best Of",
 "description" : "Best Of",

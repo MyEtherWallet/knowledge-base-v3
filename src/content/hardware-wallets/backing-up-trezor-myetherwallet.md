@@ -1,6 +1,6 @@
 {
 "title"       : "Backing up your TREZOR",
-"sort"        : "8",
+"sort"        : "08",
 "category"    : "Hardware Wallets",
 "description" : "Hardware Wallets",
 "date_published" : "2015-07-15T08:00:00+08:00",

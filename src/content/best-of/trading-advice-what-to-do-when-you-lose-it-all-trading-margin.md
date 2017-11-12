@@ -1,5 +1,5 @@
 {
-"title"       : "What to do when you lose it all trading margin",
+"title"       : "What to do When You Lose it All Trading Margin",
 "sort"        : "14",
 "category"    : "Best Of",
 "description" : "Best Of",

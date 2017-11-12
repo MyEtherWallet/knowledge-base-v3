@@ -16,7 +16,7 @@ You need to convert it to the standard V3 ("Keystore" / "UTC") file. The easiest
 
 Once you download it, extract the zip. Also copy your V2 JSON file into the same folder.
 
-_(Really explicit instructions for PC and Mac are here: [https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth-or-mist](https://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth-or-mist))_
+_(Really explicit instructions for PC and Mac are here: [https://ethereum.stackexchange.com/questions/465/How To-import-a-plain-private-key-into-geth-or-mist](https://ethereum.stackexchange.com/questions/465/How To-import-a-plain-private-key-into-geth-or-mist))_
 
 Now you have to open a command line window and type in the following command:
 

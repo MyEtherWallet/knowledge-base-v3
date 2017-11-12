@@ -1,6 +1,6 @@
 {
 "title"       : "How to make an offline transaction",
-"sort"        : "6",
+"sort"        : "06",
 "category"    : "Offline",
 "description" : "Offline",
 "date_published" : "2017-07-05T08:00:00+08:00",

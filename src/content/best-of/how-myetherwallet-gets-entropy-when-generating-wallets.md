@@ -1,6 +1,6 @@
 {
-"title"       : "Ethereum Account Generation & how MyEtherWallet gets Entropy",
-"sort"        : "2",
+"title"       : "Ethereum Account Generation & How MyEtherWallet gets Entropy",
+"sort"        : "02",
 "category"    : "Best Of",
 "description" : "Best Of",
 "date_published" : "2017-07-05T08:00:00+08:00",

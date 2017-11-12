@@ -1,6 +1,6 @@
 {
 "title"       : "What to do if you forgot to reveal your ENS bid",
-"sort"        : "2",
+"sort"        : "02",
 "category"    : "ENS",
 "description" : "ENS",
 "date_published" : "2017-07-05T08:00:00+08:00",

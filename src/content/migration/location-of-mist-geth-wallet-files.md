@@ -1,5 +1,5 @@
 {
-"title"       : "[MEW -> Mist] Access MyEtherWallet account in Geth / Mist",
+"title"       : "[MEW ➡ Mist] Access MyEtherWallet account in Geth / Mist",
 "sort"        : "10",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",

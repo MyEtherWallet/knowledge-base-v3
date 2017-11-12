@@ -1,6 +1,6 @@
 {
-"title"       : "[Coinbase -> MEW] Moving from Coinbase to MyEtherWallet",
-"sort"        : "8",
+"title"       : "[Coinbase ➡ MEW] Moving from Coinbase to MyEtherWallet",
+"sort"        : "08",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",
 "date_published" : "2015-07-15T08:00:00+08:00",

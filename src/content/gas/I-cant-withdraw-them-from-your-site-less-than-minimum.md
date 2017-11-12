@@ -1,6 +1,6 @@
 {
 "title"       : "Do you have a minimum requirement to transfer out of MyEtherWallet?",
-"sort"        : "8",
+"sort"        : "08",
 "category"    : "Gas & Transaction Fees",
 "description" : "Gas & Transaction Fees",
 "date_published" : "2017-07-05T08:00:00+08:00",

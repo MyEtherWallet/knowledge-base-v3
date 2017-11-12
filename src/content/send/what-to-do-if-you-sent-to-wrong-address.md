@@ -1,6 +1,6 @@
 {
 "title"       : "What to do if you sent to the wrong address",
-"sort"        : "3",
+"sort"        : "03",
 "category"    : "Sending ETH & Tokens",
 "description" : "Sending ETH & Tokens",
 "date_published" : "2017-07-05T08:00:00+08:00",
