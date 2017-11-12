@@ -152,6 +152,7 @@ var Search = [{
 gulp.task('reset_arrays', function() {
   Context.pages = []
   Context.category = []
+  Context.this_category = []
 })
 
 
