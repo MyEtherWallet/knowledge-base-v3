@@ -1,20 +1,12 @@
 {{> head}}
 
-
-
 <body class="single page">
-
-
 
 {{> schema-single}}
 {{> schema-single-crumbs}}
 {{> schema-org}}
 
-
-
 {{> header}}
-
-
 
 <!-- Main -->
 <section class="container">
@@ -24,12 +16,7 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="{{base_url}}">Home</a>
-        ›
-        <a class="breadcrumbs__category" href="{{base_url}}{{cat_slug}}/">
-          {{ cat_title }}
-        </a>
-        › <span class="breadcrumbs__category">{{ title }}</span>
+        <a class="breadcrumbs__home" href="{{base_url}}">Home</a> › <a class="breadcrumbs__category" href="{{base_url}}{{cat_slug}}/"> {{ cat_title }} </a> › <span class="breadcrumbs__category">{{ title }}</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
@@ -45,18 +32,10 @@
 
 </section>
 
-
-
 {{> footer-pre}}
-
-
 
 {{> footer}}
 
-
-
 </body>
-
-
 
 </html>

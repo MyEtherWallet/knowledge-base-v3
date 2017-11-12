@@ -6,15 +6,9 @@
     slug         = 'form/'
 }}
 
-
-
 <body class="body__form">
 
-
-
 {{> schema-org}}
-
-
 
 <form
   method="POST"
@@ -24,21 +18,15 @@
   enctype="multipart/form-data"
   accept-charset="utf-8"
 >
-
-    {{> form-main}}
-
-    <!-- Send Button -->
-    <section class="modal__send">
-      <button id="help-form--btn" class="btn btn-primary btn-lg">
-        Send message
-      </button>
-    </section>
-
+  {{> form-main}}
+  <!-- Send Button -->
+  <section class="modal__send">
+    <button id="help-form--btn" class="btn btn-primary btn-lg">
+      Send message
+    </button>
+  </section>
 </form>
 
-
 </body>
-
-
 
 </html>
