@@ -1,7 +1,7 @@
 {
 "title"       : "Not all characters of address are showing when I click 'Display Address on Ledger'",
 "category"    : "Hardware Wallets",
-"description" : "Not all characters of address are showing when I click 'Display Address on Ledger'"
+"description" : "Not all characters of address are showing when I click 'Display Address on Ledger'",
 "date_published" : "2017-06-20T08:00:00+08:00",
 "date_modified"  : "2017-11-11T09:07:00+08:00"
 }

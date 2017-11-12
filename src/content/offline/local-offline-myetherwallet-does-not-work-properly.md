@@ -2,7 +2,7 @@
 "title"       : "Local/offline MyEtherWallet does not look right",
 "sort"        : "4",
 "category"    : "Offline",
-"description" : "Offline"
+"description" : "Offline",
 "date_modified"  : "2017-11-11T09:07:00+08:00"
 }
 
