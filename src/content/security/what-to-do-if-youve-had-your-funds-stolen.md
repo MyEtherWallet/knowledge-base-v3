@@ -1,5 +1,5 @@
 {
-"title"       : "What to do if you've been had your funds stolen?",
+"title"       : "What to do if you've had your funds stolen?",
 "sort"        : "06",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
@@ -16,8 +16,8 @@ Unfortunately, once a transaction is on the blockchain, it's final. We do what
 
 ### In order to prevent this from happening in the future please:
 
-0. [Read: Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
-1.  Bookmark [https://www.myetherwallet.com/](https://www.myetherwallet.com/)  and only access the site via your own bookmark.
+1. [Read: Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
+2.  Bookmark [https://www.myetherwallet.com/](https://www.myetherwallet.com/)  and only access the site via your own bookmark.
 3. Get a [Ledger or Trezor](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) -or- create a [new, secure wallet](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html) & back it up offline.
 4.  Move all funds from all accounts you have to this new, secure account as soon as possible.
 
