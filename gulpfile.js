@@ -349,6 +349,23 @@ gulp.task('layout_single', ['register_partials'], function() {
     .pipe( notify ( onSuccess ( 'layout_single' ) ) )
 })
 
+// Layout: Search Page
+gulp.task('layout_', ['register_partials'], function() {
+  return gulp.src( layouts_srcFolder + 'search.hbs' )
+    .pipe( plumber({ errorHandler: onError }) )
+    .pipe( tap(function( file, t ) {
+      H.registerHelpers( Handlebars )
+      var template  = Handlebars.compile( file.contents.toString() )
+      var result    = template( Context )
+      file.contents = new Buffer( result , 'utf-8')
+    }))
+    .pipe( rename(function(path) {
+      path.extname = '.html'
+    }))
+    .pipe( gulp.dest( dstFolder ) )
+    .pipe( notify ( onSuccess ( 'layout_search' ) ) )
+})
+
 
 
 gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.js',   ['scripts']) })
