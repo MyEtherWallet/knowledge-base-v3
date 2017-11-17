@@ -1,8 +1,5 @@
 function checkQueryString() {
 
-  console.log(getQueryString('code'))
-  console.log(getQueryString('search'))
-
   if ( getQueryString('code') == 'ok' ) {
 
     $('.form--success').show()
