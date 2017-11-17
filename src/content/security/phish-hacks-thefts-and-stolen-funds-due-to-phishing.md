@@ -41,4 +41,12 @@ We are working with exchanges & lawyers to provide lists of accounts & domains, 
 *   [Install the MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 *   **Read our guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)**
 
+### Tokens that haven't been distributed / can't be moved yet
+
+If you recently participated in an ICO, you may have tokens remaining in your wallet. These are not currently transferable, or perhaps these tokens will be distributed at a later date to your now compromised wallet. You will need to find out when you can send these tokens from your wallet. The easiest way to determine that is to reach out to that token's creators and ask them for the information and if they can be of further assistance. 
+
+Once you know when you can move the tokens, you will need to plan on moving your tokens as close to that time as possible. First, send 0.01 ETH into your wallet (to cover the cost of gas) and then send your tokens out of your wallet to your new, secure wallet. You should do this as quickly as possible as soon as the tokens can be moved. 
+
+**Lastly, read our guide on ["Protecting Yourself and Your Funds"](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html). Be proactive about your security.**
+
 ### Again, we are really sorry.
