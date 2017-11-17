@@ -163,6 +163,7 @@ blockquote {
 a {
   color: $link-color;
   text-decoration: $link-decoration;
+  cursor: pointer;
 
   @include hover-focus {
     color: $link-hover-color;

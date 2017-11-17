@@ -1,22 +1,41 @@
-<section class="home__search">
-  <div class="container">
-    <form class="search__form" id="search__form" action="/">
-      <div class="form-group">
-        <h1>Search</h1>
-        <div class="input-group">
-          <input type="search" class="form-control" name="search" id="home__search" size="50" placeholder="Search">
-          <span class="input-group-btn">
-            <button href="/search.html" onclick="myFunction(); type="submit" id="search__button" class="btn btn-primary">Search</button>
-          </span>
-        </div>
-      </div>
-    </form>
+<main class="home__search container">
+
+  <h2>Search</h2>
+
+  <div class="search__form">
+
+    <div class="input-group">
+      <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
+      <span class="input-group-btn">
+        <button class="search__button btn btn-primary">Search</button>
+      </span>
+    </div>
+
+    <a class="search__advanced modal__trigger" data-toggle="modal" data-target="#search-modal">
+      Advanced Search Options
+    </a>
+
   </div>
-</section>
+
+</main>
 
 
-<script type="text/javascript">
-    function myFunction(){
-      index.search(foo-1)  
-    }
-</script>
+
+
+<main class="result__outer container" style="display: none;">
+  <button type="button" class="close search__clear" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  <section class="block">
+    <h4 class="search__error text-danger text-center" role="alert" style="display:none"></h4>
+    <h4 class="search__success text-success text-center" role="alert" style="display:none"></h4>
+    <div class="result__wrapper"></div>
+  </section>
+</main>
+
+
+
+
+
+
+{{> advanced-search-modal}}

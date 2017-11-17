@@ -53,12 +53,15 @@
 
 @import "bootstrap/utilities";
 
-
 @import 'components/blocks';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/helpers';
 @import 'components/contact-form';
+@import 'components/faqs';
+@import 'components/footer';
+@import 'components/footer-pre';
+@import 'components/header';
+@import 'components/helpers';
+@import 'components/list-block';
+@import 'components/search';
 
 @import 'templates/home';
 @import 'templates/page';

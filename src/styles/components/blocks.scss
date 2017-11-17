@@ -16,6 +16,11 @@
   @include media-breakpoint-down(xs) {
     padding: 1.25rem;
   }
+  h1:nth-child(1),
+  h2:nth-child(1),
+  h3:nth-child(1) {
+    margin-top: 0;
+  }
 }
 
 .kb_helpers,

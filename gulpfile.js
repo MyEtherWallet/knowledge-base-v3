@@ -7,16 +7,19 @@ const clean              = require( 'gulp-clean'              )
 const concat             = require( 'gulp-concat'             )
 const cssnano            = require( 'gulp-cssnano'            )
 const data               = require( 'gulp-data'               )
+const file               = require( 'gulp-file'               )
 const frontMatter        = require( 'gulp-front-matter'       )
 const fs                 = require( 'fs'                      )
 const gulp               = require( 'gulp'                    )
 const H                  = require( 'just-handlebars-helpers' )
 const Handlebars         = require( 'handlebars'              )
 const layout             = require( 'gulp-layout'             )
+const lunr               = require( 'lunr'                    )
 const markdown           = require( 'gulp-markdown'           )
 const notify             = require( 'gulp-notify'             )
 const path               = require( 'path'                    )
 const plumber            = require( 'gulp-plumber'            )
+const removeMd           = require('remove-markdown'          )
 const rename             = require( 'gulp-rename'             )
 const runSequence        = require( 'run-sequence'            )
 const sass               = require( 'gulp-sass'               )
@@ -24,7 +27,6 @@ const shell              = require( 'gulp-shell'              )
 const tap                = require( 'gulp-tap'                )
 const uglify             = require( 'gulp-uglify'             )
 const Vinyl              = require( 'vinyl'                   )
-const file               = require( 'gulp-file'               )
 
 // custom variables
 const srcFolder          = 'src/'
@@ -36,6 +38,44 @@ const scripts_srcFolder  = srcFolder + 'scripts/'
 const content_srcFolder  = srcFolder + 'content/'
 const layouts_srcFolder  = srcFolder + 'layouts/'
 const partials_srcFolder = srcFolder + 'partials/'
+
+
+
+var Context = {
+  base_url : 'https://myetherwallet.github.io/knowledge-base/',
+  //base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
+  //base_url : 'http://localhost/',
+  pages : [
+//  base_url    : '',
+//  cat_slug    : '',
+//  cat_title   : '',
+//  category    : '',
+//  content     : '',
+//  date_modified : '',
+//  date_published : '',
+//  description : '',
+//  slug        : '',
+//  sort        : '',
+//  title       : '',
+//  url         : ''
+  ],
+  category : [
+//  base_url    : '',
+//  slug        : '',
+//  sort        : '',
+//  title       : ''
+  ],
+  this_category: []
+}
+
+var Search = [
+  //{
+  //  id      : '',
+  //  title   : '',
+  //  url     : '',
+  //  content : ''
+  //}
+]
 
 
 
@@ -66,7 +106,8 @@ function notifyFunc(msg) {
 }
 
 
-// copy
+
+// Copy
 gulp.task('copy', function() {
     gulp.src( img_srcFolder + '**/*/' )
       .pipe(gulp.dest( dstFolder + 'images/' ))
@@ -105,50 +146,15 @@ const scripts_destFile = 'kb-master.min.js'
 
 gulp.task( 'scripts', function() {
   return gulp.src( scripts_srcFolder + '**/*.js' )
-    .pipe( plumber({ errorHandler: onError }) )
-    .pipe(  concat(   scripts_destFile      ) )
-    .pipe(  uglify(                         ) )
-
+    .pipe( plumber({ errorHandler: onError }))
+    .pipe(  concat(  scripts_destFile      ) )
+    .pipe(  uglify(                        ) )
     .pipe( gulp.dest( dstFolder ) )
 })
 
 
 
-var Context = {
-  base_url : 'https://myetherwallet.github.io/knowledge-base/',
-  //base_url : 'file:///Users/tay/Dropbox/local-dev/MyEtherWallet-KnowledgeBase/dist/',
-  //base_url : 'http://localhost/',
-  pages : [
-//  base_url    : '',
-//  cat_slug    : '',
-//  cat_title   : '',
-//  category    : '',
-//  content     : '',
-//  date_modified : '',
-//  date_published : '',
-//  description : '',
-//  slug        : '',
-//  sort        : '',
-//  title       : '',
-//  url         : ''
-  ],
-  category : [
-//  base_url    : '',
-//  slug        : '',
-//  sort        : '',
-//  title       : ''
-  ],
-  this_category: []
-}
-
-var Search = [{
-  slug : '',
-  name : '',
-  text : ''
-}]
-
-
-
+// Reset Arrays
 gulp.task('reset_arrays', function() {
   Context.pages = []
   Context.category = []
@@ -157,6 +163,7 @@ gulp.task('reset_arrays', function() {
 
 
 
+/// Generate Categories
 gulp.task('gen_cats', ['reset_arrays'], function() {
   return gulp.src( content_srcFolder + '**/*.cat' )
     .pipe( tap( function( file ) {
@@ -174,6 +181,7 @@ gulp.task('gen_cats', ['reset_arrays'], function() {
 
 
 
+// Sort Categories
 gulp.task('sort_cats', ['gen_cats'], function() {
   Context.category = _.sortBy(Context.category, 'sort')
   // console.log(Context.category)
@@ -181,6 +189,7 @@ gulp.task('sort_cats', ['gen_cats'], function() {
 
 
 
+// Generate Pages
 gulp.task('gen_pages', ['sort_cats'], function() {
   return gulp.src(content_srcFolder + '**/*.md')
     .pipe( tap( function( file ) {
@@ -206,6 +215,9 @@ gulp.task('gen_pages', ['sort_cats'], function() {
 
           var index          = data.content.indexOf('---%')
           data.content       = data.content.slice( index + 4, data.content.length )
+          data.excerpt       = data.content.slice( 0, 500 )
+          data.excerpt       = removeMd( data.excerpt )
+          data.excerpt       = data.excerpt.replace(/[\n\r]/g,' ')
           data.content       = markdown.marked( data.content )
 
       Context.pages.push( data )
@@ -218,25 +230,39 @@ gulp.task('gen_pages', ['sort_cats'], function() {
 
 
 
+// Sort Pages
 gulp.task('sort_pages', ['gen_pages'], function() {
+
   Context.pages = _.sortBy(Context.pages, 'sort')
-  //console.log(Context)
+
+  for ( var i=0 ; i < Context.pages.length ; i++ ) {
+
+    Search[i]           = {}
+
+    Context.pages[i].id = i
+    Search[i].id        = i
+    Search[i].title     = Context.pages[i].title
+    Search[i].url       = Context.base_url + Context.pages[i].url
+    Search[i].content   = Context.pages[i].excerpt
+
+  }
 })
 
 
 
+// Register Partials
 gulp.task('register_partials', ['sort_pages'], function() {
   var files = fs.readdirSync(partials_srcFolder)
 
   files.forEach(function (filename) {
-    var matches = /^([^.]+).hbs$/.exec(filename);
+    var matches = /^([^.]+).hbs$/.exec(filename)
     if (!matches) {
-      return;
+      return
     }
-    var name = matches[1];
-    var template = fs.readFileSync(partials_srcFolder + '/' + filename, 'utf8');
-    Handlebars.registerPartial(name, template);
-  });
+    var name = matches[1]
+    var template = fs.readFileSync(partials_srcFolder + '/' + filename, 'utf8')
+    Handlebars.registerPartial(name, template)
+  })
 })
 
 
@@ -327,7 +353,7 @@ gulp.task('layout_cats', ['register_partials'], function() {
 
 
 
-// Single pages
+// Layout: Single Pages
 gulp.task('layout_single', ['register_partials'], function() {
   return gulp.src( layouts_srcFolder + 'single.hbs' )
     .pipe( plumber( { errorHandler: onError } ) )
@@ -337,7 +363,7 @@ gulp.task('layout_single', ['register_partials'], function() {
       return gulp.src( content_srcFolder + '**/*.md' )
         .pipe( tap( function( file ) {
           var filename  = path.basename( file.path, '.md' )
-          var content = _.findWhere(  Context.pages, {slug: filename});
+          var content = _.findWhere(  Context.pages, {slug: filename})
           var result    = template( content )
               file.contents = new Buffer( result, 'utf-8' )
         }))
@@ -349,21 +375,34 @@ gulp.task('layout_single', ['register_partials'], function() {
     .pipe( notify ( onSuccess ( 'layout_single' ) ) )
 })
 
-// Layout: Search Page
-gulp.task('layout_', ['register_partials'], function() {
-  return gulp.src( layouts_srcFolder + 'search.hbs' )
-    .pipe( plumber({ errorHandler: onError }) )
-    .pipe( tap(function( file, t ) {
-      H.registerHelpers( Handlebars )
-      var template  = Handlebars.compile( file.contents.toString() )
-      var result    = template( Context )
-      file.contents = new Buffer( result , 'utf-8')
-    }))
-    .pipe( rename(function(path) {
-      path.extname = '.html'
-    }))
-    .pipe( gulp.dest( dstFolder ) )
-    .pipe( notify ( onSuccess ( 'layout_search' ) ) )
+
+
+// Generate Search JSON
+gulp.task('gen_search_json', ['sort_pages'], function() {
+
+  var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('content')
+
+    Search.forEach(function (doc) {
+      this.add(doc)
+    }, this)
+  })
+
+  var filepath = scripts_srcFolder + '3_searchIndex.js'
+  var content1 = 'var Search   = ' + JSON.stringify( idx )
+  var content2 = 'var Content = ' + JSON.stringify( Search )
+  var content  = content1 + '\n' + content2
+  fs.writeFile( filepath, content, "utf8", function (err) {
+    if (err) return console.log(err)
+    console.log("3_searchIndex was written")
+  })
+
+  return gulp.src( filepath )
+  .pipe(gulp.dest( dstFolder ))
+  .pipe( notify ( onSuccess ( 'gen_search_json' ) ) )
+
 })
 
 
@@ -374,16 +413,16 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles']) })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats']) })
+gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats', 'gen_search_json']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats']) })
+gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats', 'gen_search_json']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_form', 'layout_single',  'layout_cats', 'copy'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_form', 'layout_single',  'layout_cats', 'gen_search_json', 'copy'] )
 
 
 gulp.task( 'default', ['build', 'watch'] )

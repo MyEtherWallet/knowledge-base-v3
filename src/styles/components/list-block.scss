@@ -1,0 +1,30 @@
+.list-block__outer {
+  margin-top: $space-xl;
+  margin-bottom: $space-xl;
+  & > *:first-child {  margin-top: 0     }
+  & > *:last-child  {  margin-bottom: 0  }
+}
+
+.list-block__item {
+  margin-top: $space-sm;
+  margin-bottom: $space-sm;
+  .block {
+    height: 100%;
+    width: 100%;
+  }
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+  }
+}
+
+.cat__title,
+.cat__title h2,
+.cat__title h3 {
+  color: $text-color;
+  margin-top: 0;
+}

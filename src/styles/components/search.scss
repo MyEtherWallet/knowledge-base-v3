@@ -1,0 +1,106 @@
+.result__outer {
+  margin-top: $space-xl;
+  margin-bottom: $space-xl;
+  .block {
+    & > *:first-child {  margin-top: 0     }
+    & > *:last-child  {  margin-bottom: 0  }
+  }
+
+  .search__error,
+  .search__success {
+    margin: 0;
+  }
+}
+
+
+.home__search {
+  text-align: center;
+  padding-top: $space-xl;
+  padding-bottom: $space-xl;
+  background-color: white;
+  box-shadow: 16px 16px 47px 2px rgba(0,0,0,.07);
+  margin-bottom: $space-md;
+  & > *:first-child {  margin-top: 0     }
+  & > *:last-child  {  margin-bottom: 0  }
+  .input-group {
+    max-width: 40rem;
+    margin: $space auto;
+  }
+}
+
+
+.search__advanced {
+  position: absolute;
+  right: 5%;
+  top: $space;
+  font-size: $font-size-sm;
+}
+
+
+.result__wrapper {
+  padding-left: $space;
+  padding-right: $space;
+}
+
+
+.result {
+  color: inherit;
+}
+
+.result__title,
+.result__content {
+  margin-bottom: $space-sm;
+}
+
+
+
+
+.search__clear {
+  margin-top: 13px;
+  margin-right: 25px;
+  position: relative;
+  z-index: 1;
+  font-size: $font-size-xl;
+}
+
+.result__hotkey {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+}
+
+.result:nth-child(1)  { .result__hotkey:after { content: "1"  }  }
+.result:nth-child(2)  { .result__hotkey:after { content: "2"  }  }
+.result:nth-child(3)  { .result__hotkey:after { content: "3"  }  }
+.result:nth-child(4)  { .result__hotkey:after { content: "4"  }  }
+.result:nth-child(5)  { .result__hotkey:after { content: "5"  }  }
+.result:nth-child(6)  { .result__hotkey:after { content: "6"  }  }
+.result:nth-child(7)  { .result__hotkey:after { content: "7"  }  }
+.result:nth-child(8)  { .result__hotkey:after { content: "8"  }  }
+.result:nth-child(9)  { .result__hotkey:after { content: "9"  }  }
+.result:nth-child(10) { .result__hotkey:after { content: "0" }  }
+
+
+.result:nth-child(1),
+.result:nth-child(2),
+.result:nth-child(3),
+.result:nth-child(4),
+.result:nth-child(5),
+.result:nth-child(6),
+.result:nth-child(7),
+.result:nth-child(8),
+.result:nth-child(9),
+.result:nth-child(10) {
+  .result__hotkey {
+    &:after {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-color: #f5f5f5;
+      width: 55px;
+      height: 45px;
+      border: 1px solid #ebebeb;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.faqs__item {
+
+  margin-top: $space-sm;
+  margin-bottom: $space-sm;
+
+  .inner {
+    align-items: center;
+    border-left: 5px solid $pink;
+    box-shadow: 16px 16px 47px 2px rgba(0,0,0,.07);
+    color: #292b2c;
+    display: flex;
+    font-size: $font-size-bump;
+    height: 100%;
+    justify-content: center;
+    padding: .75rem;
+    text-align: center;
+    transition: $transition;
+    width: 100%;
+    &:hover {
+      opacity: 0.8;
+      transition: $transition;
+    }
+    &:active, &:focus {
+      opacity: 1;
+      transition: $transition;
+    }
+  }
+
+  &:nth-child(1) .inner {  border-left: 5px solid $pink       }
+  &:nth-child(2) .inner {  border-left: 5px solid $blue       }
+  &:nth-child(3) .inner {  border-left: 5px solid $purple     }
+  &:nth-child(4) .inner {  border-left: 5px solid $orangered  }
+  &:nth-child(5) .inner {  border-left: 5px solid $green      }
+  &:nth-child(6) .inner {  border-left: 5px solid $orange     }
+  &:nth-child(7) .inner {  border-left: 5px solid $blue       }
+  &:nth-child(8) .inner {  border-left: 5px solid $navy       }
+
+}

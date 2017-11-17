@@ -1,11 +1,10 @@
-<!-- Main -->
-<main class="container">
-  <section class="home__categories row">
+<main class="list-block__outer container">
+  <section class="list-block__row row">
     {{#each category as |value key|}}
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="{{../base_url}}{{slug}}/" title="{{title}}" class="cat__title" target="_parent">
-            <h2>{{title}}</h2>
+            <h3>{{title}}</h3>
           </a>
           <ul>
             {{#each ../pages}}

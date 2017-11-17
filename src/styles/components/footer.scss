@@ -1,21 +1,8 @@
-// footer
-.pre-footer {
-  padding: $space;
-  box-shadow: $space $space 47px 0px rgba(0,0,0,.07);
-  margin-top: 5rem;
-  background-color: white;
-  text-align: center;
-  p {
-    font-size: $font-size-md;
-  }
-}
-
-
 .footer {
   background-color: $navy-dark;
   color: white;
   font-size: $font-size-sm;
-  margin-top: 5rem;
+  margin-top: $space-xl;
   h5{
     margin-top: $space-sm;
     margin-bottom: $space-xs;
