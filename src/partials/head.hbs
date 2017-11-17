@@ -15,6 +15,7 @@
 <meta content="{{base_url}}{{#if this_category.slug}}{{this_category.slug}}/{{else if url}}{{url}}{{else if slug}}{{slug}}/{{/if}}" name="twitter:url">
 <link href="{{base_url}}kb-master.min.css" rel="stylesheet">
 <script src="{{base_url}}kb-master.min.js"></script>
+ <script src="https://unpkg.com/lunr/lunr.js"></script>
 <meta name="description" content="{{#if description}}{{description}}{{else if this_category.title}}MyEtherWallet support & help regarding {{this_category.title}}.{{else}}Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly{{/if}}">
 <meta property="og:description" content="{{#if description}}{{description}}{{else if this_category.title}}MyEtherWallet support & help regarding {{this_category.title}}.{{else}}Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly{{/if}}">
 <meta name="twitter:description" content="{{#if short_desc}}{{short_desc}}{{else if this_category.title}}MyEtherWallet support & help regarding {{this_category.title}}.{{else if description}}{{description}}{{else}}Answers & help for MyEtherWallet.com & the Ethereum blockchain.{{/if}}">
