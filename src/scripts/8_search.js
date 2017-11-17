@@ -53,7 +53,7 @@ function returnResults( query, results ) {
 
 
 function buildSearchResult(title, url, content) {
-  var htmlStart   = '<a class="result row" href="'+ url +'">'
+  var htmlStart   = '<a class="result row" href="'+ url +'" target="_parent">'
   var htmlCol1    =   '<div class="result__hotkey col"></div>'
   var htmlCol2    =   '<div class="col">'
   var htmlTitle   =     '<h4 class="result__title">'+ title +'</h4>'
