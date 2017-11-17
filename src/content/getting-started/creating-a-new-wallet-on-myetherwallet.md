@@ -21,7 +21,7 @@ To save / backup your Ledger or TREZOR device, simply write down the 24-word phr
 * Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/).
 * Enter a strong but easy to remember password. Do not forget it.
     * _This encrypts (protects) your private key. It does not generate your private key. This password alone will **not** be enough to access your Ether._
-* Click the `"Generate Wallet"` button.
+* Click the `"Create New Wallet"` button.
 * Download your `Keystore / UTC file` & save this file to a USB drive.
     * _This is the encrypted version of your private key. You need the password to access it. It is safer than your unencrypted private key but you must have your password to access it in the future._
 * Read the warning. If you understand it, click the `"I understand. Continue"` button.
@@ -63,7 +63,7 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/).
 2.  Enter a strong but easy to remember password.
-3.  Click the `"Generate Wallet"` button.
+3.  Click the `"Create New Wallet"` button.
 4.  Click the `"Download"` button & save your `Keystore / UTC` file. Back it up.
 5.  Read the warning. If you understand it and promise not to lose your private key, click the `"I understand. Continue"` button.
 6.  You now have the option of printing a paper wallet, saving your private key, or saving a QR code of your private key. Back up at least one (offline).
