@@ -102,24 +102,6 @@
   </div>
 </header>
 
-<!-- Search
-<section class="home__search">
-  <div class="container">
-    <form class="search__form" id="search__form" action="/">
-      <div class="form-group">
-        <h1>Search</h1>
-        <div class="input-group">
-          <input type="search" class="form-control" name="search" id="home__search" size="50" placeholder="Search">
-          <span class="input-group-btn">
-            <button type="submit" id="search__button" class="btn btn-primary">Search</button>
-          </span>
-        </div>
-      </div>
-    </form>
-  </div>
-</section>
--->
-
 <section class="form--error container-md text-center" style="display:none">
   <br><br>
   <h3 class="text-danger">Whoops. There was an error.</h3>
@@ -142,66 +124,173 @@
   <br><br>
 </section>
 
-<script>
-  if ( getQueryString('code') == 'ok' ) {
-    $('.form--success').show()
-  } else if ( getQueryString('code') !== null ) {
-    var error  = getQueryString('code') + ": " + getQueryString('message')
-    var mailto = 'mailto:support@myetherwallet?Subject=Need%20Support&Body=%0A%0A%0A%0Aps%3A%20I%20couldn%27t%20send%20via%20the%20form.%20I%20got%20the%20error%3A%20'
-    $('.form--error').show()
-    $('.form--error .text-danger').after( '<p class="text-danger">' + error + '</p>' )
-    $('.form--error .support_link').attr('href', mailto + error);
-  }
-</script>
 
-<!-- Common Questions -->
-<main class="container">
-  <section class="text-center">
-    <h5> Suggested Answers </h5>
-  </section>
-  <section class="home__categories row">
-    <a class="featured__question col-12 col-sm-3"
-       href="https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html"
-       title="How to Add Custom Token"
-       target="_parent">
-        <div class="inner">
-          How to Add a Custom Token
-        </div>
+<main class="home__search container">
+
+  <h2>Search</h2>
+
+  <div class="search__form">
+
+    <div class="input-group">
+      <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
+      <span class="input-group-btn">
+        <button class="search__button btn btn-primary">Search</button>
+      </span>
+    </div>
+
+    <a class="search__advanced modal__trigger" data-toggle="modal" data-target="#search-modal">
+      Advanced Search Options
     </a>
-    <a class="featured__question col-12 col-sm-3"
-       href="https://myetherwallet.github.io/knowledge-base/faq/ethereum-balance-not-loading-or-showing.html"
-       title="I can't see my Token Balances"
-       target="_parent">
-        <div class="inner">
-          I can't see my Token Balances
-        </div>
-    </a>
-    <a class="featured__question col-12 col-sm-3"
-       href="https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html"
-       title="Where to go for help with buying/selling, exchanges, financial advice, ICOs, token projects, or something else."
-       target="_parent">
-        <div class="inner">
-          Help with buying &amp; selling, exchanges, investment advice, ICOs, token projects, and more.
-        </div>
-    </a>
-    <a class="featured__question col-12 col-sm-3"
-       href="https://myetherwallet.github.io/knowledge-base/security/myetherwallet-protips-how-not-to-get-scammed-during-ico.html"
-       title="How to Add Custom Token"
-       target="_parent">
-        <div class="inner">
-          How Not to get Scammed or Phished
-        </div>
-    </a>
+
+  </div>
+
+</main>
+
+
+
+
+<main class="result__outer container" style="display: none;">
+  <button type="button" class="close search__clear" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  <section class="block">
+    <h4 class="search__error text-danger text-center" role="alert" style="display:none"></h4>
+    <h4 class="search__success text-success text-center" role="alert" style="display:none"></h4>
+    <div class="result__wrapper"></div>
   </section>
 </main>
 
-<!-- Main -->
-<main class="container">
-  <section class="home__categories row">
-      <div class="col-12 col-sm-4">
+
+
+
+
+
+<main class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <section class="modal-dialog" role="document">
+
+    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+
+    <div class="modal-content" style="padding: 1rem">
+      <div class="row">
+
+        <div class="col col-sm-6">
+          <h6>FIELDS</h6>
+          <p class="small">
+            The following example searches for the term “foo” in the specified field:
+            <br />
+            <code>title:foo</code> or <code>url:bar</code> or <code>content:baz</code>
+          </p>
+        </div>
+
+        <div class="col col-sm-6">
+          <h6>WILDCARDS</h6>
+          <p class="small">
+            A wildcard is represented as an asterisk (*) and can appear anywhere in a search term. The following will match all documents with words beginning with “foo” or ending with "oo":
+            <br />
+            <code>foo*</code> or <code>*oo</code>
+          </p>
+        </div>
+
+        <div class="col col-sm-6">
+          <h6>BOOSTS</h6>
+          <p class="small">
+            In multi-term searches, a single term may be important than others. Any article that matches a boosted term will get a higher relevance score, and appear higher up in the results. The first example weights the term “foo” 10 times higher than the term “bar”:
+            <br />
+            <code>foo^10 bar</code> or <code>foo^10 bar^5 baz</code>
+          </p>
+        </div>
+
+        <div class="col col-sm-6">
+          <h6>FUZZY MATCHES</h6>
+          <p class="small">
+            Can be helpful if the spelling of a term is unclear, or to increase the number of search results that are returned. The following search matches articles that have a word within 1 edit distance of “foo”:
+            <br />
+            <code>foo~1</code>
+            <br />
+            An edit distance of 1 allows words to match if either adding, removing, changing or transposing a character in the word would lead to a match. For example “boo” requires a single edit (replacing “f” with “b”) and would match, but “boot” would not as it also requires an additional “t” at the end.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<main class="list-block__outer container">
+
+  <h3 class="text-center"> Most Viewed Articles </h3>
+
+  <section class="list-block--pages row">
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html"
+       title="How to Add Custom Token"
+       target="_parent">
+        <div class="inner"> How to Add a Custom Token </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/faq/ethereum-balance-not-loading-or-showing.html"
+       title="I can't see my Token Balances"
+       target="_parent">
+        <div class="inner"> I can't see my Token Balances </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html"
+       title="Where to go for help with buying/selling, exchanges, financial advice, ICOs, token projects, or something else."
+       target="_parent">
+        <div class="inner"> Help with buying &amp; selling, exchanges, investment advice, ICOs, token projects, and more. </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/security/myetherwallet-protips-how-not-to-get-scammed-during-ico.html"
+       title="How to Add Custom Token"
+       target="_parent">
+        <div class="inner"> How Not to get Scammed or Phished </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base//hardware-wallets/"
+       title="Hardware Wallets"
+       target="_parent">
+        <div class="inner"> Hardware Wallets </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html"
+       title="I got Phished/Funds Stolen/I did not make this transaction"
+       target="_parent">
+        <div class="inner"> I got Phished/Funds Stolen/I did not make this transaction </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html"
+       title="Transaction says complete, but funds have not arrived"
+       target="_parent">
+        <div class="inner"> Transaction says complete, but funds have not arrived </div>
+    </a>
+
+    <a class="faqs__item col-12 col-sm-3"
+       href="https://myetherwallet.github.io/knowledge-base//faq/"
+       title="FAQ"
+       target="_parent">
+        <div class="inner"> FAQ </div>
+    </a>
+
+  </section>
+
+</main>
+
+<main class="list-block__outer container">
+  <section class="list-block__row row">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/getting-started/" title="Getting Started" class="cat__title" target="_parent">
-            <h2>Getting Started</h2>
+            <h3>Getting Started</h3>
           </a>
           <ul>
                 <li>
@@ -262,10 +351,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/security/" title="Security &amp; Phishing" class="cat__title" target="_parent">
-            <h2>Security &amp; Phishing</h2>
+            <h3>Security &amp; Phishing</h3>
           </a>
           <ul>
                 <li>
@@ -316,10 +405,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/migration/" title="Migrating to/from MyEtherWallet" class="cat__title" target="_parent">
-            <h2>Migrating to/from MyEtherWallet</h2>
+            <h3>Migrating to/from MyEtherWallet</h3>
           </a>
           <ul>
                 <li>
@@ -365,10 +454,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/tokens/" title="Tokens" class="cat__title" target="_parent">
-            <h2>Tokens</h2>
+            <h3>Tokens</h3>
           </a>
           <ul>
                 <li>
@@ -399,10 +488,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/send/" title="Sending ETH &amp; Tokens" class="cat__title" target="_parent">
-            <h2>Sending ETH &amp; Tokens</h2>
+            <h3>Sending ETH &amp; Tokens</h3>
           </a>
           <ul>
                 <li>
@@ -433,10 +522,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/offline/" title="Offline" class="cat__title" target="_parent">
-            <h2>Offline</h2>
+            <h3>Offline</h3>
           </a>
           <ul>
                 <li>
@@ -472,10 +561,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/transactions/" title="Transactions" class="cat__title" target="_parent">
-            <h2>Transactions</h2>
+            <h3>Transactions</h3>
           </a>
           <ul>
                 <li>
@@ -506,10 +595,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/gas/" title="Gas &amp; Transaction Fees" class="cat__title" target="_parent">
-            <h2>Gas &amp; Transaction Fees</h2>
+            <h3>Gas &amp; Transaction Fees</h3>
           </a>
           <ul>
                 <li>
@@ -535,10 +624,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/addresses/" title="Addresses" class="cat__title" target="_parent">
-            <h2>Addresses</h2>
+            <h3>Addresses</h3>
           </a>
           <ul>
                 <li>
@@ -564,10 +653,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/" title="Hardware Wallets" class="cat__title" target="_parent">
-            <h2>Hardware Wallets</h2>
+            <h3>Hardware Wallets</h3>
           </a>
           <ul>
                 <li>
@@ -633,10 +722,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/" title="Private Keys &amp; Passwords" class="cat__title" target="_parent">
-            <h2>Private Keys &amp; Passwords</h2>
+            <h3>Private Keys &amp; Passwords</h3>
           </a>
           <ul>
                 <li>
@@ -682,10 +771,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/faq/" title="FAQ" class="cat__title" target="_parent">
-            <h2>FAQ</h2>
+            <h3>FAQ</h3>
           </a>
           <ul>
                 <li>
@@ -751,10 +840,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/networks/" title="Networks &amp; Nodes" class="cat__title" target="_parent">
-            <h2>Networks &amp; Nodes</h2>
+            <h3>Networks &amp; Nodes</h3>
           </a>
           <ul>
                 <li>
@@ -790,10 +879,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/ens/" title="ENS" class="cat__title" target="_parent">
-            <h2>ENS</h2>
+            <h3>ENS</h3>
           </a>
           <ul>
                 <li>
@@ -854,10 +943,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/best-of/" title="Best Of" class="cat__title" target="_parent">
-            <h2>Best Of</h2>
+            <h3>Best Of</h3>
           </a>
           <ul>
                 <li>
@@ -908,10 +997,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/diving-deeper/" title="Diving Deeper" class="cat__title" target="_parent">
-            <h2>Diving Deeper</h2>
+            <h3>Diving Deeper</h3>
           </a>
           <ul>
                 <li>
@@ -957,10 +1046,10 @@
           </ul>
         </div>
       </div>
-      <div class="col-12 col-sm-4">
+      <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="https://myetherwallet.github.io/knowledge-base/swap/" title="Swap" class="cat__title" target="_parent">
-            <h2>Swap</h2>
+            <h3>Swap</h3>
           </a>
           <ul>
                 <li>
@@ -980,16 +1069,22 @@
 </main>
 
 <!-- Pre-Footer -->
-<section class="page__meta">
-  <button type="button"
-          class="btn btn-primary btn-lg modal__trigger"
-          data-toggle="modal"
-          data-target="#contact-form">
-    Need Help? Message Us
-  </button>
-</section>
+<main class="footer--pre container">
+  <section class="page__meta">
+    <button type="button"
+            class="btn btn-primary btn-lg modal__trigger"
+            data-toggle="modal"
+            data-target="#contact-form">
+      Need Help? Message Us
+    </button>
+  </section>
+  <section class="page__meta">
+    <p>Form not working out for you? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></p>
+  </section>
+</main>
 
-<div class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="modal-form__title" aria-hidden="true">
+
+<main class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="modal-form__title" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">×</span>
@@ -1006,12 +1101,7 @@
 
     </div>
   </div>
-</div>
-
-<section class="page__meta">
-  <p>Form not working out for you? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></p>
-</section>
-
+</main>
 
 <!-- Footer -->
 <footer class="footer" role="content" aria-label="footer">
