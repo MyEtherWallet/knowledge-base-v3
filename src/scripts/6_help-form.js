@@ -77,9 +77,18 @@ function submitForm() {
     elem_val   = $( '#' + el + '--input' ).val()
     elem_label = $( '#' + el + '--label' ).text()
     if ( elem_val.length > 0 ) {
-      addl_fields += elem_label + ': ' + elem_val
-      addl_fields += '\n'
+      if ( elem_val.length == 42 && elem_val.substring(0, 1) == '0x' ) {
+        addl_fields += elem_label + ': https://etherscan.io/address/' + elem_val
+        addl_fields += '\n'
+      } else if ( elem_val.length == 90 && elem_val.substring(0, 1) == '0x' ) {
+        addl_fields += elem_label + ': https://etherscan.io/tx/' + elem_val
+        addl_fields += '\n'
+      } else {
+        addl_fields += elem_label + ': ' + elem_val
+        addl_fields += '\n'
+      }
     }
+
   })
 
   /*
