@@ -1,5 +1,5 @@
 {
-"title"       : "Defining Common Terms in the Ethereum / Crypto Space",
+"title"       : "A Glossary of Common Terms in the Ethereum / Crypto Space",
 "sort"        : "35",
 "category"    : "Getting Started",
 "description" : "Getting Started",
@@ -9,14 +9,15 @@
 
 ---%
 
+## Words are Hard
 
-[You can also read in Spanish]( https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
+This is a list of terms you might encounter when using the MyEtherWallet interface.
 
 ---
 
-Words are Hard sometimes.
+## [You can also read in Spanish]( https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
 
-This is a list of terms you might encounter when using the MyEtherWallet interface.
+---
 
 ### Wallet
 
@@ -163,16 +164,23 @@ This is a list of terms you might encounter when using the MyEtherWallet interfa
 
 ### Derive / Derivation
 
-- [WIP]
+- [TODO]
 
 ### Encryption
 
-- [WIP]
+- [TODO]
 
 ### Encrypted vs Unencrypted Keys
 
-- [WIP]
+- [TODO]
 
+### Decentrailzed
+
+- [TODO]
+
+### Trustless
+
+- [TODO]
 
 
 ---
