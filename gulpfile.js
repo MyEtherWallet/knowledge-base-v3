@@ -286,6 +286,25 @@ gulp.task('layout_home', ['register_partials'], function() {
 
 
 
+// Layout: Search Page
+gulp.task('layout_search', ['register_partials'], function() {
+  return gulp.src( layouts_srcFolder+'search.hbs' )
+    .pipe( plumber({ errorHandler: onError }) )
+    .pipe( tap(function( file, t ) {
+      H.registerHelpers( Handlebars )
+      var template = Handlebars.compile( file.contents.toString() )
+      var result   = template( Context )
+      file.contents = new Buffer( result , 'utf-8')
+    }))
+    .pipe(rename({
+      basename: "index",
+      extname: ".html"
+    }))
+    .pipe( gulp.dest( dstFolder + 'search/' ) )
+    .pipe( notify ( onSuccess ( 'layout_search' ) ) )
+})
+
+
 // Layout: Contact Page
 gulp.task('layout_contact', ['register_partials'], function() {
   return gulp.src( layouts_srcFolder+'contact.hbs' )
@@ -413,16 +432,16 @@ gulp.task( 'watch_js',       function() { gulp.watch(scripts_srcFolder + '**/*.j
 gulp.task( 'watch_styles',   function() { gulp.watch(style_srcFolder   + '**/*.scss', ['styles']) })
 
 
-gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats', 'gen_search_json']) })
+gulp.task( 'watch_content',  function() { gulp.watch(srcFolder + '**/*.md', ['layout_single', 'layout_home', 'layout_contact', 'layout_search', 'layout_form', 'layout_cats', 'gen_search_json']) })
 
 
-gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs', ['layout_single', 'layout_home', 'layout_contact', 'layout_form', 'layout_cats', 'gen_search_json']) })
+gulp.task( 'watch_template', function() { gulp.watch(srcFolder + '**/*.hbs', ['layout_single', 'layout_home', 'layout_contact', 'layout_search', 'layout_form', 'layout_cats', 'gen_search_json']) })
 
 
 gulp.task( 'watch',   ['watch_js', 'watch_styles', 'watch_content', 'watch_template'] )
 
 
-gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_form', 'layout_single',  'layout_cats', 'gen_search_json', 'copy'] )
+gulp.task( 'build',   ['scripts', 'styles', 'layout_home', 'layout_contact', 'layout_search', 'layout_form', 'layout_single',  'layout_cats', 'gen_search_json', 'copy'] )
 
 
 gulp.task( 'default', ['build', 'watch'] )
