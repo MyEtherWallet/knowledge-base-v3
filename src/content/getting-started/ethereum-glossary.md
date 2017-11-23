@@ -13,9 +13,7 @@
 
 This is a list of terms you might encounter when using the MyEtherWallet interface.
 
----
-
-## [You can also read in Spanish]( https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
+#### [You can also read in Spanish]( https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum ), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
 
 ---
 
