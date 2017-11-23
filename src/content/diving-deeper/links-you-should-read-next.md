@@ -9,13 +9,13 @@
 
 ---%
 
-*  [https://theethereum.wiki/w/index.php/Main_Page](https://theethereum.wiki/w/index.php/Main_Page)
+*  [The Ethereum Wiki](https://theethereum.wiki/w/index.php/Main_Page)
 
-*  [https://github.com/Scanate/EthList/blob/master/README.md](https://github.com/Scanate/EthList/blob/master/README.md)
+*  [EthList: The Crowdsourced Ethereum Reading List](https://github.com/Scanate/EthList/blob/master/README.md)
 
 *  [https://www.ethadvisor.com/](https://www.ethadvisor.com/)
 
-*  [https://www.ethadvisor.com/beginners-guide-to-ether-ethereum-investing](https://www.ethadvisor.com/beginners-guide-to-ether-ethereum-investing)
+*  EthAdvisor: A Beginners Guide to Ether Investing](https://www.ethadvisor.com/beginners-guide-to-ether-ethereum-investing)
 
 *  [What is An Ethereum Token: The Ultimate Beginner’s Guide](https://blockgeeks.com/guides/ethereum-token/)
 

@@ -10,8 +10,7 @@
 ---%
 
 
-*The following is from /u/eth-o-licious2 on reddit:
- [https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/](https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/)*
+*[The following is from /u/eth-o-licious2 on reddit](https://www.reddit.com/r/ethereum/comments/6j8ih6/ens_troubleshooting_if_you_use_mew_and_forgot/)*
 
 ----
 

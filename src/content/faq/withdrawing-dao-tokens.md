@@ -12,7 +12,7 @@
 
 ### You need to run the older version of MyEtherWallet (v3.3.7) to access the old DAO pages:
 
-*   [https://github.com/kvhnuke/etherwallet/releases/tag/v3.3.7](https://github.com/kvhnuke/etherwallet/releases/tag/v3.3.7) 
+*   [MyEtherWallet (v3.3.7)](https://github.com/kvhnuke/etherwallet/releases/tag/v3.3.7) 
 *   Click on `dist-v3.3.7.zip`
 *   Unzip it
 *   Double-click `index.html`

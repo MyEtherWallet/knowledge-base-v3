@@ -12,9 +12,9 @@
 
 First, check the transaction on [https://etherscan.io/](https://etherscan.io/) and ensure that there is no red ( ! ) symbol by the transaction.
 
-A successful transaction will look like this: [https://etherscan.io/tx/0xcde5a30a1a1514919e9c357d4e89211701aa22a741936ad9516c2987d8b097c9](https://etherscan.io/tx/0xcde5a30a1a1514919e9c357d4e89211701aa22a741936ad9516c2987d8b097c9)
+A successful transaction [will look like this](https://etherscan.io/tx/0xcde5a30a1a1514919e9c357d4e89211701aa22a741936ad9516c2987d8b097c9).
 
-And unsuccessful one will look like this: [https://etherscan.io/tx/0xf9c8514fad47eb54a414930563aabfeceb465c9f308f5f294a37edd0d669243c](https://etherscan.io/tx/0xf9c8514fad47eb54a414930563aabfeceb465c9f308f5f294a37edd0d669243c)
+And unsuccessful one [will look like this](https://etherscan.io/tx/0xf9c8514fad47eb54a414930563aabfeceb465c9f308f5f294a37edd0d669243c).
 
 If there is no red symbol, that means the transaction is a valid & successful transaction on the blockchain.
 

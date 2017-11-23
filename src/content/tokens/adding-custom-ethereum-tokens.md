@@ -15,5 +15,5 @@
 </div>
 
 ### Related Reading
-- [{{https://myetherwallet.github.io/knowledge-base/}}send/adding-new-token-and-sending-custom-tokens.html]({{https://myetherwallet.github.io/knowledge-base/}}send/adding-new-token-and-sending-custom-tokens.html)
+- [Adding a New Token & Sending Custom Tokens]({{https://myetherwallet.github.io/knowledge-base/}}send/adding-new-token-and-sending-custom-tokens.html)
 
