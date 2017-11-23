@@ -80,7 +80,7 @@ function submitForm() {
       if ( elem_val.length == 42 && elem_val.substring(0, 2) == '0x' ) {
         addl_fields += elem_label + ': https://etherscan.io/address/' + elem_val
         addl_fields += '\n'
-      } else if ( elem_val.length == 90 && elem_val.substring(0, 2) == '0x' ) {
+      } else if ( elem_val.length == 66 && elem_val.substring(0, 2) == '0x' ) {
         addl_fields += elem_label + ': https://etherscan.io/tx/' + elem_val
         addl_fields += '\n'
       } else {
