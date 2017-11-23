@@ -87,11 +87,12 @@
 }
 
 a.footer__pill {
-  display: inline;
+  display: inline-block;
   background: $brand-primary;
   padding: 3px 12px;
   border-radius: 30px;
   color: white;
+  margin-bottom: $space-xs;
   &:visited {
     color: white;
   }

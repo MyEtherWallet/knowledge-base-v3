@@ -54,6 +54,9 @@
 }
 
 .breadcrumbs {
-  margin-top: $space;
+  margin-top: 0;
   margin-bottom: $space;
+  @include media-breakpoint-up(sm) {
+    margin-top: $space;
+  }
 }
