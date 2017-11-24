@@ -4,12 +4,12 @@
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",
 "date_published" : "2017-10-08T08:00:00+08:00",
-"date_modified"  : "2017-10-28T08:00:00+08:00"
+"date_modified"  : "2017-11-24T08:00:00+08:00"
 }
 
 ---%
 
-## Using MetaMask + MEW has 3 key benefits:
+### Using MetaMask + MEW has 3 key benefits:
 
 1. If you use MetaMask, it is far less likely you will be phished or affected by a phishing site as your key remains in MetaMask and the fake website will not be able to steal it.
 
@@ -17,17 +17,19 @@
 
 3. MetaMask will block you w/ a big red warning if you go to a malicious site [found on our blacklists](https://github.com/409H/EtherAddressLookup/blob/master/blacklists/domains.json). Look at all these crypto phishing websites!
 
-![](../../images/moving-from-private-key-to-metamask_03.jpg)
+![](../images/metamask/moving-from-private-key-to-metamask_03.jpg)
 
 Damn!
 
-## Installing & Setting Up MetaMask
+
+
+### Installing & Setting Up MetaMask
 
 1. [Find the MetaMask extension in the Chrome Store](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn).
 
 2. Check to make sure it's the legit one. Are there are ton of positive reviews? Are there a ton of users? If so, it's probably the right one.
 
-![](../../images/moving-from-private-key-to-metamask_01.jpg)
+![](../images/metamask/moving-from-private-key-to-metamask_01.jpg)
 
 3. Install it by clicking "Add to Chrome".
 
@@ -44,7 +46,8 @@ Damn!
 #### Remember! Do not share this key with anyone! If you do, they can access your account and send all your coins to themselves.
 
 
-## Transferring your Funds
+
+### Transferring your Funds
 
 1. You can now see your brand new account, balance, and transaction history. To transfer your funds from your old account to your newly setup MetaMask wallet, head to [MyEtherWallet.com](https://www.myetherwallet.com/#send-transaction).
 
@@ -56,7 +59,7 @@ Damn!
 
 5. Get your address from Metamask. Click the orange extension icon, click the three dots (...) next to your new account, and click `Copy Address to clipboard`.
 
-![](../../images/moving-from-private-key-to-metamask_02.jpg)
+![](../images/metamask/moving-from-private-key-to-metamask_02.jpg)
 
 6. Paste your MetaMask address in the `To Address` field on MyEtherWallet.
 
@@ -74,8 +77,13 @@ Damn!
 
 12. Next time you want to send your ETH or Tokens, simply go to [MyEtherWallet](https://www.myetherwallet.com/), click the "Metamask / Mist" option, and click "Connect to MetaMask" button. You will instantly connect. How easy is that?!
 
-#### Warning! If you are sending a huge amount of tokens or ETH, please send a small, test amount first. Or, consider [getting a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) or [running MEW offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html). This ensures you are as secure as possible.
 
-#### To read more about transferring funds, click [here](https://myetherwallet.github.io/knowledge-base/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
+### Warning!
+
+*  If you are sending a huge amount of tokens or ETH, please send a small, test amount first. Or, consider [getting a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) or [running MEW offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html). This ensures you are as secure as possible.
+
+
+
+### [Read more about transferring funds](https://myetherwallet.github.io/knowledge-base/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
 
 
