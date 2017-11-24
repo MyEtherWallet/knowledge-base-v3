@@ -1,3 +1,14 @@
+{
+"title"       : "Welcome to MyEtherWallet",
+"sort"        : "23",
+"category"    : "Best Of",
+"description" : "Best Of",
+"date_published" : "2017-11-24T10:05:00+08:00",
+"date_modified"  : "2017-11-24T10:05:00+08:00"
+}
+
+---%
+
 ### 1. Welcome to MyEtherWallet.com
 ![](https://www.myetherwallet.com/images/onboarding_icon-01.svg)
 - Please take some time to read &amp; understand this for your own safety. 🙏
