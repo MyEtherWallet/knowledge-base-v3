@@ -57,7 +57,7 @@ The `gas limit` is called the limit because it's the maximum amount of units of 
 
 However, the units of gas necessary for a transaction are already defined by how much code is executed on the blockchain. If you do not want to spend as much on gas, lowering the gas limit won't help much. You must include enough gas to cover the computational resources you use or your transaction will fail due to an `Out of Gas` Error.
 
-All unused gas is refunded to you at the end of a transaction. So if you go to MyEtherWallet, send 1 ETH to out donation address ( ? ), and use a gas limit of 400000 you will receive 400000 - 21000\* back.  However, if you were sending 1 ETH to a contract and your transaction to the contract fails (say, the Token Creation Period is already over), you will use the entire 400000 and receive nothing back.
+All unused gas is refunded to you at the end of a transaction. So if you go to MyEtherWallet, send 1 ETH to our donation address ( ? ), and use a gas limit of 400000 you will receive 400000 - 21000\* back.  However, if you were sending 1 ETH to a contract and your transaction to the contract fails (say, the Token Creation Period is already over), you will use the entire 400000 and receive nothing back.
 
 \*21000 is the gas limit for standard transactions
 
