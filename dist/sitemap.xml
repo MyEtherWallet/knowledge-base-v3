@@ -6,712 +6,757 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/form/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/send/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/faq/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/tokens/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/gas/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/addresses/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/faq/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/send/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/gas/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/addresses/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/swap/</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/form/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/contact/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/search/</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/ethereum-balance-not-loading-or-showing.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/security/myetherwallet-protips-how-not-to-get-scammed-during-ico.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/getting-started-new.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/getting-back-to-basics-tips-for-newbies.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-help-and-quicktips.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-tutorials-for-beginners.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/call-to-action-help-us-with-phishers-please.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/what-to-do-if-youve-had-your-funds-stolen.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/turning-of-2fa-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/how-to-securely-store-and-guard-your-private-key.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/restoring-access-to-your-accounts-if-lose-device-with-2fa.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/security/ethereum-two-people-same-private-key.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-myetherwallet-to-parity.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-jaxx-to-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-coinbase-to-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/location-of-mist-geth-wallet-files.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-tokens-using-private-key-from-exodus.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/migration/importing-v2-json-wallet-file-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/tokens/adding-custom-ethereum-tokens.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/tokens/qtum-are-my-qtum-tokens-safe-in-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/tokens/tokens-ppt.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/send/what-to-do-if-you-sent-to-wrong-address.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/send/how-to-send-eth.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/send/creating-wallet-address-to-send-and-receive-eth.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/is-the-send-page-offline.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/local-offline-myetherwallet-does-not-work-properly.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/offline/sending-offline-with-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/error-bad-jump-destination-or-out-of-gas-error.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/transaction-failed-out-of-gas.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/transaction-fee-not-refunded.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/gas/error-insufficient-funds-message.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/gas/how-to-set-gas-price-above-limits.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/gas/I-cant-withdraw-them-from-your-site-less-than-minimum.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/addresses/my-ethereum-address-has-uppercase-and-lowercase-letters.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/addresses/ethereum-account-not-showing-on-blockchain.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/addresses/creating-new-accounts-for-eth-and-tokens.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-sending-to-trezor-device.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-hardware-wallet-sending-from-trezor.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/backing-up-trezor-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-error-window-blocked.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-error-invalid-status-6a80.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-missing-characters-from-address.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-unable-to-connect-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/accidentally-connecting-to-hardware-wallet-on-phishing-site.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/multiple-addresses-on-hardware-wallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-multiple-addresses-showing-up.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/using-myetherwallet-with-ledger-nano-s.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-eth-private-key.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-ethereum-wallet-password.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/private-key-not-working.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-password-ethereum-presale-wallet-file.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/getting-started-new.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/getting-back-to-basics-tips-for-newbies.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-help-and-quicktips.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-tutorials-for-beginners.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/call-to-action-help-us-with-phishers-please.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/what-to-do-if-youve-had-your-funds-stolen.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/turning-of-2fa-on-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/how-to-securely-store-and-guard-your-private-key.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/restoring-access-to-your-accounts-if-lose-device-with-2fa.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/ethereum-two-people-same-private-key.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/security/how-can-we-trust-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-trezor-hardware-wallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-myetherwallet-to-parity.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-jaxx-to-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-from-coinbase-to-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/location-of-mist-geth-wallet-files.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/moving-tokens-using-private-key-from-exodus.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/migration/importing-v2-json-wallet-file-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/adding-custom-ethereum-tokens.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/airdropped-tokens.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/not-a-valid-erc-20-token-issue.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/qtum-are-my-qtum-tokens-safe-in-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/tokens/tokens-ppt.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/send/what-to-do-if-you-sent-to-wrong-address.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/send/how-to-send-eth.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/send/creating-wallet-address-to-send-and-receive-eth.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/is-the-send-page-offline.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/local-offline-myetherwallet-does-not-work-properly.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/offline/sending-offline-with-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/error-bad-jump-destination-or-out-of-gas-error.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/transaction-failed-out-of-gas.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/transaction-fee-not-refunded.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/gas/error-insufficient-funds-message.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/gas/how-to-set-gas-price-above-limits.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/gas/I-cant-withdraw-them-from-your-site-less-than-minimum.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/addresses/my-ethereum-address-has-uppercase-and-lowercase-letters.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/addresses/ethereum-account-not-showing-on-blockchain.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/addresses/creating-new-accounts-for-eth-and-tokens.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-hardware-wallet-sending-from-trezor.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/backing-up-trezor-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-error-window-blocked.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-error-invalid-status-6a80.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-missing-characters-from-address.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-unable-to-connect-on-myetherwallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/accidentally-connecting-to-hardware-wallet-on-phishing-site.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/multiple-addresses-on-hardware-wallet.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-multiple-addresses-showing-up.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/using-myetherwallet-with-ledger-nano-s.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-sending-to-trezor-device.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-eth-private-key.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-ethereum-wallet-password.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/private-key-not-working.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/private-keys-passwords/lost-password-ethereum-presale-wallet-file.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/how-to-buy-ethereum-with-usd.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/couldnt-everybody-put-in-a-random-key-and-send-to-own-address.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/what-happens-if-myetherwallet-goes-down.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/interacting-with-etheruem-multisig-wallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/check-the-current-eth-block-number.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/unlocking-keystore-file-freezes-browser.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/withdrawing-dao-tokens.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/faq/why-dont-you-make-me-move-my-mouse-to-generate-seed.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/access-your-etc-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/access-your-musicoin-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/access-your-expanse-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/run-your-own-node-with-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/cant-connect-to-custom-node-on-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/networks/using-ethereum-hardware-wallet-with-custom-node.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/ens-what-to-do-if-you-forgot-to-reveal-ens-bid.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/ens-debugging-a-bad-instruction-reveal.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/setting-the-resolver-for-an-ens-name.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/changing-ens-owner-or-transferring-ens-name.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/ens-what-to-do-if-you-forgot-your-bid.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/manually-revealing-ens-bid.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/starting-an-ens-auction-without-bidding.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/ens-brute-forcing-secret-word-phrases.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/why-the-ens-bid-process-is-so-complicated.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/importing-ens-bid-created-on-myetherwallet-metamask.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/ens/manually-revealing-ens-bids-hard.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/how-myetherwallet-gets-entropy-when-generating-wallets.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/keypairs-cryptography-encryption.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/ethereum-encryption-bkp-presale-files.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/security-and-ethereum.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/trading-advice-what-to-do-when-you-lose-it-all-trading-margin.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/unsolicited-advice-for-those-holding-token-sales.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/how-not-to-miss-out-on-ico.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/taylors-ico-tweetstorm.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/best-of/dunning-krugerrands-fud-list-of-doom.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/best-of/welcome-to-mew.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/links-you-should-read-next.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/myetherapi-api-limits.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/does-myetherwallet-have-an-api.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/announcement-history.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/getting-thru-the-shit-times.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/how-to-submit-pull-request.html</loc>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/developing-myetherwallet.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/diving-deeper/readme.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/swap/swap-wasnt-completed-or-was-canceled.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://myetherwallet.github.io/knowledge-base/swap/trading-eth-btc-rep-bity-swap.html</loc>
-  <lastmod>2017-11-12T22:58:16+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2017-11-29T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 </urlset>
