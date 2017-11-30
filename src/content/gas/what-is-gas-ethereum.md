@@ -10,8 +10,7 @@
 ---%
 
 
-![](https://s3.amazonaws.com/groovehq/uploaded/u69bid7b81o6arx56zxwo67txvl9v6ls82ma49r2li4tocdm6t?1498421641)
-
+![](../images/tx_pool_infographic.png)
 
 ### Introduction
 
