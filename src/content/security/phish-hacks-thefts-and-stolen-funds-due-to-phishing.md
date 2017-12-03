@@ -32,9 +32,9 @@ MyEtherWallet is a client-side wallet, which means you hold your keys. If someon
 *   ONLY unlock your wallet when you want to send a transaction. Check your balance via [https://etherscan.io/](https://etherscan.io/) or [https://ethplorer.io/](https://ethplorer.io/)
 *   Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 *   Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
-*   Install [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
-*   Install [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige)
-*   Install [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
+*   or Install [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+*   or Install [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige)
+*   or Install [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 
 ### Tokens that haven't been distributed / can't be moved yet
 
