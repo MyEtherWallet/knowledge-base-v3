@@ -10,4 +10,6 @@
 ---%
 
 
-- [Read the full post on reddit.com](https://www.reddit.com/r/TREZOR/comments/6wbqdl/how_do_i_backup_myetherwallet/)
+All you need is the 24 seed words that you wrote down when you first initially setup the Tezor. You can use the words on MEW to recover your ETH/ETC/Tokens. 
+
+If you used any passphrases on the Trezor and used any ETH/ETC/Tokens with a passphrase protected wallet, then you will also need the relevant passphrase. 

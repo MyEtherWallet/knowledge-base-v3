@@ -1,5 +1,5 @@
 {
-"title"       : "Using MyEtherWallet for cold storage",
+"title"       : "Using MyEtherWallet For Cold Storage",
 "sort"        : "04",
 "category"    : "Offline",
 "description" : "Offline",
