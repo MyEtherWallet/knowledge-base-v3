@@ -178,7 +178,7 @@ This is a list of terms you might encounter when using the MyEtherWallet interfa
 
 ### Trustless
 
-- [TODO]
+- A distributed trustless consensus which the blockchain is responsible for. Since everyone has a copy of the ledger of all transactions ever executed, there is no need for a third-party. You can verify the transactions yourself, however the Ethereum blockchain and Bitcoin blockchain were created to ensure rules and agreements between all parties are executed when all conditions are met. 
 
 ### Smart Contracts
 

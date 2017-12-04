@@ -1,5 +1,5 @@
 {
-"title"       : "Getting started with MyEtherWallet: Tutorials for Beginners 🎥",
+"title"       : "Getting Started With MyEtherWallet: Tutorials for Beginners 🎥",
 "sort"        : "50",
 "category"    : "Getting Started",
 "description" : "Getting Started",
