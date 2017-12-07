@@ -22,7 +22,7 @@ There is simply not enough space in the blocks for the miners to mine all the tr
 
 *  [Replace a **pending TX** that you sent with too low gas](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)
 
-*  [See what the **optimal gas price** is here (at 12:00am PT it was **61** GWEI)](https://ethgasstation.info/)            
+*  [See what the **optimal gas price** is here (at 12/07/2017 @ 12:00am PT it was **61** GWEI)](https://ethgasstation.info/)            
 
 *  [Learn about **Nonce** and how it controls which transactions are mined, or not mined](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html)
             
