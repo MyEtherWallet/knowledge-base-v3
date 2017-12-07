@@ -110,6 +110,16 @@
   <priority>0.90</priority>
 </url>
 <url>
+  <loc>https://myetherwallet.github.io/knowledge-base/faq/what-is-an-ico.html</loc>
+  <lastmod>2017-12-07T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html</loc>
+  <lastmod>2017-12-07T00:48:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html</loc>
   <lastmod>2017-11-29T00:48:12+00:00</lastmod>
   <priority>0.80</priority>
