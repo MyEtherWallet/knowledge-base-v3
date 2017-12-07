@@ -1,5 +1,5 @@
 {
-"title"       : "How to make an offline transaction",
+"title"       : "How To Make An Offline Transaction",
 "sort"        : "06",
 "category"    : "Offline",
 "description" : "Offline",

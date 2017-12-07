@@ -1,5 +1,5 @@
 {
-"title"       : "How to run MyEtherWallet offline / locally",
+"title"       : "How To Run MyEtherWallet Offline and Locally",
 "sort"        : "02",
 "category"    : "Offline",
 "description" : "Offline",

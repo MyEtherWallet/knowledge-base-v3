@@ -1,5 +1,5 @@
 {
-"title"       : "Should I keep my ETH / Tokens on Single or Multiple Addresses?",
+"title"       : "Should I Keep My ETH / Tokens on Single or Multiple Addresses?",
 "sort"        : "06",
 "category"    : "Addresses",
 "description" : "Addresses",
@@ -10,11 +10,11 @@
 ---%
 
 
-MyEtherWallet is just a front end interface that enables you to talk directly with the blockchain.
+MyEtherWallet is a front end interface that enables you to interact directly with the Ethereum blockchain.
 
 Any Ethereum address can receive and store Ethereum-based tokens ("ERC-20" tokens).
 
-MEW enables you (through an interface) to send tokens from your address, view your token balance, etc. However, MyEtherWallet's existence has no bearing on your address's ability to receive tokens.
+MEW enables you, through the interface, to send tokens from your address, view your token balance, etc. However, MyEtherWallet's existence has no bearing on your address's ability to receive tokens.
 
 Whether you store all your ETH and tokens in the same address is up to you. Some people prefer to have different wallets. Some people have a smaller "hot" wallet that is kept on their computer with small amounts of the coins they hold while keeping a majority of their funds in a cold-storage wallet.
 

@@ -172,15 +172,20 @@ This is a list of terms you might encounter when using the MyEtherWallet interfa
 
 - [TODO]
 
-### Decentrailzed
+### Decentrailze / Decentralization
 
-- [TODO]
+- The process of transferring authority of a single entity (ex. Government or large corporation) to multiple smaller entities. 
 
 ### Trustless
 
-- [TODO]
+- A distributed trustless consensus which the blockchain is responsible for. Since everyone has a copy of the ledger of all transactions ever executed, there is no need for a third-party. You can verify the transactions yourself, however the Ethereum blockchain and Bitcoin blockchain were created to ensure rules and agreements between all parties are executed when all conditions are met. 
 
+### Smart Contracts
 
----
+- A piece of code (or program) that is stored on the blockchain network. Conditions of the contract are predefined by the users, if all conditions are met, certain actions are executed by the contract (program). 
+
+### Blockchain
+
+- A decentralized publicly owned ledger. 
 
 All feedback, rewrites, clarification, typo-fixing, and requests for additions are more than welcome. ?

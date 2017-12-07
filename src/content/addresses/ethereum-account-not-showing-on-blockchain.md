@@ -1,5 +1,5 @@
 {
-"title"       : "Account not showing up on the blockchain",
+"title"       : "Account Not Showing Up On The Blockchain",
 "sort"        : "04",
 "category"    : "Addresses",
 "description" : "Addresses",

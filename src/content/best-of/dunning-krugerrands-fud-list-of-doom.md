@@ -10,7 +10,7 @@
 ---%
 
 
-*This is part of a series where Taylor pull's sweet comments she's made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts.*
+*This is part of a series where Taylor pulls sweet comments she has made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in creating the future knowledge base posts.*
 
 ---
 
@@ -57,7 +57,7 @@ Ok so I'm bullish but I'l chime in with my  **FUD list of doom!** :)
 ### Barriers to adoption
 
 * It is hard to communicate what Ethereum is
-* Press insist on using the term 'blockchain' or 'bitcoin'
+* Press insists on using the term 'blockchain' or 'bitcoin'
 * Ethereum PR sucks.
 * It is still hard for 'normal people' to buy Ether and securely store it.
 * There is not yet a killer app

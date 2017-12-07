@@ -1,5 +1,5 @@
 {
-"title"       : "How can MyEtherWallet send offline?",
+"title"       : "How Can MyEtherWallet Send Offline?",
 "sort"        : "08",
 "category"    : "Offline",
 "description" : "Offline",

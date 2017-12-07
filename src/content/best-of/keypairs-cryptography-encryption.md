@@ -45,7 +45,7 @@ The only way to move funds is to send those funds with a transaction signed by t
 
 
 
-### fancy keys, passwords & encryption
+### Fancy keys, Passwords & Encryption
 
 Okay bear with me one more thing.
 
