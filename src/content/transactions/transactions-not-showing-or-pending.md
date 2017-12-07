@@ -35,6 +35,8 @@ There is simply not enough space in the blocks for the miners to mine all the tr
 
 *  If you sent **FROM an exchange**, your best bet is to just be patient. I know we received over 1000 messages in the past 24 hours, I can't imagine what an exchange's inbox looks like right now. :(
 
+*  There are additional issues created by this increased traffic that result in unclear error messages on MyEtherWallet. We're sorry for this, and working on improving those messages. If you get an error, try pressing the generate button again, or changing the network via the dropdown in the top-right. However, be careful that you don't actually send the same transaction twice. If it says "transaction hash already imported" or "same nonce", you MAY have already sent that transaction and it's waiting to be mined. If both transactions get mined, you will send twice as much as you mean to.  
+
 If you have any other questions, please let us know, but your answer is likely in the links above.
 
 Thank you for understanding.
