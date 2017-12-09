@@ -228,9 +228,18 @@
 </ul>
 <p>The reason we recommend <code>Canceling</code> over  <code>Replacing</code> is that it is not guaranteed your second transaction will actually replace your first one. Your first transaction could still be mined first, invalidating your second transaction. Choosing to replace a transaction with a new one could lead to more confusion, headaches, and pending ETH, or ETH spent unnecessarily in the form of gas. This is especially true if your first transaction is mined anyways, which is possible.</p>
 <h4 id="canceling-a-transaction">Canceling a Transaction</h4>
-<p><strong>Canceling</strong>: Generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / being included in the blockchain.</p>
+<p><strong>Canceling</strong> means generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / &quot;being included in the blockchain&quot; / &quot;being stuck&quot;</p>
 <ol>
-<li><p>Unlock the wallet you used to send the original transaction.</p>
+<li><p>Go to <a href="https://www.myetherwallet.com/#check-tx-status">https://www.myetherwallet.com/#check-tx-status</a></p>
+</li>
+<li><p>Paste your TX hash.</p>
+<ul>
+<li>If it says pending, you can cancel it</li>
+<li>If it says not found, click the button again, waiting a few seconds between each click. This will poll different nodes. If that doesn&#39;t work, change the network in the top-right corner to Etherscan, Infura, MyEtherWallet, and Giveth and check for the TX hash each time you switch.</li>
+<li>If it says found, you cannot cancel it.</li>
+</ul>
+</li>
+<li><p>If it says pending, unlock the wallet you used to send the original transaction.</p>
 </li>
 <li><p>Don&#39;t change any fields. These are already filled in for you. If you change something, it will not work as intended, bad things could happen, and you have no one to blame but yourself.</p>
 </li>
