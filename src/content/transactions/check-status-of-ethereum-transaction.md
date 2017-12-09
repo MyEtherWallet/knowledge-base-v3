@@ -78,17 +78,25 @@ The reason we recommend `Canceling` over  `Replacing` is that it is not guarante
 
 #### Canceling a Transaction
 
-**Canceling**: Generating a `0 ETH` transaction to `Your Own Address` with the purpose of preventing a previous transaction from "going through" / "being mined" / being included in the blockchain.
 
-1. Unlock the wallet you used to send the original transaction.
+**Canceling** means generating a `0 ETH` transaction to `Your Own Address` with the purpose of preventing a previous transaction from "going through" / "being mined" / "being included in the blockchain" / "being stuck"
 
-2. Don't change any fields. These are already filled in for you. If you change something, it will not work as intended, bad things could happen, and you have no one to blame but yourself.
+1. Go to https://www.myetherwallet.com/#check-tx-status
 
-3. Click the `Send Transaction` Button.
+2. Paste your TX hash.
+    - If it says pending, you can cancel it
+    - If it says not found, click the button again, waiting a few seconds between each click. This will poll different nodes. If that doesn't work, change the network in the top-right corner to Etherscan, Infura, MyEtherWallet, and Giveth and check for the TX hash each time you switch.
+    - If it says found, you cannot cancel it.
 
-4. A dialog will appear. Click the "Yes, I'm Sure" button to send.
+3. If it says pending, unlock the wallet you used to send the original transaction.
 
-5. A new `TX Hash` will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn't show up immediately, stop. Breath. Count to 20. *Then* click refresh.
+4. Don't change any fields. These are already filled in for you. If you change something, it will not work as intended, bad things could happen, and you have no one to blame but yourself.
+
+5. Click the `Send Transaction` Button.
+
+6. A dialog will appear. Click the "Yes, I'm Sure" button to send.
+
+7. A new `TX Hash` will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn't show up immediately, stop. Breath. Count to 20. *Then* click refresh.
 
 #### Replacing a Transaction (Advanced Users Only)
 
