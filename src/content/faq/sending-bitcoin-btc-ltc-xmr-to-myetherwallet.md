@@ -12,7 +12,7 @@
 
 ### "Can I send Bitcoin or other coins (LTC STEEM ZEC) to MyEtherWallet?"*
 
-We support ETH, ETC, Testnet ETH, and any Ethereum Standard Tokens - aka "ERC-20" Tokens.
+We support `ETH`, `ETC`, `Testnet ETH`, `UBQ`, `EXP`, `RSK`, `MUSICOIN`, and any Ethereum Standard Tokens - aka "ERC-20" Tokens.
 
 You can use [Bity.com](https://bity.com/) or [Shapeshift.io](http://shapeshift.io/) or another exchange to _swap / convert / exchange_ your other coins into ETH or Ethereum Tokens. However, you do not send those other coins directly to your Ethereum address.
 

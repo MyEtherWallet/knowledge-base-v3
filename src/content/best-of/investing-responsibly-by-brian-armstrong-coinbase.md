@@ -47,6 +47,12 @@ We are committed to safety, security and transparency. We are working tirelessly
 
 ---
 
+### Related Reading
+
+- [https://buynhodl.com/ether-investor-focus-olaf-carlson-wee-polychain-capital/](https://buynhodl.com/ether-investor-focus-olaf-carlson-wee-polychain-capital/) -- the video is gone but the notes are still great.
+
+---
+
 ### Source
 
 - [https://blog.coinbase.com/please-invest-responsibly-an-important-message-from-the-coinbase-team-bf7f13a4b0b1](https://blog.coinbase.com/please-invest-responsibly-an-important-message-from-the-coinbase-team-bf7f13a4b0b1)
