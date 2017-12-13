@@ -26,7 +26,7 @@
 *  Metamask:                  [Slack](https://metamask-slack-autoinvite.herokuapp.com/)
 *  MyEtherWallet:             [Website](https://www.myetherwallet.com/) · [FAQ](https://myetherwallet.github.io/knowledge-base/) · [Support](mailto:support@myetherwallet.com)
 *  Jaxx:                      [Website](https://jaxx.io/) · [Support](https://decentral.zendesk.com/hc/en-us)
-*  Ledger Nano S:             [Website](https://www.ledgerwallet.com/) · [Support](http://support.ledgerwallet.com/help_center)
+*  Ledger Nano S:             [Website](https://www.ledgerwallet.com/) · [Support](https://ledger.zendesk.com/hc/en-us/requests/new)
 *  Trezor:                    [Website](https://trezor.io/) · [Gitter](https://gitter.im/trezor/community) · [Support](mailto:support@trezor.io)
 
 ##### Exchanges
