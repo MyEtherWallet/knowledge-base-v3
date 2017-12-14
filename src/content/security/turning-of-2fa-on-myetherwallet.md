@@ -14,6 +14,9 @@
 
 In the case of MyEtherWallet*.com*, a client-side application, you store your key.  That key is the core piece of information that allows access to your account and, while *you* can encrypt it with a password, there is no server that can verify or track a 2FA login / [OTP](https://en.wikipedia.org/wiki/One-time_password) when you are using MyEtherWallet. If someone gets your private key (keystore file, mnemonic, passwords), they have complete access to your funds. There is no stopping transactions, canceling transactions, or resetting passwords.
 
+The way 2FA works is you have a server. You provide the username, pw, and 2FA code. The server then gives you the information behind it.
+We have no server, no stuff behind it. Your PK is in your hands. No way to 2FA that w/o holding your keys. We dont want to hold your keys.
+
 Basically, it's an authentication primitive, not a cryptographic one.
 
 ### In order to implement it, we would need to store your key and protect it on our servers, which is not something we want to do.
