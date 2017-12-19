@@ -47,7 +47,7 @@ MyEtherWallet aims to deliver an easy-to-use and secure platform. Due to a rapid
 
 First, I'd like to apologize to the Parity team for the above. I fully realize that you had the best intentions with the recovery phrase feature. Unfortunately, if you give people the ability to do something they will always, always do it. For this reason, you shouldn't ever let people do something that could result in low-entropy wallets.
 
-We fully realize we should have noticed this earlier and taken steps to mitigate. Unforutnately, it wasn't until this massive influx of new users that we realized what people were doing and connect the dots. 
+We fully realize we should have noticed this earlier and taken steps to mitigate. Unfortunately, it wasn't until this massive influx of new users that we realized what people were doing and connect the dots. 
 
 If you are an advanced user, you may look at the above list of steps and scoff. _"But I could just....Or you could just....this is a pain."_
 
