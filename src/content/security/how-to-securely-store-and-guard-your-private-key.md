@@ -1,5 +1,5 @@
 {
-"title"       : "Securely use MyEtherWallet",
+"title"       : "Securely Store & Guard Your Private Key (by /u/drewshaver)",
 "sort"        : "08",
 "category"    : "Security & Phishing",
 "description" : "Security & Phishing",
@@ -9,11 +9,10 @@
 
 ---%
 
-
-
-*This is part of a series where Taylor pull's sweet comments she's made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts. Many are unpolished & contain typos, specific references to previous discussions, and gratuitous cursing.*
+*[source: /u/drewshaver](https://www.reddit.com/r/CryptoCurrency/comments/6vo0tw/a_guide_for_newbies_on_how_to_properly_and/)*
 
 ---
+
 
 ### Preface
 
