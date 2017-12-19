@@ -177,6 +177,7 @@
 *  PT / PornToken                  : [Web](https://www.porntoken.io) · [Support](mailto:support@porntoken.io)
 *  Beyond the Void / NxC / Nexium  : [Web](https://beyond-the-void.net) · [Support](mailto:contact@beyond-the-void.net) · [Blog](https://www.beyond-the-void.net/wiki/posts/) · [Chat](https://discordapp.com/invite/C7TqmaQ) · [Facebook](https://www.facebook.com/beyondvoid) · [Forum](https://bitcointalk.org/index.php?topic=1630816.0) · [Reddit](https://www.reddit.com/r/BeyondTheVoidGame/) · [Slack](http://beyond-the-void.slack.com/) · [Twitter](https://twitter.com/BeyondVoidGame) · [Youtube](https://www.youtube.com/channel/UCD1IdjsnzXFdOarY20gMPQQ)
 *  NXX                             : [Web](https://www.nexxuscoin.com) · [Support](mailto:bob@nexxuspartners.com)
+*  OMG / OmiseGo                   : [Web](https://omisego.network) · [Support](mailto:omg@omise.co)
 *  OAX / openANX                   : [Web](https://www.openanx.org/en/) · [Slack](https://openanx.slack.com) · [Reddit](https://www.reddit.com/r/OpenANX/)
 *  ONEK / One K Token              : [Web](http://onek.one) · [Support](mailto:onektoken@gmail.com)
 *  OPT / Opus Foundation           : [Web](https://opus-foundation.org) · [Support](mailto:info@opus-foundation.com) · [Reddit](https://www.reddit.com/r/opusfoundation/) · [Slack](https://slack.opus-foundation.org/)
