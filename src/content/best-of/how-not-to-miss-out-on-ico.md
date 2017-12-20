@@ -106,7 +106,7 @@ Now you have 2 TXs. You can send the first one *or* the first and the second one
 
 If at this point you still aren't able to get in, then there is a higher power telling you that you shouldn't invest in this shitstorm. Turn off your computer and go outside and thank the gods they protected you.
 
-My biggest recommendation though: send more fucking transactions. I send like 10 TXs a day. I can do it in my sleep. But I was scared for the longest time, which caused me to make mistakes. Get comfortable sending by *sending*. Create a couple accounts and send 0.5 ETH to each of them. Then send 0.01 ETH back and forth every single day. Do things wrong. See the errors. Fix the errors. Do things right. Get comfortable.
+My biggest recommendation though: send more fucking transactions. I send like 10 TXs a day. I can do it in my sleep. But I was scared for the longest time, which caused me to make mistakes. Get comfortable sending by *sending*. Create a couple accounts and send 0.01 ETH to each of them. Then send 0.001 ETH back and forth every single day. Do things wrong. See the errors. Fix the errors. Do things right. Get comfortable.
 
 ### Source
 

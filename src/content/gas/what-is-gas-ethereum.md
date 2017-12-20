@@ -115,11 +115,11 @@ If they let you send with any amount of gas price, you should decide how much yo
 
 Before the BAT Token Creation Period, the average gas price was 20 GWEI (the default) for Token Creation Periods. Now it's who-the-fuck-even-knows:
 
-* 40 GWEI * 200000 == 0.008 ETH == $2.08 USD
-* 70 GWEI * 200000 == 0.014 ETH == $3.64 USD
-* 100 GWEI * 200000 == 0.02 ETH == $5.20 USD
+* 40 GWEI * 200000 == 0.008 ETH == $5.60 USD
+* 70 GWEI * 200000 == 0.014 ETH == $9.80 USD
+* 100 GWEI * 200000 == 0.02 ETH == $14.00 USD
 
-##### Absurd Gas Prices From the BAT Token Creation Period
+##### Absurd Gas Prices From the BAT Token Creation Period (USD prices at time of TX)
 
 * 118 GWEI * 200000 == 0.0236 ETH == $6.13 USD
 * 7590 GWEI * 200000 == 1.518 ETH == $394.68 USD

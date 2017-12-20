@@ -40,7 +40,7 @@ Be fucking careful.
 
 One of the safest & easiest ways to store your ETH, Tokens, ETC, BTC, and many other coins is via a Ledger Nano S or TREZOR. The device itself holds the keys and signs transactions for you. This ensures your keys aren't ever on any internet-connected device. Phishers can't get them. Malware can't get them. Keyloggers can't get them.
 
-The best part: it costs less $100 ( < 0.5 ETH ).  Order (or pre-order!!!) one today.
+The best part: it costs less than $100 USD (<0.1 ETH). Order (or pre-order!!!) one today.
 
 - Trezor: https://shop.trezor.io/
 
