@@ -20,7 +20,7 @@ Optional, but **highly recommended** (if you haven't already) Install [MetaMask]
    1. Select which token you would like to send.
    2. If you do not see the token listed:
    3. In the sidebar, click [Add Custom Token](https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html).
-   4. Enter the address, name, and decimals of the token. These are provided by the developers of the token and are also needed when you "Add a Watch Token" to Mist.
+   4. Enter the address, name, and decimals of the token. These are provided by the developers of the token and are also found on [ethplorer.io](https://ethplorer.io/)
    5. Click "Save".
    6. You can now send that token as well as see it's balance in the sidebar.
 6. Enter the amount you would like to send.
