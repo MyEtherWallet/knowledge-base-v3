@@ -14,7 +14,7 @@
 
 ![](../images/tokens/loading-tokens-1.png)
 
-### 2. Click the token you want to load (where it says "Click to Load".
+### 2. Click the token you want to load, where it says "Click to Load".
 
 ![](../images/tokens/loading-tokens-2.png)
 
