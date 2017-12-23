@@ -1,6 +1,6 @@
 {
-"title"       : "[MEW ➡ Mist] Access MyEtherWallet account in Geth / Mist",
-"sort"        : "10",
+"title"       : "[MEW ➡ Mist] Access your MyEtherWallet account in Geth / Mist",
+"sort"        : "04",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",
 "date_published" : "2015-07-15T08:00:00+08:00",

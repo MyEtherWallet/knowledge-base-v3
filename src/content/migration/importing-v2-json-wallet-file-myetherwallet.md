@@ -1,5 +1,5 @@
 {
-"title"       : "Import a V2 JSON file / private key?",
+"title"       : "Importing a V2 JSON file",
 "sort"        : "14",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",

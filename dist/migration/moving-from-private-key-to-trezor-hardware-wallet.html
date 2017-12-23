@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> [MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support</title>
-<meta property="og:title" content=" [MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
-<meta property="og:site_name" content=" [MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
-<meta name="twitter:title" content=" [MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
-<meta name="apple-mobile-web-app-title" content=" [MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
+<title> [MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support</title>
+<meta property="og:title" content=" [MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
+<meta property="og:site_name" content=" [MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
+<meta name="twitter:title" content=" [MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
+<meta name="apple-mobile-web-app-title" content=" [MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR &middot; Migrating to/from MyEtherWallet | MyEtherWallet Help &amp; Support">
 <base href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-trezor-hardware-wallet.html">
 <link href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-trezor-hardware-wallet.html" rel="canonical">
 <meta content="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-trezor-hardware-wallet.html" property="og:url">
@@ -57,7 +57,7 @@
     "@type": "WebPage",
     "@id": "migration/moving-from-private-key-to-trezor-hardware-wallet.html"
   },
-  "headline": "[MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet",
+  "headline": "[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR",
   "image": [
     "https://myetherwallet.github.io/knowledge-base/images/myetherwallet-logo-banner.png"
   ],
@@ -101,7 +101,7 @@
     "position": 3,
     "item": {
       "@id": "migration/moving-from-private-key-to-trezor-hardware-wallet.html",
-      "name": "[MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet"
+      "name": "[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR"
     }
   }]
 }
@@ -138,26 +138,36 @@
 <!-- Header -->
 <header class="header">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-sm-6">
         <a class="brand" href="https://myetherwallet.github.io/knowledge-base/" aria-label="Go to homepage">
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
-
         </a>
       </div>
-      <!--
-      <div class="col-sm-6">
-        <form class="search-form form-inline pull-right" action="/">
-          <div class="form-group">
-            <label class="sr-only" for="search">Search</label>
-            <input type="search" class="form-control" name="search" id="search" size="30" value="Search" placeholder="Search">
-          </div>
-        </form>
+      <div class="col-sm-6 search__form">
+        <div class="input-group">
+          <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
+          <span class="input-group-btn">
+            <button class="search__button btn btn-primary">Search</button>
+          </span>
+        </div>
       </div>
-      -->
     </div>
   </div>
 </header>
+
+
+
+<main class="result__outer container" style="display: none;">
+  <button type="button" class="close search__clear" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  <section class="block">
+    <h4 class="search__error text-danger text-center" role="alert" style="display:none"></h4>
+    <h4 class="search__success text-success text-center" role="alert" style="display:none"></h4>
+    <div class="result__wrapper"></div>
+  </section>
+</main>
 
 <!-- Main -->
 <section class="container" id="moving-from-private-key-to-trezor-hardware-wallet">
@@ -167,11 +177,11 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/migration/"> Migrating to/from MyEtherWallet </a> › <span class="breadcrumbs__category">[MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/migration/"> Migrating to/from MyEtherWallet </a> › <span class="breadcrumbs__category">[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">[MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet</h1>
+          <h1 class="page__title" itemprop="headline">[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR</h1>
           <div class="content">
             <p>The TREZOR is one of the best and easiest cryptocurrency hardware wallets out there, it is available for purchase <a href="https://trezor.io/?a=myetherwallet.com">here</a>. It supports a wide range of cryptocurrencies, but this guide is specifically made for using it with Ethereum and ERC-20 tokens using MyEtherWallet.</p>
 <h3 id="initial-set-up">Initial set-up</h3>
@@ -248,9 +258,6 @@ I want to set &quot;8963&quot; as pin. This would mean that I have to click the 
             data-target="#contact-form">
       Need Help? Message Us
     </button>
-  </section>
-  <section class="page__meta">
-    <p>Form not working out for you? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></p>
   </section>
 </main>
 

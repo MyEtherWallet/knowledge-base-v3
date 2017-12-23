@@ -29,10 +29,14 @@
     text-align: center;
     font-weight: 500;
     font-size: $font-size-xs;
-    content: "Still need help? Continue filling out the form below to send. :)";
+    content: ""; /*Still need help? Continue filling out the form below to send. :)*/
   }
 }
 
 .form__addl-field {
   display: none;
+}
+
+.form__addl-field#addl_addr {
+  display: flex;
 }

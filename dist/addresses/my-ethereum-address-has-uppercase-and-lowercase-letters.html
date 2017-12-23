@@ -138,26 +138,36 @@
 <!-- Header -->
 <header class="header">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-sm-6">
         <a class="brand" href="https://myetherwallet.github.io/knowledge-base/" aria-label="Go to homepage">
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
-
         </a>
       </div>
-      <!--
-      <div class="col-sm-6">
-        <form class="search-form form-inline pull-right" action="/">
-          <div class="form-group">
-            <label class="sr-only" for="search">Search</label>
-            <input type="search" class="form-control" name="search" id="search" size="30" value="Search" placeholder="Search">
-          </div>
-        </form>
+      <div class="col-sm-6 search__form">
+        <div class="input-group">
+          <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
+          <span class="input-group-btn">
+            <button class="search__button btn btn-primary">Search</button>
+          </span>
+        </div>
       </div>
-      -->
     </div>
   </div>
 </header>
+
+
+
+<main class="result__outer container" style="display: none;">
+  <button type="button" class="close search__clear" aria-label="Close">
+    <span aria-hidden="true">×</span>
+  </button>
+  <section class="block">
+    <h4 class="search__error text-danger text-center" role="alert" style="display:none"></h4>
+    <h4 class="search__success text-success text-center" role="alert" style="display:none"></h4>
+    <div class="result__wrapper"></div>
+  </section>
+</main>
 
 <!-- Main -->
 <section class="container" id="my-ethereum-address-has-uppercase-and-lowercase-letters">
@@ -216,9 +226,6 @@ There are two versions of Ethereum addresses: one that contains uppercase letter
             data-target="#contact-form">
       Need Help? Message Us
     </button>
-  </section>
-  <section class="page__meta">
-    <p>Form not working out for you? <a class="u--break-word" href="mailto:support@myetherwallet.com">Email us at support@myetherwallet.com</a></p>
   </section>
 </main>
 

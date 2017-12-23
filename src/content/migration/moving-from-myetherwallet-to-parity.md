@@ -1,5 +1,5 @@
 {
-"title"       : "[MEW ➡ Parity] Access MyEtherWallet account in Parity",
+"title"       : "[MEW ➡ Parity] Access your MyEtherWallet account in Parity",
 "sort"        : "03",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",

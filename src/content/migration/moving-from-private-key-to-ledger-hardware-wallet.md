@@ -1,5 +1,5 @@
 {
-"title"       : "[MEW ➡ Ledger]  Moving from a MyEtherWallet key to Ledger Hardware Wallet",
+"title"       : "[MEW ➡ Ledger] Moving from MyEtherWallet to Ledger",
 "sort"        : "02",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",

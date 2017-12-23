@@ -1,5 +1,5 @@
 {
-"title"       : "[MEW ➡ TREZOR]  Moving from a MyEtherWallet key to TREZOR Hardware Wallet",
+"title"       : "[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR",
 "sort"        : "02",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",

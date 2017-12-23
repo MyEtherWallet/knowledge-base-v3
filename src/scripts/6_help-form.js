@@ -23,7 +23,7 @@ function validateForm(e) {
   var validated = true;
 
   // what fields are required?
-  var req_fields = [ 'main_name', 'main_email', 'main_sub', 'main_msg' ]
+  var req_fields = [ 'main_name', 'main_email', 'main_sub', 'addl_addr', 'main_msg' ]
 
   $.each( req_fields, function(i, el){
     elem       = $( '#' + el )
@@ -37,6 +37,27 @@ function validateForm(e) {
       $(elem).removeClass('has-success').addClass('has-danger')
       $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
       validated = false; // set validated to false
+    }
+
+    if (el == 'addl_addr') {
+      if ( $(elem_input).val().length > 30 ) {
+        $(elem).removeClass('has-danger').addClass('has-success')
+        $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
+      } else {
+        $(elem).removeClass('has-success').addClass('has-danger')
+        $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
+        validated = false; // set validated to false
+      }
+    } else if (el == 'main_email') {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if ( $(elem_input).val().length > 5 && re.test($(elem_input).val().toLowerCase()) ) {
+        $(elem).removeClass('has-danger').addClass('has-success')
+        $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
+      } else {
+        $(elem).removeClass('has-success').addClass('has-danger')
+        $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
+        validated = false; // set validated to false
+      }
     }
 
     // if validated is not false for all fields, submit the form
@@ -145,7 +166,6 @@ function showHelpers( the_subject ) {
 
 function showFields( the_subject  ) {
   var addl_1    = $('#addl_1')
-  var addl_addr = $('#addl_addr')
   var addl_tx   = $('#addl_tx')
   // show appropriate fields & helpers
   switch ( the_subject  ) {
@@ -153,13 +173,11 @@ function showFields( the_subject  ) {
         // do nothing
         break;
       case 'accessing-wallet':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'Wallet Type    ' )
         updateHolder( addl_1, 'e.g. Private Key, Keystore file, MetaMask, Ledger....' )
         break;
       case 'adding-tokens':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'Token Name     ' )
         updateHolder( addl_1, 'e.g. SNT, Aragon, BAT... ' )
@@ -168,14 +186,12 @@ function showFields( the_subject  ) {
         // do something
         break;
       case 'ens':
-        displayFlex(  addl_addr )
         displayFlex(  addl_tx )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'ENS Name       ' )
         updateHolder( addl_1, 'e.g. mewtopia.eth... ' )
         break;
       case 'exchanging':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'Exchange       ' )
         updateHolder( addl_1, 'e.g. Coinbase, Gemini, Kraken... ' )
@@ -186,28 +202,22 @@ function showFields( the_subject  ) {
         updateHolder( addl_1, 'e.g. I created a wallet but then I got this error... ' )
         break;
       case 'keystore-file':
-        displayFlex(  addl_addr )
         break;
       case 'hardware-wallet':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'Error message  ' )
         updateHolder( addl_1, 'e.g. Error Code 5' )
         break;
       case 'phishing':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'URL you visited' )
         updateHolder( addl_1, 'e.g. myethereumwallet.com' )
         break;
       case 'lost-password':
-        displayFlex(  addl_addr )
         break;
       case 'lost-pk':
-        displayFlex(  addl_addr )
         break;
       case 'metamask':
-        displayFlex(  addl_addr )
         break;
       case 'nodes-networks':
         displayFlex(  addl_1 )
@@ -218,19 +228,15 @@ function showFields( the_subject  ) {
         // do something
         break;
       case 'private-key':
-        displayFlex(  addl_addr )
         break;
       case 'sending-transaction':
-        displayFlex(  addl_addr )
         displayFlex(  addl_tx )
         // do something
         break;
       case 'sending-tokens':
-        displayFlex(  addl_addr )
         displayFlex(  addl_tx )
         break;
       case 'swap':
-        displayFlex(  addl_addr )
         displayFlex(  addl_1 )
         updateLabel(  addl_1, 'Ref #          ' )
         updateHolder( addl_1, 'e.g. BITYZXJV3U' )

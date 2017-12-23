@@ -1,5 +1,5 @@
 {
-"title"       : "[Jaxx ➡ MEW] Access Jaxx account on MyEtherWallet",
+"title"       : "[Jaxx ➡ MEW] Access your Jaxx account on MyEtherWallet",
 "sort"        : "06",
 "category"    : "Migrating to/from MyEtherWallet",
 "description" : "Migrating to/from MyEtherWallet",
