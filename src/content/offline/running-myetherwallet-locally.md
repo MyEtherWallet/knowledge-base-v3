@@ -10,14 +10,27 @@
 ---%
 
 
-You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Send Offline" page.
+For increased security, you can run MyEtherWallet on your computer instead of from the GitHub servers. The computer should have no internet connection. You can generate a wallet completely offline and send transactions from the "Send Offline" page.
 
-1.  Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest).
-2.  Click on `etherwallet-vX.X.X.X.zip`.
-3.  Move zip to an airgapped computer.
-4.  Unzip it and double-click `index.html`.
-5.  MyEtherWallet.com is now running entirely on your computer.
+### Downloading and installing
+In order to setup your local MyEtherWallet, start off by downloading the latest release of MyEtherWallet [here](https://github.com/kvhnuke/etherwallet/releases/latest). Click on `etherwallet-vX.X.X.X.zip`, to download the file. Move this file to a USB stick or something similar, in order to move it to your offline computer.
 
-In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don't touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact.
+![](../images/offline/running-myetherwallet-locally-01.png)
 
-As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo.
+Plug the USB stick into your offline computer and extract all files in the archive to the computer. You should now have a folder containing these files:
+
+![](../images/offline/running-myetherwallet-locally-02.png)
+
+### Running MyEtherWallet
+To open MyEtherWallet, double click the `index.html` file. This should open your browser. You will get a warning saying that it is unable to connect to the network, but this is completely normal. You won't be able to see your Ether or token balance through your local MyEtherWallet, but you can still use Etherscan or Ethplorer to see your balance.
+
+![](../images/offline/running-myetherwallet-locally-03.png)
+
+We recommend you periodically update your local version of MyEtherWallet, as we are constantly updating the website.
+
+### Related Reading
+
+* [How To Make An Offline Transaction](https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html)
+
+* [Checking the Balance of Your Account](https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html)
+
