@@ -12,23 +12,23 @@
 
 ### 1. Click the Orange "Show All Tokens Button"
 
-![](../images/tokens/loading-tokens-1.jpg)
+![](../images/tokens/loading-tokens-1.png)
 
 ### 2. Click the token you want to load
 
-![](../images/tokens/loading-tokens-2.jpg)
+![](../images/tokens/loading-tokens-2.png)
 
 ### 3. If you have a balance, you can now send it.
 
-![](../images/tokens/loading-tokens-3.jpg)
+![](../images/tokens/loading-tokens-3.png)
 
 ### 4. If you don't have a balance, you can't send it.
 
-![](../images/tokens/loading-tokens-4.jpg)
+![](../images/tokens/loading-tokens-4.png)
 
 ### 5. If you have a balance you won't have to load it again—it will automatically load in the future
 
-![](../images/tokens/loading-tokens-5.jpg)
+![](../images/tokens/loading-tokens-5.png)
 
 Yay!
 
