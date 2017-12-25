@@ -23,7 +23,7 @@
 *  Geth:                      [Gitter](https://gitter.im/ethereum/go-ethereum)
 *  Mist:                      [Gitter](https://gitter.im/ethereum/mist)
 *  Parity:                    [Github](https://github.com/paritytech/parity) · [Gitter](https://gitter.im/paritytech/parity)
-*  Metamask:                  [Slack](https://metamask-slack-autoinvite.herokuapp.com/)
+*  Metamask:                  [Slack](https://metamask-slack-autoinvite.herokuapp.com/) · [Support](https://support.metamask.io/new)
 *  MyEtherWallet:             [Website](https://www.myetherwallet.com/) · [FAQ](https://myetherwallet.github.io/knowledge-base/) · [Support](mailto:support@myetherwallet.com)
 *  Jaxx:                      [Website](https://jaxx.io/) · [Support](https://decentral.zendesk.com/hc/en-us)
 *  Ledger Nano S:             [Website](https://www.ledgerwallet.com/) · [Support](https://ledger.zendesk.com/hc/en-us/requests/new)
