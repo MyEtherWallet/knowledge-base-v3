@@ -184,27 +184,52 @@
           <h1 class="page__title" itemprop="headline">How to Add a Custom Token to MyEtherWallet</h1>
           <div class="content">
             <p>Adding a new token / sending custom tokens / checking balance of tokens / seeing custom token / ERC-20</p>
-<h4 id="first-make-sure-you-have-clicked-the-orange-load-tokens-button-">First, make sure you have clicked the orange <code>&quot;Load Tokens&quot;</code> button.</h4>
-<h4 id="if-you-still-don-t-see-your-token-you-simply-need-to-add-it-to-your-interface-">If you still don&#39;t see your token, you simply need to add it to your interface:</h4>
 <p>Any ERC-20 token can be added to your local MEW interface by following these instructions.</p>
+<h3 id="make-sure-it-isn-t-already-in-the-list-">Make sure it isn&#39;t already in the list:</h3>
 <ol>
-<li>Go to <a href="https://ethplorer.io/">Ethplorer.io</a> </li>
-<li>Type in the name of the token, or search to your address and click on the Token&#39;s name there. </li>
-<li>At the very top is the address.</li>
-<li>Down below that there is a thing called &quot;decimals&quot;, which is a number between 0 and 18.</li>
-<li>In a new tab, navigate to the <a href="https://www.myetherwallet.com/#send-transaction">&quot;Send Ether &amp; Tokens</a>&quot; page on MyEtherWallet.</li>
-<li>Unlock your wallet.</li>
-<li>Click &quot;Add Custom Token&quot; on the right side.</li>
-<li>Enter the <code>address</code> you got from Ethplorer.io.</li>
+<li><p>Click the Orange &quot;Show All Tokens&quot; Button.</p>
+</li>
+<li><p>Scroll and click the token you want to load, where it says &quot;Click to Load&quot;. You can also use <code>cmd/ctrl</code>+<code>f</code> to search for a token on the list more quickly.</p>
+</li>
+<li><p>If you have a balance you won&#39;t have to load it again—it will automatically load in the future.</p>
+</li>
+</ol>
+<h3 id="if-your-token-is-not-on-the-list">If your token is not on the list</h3>
+<h4 id="via-ethplorer-io">via Ethplorer.io</h4>
+<ol>
+<li>On the <a href="https://www.myetherwallet.com/#send-transaction">&quot;Send Ether &amp; Tokens&quot;</a> page on MEW, click <code>View Balance Only (Must use one of above options to send)</code> and paste <em>your</em> address.</li>
+<li>In a new tab, go to <a href="https://ethplorer.io/">Ethplorer.io</a> </li>
+<li>Type in the name of the token into their search bar, or navigate to your address and click on the token&#39;s name from that page. </li>
+<li>At the very top on this page page is the address.</li>
+<li>Below that there is a field called &quot;decimals&quot;, which is a number between 0 and 18.</li>
+<li>Back on MEW, click the <code>Add Custom Token</code> button on the right sidebar.</li>
+<li>Paste the <code>Address</code> from the top of the Ethplorer.io page</li>
 <li>Type in what you want to call it - the name or the symbol.</li>
-<li>Enter the <code>decimals</code> from Ethplorer.io.</li>
+<li>Paste the <code>Decimals</code> from Ethplorer.io.</li>
 <li>Click <code>&quot;Save&quot;</code>.</li>
 </ol>
 <p>🎉 You can now send your new token and see it&#39;s balance in the sidebar!</p>
-<p>In the future, we may add this token as a &quot;Default&quot; token on MyEtherWallet. In that case, you will see two of that token in the sidebar. While this won&#39;t break anything, it can be annoying. </p>
+<h4 id="via-etherscan-io">via Etherscan.io</h4>
+<ol>
+<li>On the <a href="https://www.myetherwallet.com/#send-transaction">&quot;Send Ether &amp; Tokens&quot;</a> page on MEW, click <code>View Balance Only (Must use one of above options to send)</code> and paste <em>your</em> address.</li>
+<li>In the sidebar, click the <code>https://etherscan.io</code> link under <code>Transaction History</code> or <code>How to See your Tokens</code>.</li>
+<li>Click the dropdown in the right-upper quadrant. It&#39;s labeled <code>Token Tracker</code>. </li>
+<li>Click the token that you aren&#39;t seeing on MEW.</li>
+<li>Copy the string next to <code>Contact Address</code>.</li>
+<li>Back on MEW, click the <code>Add Custom Token</code> button on the right sidebar.</li>
+<li>Paste the <code>Contact Address</code>.</li>
+<li>Type in what you want to call it - the name or the symbol.</li>
+<li>Return to Etherscan.io. Look for the number (between 0 and 18) next to <code>Token Decimals</code>.</li>
+<li>Enter this under <code>Decimals</code> on MEW.</li>
+<li>Click <code>&quot;Save&quot;</code> on MEW.</li>
+</ol>
+<p>🎉 You can now send your new token and see it&#39;s balance in the sidebar!</p>
+<h3 id="removing-custom-tokens">Removing Custom Tokens</h3>
 <p>To remove a custom token, click the little ( - ) icon next to your token. This will remove it from the interface. It is not deleting or removing the tokens themselves. They are still safely in your wallet, we promise.</p>
 <h3 id="related-reading">Related Reading</h3>
 <ul>
+<li><p><a href="https://myetherwallet.github.io/knowledge-base/tokens/showing-and-loading-tokens.html">Showing &amp; Loading Custom Tokens</a></p>
+</li>
 <li><p><a href="https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html">Can I store any coin in MyEtherWallet?</a></p>
 </li>
 <li><p><a href="https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html">I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?</a></p>
