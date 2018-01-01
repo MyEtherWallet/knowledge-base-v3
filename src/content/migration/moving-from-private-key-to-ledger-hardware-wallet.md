@@ -87,10 +87,10 @@ Sending ETH or tokens to your Nano S works the same as sending to any other addr
 
 ### Restoring your Nano S
 
-Ledger made a clear and easy to follow guide on how to restore your Nano S [here](https://ledger.groovehq.com/knowledge_base/topics/how-to-import-slash-recover-a-backup-on-a-nano-s).
+Ledger made a clear and easy to follow guide on how to restore your Nano S [here](https://ledger.zendesk.com/hc/en-us/articles/115005165309-How-to-import-recover-a-backup-on-a-Nano-S.html).
 
 
 
 ### Troubleshooting
 
-Ledger has an extensive knowledge base that you can find [here](https://ledger.zendesk.com/hc/en-us/categories/115000813085-TROUBLESHOOTING), as well as MyEtherWallet's [here](https://myetherwallet.github.io/knowledge-base/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [Ledger](https://ledger.zendesk.com/hc/en-us/requests/new) or [MyEtherWallet](mailto:support@myetherwallet.com).
+Ledger has an extensive knowledge base that you can find [here](https://ledger.zendesk.com/), as well as MyEtherWallet's [here](https://myetherwallet.github.io/knowledge-base/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [Ledger](https://ledger.zendesk.com/hc/en-us/requests/new) or [MyEtherWallet](mailto:support@myetherwallet.com).
