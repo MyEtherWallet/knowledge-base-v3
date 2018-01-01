@@ -9,10 +9,13 @@
 
 ---%
 
+
+### The Most Common Fix: Close Other Ledger Application
+
 Close all other Ethereum applications, Ledger applications, and MyEtherWallet tabs. Error code 5 means that another application is already connected to the Ledger device.
 
 
-### Other Troubleshooting Tips
+### Turn On Browser Support
 
 1. If you're trying to unlock your MEW using your Ledger make sure it's connected and unlock the device using your pin!
 
@@ -22,7 +25,9 @@ Close all other Ethereum applications, Ledger applications, and MyEtherWallet ta
 
 4. If you want other ERC20 tokens to work, Enable "Contract Data"
 
-5. Switch "Browser Support" to "Yes"!
+5. Switch "Browser Support" to "Yes"
+
+### Other Troubleshooting Tips
 
 *   Restart your computer (Do not be lazy. Restart it FIRST).
 *   Use Google Chrome.
@@ -32,5 +37,9 @@ Close all other Ethereum applications, Ledger applications, and MyEtherWallet ta
 *   That you are confirming any transactions via your Ledger.
 *   Try a different USB cable
 
+You can find more information about using a Ledger Nano S with MyEtherWallet [here](https://ledger.zendesk.com/hc/en-us/articles/115005200009-How-to-use-MyEtherWallet-with-Ledger).
+
+
+#### PS
 
 On the other hand, if you're trying to get the Chrome App "Ledger Wallet Bitcoin" to work and it's not reading your Ledger, just make sure that on your Ledger Device you disable "Browser Support" in your app.
