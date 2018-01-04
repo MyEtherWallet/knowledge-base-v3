@@ -1,6 +1,6 @@
 {
 "title"       : "Investing Responsibly (by Brian Armstrong / Coinbase)",
-"sort"        : "50",
+"sort"        : "24",
 "category"    : "Best Of",
 "description" : "Best Of",
 "date_published" : "2017-12-09T08:00:00+08:00",
