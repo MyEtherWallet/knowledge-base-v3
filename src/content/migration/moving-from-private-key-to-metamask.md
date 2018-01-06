@@ -41,7 +41,7 @@ Damn!
 
 7. You are now shown 12 words. This is a fancy private key which creates an infinite amount of private keys underneath it. You need this to access your Ether. No one can recover it if you lose it, your computer dies, you reinstall Chrome, you uninstall the MetaMask extension, or you reinstall your OS.
 
-8. You can write your 12 words down and store it in a safe, or [engrave it in metal](https://cryptosteel.com/). This will make sure that it never gets lost, even if your house catches fire. If using paper, you should store a second copy in a different phsyical location.
+8. You can write your 12 words down and store it in a safe, or [engrave it in metal](https://cryptosteel.com/). This will make sure that it never gets lost, even if your house catches fire. If using paper, you should store a second copy in a different physical location.
 
 #### Remember! Do not share this key with anyone! If you do, they can access your account and send all your coins to themselves.
 
