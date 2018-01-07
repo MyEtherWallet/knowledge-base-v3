@@ -62,7 +62,7 @@
     "https://myetherwallet.github.io/knowledge-base/images/myetherwallet-logo-banner.png"
   ],
   "datePublished": "2017-07-05T08:00:00+08:00",
-  "dateModified": "2017-09-26T08:00:00+08:00",
+  "dateModified": "2018-01-05T08:00:00+08:00",
   "author": {
     "@type": "Organization",
     "name": "MyEtherWallet"
@@ -183,19 +183,16 @@
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
           <h1 class="page__title" itemprop="headline">How To Make An Offline Transaction</h1>
           <div class="content">
-            <ol>
-<li>Navigate to the <a href="https://www.myetherwallet.com/#offline-transaction">&quot;Offline Transaction&quot; page</a> via your online computer.</li>
-<li>Enter the &quot;From Address&quot;. Please note, this is the address you are sending FROM, not TO. This generates the nonce and gas price.</li>
-<li>Move to your offline computer. Enter the &quot;TO ADDRESS&quot; and the &quot;AMOUNT&quot; you wish to send.</li>
-<li>Enter the &quot;GAS PRICE&quot; as it was displayed to you on your online computer in step #1.</li>
-<li>Enter the &quot;NONCE&quot; as it was displayed to you on your online computer in step #1.</li>
-<li>The &quot;GAS LIMIT&quot; has a default value of 21000. This will cover a standard transaction. If you are sending to a contract or are including additional data with your transaction, you will need to increase the gas limit. Any excess gas will be returned to you.</li>
-<li>If you wish, enter some data. If you enter data, you will need to include more than the 21000 default gas limit. All data is in HEX format.</li>
-<li>Select your wallet file -or- your private key and unlock your wallet.</li>
-<li>Press the &quot;GENERATE SIGNED TRANSACTION&quot; button.</li>
-<li>The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer.</li>
-<li>On your online computer, paste the signed transaction into the text field in step #3 and click send. This will broadcast your transaction.</li>
-</ol>
+            <p>If you are <a href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html">using MyEtherWallet offline and locally</a>, it is not possible to send transactions from the offline computer. To send or broadcast a transaction an internet connection is required. To do this, you should use a <strong>second</strong> computer, that does have an internet connection. This has the advantage that your private key never leaves the offline computer and malware won&#39;t be able to steal your private key.</p>
+<h3 id="1-getting-the-gas-price-nonce">1. Getting the gas price &amp; nonce</h3>
+<p>Start off by going to the <a href="https://www.myetherwallet.com/#offline-transaction">&quot;Offline Transaction&quot; page</a> on your <strong>online</strong> computer and fill in your address. Please note that this is the address you want to send FROM, not TO. This will generate the gas price and nonce for the transaction. You can read more about gas <a href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html">here</a> and about what a nonce is <a href="https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html">here</a>.</p>
+<h3 id="2-filling-in-the-transaction-information">2. Filling in the transaction information</h3>
+<p>Next, go to your offline computer, open MyEtherWallet and go to the &quot;Offline Transaction&quot; page again. Fill in the TO address and the amount you want to send. Optionally, you can select a token to send from the list. Fill in the gas price and nonce you got from step 1. If you fill in an incorrect nonce, the transaction will fail!</p>
+<p>If you just want to send a transaction to another address (not a contract) leave the gas limit at 21,000. Increasing the gas limit will <strong>not</strong> get your transaction verified faster, as you can read <a href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html">here</a>. If you are sending a transaction to a contract or including any additional data you have to use more gas. Any excess gas will be returned to you. If you want to include data with your transaction, also fill that in now. Unless you are specifically told to include data, you will likely not need it.</p>
+<h3 id="3-signing-the-transaction">3. Signing the transaction</h3>
+<p>The next step is to sign the transaction. This is the part that requires your private key. To do this, you have to unlock your wallet on the offline computer. On the &quot;Offline Transaction&quot; page, scroll down and access your wallet. A Generate Transaction button should appear. Make sure that all transaction information is correct and press the button. You should now see the raw transaction and the signed transaction.</p>
+<h3 id="4-sending-the-transaction">4. Sending the transaction</h3>
+<p>Finally, copy the signed transaction to your <strong>online</strong> computer. After signing a transaction, it is not possible to change any information of that transaction anymore, so it is safe to copy it to another computer. On the &quot;Offline Transaction&quot; page, scroll all the way down and fill in your signed transaction. Click the Send Transaction button and your transaction should be broadcast.</p>
 
           </div>
 
