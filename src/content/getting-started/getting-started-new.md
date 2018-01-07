@@ -124,7 +124,7 @@
 </h3>
 
 <ul>
-<li>  Access your account or send your funds for you X.  </li>
+<li>  Access your account or send your funds for you.  </li>
 <li>  Recover or change your private key.  </li>
 <li>  Recover or reset your password.  </li>
 <li>  Reverse, cancel, or refund transactions.  </li>
