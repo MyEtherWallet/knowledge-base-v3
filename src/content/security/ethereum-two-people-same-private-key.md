@@ -40,7 +40,7 @@ Disclaimer: NEVER actually pick your private key out of your own brain. It turns
 
 ---
 
-Because there are 2160 possible bitcoin addresses exist.
+Because there are 2^160 possible bitcoin addresses exist.
 
 That's 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.
 
