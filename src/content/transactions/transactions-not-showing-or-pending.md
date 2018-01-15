@@ -18,24 +18,24 @@ There is simply not enough space in the blocks for the miners to mine all the tr
 
 *  [See all the transactions that are pending here](https://etherscan.io/txsPending)
 
-*  [Learn about **Gas**, **TX Fees**, and how to get your TX to go thru](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html) 
+*  [Learn about **Gas**, **TX Fees**, and how to get your TX to go thru](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
 
 *  [Replace a **pending TX** that you sent with too low gas](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)
 
-*  [See what the **optimal gas price** is here (at 12/07/2017 @ 12:00am PT it was **61** GWEI)](https://ethgasstation.info/)            
+*  [See what the **optimal gas price** is here (at 12/07/2017 @ 12:00am PT it was **61** GWEI)](https://ethgasstation.info/)
 
 *  [Learn about **Nonce** and how it controls which transactions are mined, or not mined](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html)
-            
+
 
 ### Other Tips
 
-*  Try switching the network in the upper left to use a different node. There are 4 nodes that allow you to interact with ETH: MyEtherWallet, Etherscan, Infura, and Giveth. If one is not working, simply choose another one.
+*  Try switching the network in the top-right to use a different node. There are 4 nodes that allow you to interact with ETH: MyEtherWallet, Etherscan, Infura, and Giveth. If one is not working, simply choose another one.
 
-*  If you get a transaction hash for your transaction but it isn't showing up on Etherscan, you can check & replace the transaction with one with a higher gas price here: https://www.myetherwallet.com/#check-tx-status 
+*  If you get a transaction hash for your transaction but it isn't showing up on Etherscan, you can check & replace the transaction with one with a higher gas price here: https://www.myetherwallet.com/#check-tx-status
 
 *  If you sent **FROM an exchange**, your best bet is to just be patient. I know we received over 1000 messages in the past 24 hours, I can't imagine what an exchange's inbox looks like right now. :(
 
-*  There are additional issues created by this increased traffic that result in unclear error messages on MyEtherWallet. We're sorry for this, and working on improving those messages. If you get an error, try pressing the generate button again, or changing the network via the dropdown in the top-right. However, be careful that you don't actually send the same transaction twice. If it says "transaction hash already imported" or "same nonce", you MAY have already sent that transaction and it's waiting to be mined. If both transactions get mined, you will send twice as much as you mean to.  
+*  There are additional issues created by this increased traffic that result in unclear error messages on MyEtherWallet. We're sorry for this, and working on improving those messages. If you get an error, try pressing the generate button again, or changing the network via the dropdown in the top-right. However, be careful that you don't actually send the same transaction twice. If it says "transaction hash already imported" or "same nonce", you MAY have already sent that transaction and it's waiting to be mined. If both transactions get mined, you will send twice as much as you mean to.
 
 If you have any other questions, please let us know, but your answer is likely in the links above.
 
