@@ -16,15 +16,15 @@ https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed
 
 ---
 
-The wallet private key is not given, it is randomly generated, then the public key (and thus address) is derived from it. Potentially someone else could randomly generate the same private key, but the chances of that happening are unbelievably tiny - I'm not sure how many millions of years of trying it'd take, but it's a lot.
+First of all, the wallet private key is not given, it is randomly generated, then the public key is derived from it, and finally the address is derived from the public key. Potentially someone else could randomly generate the same private key, but the chances of that happening are unbelievably tiny - Let's take things into perspective.
 
 ---
 
-The answer to your first question is is one of my favorite parts about Eth (and cryptocurrency in general).
+Since every Ethereum address starts with '0x' and is followed by 40 hexadecimal characters, and hexadecimal characters have 16 options (a-f and 0-9), there are 16^40 possible Ethereum addresses. 16^40 = 2^2^2^40 = 2^160 possible addresses.
 
-Nobody assigns you the address. The blockchain doesn't assign you the address. You get to just pick it yourself.
+That's 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.
 
-You pick the private key, which is a number in between 0 and 1461501637330902918203684832716283019655932542976.
+That means you can actually pick a private key yourself. Just pick a number between 0 and 1461501637330902918203684832716283019655932542976.
 
 Go ahead, just pick one. Don't tell anyone! There, that's your private key. That number gives you access to all the funds in that account.
 
@@ -40,15 +40,7 @@ Disclaimer: NEVER actually pick your private key out of your own brain. It turns
 
 ---
 
-Because there are 2160 possible bitcoin addresses exist.
-
-That's 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.
-
-The wallet can generate a private key - public address pair randomly for you without having to tell the network which one you'll be using because there are so many possibilities that you can just pick one. And once someone sends funds to your address the network (wallet) simply just checks if the format of your address is acceptable or not.
-
-It is theoretically possible to generate an address that's already being used but the chances of that happening is just unimaginable.
-
-There are approximately 7.5 x 1018 grains of sand on Earth.
+Also, there are approximately 7.5 x 1018 grains of sand on Earth.
 
 That's
 
@@ -64,9 +56,7 @@ But what makes it impossible to find and bruteforce any specific address is that
 
 ---
 
-Here is a bit of helpful perspective on that number: the estimated age of the universe is about 4.32 x 1017 seconds. The number of possible addresses is on the order of 1049 .
-
-In order to use up half of the possible addresses in 4.32 x 1017 seconds, you would need to make approx 1.6 x 1031 addresses per second. That's 16 nonillion addresses. Per second. For the entire life of the universe so far. That's to use up half of the addresses.
+The estimated age of the universe is about 4.32 x 1017 seconds. In order to use up half of the possible addresses in 4.32 x 1017 seconds, you would need to make approx 1.6 x 1031 addresses per second. That's 16 nonillion addresses. Per second. For the entire life of the universe so far. That's to use up half of the addresses.
 
 Even if the blockchain is in active, vigorous use for the next ten thousand years, the chances of a duplicate private key are stochastically zero.
 
