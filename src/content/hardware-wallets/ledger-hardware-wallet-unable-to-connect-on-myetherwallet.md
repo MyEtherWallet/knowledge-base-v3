@@ -19,5 +19,3 @@
 *   Make sure you have contract data turned ON.
 *   That you are confirming any transactions via your Ledger.
 *   Try a different USB cable
-
-If you are still having issues, please email us at [support@myetherwallet.com](mailto:support@myetherwallet.com").
