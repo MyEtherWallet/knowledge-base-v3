@@ -16,15 +16,15 @@ Believe it or not, most of us have been there. Whether you lose your private key
 
 We've been there. Maybe not in the exact same position. Maybe not as much. But whether it was years, months, or just moments ago, if you've been in crypto, you've done something stupid, ignorant, or simply gotten absolutely fucked by someone or something and you've lost a lot. You have that deep, dark feeling in the pit of your stomach. You feel hopeless and you are convinced it won't go away and there is no way it could get better. You know there is nothing you can do, but you run in circles trying to do something anyways.
 
-If I had given up when I sent my first 5 bitcoin to an address that literally did not exist, I wouldn't be here today. I wouldn't have built MyEtherWallet. I wouldn't be writing this now. And that was a choice I got very, very close to making.
+If I had given up on crypto when I sent my first bitcoin to an address that literally did not exist, I wouldn't be here today. I wouldn't have built MyEtherWallet. I wouldn't be writing this now. And that was a choice I got very, very close to making.
 
-Instead, I screamed at the world and eventually bought another 0.1 BTC. I lost that eventually as well, but that hurt far less, and I learned a lot during the process. I didn't make the same mistake again, I made a different one and I learned another lesson: I'm absolute shit at trading. 😉
+Instead, I screamed at the world and eventually got my hands on another 0.1 BTC. I lost that eventually as well, but that hurt far less, and I learned a lot during the process. I didn't make the same mistake again, I made a different one and I learned another lesson: I'm absolute shit at trading. 😉
 
 ### The only thing that matters is the choice you make *now*.
 
-Crypto is **not** about the past. Crypto is about the future. If we all lived in the past or were happy with the present, we wouldn't be here. We want to make the future brighter, and we will. Every day new people enter this space. Every day there are new things being built and new insights being shared. Every day we collectively learn and improve on the problems that exist in crypto-land, and outside crypto-land.
+Crypto is **not** about the past. Crypto is about the future. If we all lived in the past or were happy with the present, we wouldn't be here. We want to make the future brighter. Every day new people enter this space. Every day there are new things being built and new insights being shared. Every day we collectively learn and improve and respond to the problems that exist in crypto-land, and outside crypto-land.
 
-That "we" includes *you*. You are part of this. The fact that you've lost crypto makes you an even bigger part of this. You may not know it, but you have officially joined the ranks of the most important people in crypto. Everyone who does remarkable stuff in this space has lost at some point.  I know you don't see it this way now, because the world currently sucks massive balls, but you will see it at some point. I'm going to do my best to help you see. Ready to give it a go with me?
+That "we" includes *you*. You are part of this. The fact that you've lost crypto makes you an even bigger part of this. You may not know it, but you have officially joined the ranks of the most important people in crypto. Everyone who does remarkable stuff in this space has lost at some point.  I know you don't see it this way now (because the world currently sucks massive balls) but you will see it at some point. I'm going to do my best to help you see. Ready to give it a go with me?
 
 ### Take 10 deep breathes and go for a walk outside.
 
