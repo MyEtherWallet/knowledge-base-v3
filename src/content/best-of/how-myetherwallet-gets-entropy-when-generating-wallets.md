@@ -116,3 +116,7 @@ FIPS are federal standards and this one is the standard for generating random nu
 - https://news.ycombinator.com/item?id=6195493
 
 - https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/crolfk4/
+
+- https://twitter.com/tdryja/status/955161784792465408
+
+- https://www.reddit.com/r/Iota/comments/7rmc55/psa_do_not_use_online_seed_generators/
