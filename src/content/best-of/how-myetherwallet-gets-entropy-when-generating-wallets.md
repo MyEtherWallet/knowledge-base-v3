@@ -14,18 +14,18 @@
 
 ---
 
-http://i.imgur.com/7eO4jiH.jpg
+![](http://i.imgur.com/7eO4jiH.jpg)
 
 We use the window.crypto method which is a cryptographically secure pseudo-random number generator. It does not matter if you are online or offline (honestly, if you thought that your seeds or keys were being generated on a server somewhere and sent to you, the randomness should not worry you - the fact that your seeds could (would have already been) intercepted at any time would be the problem. Holy shit I can't believe I had to say that.)
 
 **A key will not be generated if this method is not supported by a particular implementation or if something fails during the initialization of the crypto method.** In our opinion, it is more secure to generate a key using only this method instead of adding complexity and opening ourselves up to failures or half-failures by combining different methods of generating randomness. Especially with the range of browsers and OS's today, running tests for every circumstance ever is serious undertaking.
 
-Again: http://i.imgur.com/7eO4jiH.jpg
+Again: ![](http://i.imgur.com/7eO4jiH.jpg)
 
 This avoids situations (see: TrueCrypt) where you think you are happily RNG-ing away with proper entropy (e.g. using the Windows Crypto API + mouse movements) but since the Windows Crypto API actually didn't initialize, you're really only getting entropy from mouse movements. As the TrueCrypt audit stated, "When this happens, Truecrypt
 should barf and catch fire. Instead it silently accepts this failure and continues to generate keys." We don't generate keys in that situation, because we avoid that situation entirely. No window.crypto = no key generated.
 
-Let me just say it again: http://i.imgur.com/7eO4jiH.jpg
+Let me just say it again: ![](http://i.imgur.com/7eO4jiH.jpg)
 
 So really, you're asking what we are using and whether or not that system has enough entropy, even on a new computer. First, here's the W3 spec for the WebCryptoAPI:
 
@@ -102,3 +102,21 @@ FIPS are federal standards and this one is the standard for generating random nu
 ### Source
 
 - [https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/](https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/)
+
+### Further Reading on randomness (or lack thereof)
+
+- https://arstechnica.com/information-technology/2015/05/crypto-flaws-in-blockchain-android-app-sent-bitcoins-to-the-wrong-address/
+
+- https://blog.cryptographyengineering.com/2015/04/02/truecrypt-report/
+
+- https://bugs.chromium.org/p/chromium/issues/detail?id=552749
+
+- https://www.cryptolux.org/images/7/7f/RNG_Survey.pdf
+
+- https://news.ycombinator.com/item?id=6195493
+
+- https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/crolfk4/
+
+- https://twitter.com/tdryja/status/955161784792465408
+
+- https://www.reddit.com/r/Iota/comments/7rmc55/psa_do_not_use_online_seed_generators/

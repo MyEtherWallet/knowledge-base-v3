@@ -18,7 +18,7 @@ MyEtherWallet aims to deliver an easy-to-use and secure platform. Due to a rapid
 2.  [Back up your new wallet, securely.](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html)
 3.  Go to the [Send page.](https://www.myetherwallet.com/#send-transaction)
 4.  Unlock your new wallet. 
-5.  Copy your address on the left hand side.
+5.  Copy your address on the right hand side.
 6.  Go to [https://github.com/kvhnuke/etherwallet/releases/tag/v3.9.0](https://github.com/kvhnuke/etherwallet/releases/tag/v3.9.0)
 7.  Click on dist-v3.9.0-parityenabled.zip.
 8.  Unzip it and double-click index.html.

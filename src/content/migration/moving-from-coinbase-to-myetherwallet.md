@@ -46,7 +46,7 @@ Good! :)
 1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/#send-transaction).
 2.  Go to 'Send Ether & Tokens'.
 3.  Unlock your wallet via your private key or keystore file.
-4.  Your address can be seen on the left-hand side, next to a colorful icon.
+4.  Your address can be seen on the right-hand side, next to a colorful icon.
 5.  Use this as the destination address to send from your exchange to your new wallet
 
 
