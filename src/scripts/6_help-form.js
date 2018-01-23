@@ -13,17 +13,7 @@
     </div>
   </div>
 */
-function validate(elem, elem_input, elem_val, required_length) {
-  if (elem_val.length > required_length) {
-    $(elem).removeClass('has-danger').addClass('has-success')
-    $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
-    return true
-  }
 
-  $(elem).removeClass('has-success').addClass('has-danger')
-  $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
-  return false
-}
 
 function validateForm(e) {
 
@@ -32,56 +22,50 @@ function validateForm(e) {
   // set validated to true at the beginning
   var validated = true;
 
-  // validate main_name
-  main_name_el    = 'main_name'
-  main_name_elem  = $( '#' + main_name_el )
-  main_name_input = $( '#' + main_name_el + '--input' )
-  main_name_val   = $(main_name_input).val()
-  validated = validated && validate(main_name_elem, main_name_input, main_name_val, 0)
+  // what fields are required?
+  var req_fields = [ 'main_name', 'main_email', 'main_sub', 'addl_addr', 'main_msg' ]
 
-  // validate main_email
-  main_email_el    = 'main_email'
-  main_email_elem  = $( '#' + main_email_el )
-  main_email_input = $( '#' + main_email_el + '--input' )
-  main_email_val   = $(main_email_input).val()
-  validated = validated && validate(main_email_elem, main_email_input, main_email_val, 0)
+  $.each( req_fields, function(i, el){
+    elem       = $( '#' + el )
+    elem_input = $( '#' + el + '--input' )
+    elem_label = $( '#' + el + '--label' )
 
-  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if (main_email_val.length > 5 && re.test($(main_email_input).val().toLowerCase())) {
-    $(main_email_elem).removeClass('has-danger').addClass('has-success')
-    $(main_email_input).removeClass('form-control-danger').addClass('form-control-success')
-  } else {
-    $(main_email_elem).removeClass('has-success').addClass('has-danger')
-    $(main_email_input).removeClass('form-control-success').addClass('form-control-danger')
-    validated = false; // set validated to false
-  }
+    if ( $(elem_input).val().length > 0 ) {
+      $(elem).removeClass('has-danger').addClass('has-success')
+      $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
+    } else {
+      $(elem).removeClass('has-success').addClass('has-danger')
+      $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
+      validated = false; // set validated to false
+    }
 
-  // validate main_sub
-  main_sub_el    = 'main_sub'
-  main_sub_elem  = $( '#' + main_sub_el )
-  main_sub_input = $( '#' + main_sub_el + '--input' )
-  main_sub_val   = $(main_sub_input).val()
-  validated = validated && validate(main_sub_elem, main_sub_input, main_sub_val, 0)
+    if (el == 'addl_addr') {
+      if ( $(elem_input).val().length > 30 ) {
+        $(elem).removeClass('has-danger').addClass('has-success')
+        $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
+      } else {
+        $(elem).removeClass('has-success').addClass('has-danger')
+        $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
+        validated = false; // set validated to false
+      }
+    } else if (el == 'main_email') {
+      var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if ( $(elem_input).val().length > 5 && re.test($(elem_input).val().toLowerCase()) ) {
+        $(elem).removeClass('has-danger').addClass('has-success')
+        $(elem_input).removeClass('form-control-danger').addClass('form-control-success')
+      } else {
+        $(elem).removeClass('has-success').addClass('has-danger')
+        $(elem_input).removeClass('form-control-success').addClass('form-control-danger')
+        validated = false; // set validated to false
+      }
+    }
 
-  // validate addl_addr, does not have to be specified when main_sub is 'other'
-  addl_addr_el    = 'addl_addr'
-  addl_addr_elem  = $( '#' + addl_addr_el )
-  addl_addr_input = $( '#' + addl_addr_el + '--input' )
-  addl_addr_val   = $(elem_input).val()
-  if (main_sub_val != 'other') {
-    validated = validated && validate(addl_addr_elem, addl_addr_input, addl_addr_val, 30)
-  }
+    // if validated is not false for all fields, submit the form
+    if ( ( i == req_fields.length-1 ) && validated ) {
+      submitForm()
+    }
 
-  // validate main_msg
-  main_msg_el    = 'main_msg'
-  main_msg_elem  = $( '#' + main_msg_el )
-  main_msg_input = $( '#' + main_msg_el + '--input' )
-  main_msg_val   = $(main_msg_input).val()
-  validated = validated && validate(main_msg_elem, main_msg_input, main_msg_val, 0)
-
-  if (validated) {
-    submitForm()
-  }
+  })
 
 }
 
