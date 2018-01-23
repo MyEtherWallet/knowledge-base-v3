@@ -22,9 +22,9 @@ First of all, the wallet private key is not given, it is randomly generated, the
 
 Since every Ethereum address starts with '0x' and is followed by 40 hexadecimal characters, and hexadecimal characters have 16 options (a-f and 0-9), there are 16^40 possible Ethereum addresses. 16^40 = 2^2^2^40 = 2^160 possible addresses.
 
-That's 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.
+That's `1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976`.
 
-That means you can actually pick a private key yourself. Just pick a number between 0 and 1461501637330902918203684832716283019655932542976.
+That means you can actually pick a private key yourself. Just pick a number between `0` and `1461501637330902918203684832716283019655932542976`.
 
 Go ahead, just pick one. Don't tell anyone! There, that's your private key. That number gives you access to all the funds in that account.
 
@@ -40,15 +40,16 @@ Disclaimer: NEVER actually pick your private key out of your own brain. It turns
 
 ---
 
-Also, there are approximately 7.5 x 1018 grains of sand on Earth.
+
+Also, there are approximately 7.5 x 10^18 grains of sand on Earth.
 
 That's
 
-7500000000000000000
+`7500000000000000000`
 
 compared to
 
-1461501637330902918203684832716283019655932542976
+`1461501637330902918203684832716283019655932542976`
 
 That number is so unfathomably big that even if you were to generate one address for each grain of sand on Earth every second, and do it for as long as old the galaxy is ~13.21 billion years, you'd still be nowhere near likely to have found even a single duplicate.
 
@@ -56,7 +57,7 @@ But what makes it impossible to find and bruteforce any specific address is that
 
 ---
 
-The estimated age of the universe is about 4.32 x 1017 seconds. In order to use up half of the possible addresses in 4.32 x 1017 seconds, you would need to make approx 1.6 x 1031 addresses per second. That's 16 nonillion addresses. Per second. For the entire life of the universe so far. That's to use up half of the addresses.
+The estimated age of the universe is about 4.32 x 10^17 seconds. In order to use up half of the possible addresses in 4.32 x 10^17 seconds, you would need to make approx 1.6 x 10^31 addresses per second. That's 16 nonillion addresses. Per second. For the entire life of the universe so far. That's to use up half of the addresses.
 
 Even if the blockchain is in active, vigorous use for the next ten thousand years, the chances of a duplicate private key are stochastically zero.
 
