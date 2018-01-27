@@ -1,14 +1,13 @@
 {
-"title"       : "Unable to See Tokens (aka: How to Add a Custom Token to MyEtherWallet)",
+"title"       : "Unable to See Tokens aka How to Add a Custom Token",
 "sort"        : "02",
 "category"    : "Sending ETH & Tokens",
 "description" : "Sending ETH & Tokens",
-"date_published" : "2017-07-05T08:00:00+08:00",
-"date_modified"  : "2017-11-11T08:00:00+08:00"
+"date_published" : "2017-01-25T08:00:00+08:00",
+"date_modified"  : "2017-01-25T08:00:00+08:00"
 }
 
 ---%
-
 
 Adding a new token / sending custom tokens / checking balance of tokens / seeing custom token / ERC-20
 

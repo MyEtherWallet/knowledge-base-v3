@@ -9,15 +9,15 @@
 <meta property="og:site_name" content=" Search &middot; Search Knowledge Base | MyEtherWallet Help &amp; Support">
 <meta name="twitter:title" content=" Search &middot; Search Knowledge Base | MyEtherWallet Help &amp; Support">
 <meta name="apple-mobile-web-app-title" content=" Search &middot; Search Knowledge Base | MyEtherWallet Help &amp; Support">
-<base href="https://myetherwallet.github.io/knowledge-base/tokens/">
-<link href="https://myetherwallet.github.io/knowledge-base/tokens/" rel="canonical">
-<meta content="https://myetherwallet.github.io/knowledge-base/tokens/" property="og:url">
-<meta content="https://myetherwallet.github.io/knowledge-base/tokens/" name="twitter:url">
+<base href="https://myetherwallet.github.io/knowledge-base/">
+<link href="https://myetherwallet.github.io/knowledge-base/" rel="canonical">
+<meta content="https://myetherwallet.github.io/knowledge-base/" property="og:url">
+<meta content="https://myetherwallet.github.io/knowledge-base/" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
-<meta name="description" content="MyEtherWallet support & help regarding Tokens.">
-<meta property="og:description" content="MyEtherWallet support & help regarding Tokens.">
-<meta name="twitter:description" content="MyEtherWallet support & help regarding Tokens.">
+<meta name="description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly">
+<meta property="og:description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly">
+<meta name="twitter:description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="cm_SdZ2NyEycvuM81evpS5fpFaqJ1UjHofAymetwmaw" />
@@ -231,6 +231,16 @@
     </div>
   </div>
 </main>
+
+<!-- Check if embedded view -->
+<script>
+  (function() {
+    const search = window.location.search;
+    if (search.indexOf('embed=1') !== -1 || search.indexOf('embed=true') !== -1) {
+      document.body.className += ' is-embedded';
+    }
+  })();
+</script>
 
 <!-- Footer -->
 <footer class="footer" role="content" aria-label="footer">
