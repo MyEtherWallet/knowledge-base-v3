@@ -12,9 +12,15 @@
 
 Hacks, thefts, and stolen funds due to phishing links between 7/5/2017 - ??? (Slackbot Scambot phishing / Reddit DM / ???)
 
-### I'm really sorry, but it sounds like you may have been the victim of a phishing attack, likely from a DM via Slack or Reddit.
+### I'm really sorry, but it sounds like you may have been the victim of a phishing attack. I understand how frustrating it can be.
 
-MyEtherWallet is a client-side wallet, which means you hold your keys. If someone gets your private key (keystore file, mnemonic, passwords), they have complete access to your funds. There is no stopping transactions, canceling transactions, or resetting passwords. Once a transaction is on the blockchain, it's final.
+Unfortunately, we encounter these phishing scams/attacks on a daily basis. Typically, the reason for these incidents is entering your private key on a malicious website. Sometimes it is a fake MyEtherWallet site (e.g. myethreawllet[.]com) and other times it is a fake ICO site or airdrop site or EthZero site. If you enter your private key (or keystore file, mnemonic phrase, passwords) on a malicious website, they have complete access to your funds. 
+
+Because of the nature of the blockchain and cryptography, there is no way to reverse transactions or reset your passwords. Once a transaction is on the blockchain, it's final. For this reason, you need to move your funds as soon as possible and discontinue use of this wallet. We do actively attempt to track down the people behind these sites and do what we can to warn others, take down the site, or whatever we can given the particular situation. 
+
+Other major brands like Apple, Google and PayPal are also vulnerable and they are used as lures for phishing attacks as well.
+
+There are things you can do to help prevent us and others from being victims of phishing. Help make the community safer. We can't always scan through the world wide web by ourselves. 
 
 ### Document & Collect Information
 

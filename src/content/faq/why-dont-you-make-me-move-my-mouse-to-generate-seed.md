@@ -10,9 +10,11 @@
 ---%
 
 
-### Some sites generate entropy ("seed") the private key via mouse movements. Since MyEtherWallet.com doesn't do this, does it mean my private key isn't truly random? Is this safe?
+### Some sites generate entropy ("seed") the private key via mouse movements. 
 
-<img src="https://s3.amazonaws.com/groovehq/uploaded/3ixnwrg3w8ko1uki8tu5tg4mjpurb4sn2xgfr1lx21w8rnfdzi?1494563756" alt=" />
+##### Since MyEtherWallet.com doesn't do this, does it mean my private key isn't really random? Is this safe?
+
+![](https://s3.amazonaws.com/groovehq/uploaded/3ixnwrg3w8ko1uki8tu5tg4mjpurb4sn2xgfr1lx21w8rnfdzi?1494563756)
 
 While the mouse shaking thing is clever and we understand why people enjoy it (?), the reality is the Crypto API ensures more entropy than your mouse movements. The mouse movements aren't unsafe, it's just that we (and tons of other crypto experiments) believe in letting a variety of really crazy random data from your browser, operating system, and more generate the entropy.
 

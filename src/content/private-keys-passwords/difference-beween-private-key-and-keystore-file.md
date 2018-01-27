@@ -52,7 +52,7 @@ However, for additional functionality (like protecting it with a password) there
 
 ### Parity Phrase -- deprecated
 
-* [Learn More Here](https://myetherwallet.github.io/knowledge-base/parity-phrases-no-longer-supported)
+* [Learn More Here](https://myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html)
 
 ### JSON File (unencrypted) -- deprecated
 

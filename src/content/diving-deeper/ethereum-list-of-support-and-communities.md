@@ -31,14 +31,20 @@
 
 ##### Exchanges
 
+*  Bibox:                     [Website](https://www.bibox.com/) · [Support](https://bibox.zendesk.com/hc/en-us/categories/115000398333-Support)
+*  Binance:                   [Website](https://www.binance.com/) · [Support](https://support.binance.com/hc/en-us)
 *  Bitfinex:                  [Website](https://www.bitfinex.com/) · [Support](https://www.bitfinex.com/support)
 *  Bittrex:                   [Website](https://bittrex.com/Home/Markets) · [Support](https://bittrex.com/Home/Contact) ·  [Slack](http://slack.bittrex.com/)
 *  Bity:                      [Website](https://bity.com/af/jshkb37v) · [Support](mailto:support@bity.com)
+*  Cryptopia:                 [Website](https://www.cryptopia.co.nz/) · [Support](https://www.cryptopia.co.nz/Support)
 *  Changelly:                 [Website](https://changelly.com/about) · [Support](mailto:support@changelly.com)
 *  Coinbase:                  [Support](https://support.coinbase.com/)
 *  Gemini:                    [Support](https://gemini24.zendesk.com/hc/en-us/requests/new) · [FAQ](https://gemini24.zendesk.com/hc/en-us)
+*  HitBTC:                    [Website](https://hitbtc.com/) · [Support](https://support.hitbtc.com/hc/en-us) 
+*  Huobi:                     [Website](https://www.huobi.pro/) · [Support](mailto:support@huobi.pro) 
 *  Kraken:                    [Support](https://support.kraken.com/hc/en-us)
-*  Liqui:                     [Support](https://liqui.freshdesk.com/support/home)
+*  Kucoin:                    [Website](https://www.kucoin.com/#/) · [Support](http://kucoin.udesk.cn/im_client/?web_plugin_id=36121&language=en-us) 
+*  Liqui:                     [Website](https://liqui.io/) ·[Support](https://liqui.freshdesk.com/support/home)
 *  Poloniex:                  [Support](https://poloniex.com/support/)
 *  Shapeshift:                [Slack](https://shapeshiftcommunity.herokuapp.com/) · [Reddit](https://www.reddit.com/r/shapeshiftio) · [Support](https://shapeshift.zendesk.com/hc/en-us/requests/new)
 
