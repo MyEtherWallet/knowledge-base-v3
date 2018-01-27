@@ -9,10 +9,10 @@
 <meta property="og:site_name" content=" Private Key opens a different account / two addresses &middot; Private Keys &amp; Passwords | MyEtherWallet Help &amp; Support">
 <meta name="twitter:title" content=" Private Key opens a different account / two addresses &middot; Private Keys &amp; Passwords | MyEtherWallet Help &amp; Support">
 <meta name="apple-mobile-web-app-title" content=" Private Key opens a different account / two addresses &middot; Private Keys &amp; Passwords | MyEtherWallet Help &amp; Support">
-<base href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords\accessing-different-address-same-private-key-ether.html">
-<link href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords\accessing-different-address-same-private-key-ether.html" rel="canonical">
-<meta content="https://myetherwallet.github.io/knowledge-base/private-keys-passwords\accessing-different-address-same-private-key-ether.html" property="og:url">
-<meta content="https://myetherwallet.github.io/knowledge-base/private-keys-passwords\accessing-different-address-same-private-key-ether.html" name="twitter:url">
+<base href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html">
+<link href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html" rel="canonical">
+<meta content="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html" property="og:url">
+<meta content="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
 <script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Private Keys &amp; Passwords">
@@ -55,7 +55,7 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "private-keys-passwords\accessing-different-address-same-private-key-ether.html"
+    "@id": "private-keys-passwords/accessing-different-address-same-private-key-ether.html"
   },
   "headline": "Private Key opens a different account / two addresses",
   "image": [
@@ -100,7 +100,7 @@
     "@type": "ListItem",
     "position": 3,
     "item": {
-      "@id": "private-keys-passwords\accessing-different-address-same-private-key-ether.html",
+      "@id": "private-keys-passwords/accessing-different-address-same-private-key-ether.html",
       "name": "Private Key opens a different account / two addresses"
     }
   }]
@@ -190,36 +190,46 @@
 <p>If you saved another version (for example. the UTC / Keystore file) it may also be worth testing that, as well.</p>
 <p>You had to unlock your wallet in order to obtain your address from MyEtherWallet. Therefore, it is nearly impossible to not have saved this file and unlocked it correctly. Think back and repeat the exact steps you made when you unlocked it. Which private key type did you use to access that address?</p>
 <p>If you think you may have mistyped a private key, here is a snippet that will help you check each letter for a mis-type. Keep in mind, this assumes you mistyped a single character. If you mistyped more than one, it will take exponentially longer.</p>
-<p><strong>The below snippet is available in GUI form at the very bottom of <a href="https://www.myetherwallet.com/helpers.html">https://www.myetherwallet.com/helpers.html</a>, scroll allllll the way to the bottom, and enter your private key and address and see if that resolves. </strong></p>
-<pre><code>const hdkey = require(&#39;ethereumjs-wallet/hdkey&#39;);
-const util = require(&#39;ethereumjs-util&#39;);
-const Wallet = require(&#39;ethereumjs-wallet&#39;);
+<p>Scroll to the bottom of <a href="https://www.myetherwallet.com/helpers.html">https://www.myetherwallet.com/helpers.html</a>, enter your private key and address and see if that resolves to anything.</p>
+<hr>
+<h3 id="related">Related</h3>
+<ul>
+<li><p>Finding multiple missing characters in private key: <a href="https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a">https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a</a></p>
+</li>
+<li><p>Find multiple missing characters of the very end of a private key: <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/missing-characters-of-private-key.html">https://myetherwallet.github.io/knowledge-base/private-keys-passwords/missing-characters-of-private-key.html</a></p>
+</li>
+<li><p>Find 1 missing character anywhere in private key (fast): </p>
+</li>
+</ul>
+<pre><code>    const hdkey = require(&#39;ethereumjs-wallet/hdkey&#39;);
+    const util = require(&#39;ethereumjs-util&#39;);
+    const Wallet = require(&#39;ethereumjs-wallet&#39;);
 
-var characters = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;, &#39;g&#39;, &#39;h&#39;, &#39;i&#39;, &#39;j&#39;, &#39;k&#39;, &#39;l&#39;, &#39;m&#39;, &#39;n&#39;, &#39;o&#39;, &#39;p&#39;, &#39;q&#39;, &#39;r&#39;, &#39;s&#39;, &#39;t&#39;, &#39;u&#39;, &#39;v&#39;, &#39;w&#39;, &#39;x&#39;, &#39;y&#39;, &#39;z&#39;, &#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;];
+    var characters = [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;, &#39;e&#39;, &#39;f&#39;, &#39;g&#39;, &#39;h&#39;, &#39;i&#39;, &#39;j&#39;, &#39;k&#39;, &#39;l&#39;, &#39;m&#39;, &#39;n&#39;, &#39;o&#39;, &#39;p&#39;, &#39;q&#39;, &#39;r&#39;, &#39;s&#39;, &#39;t&#39;, &#39;u&#39;, &#39;v&#39;, &#39;w&#39;, &#39;x&#39;, &#39;y&#39;, &#39;z&#39;, &#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;];
 
-var basePrivateKey = &#39;THE_KEY_YOU_THINK_YOU_TYPED&#39;;
-var targetPublicAddress = &#39;THE_PUBLIC_WALLET_ADDRESS_WHICH_CONTAINS_YOUR_ETHER&#39;;
+    var basePrivateKey = &#39;THE_KEY_YOU_THINK_YOU_TYPED&#39;;
+    var targetPublicAddress = &#39;THE_PUBLIC_WALLET_ADDRESS_WHICH_CONTAINS_YOUR_ETHER&#39;;
 
-for(var keyPosition = 0; keyPosition &lt; basePrivateKey.length; keyPosition++){
-  for(var character = 0; character &lt; characters.length; character++){
-    try{
-      var privateKeyGuess = setCharAt(basePrivateKey, keyPosition, characters[character]);
-      var wallet = Wallet.fromPrivateKey(new Buffer(privateKeyGuess, &quot;hex&quot;));
-      var publicAddress = util.bufferToHex(wallet.getAddress());
-      if(publicAddress.toLowerCase() == targetPublicAddress.toLowerCase()){
-        console.log(&#39;*** FOUND PRIVATE KEY: &#39; + privateKeyGuess);
-        process.exit();
+    for(var keyPosition = 0; keyPosition &lt; basePrivateKey.length; keyPosition++){
+      for(var character = 0; character &lt; characters.length; character++){
+        try{
+          var privateKeyGuess = setCharAt(basePrivateKey, keyPosition, characters[character]);
+          var wallet = Wallet.fromPrivateKey(new Buffer(privateKeyGuess, &quot;hex&quot;));
+          var publicAddress = util.bufferToHex(wallet.getAddress());
+          if(publicAddress.toLowerCase() == targetPublicAddress.toLowerCase()){
+            console.log(&#39;*** FOUND PRIVATE KEY: &#39; + privateKeyGuess);
+            process.exit();
+          }
+        }catch(e){
+          // Invalid character
+        }
       }
-    }catch(e){
-      // Invalid character
     }
-  }
-}
 
-function setCharAt(str,index,chr) {
-    if(index &gt; str.length-1) return str;
-    return str.substr(0,index) + chr + str.substr(index+1);
-}
+    function setCharAt(str,index,chr) {
+        if(index &gt; str.length-1) return str;
+        return str.substr(0,index) + chr + str.substr(index+1);
+    }
 </code></pre><p>If you end up rewriting the above for a different use-case, please email us to let us know. We can add it to our site so that it can help people who may not have your skills in the future. We will also reward you with stickers!</p>
 
           </div>
@@ -278,6 +288,16 @@ function setCharAt(str,index,chr) {
     </div>
   </div>
 </main>
+
+<!-- Check if embedded view -->
+<script>
+  (function() {
+    const search = window.location.search;
+    if (search.indexOf('embed=1') !== -1 || search.indexOf('embed=true') !== -1) {
+      document.body.className += ' is-embedded';
+    }
+  })();
+</script>
 
 <!-- Footer -->
 <footer class="footer" role="content" aria-label="footer">
