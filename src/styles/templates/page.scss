@@ -67,3 +67,15 @@
   max-width: 250px;
   height: auto;
 }
+
+
+// Hide some stuff in embed mode
+body.is-embedded {
+  .header {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+}
