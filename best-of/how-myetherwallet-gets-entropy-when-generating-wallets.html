@@ -185,13 +185,13 @@
           <div class="content">
             <p><em>This is part of a series where Taylor pull&#39;s sweet comments she&#39;s made or found over the years in the hopes that they can be useful, searchable, remembered, referenced, and/or aid in the creation of future knowledge base posts. Many are unpolished &amp; contain typos, specific references to previous discussions or the user, and gratuitous cursing.</em></p>
 <hr>
-<p><a href="http://i.imgur.com/7eO4jiH.jpg">http://i.imgur.com/7eO4jiH.jpg</a></p>
+<p><img src="http://i.imgur.com/7eO4jiH.jpg" alt=""></p>
 <p>We use the window.crypto method which is a cryptographically secure pseudo-random number generator. It does not matter if you are online or offline (honestly, if you thought that your seeds or keys were being generated on a server somewhere and sent to you, the randomness should not worry you - the fact that your seeds could (would have already been) intercepted at any time would be the problem. Holy shit I can&#39;t believe I had to say that.)</p>
 <p><strong>A key will not be generated if this method is not supported by a particular implementation or if something fails during the initialization of the crypto method.</strong> In our opinion, it is more secure to generate a key using only this method instead of adding complexity and opening ourselves up to failures or half-failures by combining different methods of generating randomness. Especially with the range of browsers and OS&#39;s today, running tests for every circumstance ever is serious undertaking.</p>
-<p>Again: <a href="http://i.imgur.com/7eO4jiH.jpg">http://i.imgur.com/7eO4jiH.jpg</a></p>
+<p>Again: <img src="http://i.imgur.com/7eO4jiH.jpg" alt=""></p>
 <p>This avoids situations (see: TrueCrypt) where you think you are happily RNG-ing away with proper entropy (e.g. using the Windows Crypto API + mouse movements) but since the Windows Crypto API actually didn&#39;t initialize, you&#39;re really only getting entropy from mouse movements. As the TrueCrypt audit stated, &quot;When this happens, Truecrypt
 should barf and catch fire. Instead it silently accepts this failure and continues to generate keys.&quot; We don&#39;t generate keys in that situation, because we avoid that situation entirely. No window.crypto = no key generated.</p>
-<p>Let me just say it again: <a href="http://i.imgur.com/7eO4jiH.jpg">http://i.imgur.com/7eO4jiH.jpg</a></p>
+<p>Let me just say it again: <img src="http://i.imgur.com/7eO4jiH.jpg" alt=""></p>
 <p>So really, you&#39;re asking what we are using and whether or not that system has enough entropy, even on a new computer. First, here&#39;s the W3 spec for the WebCryptoAPI:</p>
 <blockquote>
 <p>The Crypto interface represents an interface to general purpose cryptographic functionality including a cryptographically strong pseudo-random number generator seeded with truly random values.</p>
@@ -246,6 +246,25 @@ should barf and catch fire. Instead it silently accepts this failure and continu
 <h3 id="source">Source</h3>
 <ul>
 <li><a href="https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/">https://www.reddit.com/r/ethereum/comments/5psp13/ethereum_account_generation_on_airgapped_computer/</a></li>
+</ul>
+<h3 id="further-reading-on-randomness-or-lack-thereof-">Further Reading on randomness (or lack thereof)</h3>
+<ul>
+<li><p><a href="https://arstechnica.com/information-technology/2015/05/crypto-flaws-in-blockchain-android-app-sent-bitcoins-to-the-wrong-address/">https://arstechnica.com/information-technology/2015/05/crypto-flaws-in-blockchain-android-app-sent-bitcoins-to-the-wrong-address/</a></p>
+</li>
+<li><p><a href="https://blog.cryptographyengineering.com/2015/04/02/truecrypt-report/">https://blog.cryptographyengineering.com/2015/04/02/truecrypt-report/</a></p>
+</li>
+<li><p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=552749">https://bugs.chromium.org/p/chromium/issues/detail?id=552749</a></p>
+</li>
+<li><p><a href="https://www.cryptolux.org/images/7/7f/RNG_Survey.pdf">https://www.cryptolux.org/images/7/7f/RNG_Survey.pdf</a></p>
+</li>
+<li><p><a href="https://news.ycombinator.com/item?id=6195493">https://news.ycombinator.com/item?id=6195493</a></p>
+</li>
+<li><p><a href="https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/crolfk4/">https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/crolfk4/</a></p>
+</li>
+<li><p><a href="https://twitter.com/tdryja/status/955161784792465408">https://twitter.com/tdryja/status/955161784792465408</a></p>
+</li>
+<li><p><a href="https://www.reddit.com/r/Iota/comments/7rmc55/psa_do_not_use_online_seed_generators/">https://www.reddit.com/r/Iota/comments/7rmc55/psa_do_not_use_online_seed_generators/</a></p>
+</li>
 </ul>
 
           </div>
@@ -318,7 +337,7 @@ should barf and catch fire. Instead it silently accepts this failure and continu
         Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.
       </p>
       <p class="copyright">
-        2017 MyEtherWallet
+        2018 MyEtherWallet
       </p>
     </section>
 

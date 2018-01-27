@@ -186,11 +186,11 @@
             <p>&quot;How does it ensure that it doesn&#39;t give different people the same key?&quot;</p>
 <p><a href="https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed">https://ethereum.stackexchange.com/questions/4299/account-uniqueness-guaranteed</a></p>
 <hr>
-<p>The wallet private key is not given, it is randomly generated, then the public key (and thus address) is derived from it. Potentially someone else could randomly generate the same private key, but the chances of that happening are unbelievably tiny - I&#39;m not sure how many millions of years of trying it&#39;d take, but it&#39;s a lot.</p>
+<p>First of all, the wallet private key is not given, it is randomly generated, then the public key is derived from it, and finally the address is derived from the public key. Potentially someone else could randomly generate the same private key, but the chances of that happening are unbelievably tiny - Let&#39;s take things into perspective.</p>
 <hr>
-<p>The answer to your first question is is one of my favorite parts about Eth (and cryptocurrency in general).</p>
-<p>Nobody assigns you the address. The blockchain doesn&#39;t assign you the address. You get to just pick it yourself.</p>
-<p>You pick the private key, which is a number in between 0 and 1461501637330902918203684832716283019655932542976.</p>
+<p>Since every Ethereum address starts with &#39;0x&#39; and is followed by 40 hexadecimal characters, and hexadecimal characters have 16 options (a-f and 0-9), there are 16^40 possible Ethereum addresses. 16^40 = 2^2^2^40 = 2^160 possible addresses.</p>
+<p>That&#39;s <code>1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976</code>.</p>
+<p>That means you can actually pick a private key yourself. Just pick a number between <code>0</code> and <code>1461501637330902918203684832716283019655932542976</code>.</p>
 <p>Go ahead, just pick one. Don&#39;t tell anyone! There, that&#39;s your private key. That number gives you access to all the funds in that account.</p>
 <p>If you happened to pick one that someone else is using, you now have access to all of their funds. If someone else happens to pick the one that you just picked, now they have access to all of your funds. That&#39;s why it&#39;s important that the one you picked is really really random and that you never let anyone see it.</p>
 <p>It&#39;s that simple. Pick a number, that&#39;s your account. Cross your fingers that nobody else picks it!</p>
@@ -198,20 +198,15 @@
 <p>Don&#39;t believe me? Go ahead, there are billions of dollars worth of value in the blockchain. You should set up a computer program to generate tons of these numbers and check each one to see whether they have any money in them. It&#39;s all yours if you can find one!</p>
 <p>Disclaimer: NEVER actually pick your private key out of your own brain. It turns out humans are really bad at picking random numbers, even when we think we&#39;re good at it. Use a secure random number generator like the one in MEW or Ledger or Trezor.</p>
 <hr>
-<p>Because there are 2160 possible bitcoin addresses exist.</p>
-<p>That&#39;s 1,461,501,637,330,902,918,203,684,832,716,283,019,655,932,542,976.</p>
-<p>The wallet can generate a private key - public address pair randomly for you without having to tell the network which one you&#39;ll be using because there are so many possibilities that you can just pick one. And once someone sends funds to your address the network (wallet) simply just checks if the format of your address is acceptable or not.</p>
-<p>It is theoretically possible to generate an address that&#39;s already being used but the chances of that happening is just unimaginable.</p>
-<p>There are approximately 7.5 x 1018 grains of sand on Earth.</p>
+<p>Also, there are approximately 7.5 x 10^18 grains of sand on Earth.</p>
 <p>That&#39;s</p>
-<p>7500000000000000000</p>
+<p><code>7500000000000000000</code></p>
 <p>compared to</p>
-<p>1461501637330902918203684832716283019655932542976</p>
+<p><code>1461501637330902918203684832716283019655932542976</code></p>
 <p>That number is so unfathomably big that even if you were to generate one address for each grain of sand on Earth every second, and do it for as long as old the galaxy is ~13.21 billion years, you&#39;d still be nowhere near likely to have found even a single duplicate.</p>
 <p>But what makes it impossible to find and bruteforce any specific address is that it would costs more energy than the Sun has.</p>
 <hr>
-<p>Here is a bit of helpful perspective on that number: the estimated age of the universe is about 4.32 x 1017 seconds. The number of possible addresses is on the order of 1049 .</p>
-<p>In order to use up half of the possible addresses in 4.32 x 1017 seconds, you would need to make approx 1.6 x 1031 addresses per second. That&#39;s 16 nonillion addresses. Per second. For the entire life of the universe so far. That&#39;s to use up half of the addresses.</p>
+<p>The estimated age of the universe is about 4.32 x 10^17 seconds. In order to use up half of the possible addresses in 4.32 x 10^17 seconds, you would need to make approx 1.6 x 10^31 addresses per second. That&#39;s 16 nonillion addresses. Per second. For the entire life of the universe so far. That&#39;s to use up half of the addresses.</p>
 <p>Even if the blockchain is in active, vigorous use for the next ten thousand years, the chances of a duplicate private key are stochastically zero.</p>
 <hr>
 <h3 id="related">Related</h3>
@@ -296,7 +291,7 @@
         Free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely. Double-check the URL ( .com ) before unlocking your wallet.
       </p>
       <p class="copyright">
-        2017 MyEtherWallet
+        2018 MyEtherWallet
       </p>
     </section>
 
