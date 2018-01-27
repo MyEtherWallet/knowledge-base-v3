@@ -1,5 +1,5 @@
 {
-"title"       : "I CAN`T SEE MY TOKEN (aka: How to Add a Custom Token to MyEtherWallet)",
+"title"       : "Unable to See Tokens (aka: How to Add a Custom Token to MyEtherWallet)",
 "sort"        : "02",
 "category"    : "Sending ETH & Tokens",
 "description" : "Sending ETH & Tokens",
