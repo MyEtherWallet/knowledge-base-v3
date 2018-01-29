@@ -10,7 +10,7 @@
 ---%
 
 
-1. First, [you can follow the gif here](http://i.imgur.com/47zmU0R.gif). We haven't had time to update the gif, but you would do this to the slider in the header instead of footer. The process is the same
+1. First, [you can follow the gif here](https://i.imgur.com/qm50zD1.gif).  
 
 2. You can use the offline tab (you can also use it online) to manually set the gas price for a transaction. [Our guide on how to send a transaction via this tab is here](https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html).
 
