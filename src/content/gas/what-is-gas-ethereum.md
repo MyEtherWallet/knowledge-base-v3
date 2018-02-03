@@ -136,7 +136,7 @@ Start here: [http://ethgasstation.info/](http://ethgasstation.info/)
 
 (At the time of this writing) Below 20 GWEI the blocks are almost all full, which means if you set lower than that you'll have to wait in line with everyone else.
 
-A very awesome miner, miningpoolhub, accepts a 2 GWEI price, but their blocks are always full and they only account for 9% of mining which means about 1 in every 10 blocks (~150 seconds) will accept transactions with 2 GWUI gas price and when it does it is full so you may have to wait for a few of those.
+A very awesome miner, miningpoolhub, accepts a 2 GWEI price, but their blocks are always full and they only account for 9% of mining which means about 1 in every 10 blocks (~150 seconds) will accept transactions with 2 GWEI gas price and when it does it is full so you may have to wait for a few of those.
 
 [http://ethgasstation.info/calculator.php](http://ethgasstation.info/calculator.php) will let you estimate how long it will be before your transaction is accepted at a certain gas price.
 
