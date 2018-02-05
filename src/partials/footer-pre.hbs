@@ -1,31 +1,9 @@
 <!-- Pre-Footer -->
 <main class="footer--pre container">
   <section class="page__meta">
-    <button type="button"
-            class="btn btn-primary btn-lg modal__trigger"
-            data-toggle="modal"
-            data-target="#contact-form">
+    <a class="btn btn-primary btn-lg"
+       href="mailto:support@myetherwallet.com?Subject=Support%20Needed%20--%20{{#if cat_title}}{{title}}{{else if this_category.title}}{{this_category.title}}{{/if}}&Body=%0A%0AMy%20Address%3A%20%0A%0AMy%20Transaction%20Hash%3A%0A%0AFrom%20URL%3A%20{{base_url}}{{#if this_category.slug}}{{this_category.slug}}/{{else if url}}{{url}}{{else if slug}}{{slug}}/{{/if}}" target="_blank" rel="noopener noreferrer">
       Need Help? Message Us
-    </button>
+    </a>
   </section>
-</main>
-
-
-<main class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="modal-form__title" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <button type="button" class="close modal__close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">×</span>
-    </button>
-    <div class="modal-content">
-
-      <iframe src="{{base_url}}form/"></iframe>
-
-      <section class="modal__close--lg">
-        <button type="button" class="btn btn-default btn-lg" data-dismiss="modal" aria-label="Close">
-          Close
-        </button>
-      </section>
-
-    </div>
-  </div>
 </main>
