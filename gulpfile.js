@@ -42,8 +42,8 @@ const partials_srcFolder = srcFolder + 'partials/'
 
 
 var Context = {
-  //base_url : 'https://myetherwallet.github.io/knowledge-base/',
-  base_url : 'file:///Users/tay/Dropbox/local-dev/mew-kb/dist/',
+  //base_url : 'file:///Users/tay/Dropbox/local-dev/mew-kb/dist/',
+  base_url : 'https://myetherwallet.github.io/knowledge-base/',
   //base_url : 'http://localhost/',
   pages : [
 //  base_url    : '',
