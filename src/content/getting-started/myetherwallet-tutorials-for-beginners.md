@@ -19,4 +19,4 @@
 
 ### Deutsch
 
-- [https://altcointrader.org/myetherwallet-tutorial/](https://altcointrader.org/myetherwallet-tutorial/)
+- [https://decentralbox.com/myetherwallet-tutorial/](https://decentralbox.com/myetherwallet-tutorial/)
