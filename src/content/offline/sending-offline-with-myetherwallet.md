@@ -18,7 +18,7 @@ You can do this on a device that is connected to the internet..or one that is no
 
 Cold storage is a device that is not, and will never be, connected to the internet. This means that even if someone were to completely hack you and your computer and your phone, your key would be safe. Yay!
 
-One common cold storage method is simply a paper wallet which is just the data written or printed on a piece of paper. Bad folks on the internet can't hack your paper. (But you should still watch out for your roommate, FYI.)
+One common cold storage method is simply using a paper wallet. This is just the data, written or printed, on a piece of paper. Bad folks on the internet can't hack your paper. (But you should still watch out for your roommate, FYI.)
 
 For offline or cold storage wallets, only your ETH is on the blockchain, your private key is kept offline and never introduced to an online device.
 
