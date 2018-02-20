@@ -47,7 +47,7 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 *  Github URLs are much easier to fake and much easier to miss. Instead of downloading from that random URL on reddit, seek out the URL on your own. Following the developers of these repos on Twitter, friending them on reddit (lol...but seriously it's nice because their name will be orange), or starring said repos on Github helps.
 
 ### 9. Always verify that the site you landed on is legit.
-*  Especially if you are about to entire your private key or download an application. What is legit? A service that people have used for a decent period of time with good results. If the URL has been registered in the last week or the site "just launched", err on the side of caution and avoid it for a while.
+*  Especially if you are about to enter your private key or download an application. What is legit? A service that people have used for a decent period of time with good results. If the URL has been registered in the last week or the site "just launched", err on the side of caution and avoid it for a while.
 
 ### 10. Google the service name + "scam" or "reviews"
  *  Scam sites rarely last long. Value real comments by real people over a random blog. Value a collection of information over a single source. Understand that legit services will likely have a mix of positive and negative reviews over a long period of time. Scam sites typically have no one talking about them, everyone yelling about how they got robbed, or the most perfect reviews ever. The latter one is just as red of a flag as the first one.
