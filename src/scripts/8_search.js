@@ -3,6 +3,7 @@ var idx = lunr.Index.load( Search )
 
 function beginSearch( btnElement ) {
   var query          = $(btnElement).parents('.search__form').find('.search__input').val()
+  query              = stripTags(query)
   var errorEmpty     = 'Sorry—we can\'t search for nothing. Try typing something in the box. :)'
   var errorNoResults = 'Sorry—there are no results for <strong>'+ query + '</strong>.'
   if ( query.length > 0 ) {
@@ -15,7 +16,6 @@ function beginSearch( btnElement ) {
     showSearchError( errorEmpty )
   }
 }
-
 
 function showSearchSuccess( query, results ) {
   clearSearchResults()
