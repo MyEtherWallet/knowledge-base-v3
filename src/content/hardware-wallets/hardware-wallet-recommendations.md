@@ -14,6 +14,7 @@ One of the safest & easiest ways to store your ETH, Tokens, ETC, BTC, and many o
 
 *   [Buy a Ledger Nano S](https://www.ledgerwallet.com/r/fa4b?path=/products/)
 *   [Buy a TREZOR](https://trezor.io/?a=myetherwallet.com)
+*   [Buy a Digital Bitbox](https://digitalbitbox.com/?ref=mew)
 
 ### Why do you need a hardware wallet?
 
