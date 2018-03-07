@@ -22,6 +22,6 @@ In theory, as long as you keep backups of your keys, don't visit any malicious /
 
 The hardware options give you peace of mind, are easy to use, and are becoming a must-have for anyone storing more funds than they are willing to lose. I would personally recommend it for anyone storing anything over 2wks salary.
 
-The device itself holds the keys and signs transactions for you. MyEtherWallet is integrated with both Ledger and TREZOR, so you can even use the same interface you are already familiar with. This ensures your keys aren't ever on any internet-connected device. Phishers can't get them. Malware can't get them. Keyloggers can't get them.
+The device itself holds the keys and signs transactions for you. MyEtherWallet is integrated with Ledger, TREZOR and Bitbox, so you can even use the same interface you are already familiar with. This ensures your keys aren't ever on any internet-connected device. Phishers can't get them. Malware can't get them. Keyloggers can't get them.
 
 When you set it up you will write down your key (24-word backup phrase) and store it offline in a secure secondary location (e.g a fire proof cabinet or perhaps in a safety deposit box at your local bank). This ensures you can still access and use your funds if something happens to your hardware wallet.
