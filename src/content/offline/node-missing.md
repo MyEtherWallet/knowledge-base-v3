@@ -21,7 +21,7 @@ Easiest way to fix this is by adding `file:///*` to the cookie exception list.
 ```  
 
 You should now be able to add custom tokens offline.  
-If not, you can always email us at [support@myetherwallet.com](support@myetherwallet.com)
+If not, you can always email us at [support@myetherwallet.com](mailto:support@myetherwallet.com)
 
 ### Context:  
 
