@@ -34,7 +34,7 @@
     Decimal: 18
 
   ```  
-
+---
 ### Common Issues:
   * Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherapi.io”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.
 
@@ -44,8 +44,7 @@
 
   * Tokens disappearing everytime you close the browser? This is the cause of a local cache cleaning software, such as CCleaner. Please make sure that your browser isn’t being constantly cleared of information, as all custom token information is stored locally.
 
-If you are still experiencing issues, have further questions, or want us to find a token’s address and decimal count for you, please contact us at [support@myetherwallet.com](mailto:support@myetherwallet.com) and we would be happy to assist you!
-*-Stephen #MEWForce*
+If you are still experiencing issues, have further questions, or want us to find a token’s address and decimal count for you, please contact us at [support@myetherwallet.com](mailto:support@myetherwallet.com) and we would be happy to assist you! *-Stephen #MEWForce*
 
 
 ### Related Reading
