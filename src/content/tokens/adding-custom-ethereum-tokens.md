@@ -34,7 +34,7 @@
     Decimal: 18
 
   ```  
----
+
 ### Common Issues:
   * Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherapi.io”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.
 
