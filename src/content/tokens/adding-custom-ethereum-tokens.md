@@ -12,7 +12,7 @@
   If you have a token that you would like to access on our interface, but don’t see it on our default list, you can add the token locally in your own interface as a custom token. This can be achieved relatively easy from the following steps.  
 
   *Disclaimer: None of your ETH or tokens are stored on our site. All of your funds are on the blockchain itself, so removing custom tokens and seeing ‘0’ balances does not mean your tokens are lost! We are only an interface to interact with the blockchain.*  
-
+  <div style="padding: 0 35px;">
   __Step 1:__ Access your wallet on our site. This can be done under the “View Wallet Info” tab on the main page of our interface. Choose whichever method of access you usually choose.
 
   __Step 2:__ To the right of the screen, you will see a ‘Token Balances’ area with two buttons, “Show All Tokens” and “Add Custom Token”.
@@ -26,7 +26,7 @@
   __Step 6:__ With your wallet unlocked on our site, click the “Add Custom Token” button. Fill in the contract address and decimal count fields, then input the abbreviation for your token as the ‘Symbol’. For example, OmiseGO -> OMG.
 
   __Step 7:__ Save the custom token, and you’re all set! Your token should appear in the default list, with a remove button “(-)”, and the balance should match what shows on etherscan.io.
-
+  </div>
   Here is a sample of the MAD token, for reference to what this information will look like:
   ```
     Symbol: MAD
