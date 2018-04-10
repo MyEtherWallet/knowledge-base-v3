@@ -17,9 +17,30 @@ function checkQueryString() {
 }
 
 var stripTags = function(str) {
-    var SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
-    while (SCRIPT_REGEX.test(str)) {
-        str = str.replace(SCRIPT_REGEX, "");
-    }
-    return str;
+  var tagBody = '(?:[^"\'>]|"[^"]*"|\'[^\']*\')*';
+
+  var tagOrComment = new RegExp(
+    '<(?:'
+    // Comment body.
+    + '!--(?:(?:-*[^->])*--+|-?)'
+    // Special "raw text" elements whose content should be elided.
+    + '|script\\b' + tagBody + '>[\\s\\S]*?</script\\s*'
+    + '|style\\b' + tagBody + '>[\\s\\S]*?</style\\s*'
+    // Regular name
+    + '|/?[a-z]'
+    + tagBody
+    + ')>',
+    'gi');
+  var oldQuery;
+  do {
+    oldQuery = str;
+    str = str.replace(tagOrComment, '');
+  } while (str !== oldQuery);
+  return str.replace(/</g, '&lt;');
+  // var SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
+  // while (SCRIPT_REGEX.test(str)) {
+  //     str = str.replace(SCRIPT_REGEX, "");
+  // }
+  // str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+  // return str;
 }

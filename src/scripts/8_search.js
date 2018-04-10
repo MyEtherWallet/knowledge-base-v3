@@ -80,5 +80,3 @@ function clearAllSearchResults() {
   $('.search__input')[0].value = ''
   window.history.pushState( {}, document.title, window.location.href.split("?")[0] );
 }
-
-
