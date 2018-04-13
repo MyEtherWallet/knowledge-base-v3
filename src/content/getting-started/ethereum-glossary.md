@@ -162,15 +162,22 @@ This is a list of terms you might encounter when using the MyEtherWallet interfa
 
 ### Derive / Derivation
 
-* [TODO]
+* To derive something is to obtain it from an original source.  
+* For example, if we were to derive a Keystore from a private key and a password, this means that the Keystore is made from these two sources.  
+* The Keystore is a product of the two, thus it is derived from them.   
 
 ### Encryption
 
-* [TODO]
+* Encryption is the act of taking a string of letters/numbers, like your private key, and turning them into another string of letters/numbers through a method of private translation.  
+* There are various different encryption methods.  
+* Encryption offers protection against those trying to steal your information!   
 
 ### Encrypted vs Unencrypted Keys
 
-* [TODO]
+* An unencrypted private key is 64 characters long, and it is used to unlock or restore wallets.  
+* An encrypted key is also 64 letters long and is a regular private key that has gone through the process of encryption, as defined above.  
+* For example, if the world ‘Apple’ was your shortened private key, then it was encrypted three letters down the alphabet, your new shortened encrypted key would be ‘Dssoh’. Since you know the way to encrypt this key, you could derive the original private key from it by reversing the method of encryption.   
+* Usually encrypted private keys are kept within the extension or device they are encrypted by, and they remain out of sight from the user. This is meant to add another layer of security to keep a user’s wallet information safe.   
 
 ### Decentralize / Decentralization
 
