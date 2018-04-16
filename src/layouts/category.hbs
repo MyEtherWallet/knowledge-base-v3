@@ -15,18 +15,18 @@
     <nav class="breadcrumbs">
       <a class="breadcrumbs__home" href="{{base_url}}">Home</a>
       ›
-      {{ this_category.title }}
+      <span id="breadCrumbCategoryTitle"> {{ this_category.title }} </span>
     </nav>
 
     <div class="block">
 
-      <h2>{{this_category.title}}</h2>
+      <h2 id="breadCrumbCategoryTitle">{{this_category.title}}</h2>
 
       <ul class="list-group">
         {{#each pages}}
           {{#if (eq cat_title ../this_category.title) }}
             <li>
-              <a class="list-group-item list-group-item-action" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
+              <a class="list-group-item list-group-item-action" id="{{titleBasedId title}}" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
             </li>
           {{/if}}
         {{/each}}

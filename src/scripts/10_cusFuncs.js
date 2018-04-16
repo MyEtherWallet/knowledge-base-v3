@@ -1,3 +1,65 @@
+var dropdown = false;
+var currentLang = document.getElementById('currentLang');
+var select = document.getElementById('languagesDropdown');
+var languages = ['Japanese', 'Korean', 'Russian', 'English'];
+var ids = [
+  'breadCrumbCategoryTitle', 'categoryGettingStartedonMyEtherWalletcom',
+  'categoryHowtoCreateaWallet', 'categoryHowtoProperlySaveBackUpYourWallet',
+  'categoryHowtoAccessYourWallet', 'categoryProtectingYourselfandYourFunds',
+  'categoryCheckingtheBalanceofYourAccount', 'categoryGettingBacktotheBasics10TipsforNewbies',
+  'categoryAGlossaryofCommonTermsintheEthereumCryptoSpace', 'categoryWhatstheDifferenceBetweenanExchangeandMyEtherWallet',
+  'categoryMyEtherWalletsQuickTips', 'categoryGettingStartedWithMyEtherWalletTutorialsforBeginners'
+]
+
+function displayOptions(e) {
+  var slow;
+  if(!dropdown) {
+    select.style.display = 'block';
+  } else {
+    slow = setTimeout(function () {
+      select.style.display = 'none';
+    }, 200);
+  }
+  dropdown = !dropdown
+}
+
+function displayWarning(lang) {
+  if(lang !== "English") {
+    document.getElementById('languageWarn').style.display = 'block';
+  } else {
+    document.getElementById('languageWarn').style.display = 'none';
+  }
+}
+
+function selectLanguage(e) {
+  currentLang.textContent = e.target.innerHTML;
+  localStorage.setItem('currentLang', e.target.innerHTML);
+  select.getElementsByClassName('active')[0].classList.remove('active');
+  e.target.setAttribute('class', 'active');
+
+  displayWarning(e.target.innerHTML);
+  dropdown = !dropdown;
+}
+
+if(localStorage.getItem('currentLang') !== null) {
+  currentLang.textContent = localStorage.getItem('currentLang');
+} else {
+  localStorage.setItem('currentLang', 'English');
+  currentLang.textContent = 'English';
+}
+
+languages.forEach(function(language) {
+  var option = document.createElement('li');
+  if(language === currentLang.innerHTML) {
+    option.setAttribute('class', 'active');
+  }
+  option.addEventListener("click", selectLanguage, false);
+  option.textContent = language;
+  select.appendChild(option);
+});
+
+displayWarning(currentLang.textContent);
+
 function getQueryString(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");

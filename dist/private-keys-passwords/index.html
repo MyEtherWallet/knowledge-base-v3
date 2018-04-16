@@ -14,7 +14,6 @@
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/" property="og:url">
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/" name="twitter:url">
 <link href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.css" rel="stylesheet">
-<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Private Keys &amp; Passwords.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Private Keys &amp; Passwords.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Private Keys &amp; Passwords.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    Not all articles have been translated! Wanna help? <a href="#"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -148,40 +154,40 @@
     <nav class="breadcrumbs">
       <a class="breadcrumbs__home" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/">Home</a>
       ›
-      Private Keys &amp; Passwords
+      <span id="breadCrumbCategoryTitle"> Private Keys &amp; Passwords </span>
     </nav>
 
     <div class="block">
 
-      <h2>Private Keys &amp; Passwords</h2>
+      <h2 id="breadCrumbCategoryTitle">Private Keys &amp; Passwords</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html" title="Change your wallet password (Unencrypted -&gt; Encrypted)">Change your wallet password (Unencrypted -&gt; Encrypted)</a>
+              <a class="list-group-item list-group-item-action" id="categoryChangeyourwalletpasswordUnencryptedEncrypted" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html" title="Change your wallet password (Unencrypted -&gt; Encrypted)">Change your wallet password (Unencrypted -&gt; Encrypted)</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-eth-private-key.html" title="Lost Private Key">Lost Private Key</a>
+              <a class="list-group-item list-group-item-action" id="categoryLostPrivateKey" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-eth-private-key.html" title="Lost Private Key">Lost Private Key</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-ethereum-wallet-password.html" title="Lost Password">Lost Password</a>
+              <a class="list-group-item list-group-item-action" id="categoryLostPassword" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-ethereum-wallet-password.html" title="Lost Password">Lost Password</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/accessing-different-address-same-private-key-ether.html" title="Private Key opens a different account / two addresses">Private Key opens a different account / two addresses</a>
+              <a class="list-group-item list-group-item-action" id="categoryPrivateKeyopensadifferentaccounttwoaddresses" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/accessing-different-address-same-private-key-ether.html" title="Private Key opens a different account / two addresses">Private Key opens a different account / two addresses</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/private-key-not-working.html" title="Private Key Not Working">Private Key Not Working</a>
+              <a class="list-group-item list-group-item-action" id="categoryPrivateKeyNotWorking" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/private-key-not-working.html" title="Private Key Not Working">Private Key Not Working</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" title="Differences between wallet types (e.g. private key vs keystore)">Differences between wallet types (e.g. private key vs keystore)</a>
+              <a class="list-group-item list-group-item-action" id="categoryDifferencesbetweenwallettypesegprivatekeyvskeystore" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/difference-beween-private-key-and-keystore-file.html" title="Differences between wallet types (e.g. private key vs keystore)">Differences between wallet types (e.g. private key vs keystore)</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/parity-phrases-are-no-longer-supported.html" title="Parity Phrases No Longer Supported">Parity Phrases No Longer Supported</a>
+              <a class="list-group-item list-group-item-action" id="categoryParityPhrasesNoLongerSupported" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/parity-phrases-are-no-longer-supported.html" title="Parity Phrases No Longer Supported">Parity Phrases No Longer Supported</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-password-ethereum-presale-wallet-file.html" title="Lost Password - Ethereum Presale Wallet File">Lost Password - Ethereum Presale Wallet File</a>
+              <a class="list-group-item list-group-item-action" id="categoryLostPasswordEthereumPresaleWalletFile" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/lost-password-ethereum-presale-wallet-file.html" title="Lost Password - Ethereum Presale Wallet File">Lost Password - Ethereum Presale Wallet File</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/missing-characters-of-private-key.html" title="Missing characters from private key.">Missing characters from private key.</a>
+              <a class="list-group-item list-group-item-action" id="categoryMissingcharactersfromprivatekey" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/private-keys-passwords/missing-characters-of-private-key.html" title="Missing characters from private key.">Missing characters from private key.</a>
             </li>
       </ul>
 
@@ -379,6 +385,7 @@
     </section>
   </article>
 </footer>
+<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 
 </body>
 

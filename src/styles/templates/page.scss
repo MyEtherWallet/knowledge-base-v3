@@ -88,6 +88,10 @@ body.is-embedded {
   a {
     color: $black;
     outline: none;
+
+    &:focus {
+      box-shadow: none;
+    }
   }
 
   .active {
@@ -95,9 +99,21 @@ body.is-embedded {
   }
 
   li {
+    cursor: pointer;
     font-weight: 300;
     line-height: 1.4;
     padding: 0 10px;
     width: 100%;
+  }
+}
+
+.languageWarn {
+  background: $red;
+  display: none;
+  text-align: center;
+
+  a {
+    color: $white;
+    text-decoration: underline;
   }
 }

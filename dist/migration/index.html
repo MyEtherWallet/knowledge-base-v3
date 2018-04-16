@@ -14,7 +14,6 @@
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/" property="og:url">
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/" name="twitter:url">
 <link href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.css" rel="stylesheet">
-<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Migrating to/from MyEtherWallet.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Migrating to/from MyEtherWallet.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Migrating to/from MyEtherWallet.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    Not all articles have been translated! Wanna help? <a href="#"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -148,37 +154,37 @@
     <nav class="breadcrumbs">
       <a class="breadcrumbs__home" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/">Home</a>
       ›
-      Migrating to/from MyEtherWallet
+      <span id="breadCrumbCategoryTitle"> Migrating to/from MyEtherWallet </span>
     </nav>
 
     <div class="block">
 
-      <h2>Migrating to/from MyEtherWallet</h2>
+      <h2 id="breadCrumbCategoryTitle">Migrating to/from MyEtherWallet</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-metamask.html" title="[MEW ➡ MetaMask] Moving from MyEtherWallet to MetaMask">[MEW ➡ MetaMask] Moving from MyEtherWallet to MetaMask</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWMetaMaskMovingfromMyEtherWallettoMetaMask" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-metamask.html" title="[MEW ➡ MetaMask] Moving from MyEtherWallet to MetaMask">[MEW ➡ MetaMask] Moving from MyEtherWallet to MetaMask</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-ledger-hardware-wallet.html" title="[MEW ➡ Ledger] Moving from MyEtherWallet to Ledger">[MEW ➡ Ledger] Moving from MyEtherWallet to Ledger</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWLedgerMovingfromMyEtherWallettoLedger" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-ledger-hardware-wallet.html" title="[MEW ➡ Ledger] Moving from MyEtherWallet to Ledger">[MEW ➡ Ledger] Moving from MyEtherWallet to Ledger</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-trezor-hardware-wallet.html" title="[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR">[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWTREZORMovingfromMyEtherWallettoTREZOR" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-private-key-to-trezor-hardware-wallet.html" title="[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR">[MEW ➡ TREZOR] Moving from MyEtherWallet to TREZOR</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-myetherwallet-to-parity.html" title="[MEW ➡ Parity] Access your MyEtherWallet account in Parity">[MEW ➡ Parity] Access your MyEtherWallet account in Parity</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWParityAccessyourMyEtherWalletaccountinParity" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-myetherwallet-to-parity.html" title="[MEW ➡ Parity] Access your MyEtherWallet account in Parity">[MEW ➡ Parity] Access your MyEtherWallet account in Parity</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/location-of-mist-geth-wallet-files.html" title="[MEW ➡ Mist] Access your MyEtherWallet account in Geth / Mist">[MEW ➡ Mist] Access your MyEtherWallet account in Geth / Mist</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWMistAccessyourMyEtherWalletaccountinGethMist" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/location-of-mist-geth-wallet-files.html" title="[MEW ➡ Mist] Access your MyEtherWallet account in Geth / Mist">[MEW ➡ Mist] Access your MyEtherWallet account in Geth / Mist</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-jaxx-to-myetherwallet.html" title="[Jaxx ➡ MEW] Access your Jaxx account on MyEtherWallet">[Jaxx ➡ MEW] Access your Jaxx account on MyEtherWallet</a>
+              <a class="list-group-item list-group-item-action" id="categoryJaxxMEWAccessyourJaxxaccountonMyEtherWallet" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-jaxx-to-myetherwallet.html" title="[Jaxx ➡ MEW] Access your Jaxx account on MyEtherWallet">[Jaxx ➡ MEW] Access your Jaxx account on MyEtherWallet</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-coinbase-to-myetherwallet.html" title="[Coinbase ➡ MEW] Moving from Coinbase to MyEtherWallet">[Coinbase ➡ MEW] Moving from Coinbase to MyEtherWallet</a>
+              <a class="list-group-item list-group-item-action" id="categoryCoinbaseMEWMovingfromCoinbasetoMyEtherWallet" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/moving-from-coinbase-to-myetherwallet.html" title="[Coinbase ➡ MEW] Moving from Coinbase to MyEtherWallet">[Coinbase ➡ MEW] Moving from Coinbase to MyEtherWallet</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/importing-v2-json-wallet-file-myetherwallet.html" title="Importing a V2 JSON file">Importing a V2 JSON file</a>
+              <a class="list-group-item list-group-item-action" id="categoryImportingaV2JSONfile" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/migration/importing-v2-json-wallet-file-myetherwallet.html" title="Importing a V2 JSON file">Importing a V2 JSON file</a>
             </li>
       </ul>
 
@@ -376,6 +382,7 @@
     </section>
   </article>
 </footer>
+<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 
 </body>
 

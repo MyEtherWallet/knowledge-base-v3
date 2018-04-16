@@ -19,7 +19,7 @@ const markdown           = require( 'gulp-markdown'           )
 const notify             = require( 'gulp-notify'             )
 const path               = require( 'path'                    )
 const plumber            = require( 'gulp-plumber'            )
-const removeMd           = require('remove-markdown'          )
+const removeMd           = require( 'remove-markdown'         )
 const rename             = require( 'gulp-rename'             )
 const runSequence        = require( 'run-sequence'            )
 const sass               = require( 'gulp-sass'               )
@@ -38,8 +38,6 @@ const scripts_srcFolder  = srcFolder + 'scripts/'
 const content_srcFolder  = srcFolder + 'content/'
 const layouts_srcFolder  = srcFolder + 'layouts/'
 const partials_srcFolder = srcFolder + 'partials/'
-
-
 
 var Context = {
   base_url : 'file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/',
@@ -370,7 +368,9 @@ gulp.task('layout_cats', ['register_partials'], function() {
     .pipe( notify ( onSuccess ( 'layout_home' ) ) )
 })
 
-
+function titleBasedId(str) {
+  return "category" + (str.split(" ").join("").replace(/[\W_]+/g, ""));
+}
 
 // Layout: Single Pages
 gulp.task('layout_single', ['register_partials'], function() {
@@ -378,6 +378,7 @@ gulp.task('layout_single', ['register_partials'], function() {
     .pipe( plumber( { errorHandler: onError } ) )
     .pipe( tap( function( file ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template = Handlebars.compile( file.contents.toString() )
       return gulp.src( content_srcFolder + '**/*.md' )
         .pipe( tap( function( file ) {

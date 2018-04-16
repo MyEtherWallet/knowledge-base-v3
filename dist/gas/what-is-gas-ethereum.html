@@ -14,7 +14,6 @@
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/gas/what-is-gas-ethereum.html" property="og:url">
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/gas/what-is-gas-ethereum.html" name="twitter:url">
 <link href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.css" rel="stylesheet">
-<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 <meta name="description" content="Gas &amp; Transaction Fees">
 <meta property="og:description" content="Gas &amp; Transaction Fees">
 <meta name="twitter:description" content="Gas &amp; Transaction Fees">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    Not all articles have been translated! Wanna help? <a href="#"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -504,6 +510,7 @@
     </section>
   </article>
 </footer>
+<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 
 </body>
 
