@@ -14,7 +14,6 @@
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/" property="og:url">
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/" name="twitter:url">
 <link href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.css" rel="stylesheet">
-<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 <meta name="description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly">
 <meta property="og:description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain. If your answer isn't here, contact MEW support instantly">
 <meta name="twitter:description" content="Answers & help for MyEtherWallet.com & the Ethereum blockchain.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="home">
 
@@ -80,6 +76,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    Not all articles have been translated! Wanna help? <a href="#"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -87,58 +86,16 @@
           <img src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-3 offset-sm-3">
-      <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
-        <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
-        <ul class="dropdown-menu" id="languagesDropdown">
-        </ul>
-      </span>
+      <div class="col-sm-2 offset-sm-4" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
 </header>
-
-<script>
-  let dropdown = false;
-  const currentLang = document.getElementById('currentLang');
-  const select = document.getElementById('languagesDropdown');
-  const languages = ['Japanese', 'Korean', 'Russian', 'English'];
-  const displayOptions = () => {
-    let slow;
-    if(!dropdown) {
-      select.style.display = 'block';
-    } else {
-      slow = setTimeout(function () {
-        select.style.display = 'none';
-      }, 200);
-    }
-    dropdown = !dropdown
-  }
-
-  const selectLanguage = (e) => {
-    currentLang.textContent = e.target.innerHTML;
-    localStorage.setItem('currentLang', e.target.innerHTML);
-    dropdown = !dropdown;
-  }
-
-  if(localStorage.getItem('currentLang') !== null) {
-    currentLang.textContent = localStorage.getItem('currentLang');
-  } else {
-    localStorage.setItem('currentLang', 'English');
-    currentLang.textContent = 'English';
-  }
-
-  languages.forEach(language => {
-    let option = document.createElement('li');
-    if(language === currentLang.innerHTML) {
-      option.setAttribute('class', 'active');
-    }
-    option.addEventListener("click", selectLanguage, false);
-    option.textContent = language;
-    select.appendChild(option);
-  });
-
-</script>
 
 <main class="home__search container">
 
@@ -1326,6 +1283,7 @@
     </section>
   </article>
 </footer>
+<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 
 </body>
 

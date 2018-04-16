@@ -14,7 +14,6 @@
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/" property="og:url">
 <meta content="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/" name="twitter:url">
 <link href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.css" rel="stylesheet">
-<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Networks &amp; Nodes.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Networks &amp; Nodes.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Networks &amp; Nodes.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    Not all articles have been translated! Wanna help? <a href="#"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -148,34 +154,34 @@
     <nav class="breadcrumbs">
       <a class="breadcrumbs__home" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/">Home</a>
       ›
-      Networks &amp; Nodes
+      <span id="breadCrumbCategoryTitle"> Networks &amp; Nodes </span>
     </nav>
 
     <div class="block">
 
-      <h2>Networks &amp; Nodes</h2>
+      <h2 id="breadCrumbCategoryTitle">Networks &amp; Nodes</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-etc-on-myetherwallet.html" title="How to Send Ethereum Classic (ETC) via MyEtherWallet 🎥">How to Send Ethereum Classic (ETC) via MyEtherWallet 🎥</a>
+              <a class="list-group-item list-group-item-action" id="categoryHowtoSendEthereumClassicETCviaMyEtherWallet" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-etc-on-myetherwallet.html" title="How to Send Ethereum Classic (ETC) via MyEtherWallet 🎥">How to Send Ethereum Classic (ETC) via MyEtherWallet 🎥</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/sent-etc-to-eth-address.html" title="Access ETH sent to ETC address or ETC sent to ETH address">Access ETH sent to ETC address or ETC sent to ETH address</a>
+              <a class="list-group-item list-group-item-action" id="categoryAccessETHsenttoETCaddressorETCsenttoETHaddress" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/sent-etc-to-eth-address.html" title="Access ETH sent to ETC address or ETC sent to ETH address">Access ETH sent to ETC address or ETC sent to ETH address</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-musicoin-on-myetherwallet.html" title="Accessing &amp; Sending MUSICOIN via MyEtherWallet">Accessing &amp; Sending MUSICOIN via MyEtherWallet</a>
+              <a class="list-group-item list-group-item-action" id="categoryAccessingSendingMUSICOINviaMyEtherWallet" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-musicoin-on-myetherwallet.html" title="Accessing &amp; Sending MUSICOIN via MyEtherWallet">Accessing &amp; Sending MUSICOIN via MyEtherWallet</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-expanse-on-myetherwallet.html" title="Sending Expanse (EXP) using MyEtherWallet 🎥">Sending Expanse (EXP) using MyEtherWallet 🎥</a>
+              <a class="list-group-item list-group-item-action" id="categorySendingExpanseEXPusingMyEtherWallet" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/access-your-expanse-on-myetherwallet.html" title="Sending Expanse (EXP) using MyEtherWallet 🎥">Sending Expanse (EXP) using MyEtherWallet 🎥</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/run-your-own-node-with-myetherwallet.html" title="Running MyEtherWallet w/ your own, personal node">Running MyEtherWallet w/ your own, personal node</a>
+              <a class="list-group-item list-group-item-action" id="categoryRunningMyEtherWalletwyourownpersonalnode" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/run-your-own-node-with-myetherwallet.html" title="Running MyEtherWallet w/ your own, personal node">Running MyEtherWallet w/ your own, personal node</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/cant-connect-to-custom-node-on-myetherwallet.html" title="Unable to Connect to Custom Node">Unable to Connect to Custom Node</a>
+              <a class="list-group-item list-group-item-action" id="categoryUnabletoConnecttoCustomNode" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/cant-connect-to-custom-node-on-myetherwallet.html" title="Unable to Connect to Custom Node">Unable to Connect to Custom Node</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/using-ethereum-hardware-wallet-with-custom-node.html" title="Using a hardware wallet with a custom node">Using a hardware wallet with a custom node</a>
+              <a class="list-group-item list-group-item-action" id="categoryUsingahardwarewalletwithacustomnode" href="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/networks/using-ethereum-hardware-wallet-with-custom-node.html" title="Using a hardware wallet with a custom node">Using a hardware wallet with a custom node</a>
             </li>
       </ul>
 
@@ -373,6 +379,7 @@
     </section>
   </article>
 </footer>
+<script src="file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/kb-master.min.js"></script>
 
 </body>
 
