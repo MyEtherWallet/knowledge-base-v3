@@ -2,14 +2,6 @@ var dropdown = false;
 var currentLang = document.getElementById('currentLang');
 var select = document.getElementById('languagesDropdown');
 var languages = ['Japanese', 'Korean', 'Russian', 'English'];
-var ids = [
-  'breadCrumbCategoryTitle', 'categoryGettingStartedonMyEtherWalletcom',
-  'categoryHowtoCreateaWallet', 'categoryHowtoProperlySaveBackUpYourWallet',
-  'categoryHowtoAccessYourWallet', 'categoryProtectingYourselfandYourFunds',
-  'categoryCheckingtheBalanceofYourAccount', 'categoryGettingBacktotheBasics10TipsforNewbies',
-  'categoryAGlossaryofCommonTermsintheEthereumCryptoSpace', 'categoryWhatstheDifferenceBetweenanExchangeandMyEtherWallet',
-  'categoryMyEtherWalletsQuickTips', 'categoryGettingStartedWithMyEtherWalletTutorialsforBeginners'
-]
 
 function displayOptions(e) {
   var slow;
@@ -21,6 +13,32 @@ function displayOptions(e) {
     }, 200);
   }
   dropdown = !dropdown
+}
+
+function switchContent(lang) {
+  var langObject;
+  switch (lang) {
+    case "English":
+      langObject = English
+      break;
+    case "Russian":
+      langObject = Russian
+      break;
+    case "Japanese":
+      langObject = Japanese
+      break;
+    case "Korean":
+      langObject = Korean
+      break;
+  }
+
+  ids.forEach(function(id) {
+    if(document.getElementById(id) !== null) {
+      if(langObject[id] !== "") {
+        document.getElementById(id).innerHTML = langObject[id];
+      }
+    }
+  })
 }
 
 function displayWarning(lang) {
@@ -36,16 +54,18 @@ function selectLanguage(e) {
   localStorage.setItem('currentLang', e.target.innerHTML);
   select.getElementsByClassName('active')[0].classList.remove('active');
   e.target.setAttribute('class', 'active');
-
+  switchContent(e.target.innerHTML);
   displayWarning(e.target.innerHTML);
   dropdown = !dropdown;
 }
 
 if(localStorage.getItem('currentLang') !== null) {
   currentLang.textContent = localStorage.getItem('currentLang');
+  switchContent(currentLang.textContent);
 } else {
   localStorage.setItem('currentLang', 'English');
   currentLang.textContent = 'English';
+  switchContent('English');
 }
 
 languages.forEach(function(language) {

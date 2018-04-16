@@ -39,10 +39,14 @@ const content_srcFolder  = srcFolder + 'content/'
 const layouts_srcFolder  = srcFolder + 'layouts/'
 const partials_srcFolder = srcFolder + 'partials/'
 
+function titleBasedId(str) {
+  return str.split(" ").join("").replace(/[\W_]+/g, "");
+}
+
 var Context = {
-  base_url : 'file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/',
+  // base_url : 'file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/',
   // base_url : 'https://myetherwallet.github.io/knowledge-base/',
-  //base_url : 'http://localhost/',
+  base_url : 'http://localhost:8080/',
   pages : [
 //  base_url    : '',
 //  cat_slug    : '',
@@ -104,7 +108,6 @@ function notifyFunc(msg) {
 }
 
 
-
 // Copy
 gulp.task('copy', function() {
     gulp.src( img_srcFolder + '**/*/' )
@@ -143,7 +146,7 @@ gulp.task('styles', function() {
 const scripts_destFile = 'kb-master.min.js'
 
 gulp.task( 'scripts', function() {
-  return gulp.src( scripts_srcFolder + '**/*.js' )
+  return gulp.src( [scripts_srcFolder+"/languages/**/*.js",scripts_srcFolder + '**/*.js'] )
     .pipe( plumber({ errorHandler: onError }))
     .pipe(  concat(  scripts_destFile      ) )
     .pipe(  uglify(                        ) )
@@ -271,6 +274,7 @@ gulp.task('layout_home', ['register_partials'], function() {
     .pipe( plumber({ errorHandler: onError }) )
     .pipe( tap(function( file, t ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template  = Handlebars.compile( file.contents.toString() )
       var result    = template( Context )
       file.contents = new Buffer( result , 'utf-8')
@@ -290,6 +294,7 @@ gulp.task('layout_search', ['register_partials'], function() {
     .pipe( plumber({ errorHandler: onError }) )
     .pipe( tap(function( file, t ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template = Handlebars.compile( file.contents.toString() )
       var result   = template( Context )
       file.contents = new Buffer( result , 'utf-8')
@@ -309,6 +314,7 @@ gulp.task('layout_contact', ['register_partials'], function() {
     .pipe( plumber({ errorHandler: onError }) )
     .pipe( tap(function( file, t ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template = Handlebars.compile( file.contents.toString() )
       var result   = template( Context )
       file.contents = new Buffer( result , 'utf-8')
@@ -329,6 +335,7 @@ gulp.task('layout_form', ['register_partials'], function() {
     .pipe( plumber({ errorHandler: onError }) )
     .pipe( tap(function( file, t ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template = Handlebars.compile( file.contents.toString() )
       var result   = template( Context )
       file.contents = new Buffer( result , 'utf-8')
@@ -349,6 +356,7 @@ gulp.task('layout_cats', ['register_partials'], function() {
     .pipe( plumber({ errorHandler: onError }) )
     .pipe( tap(function( file ) {
       H.registerHelpers( Handlebars )
+      Handlebars.registerHelper('titleBasedId', titleBasedId);
       var template = Handlebars.compile( file.contents.toString() )
       return gulp.src( content_srcFolder + '**/*.cat' )
       .pipe( tap( function( file ) {
@@ -367,10 +375,6 @@ gulp.task('layout_cats', ['register_partials'], function() {
     }))
     .pipe( notify ( onSuccess ( 'layout_home' ) ) )
 })
-
-function titleBasedId(str) {
-  return "category" + (str.split(" ").join("").replace(/[\W_]+/g, ""));
-}
 
 // Layout: Single Pages
 gulp.task('layout_single', ['register_partials'], function() {

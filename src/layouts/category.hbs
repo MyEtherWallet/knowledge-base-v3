@@ -13,20 +13,20 @@
   <section class="list-block--pages">
 
     <nav class="breadcrumbs">
-      <a class="breadcrumbs__home" href="{{base_url}}">Home</a>
+      <a class="breadcrumbs__home" id="breadCrumbHome" href="{{base_url}}">Home</a>
       ›
       <span id="breadCrumbCategoryTitle"> {{ this_category.title }} </span>
     </nav>
 
     <div class="block">
 
-      <h2 id="breadCrumbCategoryTitle">{{this_category.title}}</h2>
+      <h2 id="categoriesCategoryTitle">{{this_category.title}}</h2>
 
       <ul class="list-group">
         {{#each pages}}
           {{#if (eq cat_title ../this_category.title) }}
             <li>
-              <a class="list-group-item list-group-item-action" id="{{titleBasedId title}}" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
+              <a class="list-group-item list-group-item-action" id="category{{titleBasedId title}}" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
             </li>
           {{/if}}
         {{/each}}
