@@ -37,7 +37,9 @@ function switchContent(lang) {
       if(langObject[id] !== "") {
         document.getElementById(id).innerHTML = langObject[id];
       } else {
-        document.getElementById(id).innerHTML = English[id];
+        if(English[id] !== "") {
+          document.getElementById(id).innerHTML = English[id];
+        }
       }
     }
   })
