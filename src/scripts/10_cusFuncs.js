@@ -36,6 +36,8 @@ function switchContent(lang) {
     if(document.getElementById(id) !== null) {
       if(langObject[id] !== "") {
         document.getElementById(id).innerHTML = langObject[id];
+      } else {
+        document.getElementById(id).innerHTML = English[id];
       }
     }
   })
