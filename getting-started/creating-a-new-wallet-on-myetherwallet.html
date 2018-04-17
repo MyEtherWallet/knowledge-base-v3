@@ -196,66 +196,96 @@
           <h1 class="page__title" itemprop="headline" id="articleTitleHowtoCreateaWallet">How to Create a Wallet</h1>
           <div class="content">
             <h3 id="preface">Preface</h3>
-<p>The following assumes you are <strong>not</strong> using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html">we recommend a hardware wallet for cold storage</a>.</p>
-<p>To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.</p>
+<p id="prefacePar_1">
+The following assumes you are <strong>not</strong> using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html">we recommend a hardware wallet for cold storage</a>.
+</p>
+
+<p id="prefacePar_2">
+To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
+</p>
+
 <h3 id="how-to">How To</h3>
 <ul>
-<li>Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>.</li>
-<li>Enter a strong but easy to remember password. Do not forget it.<ul>
-<li><em>This encrypts (protects) your private key. It does not generate your private key. This password alone will <strong>not</strong> be enough to access your Ether.</em></li>
+  <li id="howTo_1"> Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>. </li>
+  <li>
+    <p id="howTo_2">Enter a strong but easy to remember password. Do not forget it. </p>
+    <ul>
+      <li id="howTo_2a">
+        <em>This encrypts (protects) your private key. It does not generate your private key. This password alone will <strong>not</strong> be enough to access your Ether.</em>
+      </li>
+    </ul>
+  </li>
+  <li id="howTo_3"> Click the <code>&quot;Create New Wallet&quot;</code> button.</li>
+  <li>
+    <p id="howTo_4">Download your <code>Keystore / UTC file</code> &amp; save this file to a USB drive.</p>
+    <ul>
+      <li id="howTo_4a"> <em>This is the encrypted version of your private key. You need the password to access it. It is safer than your unencrypted private key but you must have your password to access it in the future.</em> </li>
+    </ul>
+  </li>
+  <li id="howTo_5"> Read the warning. If you understand it, click the <code>&quot;I understand. Continue&quot;</code> button.</li>
+  <li>
+    <p id="howTo_6"> Print your paper wallet backup and/or <em>carefully</em> hand-write the <code>private key</code> on a piece of paper. </p>
+    <ul>
+      <li id="howTo_6a"><em>If you are writing it, it is recommend you write it 2 or 3 times. This decreases the chance your messy handwriting will prevent you from accessing your wallet later.</em> </li>
+    </ul>
+  </li>
+  <li>
+    <p id="howTo_7"> Copy &amp; paste your address into a text document somewhere. </p>
+    <ul>
+      <li id="howTo_7a"><em>Search your address on <a href="https://etherscan.io/">https://etherscan.io/</a>. Bookmark this page. This is how you will view your balance at any time</em></li>
+    </ul>
+  </li>
+  <li id="howTo_8"> Send a small amount of Ether (0.0001 ETH) from your previous wallet or exchange to your new wallet.</li>
+  <li>
+    <p id="howTo_9"> Unlock your new wallet from the Keystore / UTC file on your USB drive or via the private key that you printed out.  Ensure it unlocks the wallet you are sent to and matches the bookmark you have. </p>
+    <ul>
+      <li id="howTo_9a"> <em>Do not simply leave your new wallet open. Pretend you are coming back a year later to access your riches. Can you do it?</em> </li>
+    </ul>
+  </li>
+  <li>
+    <p id="howTo_10"> Send a small amount of Ether (0.00001 ETH) from this new wallet to another address. </p>
+    <ul>
+      <li id="howTo_10a"> <em>Perhaps our donation address? We are a free, open-source service. There are no fees, no ads, no tracking, no  cookies, no selling your data.</em> </li>
+    </ul>
+  </li>
+  <li id="howTo_11"> Ensure you have recorded all necessary bits of information and the addresses match at all times. If they don&#39;t, you mis-wrote something somewhere. That means it&#39;s time to start from the beginning in order to make sure you never lose access to your funds.</li>
 </ul>
-</li>
-<li>Click the <code>&quot;Create New Wallet&quot;</code> button.</li>
-<li>Download your <code>Keystore / UTC file</code> &amp; save this file to a USB drive.<ul>
-<li><em>This is the encrypted version of your private key. You need the password to access it. It is safer than your unencrypted private key but you must have your password to access it in the future.</em></li>
-</ul>
-</li>
-<li>Read the warning. If you understand it, click the <code>&quot;I understand. Continue&quot;</code> button.</li>
-<li>Print your paper wallet backup and/or <em>carefully</em> hand-write the <code>private key</code> on a piece of paper.<ul>
-<li><em>If you are writing it, it is recommend you write it 2 or 3 times. This decreases the chance your messy handwriting will prevent you from accessing your wallet later.</em></li>
-</ul>
-</li>
-<li>Copy &amp; paste your address into a text document somewhere.<ul>
-<li><em>Search your address on <a href="https://etherscan.io/">https://etherscan.io/</a>. Bookmark this page. This is how you will view your balance at any time</em></li>
-</ul>
-</li>
-<li>Send a small amount of Ether (0.0001 ETH) from your previous wallet or exchange to your new wallet.</li>
-<li>Unlock your new wallet from the Keystore / UTC file on your USB drive or via the private key that you printed out.  Ensure it unlocks the wallet you are sent to and matches the bookmark you have.<ul>
-<li><em>Do not simply leave your new wallet open. Pretend you are coming back a year later to access your riches. Can you do it?</em></li>
-</ul>
-</li>
-<li>Send a small amount of Ether (0.00001 ETH) from this new wallet to another address.<ul>
-<li><em>Perhaps our donation address? We are a free, open-source service. There are no fees, no ads, no tracking, no cookies, no selling your data.</em></li>
-</ul>
-</li>
-<li>Ensure you have recorded all necessary bits of information and the addresses match at all times. If they don&#39;t, you mis-wrote something somewhere. That means it&#39;s time to start from the beginning in order to make sure you never lose access to your funds.</li>
-</ul>
-<p>Doing all of this is tedious, but it ensures you (1) have complete access to your funds (2) the address you sent to is correct and matches the private key you have saved and (3) you can rest easily for years to come, knowing you will be able to access your ETH later.</p>
+
+<p id="howTo_12"> Doing all of this is tedious, but it ensures you (1) have complete access to your funds (2) the address you sent to is correct and matches the private key you have saved and (3) you can rest easily for years to come, knowing you will be able to access your ETH later. </p>
+
 <h3 id="safe-storage-of-backups">Safe Storage of Backups</h3>
-<p>It is recommended that you store backups of both forms of your key (the Keystore / UTC file version and paper wallet version) in physically separate, offline environments.</p>
-<p>This prevents loss of the private key &amp; password due to: dead hard drive, lost USB drive, wet piece of paper, etc. Keep in mind that physical loss can affect an entire area (e.g. fire, flood).</p>
+<p id="safeStorageBackups_1">
+It is recommended that you store backups of both forms of your key (the Keystore / UTC file version and paper wallet version) in physically separate, offline environments. </p>
+
+<p id="safeStorageBackups_2">
+This prevents loss of the private key &amp; password due to: dead hard drive, lost USB drive, wet piece of paper, etc. Keep in mind that physical loss can affect an entire area (e.g. fire, flood). </p>
+
 <h3 id="we-cannot-recover-your-key">We cannot recover your key</h3>
-<p>MyEtherWallet is not a web wallet and cannot recover your private key or password, access your account, move funds, recover funds, nor cancel/reverse transactions.</p>
-<p>We are a client-side interface that allows you to interact with the Ethereum blockchain. Please secure &amp; back up your key like the millions of dollars it could some day be worth.</p>
+<p id="cannotRecoverKey_1">
+MyEtherWallet is not a web wallet and cannot recover your private key or password, access your account, move funds, recover funds, nor cancel/reverse transactions. </p>
+<p id="cannotRecoverKey_2">
+We are a client-side interface that allows you to interact with the Ethereum blockchain. Please secure &amp; back up your key like the millions of dollars it could some day be worth. </p>
+
+
 <h3 id="related-reading">Related Reading</h3>
 <ul>
-<li><p><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html">What is the difference between private key &amp; Keystore / UTC file?</a></p>
-</li>
-<li><p><a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html">Protecting yourself and your funds</a></p>
-</li>
+  <li id="relatedReading_1"> <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html">What is the difference between private key &amp; Keystore / UTC file?</a></li>
+
+  <li id="relatedReading_2"> <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html">Protecting yourself and your funds</a></li>
 </ul>
+
 <h3 id="short-version-advanced-users-only-">Short Version (Advanced Users Only)</h3>
 <ol>
-<li>Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>.</li>
-<li>Enter a strong but easy to remember password.</li>
-<li>Click the <code>&quot;Create New Wallet&quot;</code> button.</li>
-<li>Click the <code>&quot;Download&quot;</code> button &amp; save your <code>Keystore / UTC</code> file. Back it up.</li>
-<li>Read the warning. If you understand it and promise not to lose your private key, click the <code>&quot;I understand. Continue&quot;</code> button.</li>
-<li>You now have the option of printing a paper wallet, saving your private key, or saving a QR code of your private key. Back up at least one (offline).</li>
-<li>Then click <code>&quot;Next: Save your Address&quot;</code></li>
-<li>Unlock your wallet that you just created using the <code>Keystore / UTC</code> file you just downloaded or the <code>private key</code>.</li>
-<li>Save your address to a text document &amp; bookmark the link to it on <a href="https://etherscan.io/">https://etherscan.io/</a>.</li>
-<li>Ensure all information matches. Don&#39;t lose this information. Double check your work. Don&#39;t be dumb.</li>
+  <li id="shortVer_1"> Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>. </li>
+  <li id="shortVer_2"> Enter a strong but easy to remember password. </li>
+  <li id="shortVer_3"> Click the <code>&quot;Create New Wallet&quot;</code> button. </li>
+  <li id="shortVer_4"> Click the <code>&quot;Download&quot;</code> button &amp; save your <code>Keystore / UTC</code> file. Back it up. </li>
+  <li id="shortVer_5"> Read the warning. If you understand it and promise not to lose your private key, click the <code>&quot;I understand. Continue&quot;</code> button. </li>
+  <li id="shortVer_6"> You now have the option of printing a paper wallet, saving your private key, or saving a QR code of your private key. Back up at least one (offline). </li>
+  <li id="shortVer_7"> Then click <code>&quot;Next: Save your Address&quot;</code> </li>
+  <li id="shortVer_8"> Unlock your wallet that you just created using the <code>Keystore / UTC</code> file you just downloaded or the <code>private key</code>. </li>
+  <li id="shortVer_9"> Save your address to a text document &amp; bookmark the link to it on <a href="https://etherscan.io/">https://etherscan.io/</a>. </li>
+ <li id="shortVer_10"> Ensure all information matches. Don&#39;t lose this information. Double check your work. Don&#39;t be dumb. </li>
 </ol>
 
           </div>
