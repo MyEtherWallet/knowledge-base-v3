@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/offline/" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/offline/" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Offline.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Offline.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Offline.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -78,7 +74,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -146,36 +152,36 @@
   <section class="list-block--pages">
 
     <nav class="breadcrumbs">
-      <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
+      <a class="breadcrumbs__home" id="breadCrumbHome" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
       ›
-      Offline
+      <span id="breadCrumbCategoryTitle"> Offline </span>
     </nav>
 
     <div class="block">
 
-      <h2>Offline</h2>
+      <h2 id="categoriesCategoryTitle">Offline</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html" title="How To Run MyEtherWallet Offline and Locally">How To Run MyEtherWallet Offline and Locally</a>
+              <a class="list-group-item list-group-item-action" id="categoryHowToRunMyEtherWalletOfflineandLocally" href="https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html" title="How To Run MyEtherWallet Offline and Locally">How To Run MyEtherWallet Offline and Locally</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html" title="Using MyEtherWallet For Cold Storage">Using MyEtherWallet For Cold Storage</a>
+              <a class="list-group-item list-group-item-action" id="categoryUsingMyEtherWalletForColdStorage" href="https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html" title="Using MyEtherWallet For Cold Storage">Using MyEtherWallet For Cold Storage</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/is-the-send-page-offline.html" title="Is the &#x27;Send Ether &amp; Tokens&#x27; page offline?">Is the &#x27;Send Ether &amp; Tokens&#x27; page offline?</a>
+              <a class="list-group-item list-group-item-action" id="categoryIstheSendEtherTokenspageoffline" href="https://myetherwallet.github.io/knowledge-base/offline/is-the-send-page-offline.html" title="Is the &#x27;Send Ether &amp; Tokens&#x27; page offline?">Is the &#x27;Send Ether &amp; Tokens&#x27; page offline?</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/local-offline-myetherwallet-does-not-work-properly.html" title="Local/offline MyEtherWallet does not look right">Local/offline MyEtherWallet does not look right</a>
+              <a class="list-group-item list-group-item-action" id="categoryLocalofflineMyEtherWalletdoesnotlookright" href="https://myetherwallet.github.io/knowledge-base/offline/local-offline-myetherwallet-does-not-work-properly.html" title="Local/offline MyEtherWallet does not look right">Local/offline MyEtherWallet does not look right</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html" title="How To Make An Offline Transaction">How To Make An Offline Transaction</a>
+              <a class="list-group-item list-group-item-action" id="categoryHowToMakeAnOfflineTransaction" href="https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html" title="How To Make An Offline Transaction">How To Make An Offline Transaction</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/sending-offline-with-myetherwallet.html" title="How Can MyEtherWallet Send Offline?">How Can MyEtherWallet Send Offline?</a>
+              <a class="list-group-item list-group-item-action" id="categoryHowCanMyEtherWalletSendOffline" href="https://myetherwallet.github.io/knowledge-base/offline/sending-offline-with-myetherwallet.html" title="How Can MyEtherWallet Send Offline?">How Can MyEtherWallet Send Offline?</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/offline/node-missing.html" title="Fixing &#x27;Node does not exist, contact support@myetherwallet.com CODE:localstorageNodeMissing&#x27; error">Fixing &#x27;Node does not exist, contact support@myetherwallet.com CODE:localstorageNodeMissing&#x27; error</a>
+              <a class="list-group-item list-group-item-action" id="categoryFixingNodedoesnotexistcontactsupportmyetherwalletcomCODElocalstorageNodeMissingerror" href="https://myetherwallet.github.io/knowledge-base/offline/node-missing.html" title="Fixing &#x27;Node does not exist, contact support@myetherwallet.com CODE:localstorageNodeMissing&#x27; error">Fixing &#x27;Node does not exist, contact support@myetherwallet.com CODE:localstorageNodeMissing&#x27; error</a>
             </li>
       </ul>
 
@@ -373,6 +379,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

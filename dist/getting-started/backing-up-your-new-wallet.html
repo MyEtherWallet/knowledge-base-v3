@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Getting Started">
 <meta property="og:description" content="Getting Started">
 <meta name="twitter:description" content="Getting Started">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -111,7 +107,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -181,62 +187,91 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/"> Getting Started </a> › <span class="breadcrumbs__category">How to Properly Save &amp; Back Up Your Wallet</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/" id="breadCrumbCategoryTitle"> Getting Started </a> ›
+        <span class="breadcrumbs__category" id="articleHowtoProperlySaveBackUpYourWallet">How to Properly Save &amp; Back Up Your Wallet</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">How to Properly Save &amp; Back Up Your Wallet</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitleHowtoProperlySaveBackUpYourWallet">How to Properly Save &amp; Back Up Your Wallet</h1>
           <div class="content">
             <h3 id="preface">Preface</h3>
-<p>The following assumes you are <strong>not</strong> using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html">we recommend a hardware wallet for cold storage</a>.</p>
-<p>To save / backup your <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html">Ledger</a> or <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-trezor-hardware-wallet.html">TREZOR</a> device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.</p>
+<p id="prefacePar_1">
+The following assumes you are <strong>not</strong> using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html">we recommend a hardware wallet for cold storage</a>.
+</p>
+
+<p id="prefacePar_2">
+To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
+</p>
+
 <h3 id="how-to">How To</h3>
 <ul>
-<li>Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>.</li>
-<li>Enter a strong but easy to remember password. Do not forget it.<ul>
-<li><em>This encrypts (protects) your private key. It does not generate your private key. This password alone will <strong>not</strong> be enough to access your Ether.</em></li>
+  <li id="howTo_1"> Go to <a href="https://www.myetherwallet.com/">https://www.myetherwallet.com/</a>. </li>
+  <li>
+    <p id="howTo_2">Enter a strong but easy to remember password. Do not forget it. </p>
+    <ul>
+      <li id="howTo_2a">
+        <em>This encrypts (protects) your private key. It does not generate your private key. This password alone will <strong>not</strong> be enough to access your Ether.</em>
+      </li>
+    </ul>
+  </li>
+  <li id="howTo_3"> Click the <code>&quot;Create New Wallet&quot;</code> button.</li>
+  <li>
+    <p id="howTo_4">Download your <code>Keystore / UTC file</code> &amp; save this file to a USB drive.</p>
+    <ul>
+      <li id="howTo_4a"> <em>This is the encrypted version of your private key. You need the password to access it. It is safer than your unencrypted private key but you must have your password to access it in the future.</em> </li>
+    </ul>
+  </li>
+  <li id="howTo_5"> Read the warning. If you understand it, click the <code>&quot;I understand. Continue&quot;</code> button.</li>
+  <li>
+    <p id="howTo_6"> Print your paper wallet backup and/or <em>carefully</em> hand-write the <code>private key</code> on a piece of paper. </p>
+    <ul>
+      <li id="howTo_6a"><em>If you are writing it, it is recommend you write it 2 or 3 times. This decreases the chance your messy handwriting will prevent you from accessing your wallet later.</em> </li>
+    </ul>
+  </li>
+  <li>
+    <p id="howTo_7"> Copy &amp; paste your address into a text document somewhere. </p>
+    <ul>
+      <li id="howTo_7a"><em>Search your address on <a href="https://etherscan.io/">https://etherscan.io/</a>. Bookmark this page. This is how you will view your balance at any time</em></li>
+    </ul>
+  </li>
+  <li id="howTo_8"> Send a small amount of Ether (0.0001 ETH) from your previous wallet or exchange to your new wallet.</li>
+  <li>
+    <p id="howTo_9"> Unlock your new wallet from the Keystore / UTC file on your USB drive or via the private key that you printed out.  Ensure it unlocks the wallet you are sent to and matches the bookmark you have. </p>
+    <ul>
+      <li id="howTo_9a"> <em>Do not simply leave your new wallet open. Pretend you are coming back a year later to access your riches. Can you do it?</em> </li>
+    </ul>
+  </li>
+  <li>
+    <p id="howTo_10"> Send a small amount of Ether (0.00001 ETH) from this new wallet to another address. </p>
+    <ul>
+      <li id="howTo_10a"> <em>Perhaps our donation address? We are a free, open-source service. There are no fees, no ads, no tracking, no  cookies, no selling your data.</em> </li>
+    </ul>
+  </li>
+  <li id="howTo_11"> Ensure you have recorded all necessary bits of information and the addresses match at all times. If they don&#39;t, you mis-wrote something somewhere. That means it&#39;s time to start from the beginning in order to make sure you never lose access to your funds.</li>
 </ul>
-</li>
-<li>Click the <code>&quot;Generate Wallet&quot;</code> button.</li>
-<li>Download your <code>Keystore / UTC file</code> &amp; save this file to a USB drive.<ul>
-<li><em>This is the encrypted version of your private key. You need the password to access it. It is safer than your unencrypted private key but you must have your password to access it in the future.</em></li>
-</ul>
-</li>
-<li>Read the warning. If you understand it, click the <code>&quot;I understand. Continue&quot;</code> button.</li>
-<li>Print your paper wallet backup and/or <em>carefully</em> hand-write the <code>private key</code> on a piece of paper.<ul>
-<li><em>If you are writing it, it is recommend you write it 2 or 3 times. This decreases the chance your messy handwriting will prevent you from accessing your wallet later.</em></li>
-</ul>
-</li>
-<li>Copy &amp; paste your address into a text document somewhere.<ul>
-<li><em>Search your address on <a href="https://etherscan.io/">https://etherscan.io/</a>. Bookmark this page. This is how you will view your balance at any time</em></li>
-</ul>
-</li>
-<li>Send a small amount of Ether (0.0001 ETH) from your previous wallet or exchange to your new wallet.</li>
-<li>Unlock your new wallet from the Keystore / UTC file on your USB drive or via the private key that you printed out. Ensure it unlocks the wallet you are sent to and matches the bookmark you have.<ul>
-<li><em>Do not simply leave your new wallet open. Pretend you are coming back a year later to access your riches. Can you do it?</em></li>
-</ul>
-</li>
-<li>Send a small amount of Ether (0.00001 ETH) from this new wallet to another address.<ul>
-<li><em>Perhaps our donation address? We are a free, open-source service. There are no fees, no ads, no tracking, no cookies, no selling your data.</em></li>
-</ul>
-</li>
-<li>Ensure you have recorded all necessary bits of information and the addresses match at all times. If they don&#39;t, you mis-wrote something somewhere. That means it&#39;s time to start from the beginning in order to make sure you never lose access to your funds.</li>
-</ul>
-<p>Doing all of this is tedious, but it ensures you (1) have complete access to your funds (2) the address you sent to is correct and matches the private key you have saved and (3) you can rest easily for years to come, knowing you will be able to access your ETH later.</p>
+
+<p id="howTo_12"> Doing all of this is tedious, but it ensures you (1) have complete access to your funds (2) the address you sent to is correct and matches the private key you have saved and (3) you can rest easily for years to come, knowing you will be able to access your ETH later. </p>
+
 <h3 id="safe-storage-of-backups">Safe Storage of Backups</h3>
-<p>It is recommended that you store backups of both forms of your key (the Keystore / UTC file version and paper wallet version) in physically separate, offline environments.</p>
-<p>This prevents loss of the private key &amp; password due to: dead hard drive, lost USB drive, wet piece of paper, etc. Keep in mind that physical loss can affect an entire area (e.g. fire, flood).</p>
+<p id="safeStorageBackups_1">
+It is recommended that you store backups of both forms of your key (the Keystore / UTC file version and paper wallet version) in physically separate, offline environments. </p>
+
+<p id="safeStorageBackups_2">
+This prevents loss of the private key &amp; password due to: dead hard drive, lost USB drive, wet piece of paper, etc. Keep in mind that physical loss can affect an entire area (e.g. fire, flood). </p>
+
 <h3 id="we-cannot-recover-your-key">We cannot recover your key</h3>
-<p>MyEtherWallet is not a web wallet and cannot recover your private key or password, access your account, move funds, recover funds, nor cancel/reverse transactions.</p>
-<p>We are a client-side interface that allows you to interact with the Ethereum blockchain. Please secure &amp; back up your key like the millions of dollars it could some day be worth.</p>
+<p id="cannotRecoverKey_1">
+MyEtherWallet is not a web wallet and cannot recover your private key or password, access your account, move funds, recover funds, nor cancel/reverse transactions. </p>
+<p id="cannotRecoverKey_2">
+We are a client-side interface that allows you to interact with the Ethereum blockchain. Please secure &amp; back up your key like the millions of dollars it could some day be worth. </p>
+
 <h3 id="related-reading">Related Reading</h3>
 <ul>
-<li><p><a href="https://www.youtube.com/watch?v=phht73IvUDI&amp;feature=youtu.be&amp;a">Video!</a></p>
-</li>
-<li><p><a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html">What is the difference between private key &amp; Keystore / UTC file?</a></p>
-</li>
-<li><p><a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html">Protecting yourself and your funds</a></p>
-</li>
+  <li> <a href="https://www.youtube.com/watch?v=phht73IvUDI&amp;feature=youtu.be&amp;a">Video!</a> </li>
+  <li id="relatedReading_1"> <a href="https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html">What is the difference between private key &amp; Keystore / UTC file?</a></li>
+
+  <li id="relatedReading_2"> <a href="https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html">Protecting yourself and your funds</a></li>
 </ul>
 
           </div>
@@ -462,6 +497,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

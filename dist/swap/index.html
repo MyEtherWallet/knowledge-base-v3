@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/swap/" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/swap/" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Swap.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Swap.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Swap.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -78,7 +74,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -146,21 +152,21 @@
   <section class="list-block--pages">
 
     <nav class="breadcrumbs">
-      <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
+      <a class="breadcrumbs__home" id="breadCrumbHome" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
       ›
-      Swap
+      <span id="breadCrumbCategoryTitle"> Swap </span>
     </nav>
 
     <div class="block">
 
-      <h2>Swap</h2>
+      <h2 id="categoriesCategoryTitle">Swap</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/swap/swap-wasnt-completed-or-was-canceled.html" title="Swap wasn&#x27;t completed or was canceled">Swap wasn&#x27;t completed or was canceled</a>
+              <a class="list-group-item list-group-item-action" id="categorySwapwasntcompletedorwascanceled" href="https://myetherwallet.github.io/knowledge-base/swap/swap-wasnt-completed-or-was-canceled.html" title="Swap wasn&#x27;t completed or was canceled">Swap wasn&#x27;t completed or was canceled</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/swap/trading-eth-btc-rep-bity-swap.html" title="Swapping ETH, BTC, REP on MyEtherWallet via Bity">Swapping ETH, BTC, REP on MyEtherWallet via Bity</a>
+              <a class="list-group-item list-group-item-action" id="categorySwappingETHBTCREPonMyEtherWalletviaBity" href="https://myetherwallet.github.io/knowledge-base/swap/trading-eth-btc-rep-bity-swap.html" title="Swapping ETH, BTC, REP on MyEtherWallet via Bity">Swapping ETH, BTC, REP on MyEtherWallet via Bity</a>
             </li>
       </ul>
 
@@ -358,6 +364,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

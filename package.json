@@ -38,5 +38,6 @@
     "underscore": "*",
     "vinyl": "*",
     "zepto": "*"
-  }
+  },
+  "dependencies": {}
 }

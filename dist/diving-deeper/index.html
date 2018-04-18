@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/diving-deeper/" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/diving-deeper/" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Diving Deeper.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Diving Deeper.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Diving Deeper.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -78,7 +74,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -146,42 +152,42 @@
   <section class="list-block--pages">
 
     <nav class="breadcrumbs">
-      <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
+      <a class="breadcrumbs__home" id="breadCrumbHome" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
       ›
-      Diving Deeper
+      <span id="breadCrumbCategoryTitle"> Diving Deeper </span>
     </nav>
 
     <div class="block">
 
-      <h2>Diving Deeper</h2>
+      <h2 id="categoriesCategoryTitle">Diving Deeper</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html" title="More Help, Support, and Communities">More Help, Support, and Communities</a>
+              <a class="list-group-item list-group-item-action" id="categoryMoreHelpSupportandCommunities" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html" title="More Help, Support, and Communities">More Help, Support, and Communities</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/links-you-should-read-next.html" title="Links you Should Read Next">Links you Should Read Next</a>
+              <a class="list-group-item list-group-item-action" id="categoryLinksyouShouldReadNext" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/links-you-should-read-next.html" title="Links you Should Read Next">Links you Should Read Next</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/myetherapi-api-limits.html" title="Does MyEtherAPI limit on the amount of requests I can make?">Does MyEtherAPI limit on the amount of requests I can make?</a>
+              <a class="list-group-item list-group-item-action" id="categoryDoesMyEtherAPIlimitontheamountofrequestsIcanmake" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/myetherapi-api-limits.html" title="Does MyEtherAPI limit on the amount of requests I can make?">Does MyEtherAPI limit on the amount of requests I can make?</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/does-myetherwallet-have-an-api.html" title="Does MyEtherWallet have an API?">Does MyEtherWallet have an API?</a>
+              <a class="list-group-item list-group-item-action" id="categoryDoesMyEtherWallethaveanAPI" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/does-myetherwallet-have-an-api.html" title="Does MyEtherWallet have an API?">Does MyEtherWallet have an API?</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/announcement-history.html" title="Announcement History">Announcement History</a>
+              <a class="list-group-item list-group-item-action" id="categoryAnnouncementHistory" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/announcement-history.html" title="Announcement History">Announcement History</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/getting-thru-the-shit-times.html" title="Getting Through The Shit Times">Getting Through The Shit Times</a>
+              <a class="list-group-item list-group-item-action" id="categoryGettingThroughTheShitTimes" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/getting-thru-the-shit-times.html" title="Getting Through The Shit Times">Getting Through The Shit Times</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/how-to-submit-pull-request.html" title="How to Submit a Pull Request">How to Submit a Pull Request</a>
+              <a class="list-group-item list-group-item-action" id="categoryHowtoSubmitaPullRequest" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/how-to-submit-pull-request.html" title="How to Submit a Pull Request">How to Submit a Pull Request</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/developing-myetherwallet.html" title="Developing MyEtherWallet v3">Developing MyEtherWallet v3</a>
+              <a class="list-group-item list-group-item-action" id="categoryDevelopingMyEtherWalletv3" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/developing-myetherwallet.html" title="Developing MyEtherWallet v3">Developing MyEtherWallet v3</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/readme.html" title="MEW Github README">MEW Github README</a>
+              <a class="list-group-item list-group-item-action" id="categoryMEWGithubREADME" href="https://myetherwallet.github.io/knowledge-base/diving-deeper/readme.html" title="MEW Github README">MEW Github README</a>
             </li>
       </ul>
 
@@ -379,6 +385,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

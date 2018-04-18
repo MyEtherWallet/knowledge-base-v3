@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Getting Started">
 <meta property="og:description" content="Getting Started">
 <meta name="twitter:description" content="Getting Started">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -111,7 +107,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -181,207 +187,279 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/"> Getting Started </a> › <span class="breadcrumbs__category">A Glossary of Common Terms in the Ethereum / Crypto Space</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/" id="breadCrumbCategoryTitle"> Getting Started </a> ›
+        <span class="breadcrumbs__category" id="articleAGlossaryofCommonTermsintheEthereumCryptoSpace">A Glossary of Common Terms in the Ethereum / Crypto Space</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">A Glossary of Common Terms in the Ethereum / Crypto Space</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitleAGlossaryofCommonTermsintheEthereumCryptoSpace">A Glossary of Common Terms in the Ethereum / Crypto Space</h1>
           <div class="content">
             <h2 id="words-are-hard">Words are Hard</h2>
-<p>This is a list of terms you might encounter when using the MyEtherWallet interface.</p>
+<p id="agoctitecs_p">
+  This is a list of terms you might encounter when using the MyEtherWallet interface.
+</p>
+
 <h4 id="-you-can-also-read-in-spanish-https-myetherwallet-github-io-knowledge-base-las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum-thanks-to-faraggi-https-github-com-faraggi-words-are-hard-es-blob-master-words-are-hard-es-md-"><a href="https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum">You can also read in Spanish</a>, thanks to <a href="https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md">faraggi</a></h4>
 <hr>
 <h3 id="wallet">Wallet</h3>
 <ul>
-<li><p>The interface / client / wrapper / holder that you use to manage your account(s).</p>
-</li>
-<li><p>Example: MyEtherWallet.com, your Ledger Hardware Wallet, a Multisig Wallet Contract.</p>
-</li>
+  <li id="wallet_l1">The interface / client / wrapper / holder that you use to manage your account(s).</li>
+
+  <li id="wallet_l2">Example: MyEtherWallet.com, your Ledger Hardware Wallet, a Multisig Wallet Contract.</li>
 </ul>
+
 <h3 id="account">Account</h3>
 <ul>
-<li><p>A public &amp; private keypair that &quot;holds&quot; your funds.</p>
-</li>
-<li><p>Your funds are actually stored on the blockchain, not in the wallet or account.</p>
-</li>
-<li><p>Just like your Reddit account has a<code>username (public)</code> and <code>password (private)</code>, so does your Ethereum account. For additional security, you can use a password to encrypt your private key which would result in a <code>username (public)</code> and <code>password (private)</code> and <code>password for that password (private + more secure)</code>. See the <code>Keystore File</code> section.</p>
-</li>
+  <li id="account_l1">A public &amp; private keypair that &quot;holds&quot; your funds.</li>
+
+  <li id="account_l2">Your funds are actually stored on the blockchain, not in the wallet or account.</li>
+
+  <li id="account_l3"> Just like your Reddit account has a <code> username (public)</code> and <code> password (private)</code>, so does your Ethereum account. For additional security, you can use a password to encrypt your private key which would result in a <code> username (public)</code> and <code> password (private)</code> and <code> password for that password (private + more secure)</code>. See the <code> Keystore File</code> section. </li>
 </ul>
+
 <h3 id="address-_-public-key-_">Address <em>(&quot;Public Key&quot;)</em></h3>
 <ul>
-<li><p>You use this to send funds <strong>to</strong> an account.</p>
-</li>
-<li><p>Sometimes referred to as the &quot;public key&quot;</p>
-</li>
-<li><p>A string made up of <code>0x</code> + <code>40 hexadecimal characters</code>.</p>
-</li>
-<li><p>In Ethereum, the address begins with <code>0x</code>.</p>
-</li>
-<li><p>Example: <code>0x06A85356DCb5b307096726FB86A78c59D38e08ee</code></p>
-</li>
+  <li id="address_l1">You use this to send funds <b>to</b> an account.</li>
+  <li id="address_l2">Sometimes referred to as the &quot;public key&quot;</li>
+  <li id="address_l3">A string made up of <code>0x</code> + <code>40 hexadecimal characters</code>.</li>
+  <li id="address_l4">In Ethereum, the address begins with <code>0x</code>.</li>
+  <li id="address_l5">Example: <code>0x06A85356DCb5b307096726FB86A78c59D38e08ee</code></li>
 </ul>
+
 <h3 id="public-key">Public Key</h3>
 <ul>
-<li><p>In cryptography, you have a keypair: the public and private key.</p>
-</li>
-<li><p>You can derive a public key from a private key, but cannot derive a private key from a public key.</p>
-</li>
-<li><p>(Advanced) In Ethereum, the address &quot;acts&quot; like the public key, but it&#39;s not actually the public key.</p>
-</li>
-<li><p>(Advanced) In Ethereum, the public key is derived from the private key and is 128 hex characters. You then take the <code>&quot;SHA3&quot; (Keccak-256)</code> hash of this (64 characters), take the last 40 characters, and prefix with <code>0x</code>, give you your 42-character address.</p>
-</li>
+  <li id="pubk_l1">In cryptography, you have a keypair: the public and private key.</li>
+  <li id="pubk_l2">You can derive a public key from a private key, but cannot derive a private key from a public key.</li>
+  <li id="pubk_l3">(Advanced) In Ethereum, the address &quot;acts&quot; like the public key, but it&#39;s not actually the public key.</li>
+  <li id="pubk_l4">(Advanced) In Ethereum, the public key is derived from the private key and is 128 hex characters. You then take the <code>&quot;SHA3&quot; (Keccak-256)</code> hash of this (64 characters), take the last 40 characters, and prefix with <code>0x</code>, give you your 42-character address.</li>
 </ul>
+
 <h3 id="private-key">Private Key</h3>
 <ul>
-<li><p>You use this to send funds <strong>from</strong> an account.</p>
-</li>
-<li><p>The secret half of your Address / public key.</p>
-</li>
-<li><p>A string of 64 hexadecimal characters.</p>
-</li>
-<li><p>(<a href="https://crypto.stackexchange.com/questions/30269/are-all-possible-ec-private-keys-valid">Almost</a>) every string of 64 hexadecimal characters is a private key.</p>
-</li>
-<li><p>If you hand-type a private key differently today than yesterday, you will access a different wallet. Never hand type your private key.</p>
-</li>
-<li><p>This is the string you need to send from your account. Without it you cannot access your funds. Although, you don&#39;t need to save this raw, unencrypted private key in this format. You can saving the fancy versions of it (e.g. the Keystore File / Mnemonic Phrase).</p>
-</li>
-<li><p>Example: <code>afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890</code></p>
-</li>
+  <li id="privk_1">You use this to send funds <b>from</b> an account.</li>
+  <li id="privk_2">The secret half of your Address / public key.</li>
+  <li id="privk_3">A string of 64 hexadecimal characters.</li>
+  <li id="privk_4">(<a href='https://crypto.stackexchange.com/questions/30269/are-all-possible-ec-private-keys-valid' target='_blank'>Almost</a>) every string of 64 hexadecimal characters is a private key.</li>
+  <li id="privk_5">If you hand-type a private key differently today than yesterday, you will access a different wallet. Never hand type your private key.</li>
+  <li id="privk_6">This is the string you need to send from your account. Without it you cannot access your funds. Although, you don&#39;t need to save this raw, unencrypted private key in this format. You can saving the fancy versions of it (e.g. the Keystore File / Mnemonic Phrase).</li>
+  <li id="privk_7">Example: <code>afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890</code></li>
 </ul>
+
 <h3 id="keystore-file">Keystore File</h3>
 <ul>
-<li><p>Encrypted version of your private key in JSON format (though it does not have a JSON extension)</p>
-</li>
-<li><p>A fancy version of your private key that is protected by a password of your choosing.</p>
-</li>
-<li><p>When combined with the password, it has the private key.</p>
-</li>
-<li><p>Safer than a private key because you need the password.</p>
-</li>
-<li><p>File name usually is in the format <code>UTC</code> + <code>--</code> + <code>DATE_CREATED</code> + <code>--</code> + <code>YOUR_ADDRESS_WITHOUT_THE_OX</code></p>
-</li>
-<li><p>Example of File Name: <code>UTC--2017-07-02T20-33-09.177Z--06a85356dcb5b307096726fb86a78c59d38e08ee</code></p>
-</li>
-<li><p>Example of Contents: <code>{&quot;version&quot;:3,&quot;id&quot;:&quot;aa811d53-fe9a-44a2-bd1c-e737007b5591&quot;,&quot;address&quot;:&quot;06a85356dcb5b307096726fb86a78c59d38e08ee&quot;,&quot;Crypto&quot;:{&quot;ciphertext&quot;:&quot;f5a7cc8d4b8cf93510b0d0d057f3a52ac79fd48e619e0638c4ffd978ca180248&quot;,&quot;cipherparams&quot;:{&quot;iv&quot;:&quot;975ab00192e2dd74170e91ca59c0b0bd&quot;},&quot;cipher&quot;:&quot;aes-128-ctr&quot;,&quot;kdf&quot;:&quot;scrypt&quot;,&quot;kdfparams&quot;:{&quot;dklen&quot;:32,&quot;salt&quot;:&quot;0210f0d0b99e440dfbceb36373304638bac093a367ee7da6411cd165f7aa907a&quot;,&quot;n&quot;:1024,&quot;r&quot;:8,&quot;p&quot;:1},&quot;mac&quot;:&quot;8197a747a3855a10546a2ff939c36470daed78e393b670efa0c12fe3b23dd7e3&quot;}}</code></p>
-</li>
-<li><p>(pw: <code>mypassword</code>)</p>
-</li>
+  <li id="keystoref_l1">
+    Encrypted version of your private key in JSON format (though it does not have a JSON extension)
+  </li>
+  <li id="keystoref_l2">
+    A fancy version of your private key that is protected by a password of your choosing.
+  </li>
+  <li id="keystoref_l3">
+    When combined with the password, it has the private key.
+  </li>
+  <li id="keystoref_l4">
+    Safer than a private key because you need the password.
+  </li>
+  <li id="keystoref_l5">
+    File name usually is in the format <code>UTC</code> + <code>--</code> + <code>DATE_CREATED</code> + <code>--</code> + <code>YOUR_ADDRESS_WITHOUT_THE_OX</code></li>
+  <li id="keystoref_l6">
+    Example of File Name: <code>UTC--2017-07-02T20-33-09.177Z--06a85356dcb5b307096726fb86a78c59d38e08ee</code>
+  </li>
+  <li id="keystoref_l7">
+    Example of Contents: <code>{&quot;version&quot;:3,&quot;id&quot;:&quot;aa811d53-fe9a-44a2-bd1c-e737007b5591&quot;,&quot;address&quot;:&quot;06a85356dcb5b307096726fb86a78c59d38e08ee&quot;,&quot;Crypto&quot;:{&quot;ciphertext&quot;:&quot;f5a7cc8d4b8cf93510b0d0d057f3a52ac79fd48e619e0638c4ffd978ca180248&quot;,&quot;cipherparams&quot;:{&quot;iv&quot;:&quot;975ab00192e2dd74170e91ca59c0b0bd&quot;},&quot;cipher&quot;:&quot;aes-128-ctr&quot;,&quot;kdf&quot;:&quot;scrypt&quot;,&quot;kdfparams&quot;:{&quot;dklen&quot;:32,&quot;salt&quot;:&quot;0210f0d0b99e440dfbceb36373304638bac093a367ee7da6411cd165f7aa907a&quot;,&quot;n&quot;:1024,&quot;r&quot;:8,&quot;p&quot;:1},&quot;mac&quot;:&quot;8197a747a3855a10546a2ff939c36470daed78e393b670efa0c12fe3b23dd7e3&quot;}}</code>
+  </li>
+  <li id="keystoref_l8">
+    (pw: <code>mypassword</code>)
+  </li>
 </ul>
+
 <h3 id="mnemonic-phrase">Mnemonic Phrase</h3>
 <ul>
-<li><p>Another fancy version of your private key, that is actually used to derive multiple private keys.</p>
-</li>
-<li><p>A (typically) 12 or 24 word phrase that allows you to access infinite number of accounts.</p>
-</li>
-<li><p>Used by Ledger, TREZOR, MetaMask, Jaxx, and others.</p>
-</li>
-<li><p>Originates from <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP 39 Spec</a>.</p>
-</li>
-<li><p>The accounts you can access with this phrase are determined by the &quot;path&quot;.</p>
-</li>
-<li><p>Example 12-words: <code>brain surround have swap horror body response double fire dumb bring hazard</code></p>
-</li>
-<li><p>Example 24-words: <code>card enrich gesture connect kick topple fan body blind engine lemon swarm venue praise addict agent unaware equal bean sing govern income link leg</code></p>
-</li>
+  <li id="mphrase_l1">
+    Another fancy version of your private key, that is actually used to derive multiple private keys.
+  </li>
+  <li id="mphrase_l2">
+    A (typically) 12 or 24 word phrase that allows you to access infinite number of accounts.
+  </li>
+  <li id="mphrase_l3">
+    Used by Ledger, TREZOR, MetaMask, Jaxx, and others.
+  </li>
+  <li id="mphrase_l4">
+    Originates from <a href='https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki' target='_blank'>BIP 39 Spec</a>.
+  </li>
+  <li id="mphrase_l5">
+    The accounts you can access with this phrase are determined by the &quot;path&quot;.
+  </li>
+  <li id="mphrase_l6">
+    Example 12-words: <code>brain surround have swap horror body response double fire dumb bring hazard</code>
+  </li>
+  <li id="mphrase_l7">
+    Example 24-words: <code>card enrich gesture connect kick topple fan body blind engine lemon swarm venue praise addict agent unaware equal bean sing govern income link leg</code>
+  </li>
 </ul>
+
 <h3 id="hardware-wallet-">Hardware Wallet:</h3>
 <ul>
-<li><p>Typically, a single-purpose device that &quot;holds&quot; your private key(s), ensuring your private keys are safe.</p>
-</li>
-<li><p>Typically, they use a 24-word phrase. This phrase you should write down (not on your computer) and store separately from your hardware wallet.</p>
-</li>
-<li><p>If you lose your hardware wallet, you can still gain access to your accounts &amp; funds via the word-phrase you wrote down.</p>
-</li>
-<li><p>Never type the word-phrase on your computer. It defeats the purpose of your hardware wallet.</p>
-</li>
+  <li id="hardwarew_l1">
+    Typically, a single-purpose device that &quot;holds&quot; your private key(s), ensuring your private keys are safe.
+  </li>
+  <li id="hardwarew_l2">
+    Typically, they use a 24-word phrase. This phrase you should write down (not on your computer) and store separately from your hardware wallet.
+  </li>
+  <li id="hardwarew_l3">
+    If you lose your hardware wallet, you can still gain access to your accounts &amp; funds via the word-phrase you wrote down.
+  </li>
+  <li id="hardwarew_l4">
+    Never type the word-phrase on your computer. It defeats the purpose of your hardware wallet.
+  </li>
+  <li id="hardwarew_l5">
+    <a href='https://myetherwallet.github.io/knowledge-base/hardware-wallets/' target='_blank'> See here for more information about Hardware Wallets</a>
+  </li>
 </ul>
-<p>-<a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/">See here for more information about Hardware Wallets</a></p>
+
 <h3 id="addressidenticon-addressicon-">AddressIdenticon / AddressIcon:</h3>
 <ul>
-<li><p>The colorful blob of colors that corresponds to your address.</p>
-</li>
-<li><p>It is an easy way to see if your address is correct.</p>
-</li>
-<li><p><a href="http://i.imgur.com/lHUrIiZ.jpg">Example 1</a></p>
-</li>
-<li><p><a href="http://i.imgur.com/FvyLewS.jpg">Example 2</a></p>
-</li>
-<li><p><em>Note: the above addresses are a single character different but have remarkably different icons &amp; colors. Magic!</em></p>
-</li>
+  <li id="addressIdent_l1">
+    The colorful blob of colors that corresponds to your address.
+  </li>
+  <li id="addressIdent_l2">
+    It is an easy way to see if your address is correct.
+  </li>
+  <li id="addressIdent_l3">
+    <a href='http://i.imgur.com/lHUrIiZ.jpg' target=''> Example 1 </a>
+  </li>
+  <li id="addressIdent_l4">
+    <a href='http://i.imgur.com/FvyLewS.jpg' target=''> Example 2 </a>
+  </li>
+  <li id="addressIdent_l5">
+    <em>Note: the above addresses are a single character different but have remarkably different icons &amp; colors. Magic!</em>
+  </li>
 </ul>
+
 <h3 id="hexadecimal">Hexadecimal</h3>
 <ul>
-<li>Used all over Ethereum for a variety of things, a hexadecimal string is comprised of the numbers <code>0 1 2 3 4 5 6 7 8 9</code> and <code>A B C D E F</code></li>
+  <li id="hexadecimal_l">
+    Used all over Ethereum for a variety of things, a hexadecimal string is comprised of the numbers <code>0 1 2 3 4 5 6 7 8 9</code> and <code>A B C D E F</code>
+  </li>
 </ul>
+
 <h3 id="seed">Seed</h3>
 <ul>
-<li><p>The input given to derive a private key. This should always be generated in a truly random way, not something you make up with your measly human brain.</p>
-</li>
-<li><p>If you chose the seed, it is known as a <code>brain wallet</code></p>
-</li>
+  <li id="seed_l1">
+    The input given to derive a private key. This should always be generated in a truly random way, not something you make up with your measly human brain.
+  </li>
+  <li id="seed_l2">
+    If you chose the seed, it is known as a <code>brain wallet</code>
+  </li>
 </ul>
+
 <h3 id="brain-wallet">Brain Wallet</h3>
 <ul>
-<li><p>An account generated from a seed or password or passphrase of your choosing.</p>
-</li>
-<li><p>Humans are not capable of generating enough entropy and therefore the wallets derived from these phrases are insecure.</p>
-</li>
-<li><p>Brain wallets can be brute forced by super fast computers.</p>
-</li>
-<li><p><a href="https://www.reddit.com/r/ethereum/comments/45y8m7/brain_wallets_are_now_generally_shunned_by/">Brain wallet are insecure.</a></p>
-</li>
-<li><p>Don&#39;t use brain wallets.</p>
-</li>
+  <li id="bw_l1">
+    An account generated from a seed or password or passphrase of your choosing.
+  </li>
+  <li id="bw_l2">
+    Humans are not capable of generating enough entropy and therefore the wallets derived from these phrases are insecure.
+  </li>
+  <li id="bw_l3">
+    Brain wallets can be brute forced by super fast computers.
+  </li>
+  <li id="bw_l4">
+    <a href='https://www.reddit.com/r/ethereum/comments/45y8m7/brain_wallets_are_now_generally_shunned_by/' target='_blank'> Brain wallet are insecure. </a>
+  </li>
+  <li id="bw_l5">
+    Don&#39;t use brain wallets.
+  </li>
 </ul>
+
+
 <h3 id="entropy">Entropy</h3>
 <ul>
-<li><p>Also known as &quot;randomness&quot;.</p>
-</li>
-<li><p>The more random something is, the more entropy it has, and the more secure it is.</p>
-</li>
-<li><p>Usually defined in &quot;bits of entropy&quot; or the number of years it would take to brute-force a <strong>____</strong> (e.g. private key) derived with that much entropy.</p>
-</li>
-<li><p>Ethereum private keys are 256-bit keys</p>
-</li>
-<li><p>24-Word mnemonic phrases are also 256 bits of entropy. 2048 words in the dictionary. 11 bits of entropy (the words). <code>11 * 24 = 264</code>. The last word is a checksum.</p>
-</li>
+  <li id="entropy_l1">
+    Also known as &quot;randomness&quot;.
+  </li>
+  <li id="entropy_l2">
+    The more random something is, the more entropy it has, and the more secure it is.
+  </li>
+  <li id="entropy_l3">
+    Usually defined in &quot;bits of entropy&quot; or the number of years it would take to brute-force a <b>____</b> (e.g. private key) derived with that much entropy.
+  </li>
+  <li id="entropy_l4">
+    Ethereum private keys are 256-bit keys
+  </li>
+  <li id="entropy_l5">
+    24-Word mnemonic phrases are also 256 bits of entropy. 2048 words in the dictionary. 11 bits of entropy (the words). <code>11 * 24 = 264</code>. The last word is a checksum.
+  </li>
 </ul>
+
 <h3 id="derive-derivation">Derive / Derivation</h3>
 <ul>
-<li>To derive something is to obtain it from an original source.  </li>
-<li>For example, if we were to derive a Keystore from a private key and a password, this means that the Keystore is made from these two sources.  </li>
-<li>The Keystore is a product of the two, thus it is derived from them.   </li>
+  <li id="deriveDeriv_l1">
+    To derive something is to obtain it from an original source.<br>  </li>
+  <li id="deriveDeriv_l2">
+    For example, if we were to derive a Keystore from a private key and a password, this means that the Keystore is made from these two sources.<br>  </li>
+  <li id="deriveDeriv_l3">
+    The Keystore is a product of the two, thus it is derived from them.
+  </li>
 </ul>
+
 <h3 id="encryption">Encryption</h3>
 <ul>
-<li>Encryption is the act of taking a string of letters/numbers, like your private key, and turning them into another string of letters/numbers through a method of private translation.  </li>
-<li>There are various different encryption methods.  </li>
-<li>Encryption offers protection against those trying to steal your information!   </li>
+  <li id="encryption_l1">
+    Encryption is the act of taking a string of letters/numbers, like your private key, and turning them into another string of letters/numbers through a method of private translation.
+  </li>
+  <li id="encryption_l2">
+    There are various different encryption methods.
+  </li>
+  <li id="encryption_l3">
+    Encryption offers protection against those trying to steal your information!
+  </li>
 </ul>
+
 <h3 id="encrypted-vs-unencrypted-keys">Encrypted vs Unencrypted Keys</h3>
 <ul>
-<li>An unencrypted private key is 64 characters long, and it is used to unlock or restore wallets.  </li>
-<li>An encrypted key is also 64 letters long and is a regular private key that has gone through the process of encryption, as defined above.  </li>
-<li>For example, if the world ‘Apple’ was your shortened private key, then it was encrypted three letters down the alphabet, your new shortened encrypted key would be ‘Dssoh’. Since you know the way to encrypt this key, you could derive the original private key from it by reversing the method of encryption.   </li>
-<li>Usually encrypted private keys are kept within the extension or device they are encrypted by, and they remain out of sight from the user. This is meant to add another layer of security to keep a user’s wallet information safe.   </li>
+  <li id="encvunenc_l1">
+    An unencrypted private key is 64 characters long, and it is used to unlock or restore wallets.
+  </li>
+  <li id="encvunenc_l2">
+    An encrypted key is also 64 letters long and is a regular private key that has gone through the process of encryption, as defined above.<br>  </li>
+  <li id="encvunenc_l3">
+    For example, if the world ‘Apple’ was your shortened private key, then it was encrypted three letters down the alphabet, your new shortened encrypted key would be ‘Dssoh’. Since you know the way to encrypt this key, you could derive the original private key from it by reversing the method of encryption.<br>  </li>
+  <li id="encvunenc_l4">
+    Usually encrypted private keys are kept within the extension or device they are encrypted by, and they remain out of sight from the user. This is meant to add another layer of security to keep a user’s wallet information safe.<br>  </li>
 </ul>
+
 <h3 id="decentralize-decentralization">Decentralize / Decentralization</h3>
 <ul>
-<li>The process of transferring authority of a single entity (ex. Government or large corporation) to multiple smaller entities.</li>
+  <li id="decentralize_l">
+    The process of transferring authority of a single entity (ex. Government or large corporation) to multiple smaller entities.
+  </li>
 </ul>
+
 <h3 id="trustless">Trustless</h3>
 <ul>
-<li>A distributed trustless consensus which the blockchain is responsible for. Since everyone has a copy of the ledger of all transactions ever executed, there is no need for a third-party. You can verify the transactions yourself, however the Ethereum blockchain and Bitcoin blockchain were created to ensure rules and agreements between all parties are executed when all conditions are met.</li>
+  <li id="trustless_l">
+    A distributed trustless consensus which the blockchain is responsible for. Since everyone has a copy of the ledger of all transactions ever executed, there is no need for a third-party. You can verify the transactions yourself, however the Ethereum blockchain and Bitcoin blockchain were created to ensure rules and agreements between all parties are executed when all conditions are met.
+  </li>
 </ul>
+
 <h3 id="smart-contracts">Smart Contracts</h3>
 <ul>
-<li>A piece of code (or program) that is stored on the blockchain network. Conditions of the contract are predefined by the users, if all conditions are met, certain actions are executed by the contract (program).</li>
+  <li id="sc_l">
+    A piece of code (or program) that is stored on the blockchain network. Conditions of the contract are predefined by the users, if all conditions are met, certain actions are executed by the contract (program).
+  </li>
 </ul>
+
 <h3 id="blockchain">Blockchain</h3>
 <ul>
-<li>A decentralized publicly owned ledger.</li>
+  <li id="blockchain_l">
+    A decentralized publicly owned ledger.
+  </li>
 </ul>
-<p>All feedback, rewrites, clarification, typo-fixing, and requests for additions are more than welcome. ?</p>
+
+<p id="fixGlossary">
+  All feedback, rewrites, clarification, typo-fixing, and requests for additions are more than welcome. ?
+</p>
 
           </div>
 
@@ -606,6 +684,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

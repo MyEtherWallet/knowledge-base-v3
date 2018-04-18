@@ -4,13 +4,13 @@
       <div class="list-block__item col-12 col-sm-4">
         <div class="block">
           <a href="{{../base_url}}{{slug}}/" title="{{title}}" class="cat__title" target="_parent">
-            <h3>{{title}}</h3>
+            <h3 id="category{{titleBasedId title}}">{{title}}</h3>
           </a>
           <ul>
             {{#each ../pages}}
               {{#if (eq cat_title value.title) }}
                 <li>
-                  <a href="{{../base_url}}{{url}}" title="{{title}}" target="_parent">
+                  <a href="{{../base_url}}{{url}}" id="category{{titleBasedId title}}" title="{{title}}" target="_parent">
                     {{title}}
                   </a>
                 </li>

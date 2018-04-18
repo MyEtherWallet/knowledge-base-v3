@@ -79,3 +79,41 @@ body.is-embedded {
     display: none;
   }
 }
+
+.dropdown {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid $white;
+  padding: .3em .6rem;
+
+  a {
+    color: $black;
+    outline: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .active {
+    color: #0e97c0;
+  }
+
+  li {
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 0 10px;
+    width: 100%;
+  }
+}
+
+.languageWarn {
+  background: $red;
+  display: none;
+  text-align: center;
+
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}

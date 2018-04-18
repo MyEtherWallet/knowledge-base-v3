@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-using-with-android.html" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/hardware-wallets/ledger-hardware-wallet-using-with-android.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Hardware Wallets">
 <meta property="og:description" content="Hardware Wallets">
 <meta name="twitter:description" content="Hardware Wallets">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -111,7 +107,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -181,11 +187,13 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/"> Hardware Wallets </a> › <span class="breadcrumbs__category">Using a Ledger Wallet With an Android Device</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/" id="breadCrumbCategoryTitle"> Hardware Wallets </a> ›
+        <span class="breadcrumbs__category" id="articleUsingaLedgerWalletWithanAndroidDevice">Using a Ledger Wallet With an Android Device</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">Using a Ledger Wallet With an Android Device</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitleUsingaLedgerWalletWithanAndroidDevice">Using a Ledger Wallet With an Android Device</h1>
           <div class="content">
             <h3 id="requirements">Requirements</h3>
 <p>In order to use a Ledger Wallet with your Android phone, you need to have a modern phone or tablet, supporting USB-OTG (USB On-The-Go) as well as a USB-OTG adapter to go with it. If you don&#39;t have a OTG adapter yet, you can pick one up on <a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&amp;field-keywords=usb+otg+adapter">Amazon</a> for just a few bucks. The adapter will allow you to plug the Ledger Wallet into your device.</p>
@@ -419,6 +427,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/send/how-to-send-transaction.html" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/send/how-to-send-transaction.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Sending ETH &amp; Tokens">
 <meta property="og:description" content="Sending ETH &amp; Tokens">
 <meta name="twitter:description" content="Sending ETH &amp; Tokens">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -111,7 +107,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -181,11 +187,13 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/send/"> Sending ETH &amp; Tokens </a> › <span class="breadcrumbs__category">How To Send A Transaction</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/send/" id="breadCrumbCategoryTitle"> Sending ETH &amp; Tokens </a> ›
+        <span class="breadcrumbs__category" id="articleHowToSendATransaction">How To Send A Transaction</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">How To Send A Transaction</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitleHowToSendATransaction">How To Send A Transaction</h1>
           <div class="content">
             <p>If you plan to move a large amount of Ether or tokens, you should send a test transaction of a small amount to the destination wallet first to ensure everything goes as planned.
 Optional, but <strong>highly recommended</strong> (if you haven&#39;t already) Install <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html">MetaMask</a> or <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB">EtherAddressLookup Chrome Extension</a> to protect yourself from malicious websites around the crypto space that will steal your private keys. Or even better, think about getting yourself a hardware wallet. You have hundreds, thousands of dollars online, you might as well spend a little bit more money to ensure that your funds are safe.</p>
@@ -436,6 +444,7 @@ Optional, but <strong>highly recommended</strong> (if you haven&#39;t already) I
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

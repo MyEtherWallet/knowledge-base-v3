@@ -1,3 +1,89 @@
+var dropdown = false;
+var currentLang = document.getElementById('currentLang');
+var select = document.getElementById('languagesDropdown');
+var languages = ['Japanese', 'Korean', 'Russian', 'English'];
+
+function displayOptions(e) {
+  var slow;
+  if(!dropdown) {
+    select.style.display = 'block';
+  } else {
+    slow = setTimeout(function () {
+      select.style.display = 'none';
+    }, 200);
+  }
+  dropdown = !dropdown
+}
+
+function switchContent(lang) {
+  var langObject;
+  switch (lang) {
+    case "English":
+      langObject = English
+      break;
+    case "Russian":
+      langObject = Russian
+      break;
+    case "Japanese":
+      langObject = Japanese
+      break;
+    case "Korean":
+      langObject = Korean
+      break;
+  }
+
+  ids.forEach(function(id) {
+    if(document.getElementById(id) !== null) {
+      if(langObject[id] !== "") {
+        document.getElementById(id).innerHTML = langObject[id];
+      } else {
+        if(English[id] !== "") {
+          document.getElementById(id).innerHTML = English[id];
+        }
+      }
+    }
+  })
+}
+
+function displayWarning(lang) {
+  if(lang !== "English") {
+    document.getElementById('languageWarn').style.display = 'block';
+  } else {
+    document.getElementById('languageWarn').style.display = 'none';
+  }
+}
+
+function selectLanguage(e) {
+  currentLang.textContent = e.target.innerHTML;
+  localStorage.setItem('currentLang', e.target.innerHTML);
+  select.getElementsByClassName('active')[0].classList.remove('active');
+  e.target.setAttribute('class', 'active');
+  switchContent(e.target.innerHTML);
+  displayWarning(e.target.innerHTML);
+  dropdown = !dropdown;
+}
+
+if(localStorage.getItem('currentLang') !== null) {
+  currentLang.textContent = localStorage.getItem('currentLang');
+  switchContent(currentLang.textContent);
+} else {
+  localStorage.setItem('currentLang', 'English');
+  currentLang.textContent = 'English';
+  switchContent('English');
+}
+
+languages.forEach(function(language) {
+  var option = document.createElement('li');
+  if(language === currentLang.innerHTML) {
+    option.setAttribute('class', 'active');
+  }
+  option.addEventListener("click", selectLanguage, false);
+  option.textContent = language;
+  select.appendChild(option);
+});
+
+displayWarning(currentLang.textContent);
+
 function getQueryString(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, "\\$&");

@@ -16,11 +16,13 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="{{base_url}}">Home</a> › <a class="breadcrumbs__category" href="{{base_url}}{{cat_slug}}/"> {{ cat_title }} </a> › <span class="breadcrumbs__category">{{ title }}</span>
+        <a class="breadcrumbs__home" href="{{base_url}}" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="{{base_url}}{{cat_slug}}/" id="breadCrumbCategoryTitle"> {{ cat_title }} </a> ›
+        <span class="breadcrumbs__category" id="article{{titleBasedId title}}">{{ title }}</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">{{ title }}</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitle{{titleBasedId title}}">{{ title }}</h1>
           <div class="content">
             {{{ content }}}
           </div>

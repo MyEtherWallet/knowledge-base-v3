@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/best-of/" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/best-of/" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="MyEtherWallet support & help regarding Best Of.">
 <meta property="og:description" content="MyEtherWallet support & help regarding Best Of.">
 <meta name="twitter:description" content="MyEtherWallet support & help regarding Best Of.">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -78,7 +74,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -104,6 +100,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -111,13 +110,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -146,45 +152,45 @@
   <section class="list-block--pages">
 
     <nav class="breadcrumbs">
-      <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
+      <a class="breadcrumbs__home" id="breadCrumbHome" href="https://myetherwallet.github.io/knowledge-base/">Home</a>
       ›
-      Best Of
+      <span id="breadCrumbCategoryTitle"> Best Of </span>
     </nav>
 
     <div class="block">
 
-      <h2>Best Of</h2>
+      <h2 id="categoriesCategoryTitle">Best Of</h2>
 
       <ul class="list-group">
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/how-myetherwallet-gets-entropy-when-generating-wallets.html" title="Ethereum Account Generation &amp; How MyEtherWallet gets Entropy">Ethereum Account Generation &amp; How MyEtherWallet gets Entropy</a>
+              <a class="list-group-item list-group-item-action" id="categoryEthereumAccountGenerationHowMyEtherWalletgetsEntropy" href="https://myetherwallet.github.io/knowledge-base/best-of/how-myetherwallet-gets-entropy-when-generating-wallets.html" title="Ethereum Account Generation &amp; How MyEtherWallet gets Entropy">Ethereum Account Generation &amp; How MyEtherWallet gets Entropy</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/keypairs-cryptography-encryption.html" title="On Keypairs &amp; Encryption">On Keypairs &amp; Encryption</a>
+              <a class="list-group-item list-group-item-action" id="categoryOnKeypairsEncryption" href="https://myetherwallet.github.io/knowledge-base/best-of/keypairs-cryptography-encryption.html" title="On Keypairs &amp; Encryption">On Keypairs &amp; Encryption</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/ethereum-encryption-bkp-presale-files.html" title="On Components of the Ethereum Pre-Sale File &amp; Encryption">On Components of the Ethereum Pre-Sale File &amp; Encryption</a>
+              <a class="list-group-item list-group-item-action" id="categoryOnComponentsoftheEthereumPreSaleFileEncryption" href="https://myetherwallet.github.io/knowledge-base/best-of/ethereum-encryption-bkp-presale-files.html" title="On Components of the Ethereum Pre-Sale File &amp; Encryption">On Components of the Ethereum Pre-Sale File &amp; Encryption</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/security-and-ethereum.html" title="Improving Security on Ethereum">Improving Security on Ethereum</a>
+              <a class="list-group-item list-group-item-action" id="categoryImprovingSecurityonEthereum" href="https://myetherwallet.github.io/knowledge-base/best-of/security-and-ethereum.html" title="Improving Security on Ethereum">Improving Security on Ethereum</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/trading-advice-what-to-do-when-you-lose-it-all-trading-margin.html" title="What to do When You Lose it All Trading Margin">What to do When You Lose it All Trading Margin</a>
+              <a class="list-group-item list-group-item-action" id="categoryWhattodoWhenYouLoseitAllTradingMargin" href="https://myetherwallet.github.io/knowledge-base/best-of/trading-advice-what-to-do-when-you-lose-it-all-trading-margin.html" title="What to do When You Lose it All Trading Margin">What to do When You Lose it All Trading Margin</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/unsolicited-advice-for-those-holding-token-sales.html" title="Unsolicited Advice for those Holding Token Sales">Unsolicited Advice for those Holding Token Sales</a>
+              <a class="list-group-item list-group-item-action" id="categoryUnsolicitedAdviceforthoseHoldingTokenSales" href="https://myetherwallet.github.io/knowledge-base/best-of/unsolicited-advice-for-those-holding-token-sales.html" title="Unsolicited Advice for those Holding Token Sales">Unsolicited Advice for those Holding Token Sales</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/how-not-to-miss-out-on-ico.html" title="Best Ways to Avoid Missing Out on That ICO">Best Ways to Avoid Missing Out on That ICO</a>
+              <a class="list-group-item list-group-item-action" id="categoryBestWaystoAvoidMissingOutonThatICO" href="https://myetherwallet.github.io/knowledge-base/best-of/how-not-to-miss-out-on-ico.html" title="Best Ways to Avoid Missing Out on That ICO">Best Ways to Avoid Missing Out on That ICO</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/taylors-ico-tweetstorm.html" title="Taylor&#x27;s ICO Tweetstorm">Taylor&#x27;s ICO Tweetstorm</a>
+              <a class="list-group-item list-group-item-action" id="categoryTaylorsICOTweetstorm" href="https://myetherwallet.github.io/knowledge-base/best-of/taylors-ico-tweetstorm.html" title="Taylor&#x27;s ICO Tweetstorm">Taylor&#x27;s ICO Tweetstorm</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/dunning-krugerrands-fud-list-of-doom.html" title="/u/Dunning_Krugerrands&#x27;s &#x27;FUD list of doom&#x27; from early 2016">/u/Dunning_Krugerrands&#x27;s &#x27;FUD list of doom&#x27; from early 2016</a>
+              <a class="list-group-item list-group-item-action" id="categoryuDunningKrugerrandssFUDlistofdoomfromearly2016" href="https://myetherwallet.github.io/knowledge-base/best-of/dunning-krugerrands-fud-list-of-doom.html" title="/u/Dunning_Krugerrands&#x27;s &#x27;FUD list of doom&#x27; from early 2016">/u/Dunning_Krugerrands&#x27;s &#x27;FUD list of doom&#x27; from early 2016</a>
             </li>
             <li>
-              <a class="list-group-item list-group-item-action" href="https://myetherwallet.github.io/knowledge-base/best-of/investing-responsibly-by-brian-armstrong-coinbase.html" title="Investing Responsibly (by Brian Armstrong / Coinbase)">Investing Responsibly (by Brian Armstrong / Coinbase)</a>
+              <a class="list-group-item list-group-item-action" id="categoryInvestingResponsiblybyBrianArmstrongCoinbase" href="https://myetherwallet.github.io/knowledge-base/best-of/investing-responsibly-by-brian-armstrong-coinbase.html" title="Investing Responsibly (by Brian Armstrong / Coinbase)">Investing Responsibly (by Brian Armstrong / Coinbase)</a>
             </li>
       </ul>
 
@@ -382,6 +388,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 

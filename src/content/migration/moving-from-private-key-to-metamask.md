@@ -51,7 +51,7 @@ Damn!
 
 1. You can now see your brand new account, balance, and transaction history. To transfer your funds from your old account to your newly setup MetaMask wallet, head to [MyEtherWallet.com](https://www.myetherwallet.com/#send-transaction).
 
-2. First, check to be sure you are on the correct site. Is the URL www.myetherwallet.com? Does it say MYETHERWALLET LLC [US] in the URL bar? Does the URL have any funky characters or is it mispelled (e.g. myehterwallet)?
+2. First, check to be sure you are on the correct site. Is the URL www.myetherwallet.com? Does it say MYETHERWALLET Inc [US] in the URL bar? Does the URL have any funky characters or is it mispelled (e.g. myehterwallet)?
 
 3. No? Okay! Onwards!
 
@@ -85,5 +85,3 @@ Damn!
 
 
 ### [Read more about transferring funds](https://myetherwallet.github.io/knowledge-base/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
-
-

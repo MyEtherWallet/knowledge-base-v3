@@ -14,7 +14,6 @@
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-help-and-quicktips.html" property="og:url">
 <meta content="https://myetherwallet.github.io/knowledge-base/getting-started/myetherwallet-help-and-quicktips.html" name="twitter:url">
 <link href="https://myetherwallet.github.io/knowledge-base/kb-master.min.css" rel="stylesheet">
-<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 <meta name="description" content="Getting Started">
 <meta property="og:description" content="Getting Started">
 <meta name="twitter:description" content="Getting Started">
@@ -43,9 +42,6 @@
 <meta name="twitter:site" content="@MyEtherWallet">
 <meta name="twitter:creator" content="@MyEtherWallet">
 </head>
-
-
-
 
 <body class="single page">
 
@@ -111,7 +107,7 @@
   "@context": "http://schema.org",
   "@type" : "Organization",
   "name" : "MyEtherWallet",
-  "legalName" : "MyEtherWallet LLC",
+  "legalName" : "MyEtherWallet Inc",
   "url" : "https://www.myetherwallet.com/",
   "contactPoint" : [{
     "@type" : "ContactPoint",
@@ -137,6 +133,9 @@
 
 <!-- Header -->
 <header class="header">
+  <div class="languageWarn" id="languageWarn">
+    <span id="redWarning"> Not all articles have been translated! Wanna help? </span> <a href="https://github.com/MyEtherWallet/knowledge-base/blob/devop/add-translations/adding-translations.md" id="redWarningLink"> Click here to learn how! </a>
+  </div>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-sm-6">
@@ -144,13 +143,20 @@
           <img src="https://myetherwallet.github.io/knowledge-base/images/logo.svg" height="64px" width="245px" alt="MyEtherWallet" alt="MyEtherWallet Support">
         </a>
       </div>
-      <div class="col-sm-6 search__form">
+      <div class="col-sm-4 search__form">
         <div class="input-group">
           <input class="search__input form-control" type="search" name="search" size="50" placeholder="Search">
           <span class="input-group-btn">
             <button class="search__button btn btn-primary">Search</button>
           </span>
         </div>
+      </div>
+      <div class="col-sm-2" style='text-align: right;'>
+        <span class="dropdown dropdown-lang" onclick="displayOptions()" onfocusout="displayOptions()">
+          <a id="currentLang" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="change language. current language" class="dropdown-toggle btn btn-white"><i class="caret"></i></a>
+          <ul class="dropdown-menu" id="languagesDropdown">
+          </ul>
+        </span>
       </div>
     </div>
   </div>
@@ -181,138 +187,262 @@
     <main class="col-xs-12 page__main content">
       <br />
       <nav class="breadcrumbs">
-        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/">Home</a> › <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/"> Getting Started </a> › <span class="breadcrumbs__category">MyEtherWallet&#x27;s QuickTips</span>
+        <a class="breadcrumbs__home" href="https://myetherwallet.github.io/knowledge-base/" id="breadCrumbHome">Home</a> ›
+        <a class="breadcrumbs__category" href="https://myetherwallet.github.io/knowledge-base/getting-started/" id="breadCrumbCategoryTitle"> Getting Started </a> ›
+        <span class="breadcrumbs__category" id="articleMyEtherWalletsQuickTips">MyEtherWallet&#x27;s QuickTips</span>
       </nav>
 
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
-          <h1 class="page__title" itemprop="headline">MyEtherWallet&#x27;s QuickTips</h1>
+          <h1 class="page__title" itemprop="headline" id="articleTitleMyEtherWalletsQuickTips">MyEtherWallet&#x27;s QuickTips</h1>
           <div class="content">
-            <ol>
-<li><p>Hardware wallets ensure your key isn&#39;t vulnerable to phishers. Order a TREZOR or Ledger today!</p>
-</li>
-<li><p>This Chrome Extension warns you if you go to a malicious site: <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn">https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn</a></p>
-</li>
-<li><p>We have the MyEtherWallet Chrome Extension: <a href="https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm">https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm</a></p>
-</li>
-<li><p>[The MEW Philosophy] Education is Key: Ethereum, security, privacy, importance of controlling your keys &amp; how the blockchain works</p>
-</li>
-<li><p>[The MEW Philosophy] Empower the people: Give people the ability to interact with the Ethereum blockchain without having to run a full node</p>
-</li>
-<li><p>[The MEW Philosophy] If it can be hacked, it will be hacked: Never save, store, or transmit passwords or keys</p>
-</li>
-<li><p>[The MEW Philosophy] Make it easy &amp; free: Everyone should be able to create an account and send Ether &amp; Tokens</p>
-</li>
-<li><p>[The MEW Philosophy] People are the Priority: You are the most important. If monetization leads to a worse user experience, we don&#39;t do it</p>
-</li>
-<li><p>[The MEW Philosophy] Private: No tracking, ads, demographics! We don&#39;t know who you are, what you do on our site, nor where you are</p>
-</li>
-<li><p>Always check that you are on the correct URL. (e.g. myetherwallet.com)</p>
-</li>
-<li><p>Always double-check what you are sending, how much you are sending &amp; what address you are sending to.</p>
-</li>
-<li><p>Back up your key in a separate location BEFORE sending ETH/Tokens to it</p>
-</li>
-<li><p>Be VERY careful entering your private key on ANY site</p>
-</li>
-<li><p>Before sending to a third-party or using a new service, always Google the service name + &quot;scam&quot; or &quot;reviews&quot;</p>
-</li>
-<li><p>Bookmark your crypto sites. Use those bookmarks and only those.</p>
-</li>
-<li><p>Brain wallets (where you choose the seed) are not secure. Human brains cannot generate entropy. Don&#39;t use brain wallets</p>
-</li>
-<li><p>Do not ever run remote-access software (e.g. TeamViewer)</p>
-</li>
-<li><p>Do not trust addresses or URLs. Always verify information w/ a secondary source</p>
-</li>
-<li><p>Do not trust any address except the one posted on the official site</p>
-</li>
-<li><p>Do you know another language? Help keep MEW translations up to date! <a href="https://www.reddit.com/r/ethereum/comments/4z55s2">https://www.reddit.com/r/ethereum/comments/4z55s2</a></p>
-</li>
-<li><p>Don&#39;t click on links from Slackbots or Slack DMs</p>
-</li>
-<li><p>Don&#39;t ever trade / buy / sell ETH via Paypal. They can file a dispute and take your money 90 days later</p>
-</li>
-<li><p>Don&#39;t trust DMs or Emails. We will never DM you or email except in response to you</p>
-</li>
-<li><p>Don&#39;t enter your private key to check your balance. Use <a href="https://etherscan.io/">https://etherscan.io/</a></p>
-</li>
-<li><p>Don’t click any link regarding crypto, money, banking. Always navigate directly.</p>
-</li>
-<li><p>Don’t click on advertisements.</p>
-</li>
-<li><p>Double check the URL: it&#39;s always <a href="https://www.myetherwallet.com">https://www.myetherwallet.com</a></p>
-</li>
-<li><p>Follow us on Twitter for important alerts: <a href="https://twitter.com/myetherwallet">https://twitter.com/myetherwallet</a></p>
-</li>
-<li><p>For new accounts, especially cold storage, send small amount in &amp; out</p>
-</li>
-<li><p><a href="https://ethplorer.io/">https://ethplorer.io/ allows you to easily see token balances and transfers</a> allows you to easily see token balances and transfers</p>
-</li>
-<li><p>If you ever have an Issue with you Swap, click the orange &quot;Issue with your Swap?&quot; button on the Swap page. This will get you help fastest!</p>
-</li>
-<li><p>If you have accidentally visited or typed a malicious site, clean out your recent history and autocomplete</p>
-</li>
-<li><p>If you mistyped your private key, you can try the tool at the bottom of our helpers page: <a href="https://www.myetherwallet.com/helpers.html">https://www.myetherwallet.com/helpers.htm</a></p>
-</li>
-<li><p>Install an adblocker that actually turns off Google/Bing Ads</p>
-</li>
-<li><p>Keystore File (UTC / JSON): This is encrypted by your password. It matches the format used by Mist so you can easily import it in the future</p>
-</li>
-<li><p>MEW is client-side / serverless. We are 100% open source &amp; audit-able by all</p>
-</li>
-<li><p>MEW supports viewing &amp; sending all ERC-20 Tokens. You can add them yourself</p>
-</li>
-<li><p>Mnemonic Phrases derive an infinite number of addresses &amp; private keys</p>
-</li>
-<li><p>Never email your private key or keep it in cloud storage. Print it out or get a hardware wallet instead</p>
-</li>
-<li><p>Never enter your private keys, passwords, sensitive data on a website that you were sent via message</p>
-</li>
-<li><p>Never hand type your private key / keystore file. Double-check the words for mnemonic keys if hand typing</p>
-</li>
-<li><p>Never hand-type your address. (If you mistype, your ETH could be lost forever!)</p>
-</li>
-<li><p>Never invest more than you are willing to lose, then you can enjoy the ride ?</p>
-</li>
-<li><p>No one is giving you free or discounted ETH. Even for completing a survey</p>
-</li>
-<li><p>ONLY unlock your wallet when you want to send a transaction</p>
-</li>
-<li><p>Our helpers page is full of nifty helpers, like WEI &lt;-&gt; ETH converter and debugging ENS reveals! <a href="https://www.myetherwallet.com/helpers.html">https://www.myetherwallet.com/helpers.htm</a></p>
-</li>
-<li><p>Phishers try to trick you with scary messages. Don&#39;t fall for them</p>
-</li>
-<li><p>Private Key (unencrypted): The unencrypted text version of your private key, meaning no PW is necessary. Keep it <em>offline</em>, like on <em>paper</em>!</p>
-</li>
-<li><p>Pro-tip: When asking for help, be nice. Grouchy-pants get helped slower than a 1 GWEI TX on a token sale day. ??</p>
-</li>
-<li><p>See what gas price you should use at <a href="http://ethgasstation.info">http://ethgasstation.info</a></p>
-</li>
-<li><p>Send a test transaction first &amp; make sure it arrives at intended destination before sending all the ETH</p>
-</li>
-<li><p>Store backups of you Keystore file version &amp; paper wallet in physically separate, offline environments</p>
-</li>
-<li><p>The best passwords are strong &amp; easy to remember. If you store your password with your keystore file, it&#39;s pretty much useless</p>
-</li>
-<li><p>The TX fee = gas price * gas limit &amp; is paid to miners for including your TX in a block. Higher gas price = faster TX, but more expensive</p>
-</li>
-<li><p>Turn on 2FA for <em>everything</em> today. Go do it. Right now</p>
-</li>
-<li><p>Use the version of your address that has uppercase letters. It has a checksum</p>
-</li>
-<li><p>Want to dive deeper? Check out our friends at <a href="https://theethereum.wiki">https://theethereum.wiki</a></p>
-</li>
-<li><p>Want to dive deeper? Check out this list: <a href="https://github.com/Scanate/EthList/blob/master/README.md">https://github.com/Scanate/EthList/blob/master/README.md</a></p>
-</li>
-<li><p>Worried about your device being compromised? Get yourself a Ledger or Trezor Hardware Wallet</p>
-</li>
-<li><p>You can connect to MEW&#39;s, Etherscan&#39;s, Infura&#39;s or <em>your own</em> nodes via MyEtherWallet.com. Click the dropdown in the top-right</p>
-</li>
-<li><p>You can run MEW locally instead of trusting our URL</p>
-</li>
-<li><p>You can turn your unencrypted private key into a keystore file via the MyEtherWallet Chrome Extension</p>
-</li>
-</ol>
+            <p id="mewQuickT_1">
+  1. Hardware wallets ensure your key isn&#39;t vulnerable to phishers. Order a TREZOR or Ledger today!
+</p>
+
+<p id="mewQuickT_2">
+  2. This Chrome Extension warns you if you go to a malicious site: <a href='https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn' target='_blank'>https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdf</a>
+</p>
+
+<p id="mewQuickT_3">
+  3. We have the MyEtherWallet Chrome Extension: <a href='https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm' target='_blank'>https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm</a>
+</p>
+
+<p id="mewQuickT_4">
+  4. [The MEW Philosophy] Education is Key: Ethereum, security, privacy, importance of controlling your keys &amp; how the blockchain works
+</p>
+
+<p id="mewQuickT_5">
+  5. [The MEW Philosophy] Empower the people: Give people the ability to interact with the Ethereum blockchain without having to run a full node
+</p>
+
+<p id="mewQuickT_6">
+  6. [The MEW Philosophy] If it can be hacked, it will be hacked: Never save, store, or transmit passwords or keys
+</p>
+
+<p id="mewQuickT_7">
+  7. [The MEW Philosophy] Make it easy &amp; free: Everyone should be able to create an account and send Ether &amp; Tokens
+</p>
+
+<p id="mewQuickT_8">
+  8. [The MEW Philosophy] People are the Priority: You are the most important. If monetization leads to a worse user experience, we don&#39;t do it
+</p>
+
+<p id="mewQuickT_9">
+  9. [The MEW Philosophy] Private: No tracking, ads, demographics! We don&#39;t know who you are, what you do on our site, nor where you are
+</p>
+
+<p id="mewQuickT_10">
+  10. Always check that you are on the correct URL. (e.g. myetherwallet.com)
+</p>
+
+<p id="mewQuickT_11">
+  11. Always double-check what you are sending, how much you are sending &amp; what address you are sending to.
+</p>
+
+<p id="mewQuickT_12">
+  12. Back up your key in a separate location BEFORE sending ETH/Tokens to it
+</p>
+
+<p id="mewQuickT_13">
+  13. Be VERY careful entering your private key on ANY site
+</p>
+
+<p id="mewQuickT_14">
+  14. Before sending to a third-party or using a new service, always Google the service name + &quot;scam&quot; or &quot;reviews&quot;
+</p>
+
+<p id="mewQuickT_15">
+  15. Bookmark your crypto sites. Use those bookmarks and only those.
+</p>
+
+<p id="mewQuickT_16">
+  16. Brain wallets (where you choose the seed) are not secure. Human brains cannot generate entropy. Don&#39;t use brain wallets
+</p>
+
+<p id="mewQuickT_17">
+  17. Do not ever run remote-access software (e.g. TeamViewer)
+</p>
+
+<p id="mewQuickT_18">
+  18. Do not trust addresses or URLs. Always verify information w/ a secondary source
+</p>
+
+<p id="mewQuickT_19">
+  19. Do not trust any address except the one posted on the official site
+</p>
+
+<p id="mewQuickT_20">
+  20. Do you know another language? Help keep MEW translations up to date!
+  <a href='https://www.reddit.com/r/ethereum/comments/4z55s2' target='_blank'>https://www.reddit.com/r/ethereum/comments/4z55s2</a>
+</p>
+
+<p id="mewQuickT_21">
+  21. Don&#39;t click on links from Slackbots or Slack DMs
+</p>
+
+<p id="mewQuickT_22">
+  22. Don&#39;t ever trade / buy / sell ETH via Paypal. They can file a dispute and take your money 90 days later
+</p>
+
+<p id="mewQuickT_23">
+  23. Don&#39;t trust DMs or Emails. We will never DM you or email except in response to you
+</p>
+
+<p id="mewQuickT_24">
+  24. Don&#39;t enter your private key to check your balance. Use <a href='https://etherscan.io/' target='_blank'> https://etherscan.io/</a>
+</p>
+
+<p id="mewQuickT_25">
+  25. Don’t click any link regarding crypto, money, banking. Always navigate directly.
+</p>
+
+<p id="mewQuickT_26">
+  26. Don’t click on advertisements.
+</p>
+
+<p id="mewQuickT_27">
+  27. Double check the URL: it&#39;s always <a href='https://www.myetherwallet.com'> https://www.myetherwallet.com</a>
+</p>
+
+<p id="mewQuickT_28">
+  28. Follow us on Twitter for important alerts: <a href='https://twitter.com/myetherwallet' target='_blank'>https://twitter.com/myetherwallet</a>
+</p>
+
+<p id="mewQuickT_29">
+  29. For new accounts, especially cold storage, send small amount in &amp; out
+</p>
+
+<p id="mewQuickT_30">
+  30. <a href='https://ethplorer.io/' target='_blank'>https://ethplorer.io/ allows you to easily see token balances and transfers</a> allows you to easily see token balances and transfers
+</p>
+
+<p id="mewQuickT_31">
+  31. If you ever have an Issue with you Swap, click the orange &quot;Issue with your Swap?&quot; button on the Swap page. This will get you help fastest!
+</p>
+
+<p id="mewQuickT_32">
+  32. If you have accidentally visited or typed a malicious site, clean out your recent history and autocomplete
+</p>
+
+<p id="mewQuickT_33">
+  33. If you mistyped your private key, you can try the tool at the bottom of our helpers page: <a href='https://www.myetherwallet.com/helpers.html' target='_blank'>https://www.myetherwallet.com/helpers.htm</a>
+</p>
+
+<p id="mewQuickT_34">
+  34. Install an adblocker that actually turns off Google/Bing Ads
+</p>
+
+<p id="mewQuickT_35">
+  35. Keystore File (UTC / JSON): This is encrypted by your password. It matches the format used by Mist so you can easily import it in the future
+</p>
+
+<p id="mewQuickT_36">
+  36. MEW is client-side / serverless. We are 100% open source &amp; audit-able by all
+</p>
+
+<p id="mewQuickT_37">
+  37. MEW supports viewing &amp; sending all ERC-20 Tokens. You can add them yourself
+</p>
+
+<p id="mewQuickT_38">
+  38. Mnemonic Phrases derive an infinite number of addresses &amp; private keys
+</p>
+
+<p id="mewQuickT_39">
+  39. Never email your private key or keep it in cloud storage. Print it out or get a hardware wallet instead
+</p>
+
+<p id="mewQuickT_40">
+  40. Never enter your private keys, passwords, sensitive data on a website that you were sent via message
+</p>
+
+<p id="mewQuickT_41">
+  41. Never hand type your private key / keystore file. Double-check the words for mnemonic keys if hand typing
+</p>
+
+<p id="mewQuickT_42">
+  42. Never hand-type your address. (If you mistype, your ETH could be lost forever!)
+</p>
+
+<p id="mewQuickT_43">
+  43. Never invest more than you are willing to lose, then you can enjoy the ride ?
+</p>
+
+<p id="mewQuickT_44">
+  44. No one is giving you free or discounted ETH. Even for completing a survey
+</p>
+
+<p id="mewQuickT_45">
+  45. ONLY unlock your wallet when you want to send a transaction
+</p>
+
+<p id="mewQuickT_46">
+  46. Our helpers page is full of nifty helpers, like WEI &lt;-&gt; ETH converter and debugging ENS reveals! <a href='https://www.myetherwallet.com/helpers.html' target='_blank'> https://www.myetherwallet.com/helpers.htm</a>
+</p>
+
+<p id="mewQuickT_47">
+  47. Phishers try to trick you with scary messages. Don&#39;t fall for them
+</p>
+
+<p id="mewQuickT_48">
+  48. Private Key (unencrypted): The unencrypted text version of your private key, meaning no PW is necessary. Keep it <em>offline</em>, like on <em>paper</em>!
+</p>
+
+<p id="mewQuickT_49">
+  49. Pro-tip: When asking for help, be nice. Grouchy-pants get helped slower than a 1 GWEI TX on a token sale day. ??
+</p>
+
+<p id="mewQuickT_50">
+  50. See what gas price you should use at <a href='http://ethgasstation.info' target='_blank'>http://ethgasstation.info</a>
+</p>
+
+<p id="mewQuickT_51">
+  51. Send a test transaction first &amp; make sure it arrives at intended destination before sending all the ETH
+</p>
+
+<p id="mewQuickT_52">
+  52. Store backups of you Keystore file version &amp; paper wallet in physically separate, offline environments
+</p>
+
+<p id="mewQuickT_53">
+  53. The best passwords are strong &amp; easy to remember. If you store your password with your keystore file, it&#39;s pretty much useless
+</p>
+
+<p id="mewQuickT_54">
+  54. The TX fee = gas price * gas limit &amp; is paid to miners for including your TX in a block. Higher gas price = faster TX, but more expensive
+</p>
+
+<p id="mewQuickT_55">
+  55. Turn on 2FA for <em>everything</em> today. Go do it. Right now
+</p>
+
+<p id="mewQuickT_56">
+  56. Use the version of your address that has uppercase letters. It has a checksum
+</p>
+
+<p id="mewQuickT_57">
+  57. Want to dive deeper? Check out our friends at <a href='https://theethereum.wiki' target='_blank'>https://theethereum.wiki</a>
+</p>
+
+<p id="mewQuickT_58">
+  58. Want to dive deeper? Check out this list: <a href='https://github.com/Scanate/EthList/blob/master/README.md' target='_blank'>https://github.com/Scanate/EthList/blob/master/README.md</a>
+</p>
+
+<p id="mewQuickT_59">
+  59. Worried about your device being compromised? Get yourself a Ledger or Trezor Hardware Wallet
+</p>
+
+<p id="mewQuickT_60">
+  60. You can connect to MEW&#39;s, Etherscan&#39;s, Infura&#39;s or <em>your own</em> nodes via MyEtherWallet.com. Click the dropdown in the top-right
+</p>
+
+<p id="mewQuickT_61">
+  61. You can run MEW locally instead of trusting our URL
+</p>
+
+<p id="mewQuickT_62">
+  62. You can turn your unencrypted private key into a keystore file via the MyEtherWallet Chrome Extension
+</p>
 
           </div>
 
@@ -537,6 +667,7 @@
     </section>
   </article>
 </footer>
+<script src="https://myetherwallet.github.io/knowledge-base/kb-master.min.js"></script>
 
 </body>
 
