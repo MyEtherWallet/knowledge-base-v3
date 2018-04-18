@@ -70,7 +70,7 @@ var Korean = {
   "howToProtectYourselfFromPhishing_1": "피셔들은 대개 마이이더월렛(MyEtherWallet), 이더델타( EtherDelta), 페이팔 (Paypal), 또는 귀하가 이용하고 있는 은행과 비슷하지만 실제가 아닌 웹사이트 링크를 보냅니다. 그들은 그 웹사이트를 통해 정보를 캐내고 귀하의 자금을 갈취합니다.",
   "howToProtectYourselfFromPhishing_2": "유해한 웹사이트를 차단하려면 <a href='https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn' target='_blank'>EAL</a> 또는 메타마스크(<a href='https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html' target='_blank'> MetaMask </a>) 크롬 확장 프로그램을 사용하십시오.",
   "howToProtectYourselfFromPhishing_3": "항상 URL을 확인하십시오: <code> https://www.myetherwallet.com </code>.",
-  "howToProtectYourselfFromPhishing_4": "항상 URL 표시 줄에 <code>MYETHERWALLET LLC [US]</code> 이 녹색으로 표시되어 있는지 확인하십시오.",
+  "howToProtectYourselfFromPhishing_4": "항상 URL 표시 줄에 <code>MyEtherWallet Inc [US]</code> 이 녹색으로 표시되어 있는지 확인하십시오.",
   "howToProtectYourselfFromPhishing_5": "이메일, 슬랙(Slack), 레딧(Reddit), 트위터(Twitter) 등을 통해 임의로 보내진 메시지 또는 링크를 신뢰하지 마십시오.",
   "howToProtectYourselfFromPhishing_6": "정보를 입력하기 전에 항상 사이트로 직접 이동하십시오. 메시지 또는 전자 메일에서 링크를 클릭한 후에는 정보를 입력하지 마십시오.",
   "howToProtectYourselfFromPhishing_7": "애드블로커(<a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en' target='_blank'> AdBlocker</a>)를 설치하고 검색 엔진(예: 구글)에서 광고를 클릭하지 마십시오.",

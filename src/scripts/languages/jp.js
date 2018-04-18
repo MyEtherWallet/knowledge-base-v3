@@ -70,7 +70,7 @@ var Japanese = {
   "howToProtectYourselfFromPhishing_1": "フィッシャーはウェブサイトへのリンク付きのメッセージをあなたに送ります。リンク先のウェブサイトは、MyEtherWallet、EtherDelta、Paypalやあなたが利用している銀行とそっくり同じに見えますが、本物のウェブサイトではありません。彼らはあなたの情報を盗み、そしてあなたのお金を盗みます。",
   "howToProtectYourselfFromPhishing_2": "悪意のあるウェブサイトをブロックするために、Chromeエクステンションである<a href='https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn' target='_blank'>EAL</a> や <a href='https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html' target='_blank'> MetaMask </a>を 利用してください。",
   "howToProtectYourselfFromPhishing_3": "常に URL: <code> https://www.myetherwallet.com </code> を確認してください。",
-  "howToProtectYourselfFromPhishing_4": "常に URLバーが <code>MYETHERWALLET LLC [US]</code> グリーンで表示されていることを確認してください。",
+  "howToProtectYourselfFromPhishing_4": "常に URLバーが <code>MyEtherWallet Inc [US]</code> グリーンで表示されていることを確認してください。",
   "howToProtectYourselfFromPhishing_5": "メッセージや、メール、Slack、Reddit、Twitter等でランダムに送られてくるリンクを信用しないでください。",
   "howToProtectYourselfFromPhishing_6": "情報を入力する前には、常に直接サイトにアクセスするようにしてください。メッセージやメールのリンクをクリックした後に、情報を入力してはいけません。",
   "howToProtectYourselfFromPhishing_7": "<a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en' target='_blank'> AdBlockerをインストール </a> して、検索エンジン（Google 等）の広告をクリックしないで下さい。",

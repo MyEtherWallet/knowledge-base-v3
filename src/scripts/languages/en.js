@@ -70,7 +70,7 @@ var English = {
   "howToProtectYourselfFromPhishing_1": "Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.",
   "howToProtectYourselfFromPhishing_2": "Use the <a href='https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn' target='_blank'>EAL</a> or <a href='https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html' target='_blank'> MetaMask </a> Chrome Extension to block malicious websites.",
   "howToProtectYourselfFromPhishing_3": "Always check the URL:  <code> https://www.myetherwallet.com </code>.",
-  "howToProtectYourselfFromPhishing_4": "Always make sure the URL bar has <code>MYETHERWALLET LLC [US]</code> in green.",
+  "howToProtectYourselfFromPhishing_4": "Always make sure the URL bar has <code>MyEtherWallet Inc [US]</code> in green.",
   "howToProtectYourselfFromPhishing_5": "Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.",
   "howToProtectYourselfFromPhishing_6": "Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.",
   "howToProtectYourselfFromPhishing_7": "<a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en' target='_blank'> Install an AdBlocker</a> and do not click ads on your search engine (e.g. Google).",
