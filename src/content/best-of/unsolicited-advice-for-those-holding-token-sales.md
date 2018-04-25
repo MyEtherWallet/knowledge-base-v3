@@ -81,8 +81,7 @@ You are free to use, modify, or shamelessely steal any information in our knowle
 
 - Starter template on  what to tell people who get phished: [https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html](https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html)
 
-![](https://s3.amazonaws.com/groovehq/uploaded/5ad1awvinnwksqtyd3hmisnz7fp3pfd7ju23jyi4y6ccuir79f?1505121643)
-
+![](../../images/best-of/unsolicited-advice-for-those-holding-token-sales.png)
 
 - Suggestions in this discussion to move to other platforms with better anti-spam tools
 [ https://github.com/aragon/governance/issues/7]( https://github.com/aragon/governance/issues/7).
@@ -113,5 +112,3 @@ You are free to use, modify, or shamelessely steal any information in our knowle
 - Slack has not been very receptive to our requests for better anti-spam solutions because Slack is designed for groups of people/businesses where everyone knows each other. They don't build anti-spam tools because they did not anticipate their platform would be used in this way.
 
 - Swarm City added a short form in lieu of the Slack Invite, with 2 questions. 1. A way to contact them. 2. Someone in our community who can vouch for them. We’ve had no issues since. [http://slackinvite.swarm.city/](http://slackinvite.swarm.city/)
-
-

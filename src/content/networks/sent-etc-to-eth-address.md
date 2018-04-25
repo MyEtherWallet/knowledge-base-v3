@@ -1,5 +1,5 @@
 {
-"title" : "Access ETH sent to ETC address or ETC sent to ETH address",
+"title" : "Access ETH sent to ETC address or ETC sent to ETH address 🎥",
 "sort" : "02",
 "category" : "Networks & Nodes",
 "description" : "Networks & Nodes",
