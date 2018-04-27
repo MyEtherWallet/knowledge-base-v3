@@ -84,4 +84,4 @@ Damn!
 
 
 
-### [Read more about transferring funds](https://kb.myetherwallet.com/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
+### [Read more about transferring funds](https://kb.myetherwallet.com/?search=how%20do%20i%20send%20ether%20from%20one%20wallet%20to%20another).
