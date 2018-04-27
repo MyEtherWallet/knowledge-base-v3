@@ -24,7 +24,7 @@
 *  Mist:                      [Gitter](https://gitter.im/ethereum/mist)
 *  Parity:                    [Github](https://github.com/paritytech/parity) · [Gitter](https://gitter.im/paritytech/parity)
 *  Metamask:                  [Slack](https://metamask-slack-autoinvite.herokuapp.com/) · [Support](https://support.metamask.io/new)
-*  MyEtherWallet:             [Website](https://www.myetherwallet.com/) · [FAQ](https://myetherwallet.github.io/knowledge-base/) · [Support](mailto:support@myetherwallet.com)
+*  MyEtherWallet:             [Website](https://www.myetherwallet.com/) · [FAQ](https://kb.myetherwallet.com/) · [Support](mailto:support@myetherwallet.com)
 *  Jaxx:                      [Website](https://jaxx.io/) · [Support](https://decentral.zendesk.com/hc/en-us)
 *  Ledger Nano S:             [Website](https://www.ledgerwallet.com/) · [Support](https://ledger.zendesk.com/hc/en-us/requests/new)
 *  Trezor:                    [Website](https://trezor.io/) · [Gitter](https://gitter.im/trezor/community) · [Support](mailto:support@trezor.io)
@@ -40,10 +40,10 @@
 *  Changelly:                 [Website](https://changelly.com/about) · [Support](mailto:support@changelly.com)
 *  Coinbase:                  [Support](https://support.coinbase.com/)
 *  Gemini:                    [Support](https://gemini24.zendesk.com/hc/en-us/requests/new) · [FAQ](https://gemini24.zendesk.com/hc/en-us)
-*  HitBTC:                    [Website](https://hitbtc.com/) · [Support](https://support.hitbtc.com/hc/en-us) 
-*  Huobi:                     [Website](https://www.huobi.pro/) · [Support](mailto:support@huobi.pro) 
+*  HitBTC:                    [Website](https://hitbtc.com/) · [Support](https://support.hitbtc.com/hc/en-us)
+*  Huobi:                     [Website](https://www.huobi.pro/) · [Support](mailto:support@huobi.pro)
 *  Kraken:                    [Support](https://support.kraken.com/hc/en-us)
-*  Kucoin:                    [Website](https://www.kucoin.com/#/) · [Support](http://kucoin.udesk.cn/im_client/?web_plugin_id=36121&language=en-us) 
+*  Kucoin:                    [Website](https://www.kucoin.com/#/) · [Support](http://kucoin.udesk.cn/im_client/?web_plugin_id=36121&language=en-us)
 *  Liqui:                     [Website](https://liqui.io/) ·[Support](https://liqui.freshdesk.com/support/home)
 *  Poloniex:                  [Support](https://poloniex.com/support/)
 *  Shapeshift:                [Slack](https://shapeshiftcommunity.herokuapp.com/) · [Reddit](https://www.reddit.com/r/shapeshiftio) · [Support](https://shapeshift.zendesk.com/hc/en-us/requests/new)
@@ -275,6 +275,3 @@
 *  XUAR / Xaurum                   : [Web](http://www.xaurum.org/)
 *  ZAP                             : [Web](https://zap.store/) · [Support](mailto:hello@zapproject.org) · [Github](https://github.com/zapproject/)
 *  ZST / Zeus Exchange             : [Web](http://zeus.exchange/) · [Support](mailto:info@zeus.exchange) · [Facebook](https://facebook.com/Zeus-Exchange-158864051329242/) · [Telegram](https://t.me/joinchat/B8kRS0IMUdyEVi9CxH7Djw) · [Twitter](https://twitter.com/ExchangeZeus)
-
-
-

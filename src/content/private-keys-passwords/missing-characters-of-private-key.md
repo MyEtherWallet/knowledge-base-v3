@@ -42,29 +42,29 @@ You should see the following:
 
 ```
 $ node /Users/tay/Desktop/brute_force_8_char.js
- 
- searching for address : 0x06A85356DCb5b307096726FB86A78c59D38e08ee 
- base private key      : afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b15781404 
- missing chars         : 8 
- it will be quiet now. if you don't see anything below me, it's working on finding your key. 
- If you see something below that doesn't say 'FOUND KEY!', you have an error 
+
+ searching for address : 0x06A85356DCb5b307096726FB86A78c59D38e08ee
+ base private key      : afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b15781404
+ missing chars         : 8
+ it will be quiet now. if you don't see anything below me, it's working on finding your key.
+ If you see something below that doesn't say 'FOUND KEY!', you have an error
 ```
 
 When it's done it will show:
 
 ```
- ********************************** FOUND PRIVATE KEY: afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890 
- matching address 0x06A85356DCb5b307096726FB86A78c59D38e08ee 
+ ********************************** FOUND PRIVATE KEY: afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890
+ matching address 0x06A85356DCb5b307096726FB86A78c59D38e08ee
 ```
 
 - If you see anything besides that, you have an error and it's not longer searching for your key.
 - If the error says, "Invalid private key", the key snippet your provided is invalid. It must be hex characters.
 - If you get an "out of memory" error, have to go to work, or your computer turns off, no worries. Just run it again.
 - If your command line is still open, hit the up arrow key and then enter to quickly run it again.
-- On a macbook pro, it will take seconds to find 1, 2, 3, or 4 missing characters. 
-- It takes ~15mins to find 6 digits. 
+- On a macbook pro, it will take seconds to find 1, 2, 3, or 4 missing characters.
+- It takes ~15mins to find 6 digits.
 - It will ~3 days to find 8
- 
+
 
 ### The code for this is here: [https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8](https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8) or below:
 
@@ -124,6 +124,6 @@ for(var i = 0; i <= maxVal; i++){
 
 - Finding multiple missing characters in private key: https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a
 
-- Find multiple missing characters of the very end of a private key: https://myetherwallet.github.io/knowledge-base/private-keys-passwords/missing-characters-of-private-key.html
+- Find multiple missing characters of the very end of a private key: https://kb.myetherwallet.com/private-keys-passwords/missing-characters-of-private-key.html
 
-- Find 1 missing character anywhere in private key (fast): https://myetherwallet.github.io/knowledge-base/private-keys-passwords/accessing-different-address-same-private-key-ether.html
+- Find 1 missing character anywhere in private key (fast): https://kb.myetherwallet.com/private-keys-passwords/accessing-different-address-same-private-key-ether.html

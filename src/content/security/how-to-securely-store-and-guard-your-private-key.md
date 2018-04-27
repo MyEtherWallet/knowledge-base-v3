@@ -20,7 +20,7 @@ This guide assumes that you just received a Trezor and Cryptosteel in the mail. 
 
 ### Onwards
 
-This is awesome that you already ordered a [hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! Of course, you have to recognize the serious responsibility that comes from holding your own private key. If you lose it, make a mistake, forget your passphrase, etc, no one can save you, truly you are in control of your own destiny :)
+This is awesome that you already ordered a [hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)! Of course, you have to recognize the serious responsibility that comes from holding your own private key. If you lose it, make a mistake, forget your passphrase, etc, no one can save you, truly you are in control of your own destiny :)
 
 ### Terminology -- Mnemonic
 

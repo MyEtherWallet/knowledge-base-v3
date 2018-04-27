@@ -26,7 +26,7 @@ One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and ma
 </ul>
 
 <p id="pyayfp_2">
-If you don't want one of these nifty devices, use <a href='https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html' target='_blank'>cold storage </a> for a majority of your savings. Please. Pretty please.
+If you don't want one of these nifty devices, use <a href='https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html' target='_blank'>cold storage </a> for a majority of your savings. Please. Pretty please.
 </p>
 
 ### 2. Bookmark your crypto sites.
@@ -38,7 +38,7 @@ If you don't want one of these nifty devices, use <a href='https://myetherwallet
 
 ### 3. Install [the EAL Chrome Extension](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or the [MetaMask Chrome Extension](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) to warn you if you go to a crypto-phishing link.
 
-### 4. [Use MEW Locally / Offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html).
+### 4. [Use MEW Locally / Offline](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html).
 
 ### 5. Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 <ul>

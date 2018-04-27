@@ -12,9 +12,9 @@
 
 **The quickest answer is: luckily, you don't have to trust us!**
 
-- [You can run us offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html).
+- [You can run us offline](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html).
 
-- [Use a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)
+- [Use a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)
 
 These both ensure that your keys never touch an internet connected device which means we couldn't steal them even if we wanted to, or if our site itself was compromised in some way.
 

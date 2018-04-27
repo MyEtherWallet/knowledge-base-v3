@@ -30,11 +30,11 @@
 
 This is too much for one post so help spread the word: Private keys are *private*. Use hardware wallets. Use cold storage. Go offline. Check URLs.
 
-*   [Creating a wallet offline is the shit](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html)
+*   [Creating a wallet offline is the shit](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html)
 
-*   [Getting a](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html) [Ledger or Trezor Hardware Wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) is even better.
+*   [Getting a](https://kb.myetherwallet.com/getting-started/creating-a-new-wallet-on-myetherwallet.html) [Ledger or Trezor Hardware Wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html) is even better.
 
-*   [You can sign transactions offline so your key never touches a phishing site!](https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html)
+*   [You can sign transactions offline so your key never touches a phishing site!](https://kb.myetherwallet.com/offline/making-offline-transaction-on-myetherwallet.html)
 
 - Install EAL to block malicious / phishing sites: [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 
@@ -48,9 +48,9 @@ This is too much for one post so help spread the word: Private keys are *private
 
 *   Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 
-*   Guide on [How to Prevent Loss & Theft](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html).
+*   Guide on [How to Prevent Loss & Theft](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html).
 
-*   [Protips: How not to get scammed](https://myetherwallet.github.io/knowledge-base/security/myetherwallet-protips-how-not-to-get-scammed-during-ico.html) *(needs cleanup and to be more generic)*
+*   [Protips: How not to get scammed](https://kb.myetherwallet.com/security/myetherwallet-protips-how-not-to-get-scammed-during-ico.html) *(needs cleanup and to be more generic)*
 
 
 ### 3. Report the absolute living daylights out of the malicious URLs
@@ -122,7 +122,7 @@ This is too much for one post so help spread the word: Private keys are *private
 
 - **Other References:**
 
-    - [https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html](https://myetherwallet.github.io/knowledge-base/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html)
+    - [https://kb.myetherwallet.com/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html](https://kb.myetherwallet.com/security/phish-hacks-thefts-and-stolen-funds-due-to-phishing.html)
 
     - [https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn (Anti-Phishing CX)](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn (Anti-Phishing CX))
 

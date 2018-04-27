@@ -23,7 +23,7 @@
 
 _[source](https://blog.trezor.io/why-you-should-never-use-google-authenticator-again-e166d09d4324)_
 
-All of this work is done so that you are _authorized_ to access the information stored on the servers of the service you are using. 
+All of this work is done so that you are _authorized_ to access the information stored on the servers of the service you are using.
 
 ### The Blockchain & MEW
 
@@ -33,6 +33,6 @@ In order to implement it, we would need to store your key and protect it on our 
 
 If this is functionality that you do want, feel free to use any exchange / hosted wallet like Coinbase, Kraken, Poloniex, Bittrex, Bitfinex, Gemini, and so forth. Just be aware of the risk of letting someone hold your keys, and in turn, 2FA codes, for you.
 
-### Or, you know, spend the <$100 and get a [hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html). It's worth it. You can use it for 2FA on other services and to ensure the safety and security of your funds. 
+### Or, you know, spend the <$100 and get a [hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html). It's worth it. You can use it for 2FA on other services and to ensure the safety and security of your funds. 
 
 More information: https://github.com/kvhnuke/etherwallet/issues/292

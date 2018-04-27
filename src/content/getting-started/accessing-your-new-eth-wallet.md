@@ -80,15 +80,15 @@
 
 <ul>
   <li id="relatedReading_3">
-    <a href="https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html" target="_blank">Backing up your wallet</a>
+    <a href="https://kb.myetherwallet.com/getting-started/backing-up-your-new-wallet.html" target="_blank">Backing up your wallet</a>
   </li>
   <li id="relatedReading_4">
-    <a href=https://myetherwallet.github.io/knowledge-base/send/"" target="_blank">Sending ETH & Tokens</a>
+    <a href="https://kb.myetherwallet.com/send/how-to-send-transaction.html" target="_blank">Sending ETH & Tokens</a>
   </li>
   <li id="relatedReading_5">
-    <a href="https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html" target="_blank">Protecting Yourself and Your Funds</a>
+    <a href="https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html" target="_blank">Protecting Yourself and Your Funds</a>
   </li>
   <li id="relatedReading_6">
-    <a href="https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html" target="_blank">Difference between an exchange and MyEtherWallet</a>
+    <a href="https://kb.myetherwallet.com/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html" target="_blank">Difference between an exchange and MyEtherWallet</a>
   </li>
 </ul>

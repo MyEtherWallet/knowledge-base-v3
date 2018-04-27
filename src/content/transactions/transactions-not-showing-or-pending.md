@@ -18,13 +18,13 @@ There is simply not enough space in the blocks for the miners to mine all the tr
 
 *  [See all the transactions that are pending here](https://etherscan.io/txsPending)
 
-*  [Learn about **Gas**, **TX Fees**, and how to get your TX to go thru](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
+*  [Learn about **Gas**, **TX Fees**, and how to get your TX to go thru](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)
 
-*  [Replace a **pending TX** that you sent with too low gas](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)
+*  [Replace a **pending TX** that you sent with too low gas](https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html)
 
 *  [See what the **optimal gas price** is here (at 12/07/2017 @ 12:00am PT it was **61** GWEI)](https://ethgasstation.info/)
 
-*  [Learn about **Nonce** and how it controls which transactions are mined, or not mined](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html)
+*  [Learn about **Nonce** and how it controls which transactions are mined, or not mined](https://kb.myetherwallet.com/transactions/what-is-nonce.html)
 
 
 ### Other Tips

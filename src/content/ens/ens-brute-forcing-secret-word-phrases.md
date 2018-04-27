@@ -24,7 +24,7 @@ The domain being bid on, the account, the amount, and the three word secret are 
 
 I'm posting this in case anyone else is finding themselves in the same situation, this might help prevent loss of your bid amount.
 
-What you need to know is the account you bid from and the amount, this will not work without that information. If you have that then go to [section 1 of this troubleshooting page](https://myetherwallet.github.io/knowledge-base/ens/ens-debugging-a-bad-instruction-reveal.html) and follow the instructions in order to get the `New Bid Data` string which is the combination of the `MethodId:" and "[0]:` from your bid transaction.
+What you need to know is the account you bid from and the amount, this will not work without that information. If you have that then go to [section 1 of this troubleshooting page](https://kb.myetherwallet.com/ens/ens-debugging-a-bad-instruction-reveal.html) and follow the instructions in order to get the `New Bid Data` string which is the combination of the `MethodId:" and "[0]:` from your bid transaction.
 
 Once you have that all you need to do is replace the information that the four variables at the top of the python script are currently set to. The variable names correspond with the fields under the ENS Debugger on the [MEW Helpers Page](https://www.myetherwallet.com/helpers.html).
 

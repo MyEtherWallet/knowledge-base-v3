@@ -10,16 +10,16 @@
 ---%
 
 If you plan to move a large amount of Ether or tokens, you should send a test transaction of a small amount to the destination wallet first to ensure everything goes as planned.
-Optional, but **highly recommended** (if you haven't already) Install [MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html) or [EtherAddressLookup Chrome Extension](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB) to protect yourself from malicious websites around the crypto space that will steal your private keys. Or even better, think about getting yourself a hardware wallet. You have hundreds, thousands of dollars online, you might as well spend a little bit more money to ensure that your funds are safe.
+Optional, but **highly recommended** (if you haven't already) Install [MetaMask](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html) or [EtherAddressLookup Chrome Extension](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn?hl=en-GB) to protect yourself from malicious websites around the crypto space that will steal your private keys. Or even better, think about getting yourself a hardware wallet. You have hundreds, thousands of dollars online, you might as well spend a little bit more money to ensure that your funds are safe.
 
 1. Navigate to the [Send Ether & Tokens page](https://www.myetherwallet.com/#send-transaction)
-2. Select how you would like to [access your wallet and unlock it](https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html).
+2. Select how you would like to [access your wallet and unlock it](https://kb.myetherwallet.com/getting-started/accessing-your-new-eth-wallet.html).
 3. If you installed MetaMask earlier, set up your system to unlock your wallet safely in just one click. Because of how fast & easy it is, we strongly recommend this method.
 4. Enter the address you would like to send to in the "To Address:" field.
 5. If sending a Token (if its just ETH, move onto step 6):
    1. Select which token you would like to send.
    2. If you do not see the token listed:
-   3. In the sidebar, click [Add Custom Token](https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html).
+   3. In the sidebar, click [Add Custom Token](https://kb.myetherwallet.com/send/sending-and-adding-tokens.html).
    4. Enter the address, name, and decimals of the token. These are provided by the developers of the token and are also found on [ethplorer.io](https://ethplorer.io/)
    5. Click "Save".
    6. You can now send that token as well as see it's balance in the sidebar.
@@ -31,6 +31,6 @@ Optional, but **highly recommended** (if you haven't already) Install [MetaMask]
 
 Just as a reminder, any transaction that you make will require Gas which is paid in Ether. It is a transaction fee that is paid to the miners as an incentive to include your transactions in the blocks that they mine.
 
-For more information about Gas, [please click here](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html).
+For more information about Gas, [please click here](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html).
 
-During busy network times, [please read here for more information](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html). as to why your transaction is taking forever to get broadcasted onto the network.
+During busy network times, [please read here for more information](https://kb.myetherwallet.com/transactions/transactions-not-showing-or-pending.html). as to why your transaction is taking forever to get broadcasted onto the network.

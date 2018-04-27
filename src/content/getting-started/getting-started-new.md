@@ -163,7 +163,7 @@
 <li id="mewCantDo_3">  You don't have to rely on the security of an exchange or bank to keep your funds safe.  </li>
 <li id="mewCantDo_4">  If you don't find these things valuable, ask yourself why you think the blockchain and cryptocurrencies are valuable. 😉  </li>
 <li id="mewCantDo_5">  If you don't like the sound of this, consider using [Coinbase](https://www.coinbase.com/) or [Blockchain.info](https://blockchain.info/wallet/#/signup). They have more familiar accounts with usernames &amp; passwords.  </li>
-<li id="mewCantDo_6">  If you are scared but want to use MEW, [get a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.  </li>
+<li id="mewCantDo_6">  If you are scared but want to use MEW, [get a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.  </li>
 </ul>
 
 </div>
@@ -186,7 +186,7 @@
 Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.
 </p>
 <ul>
-<li id="howToProtectYourselfFromPhishing_2">  Use the [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html) Chrome Extension to block malicious websites.  </li>
+<li id="howToProtectYourselfFromPhishing_2">  Use the [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html) Chrome Extension to block malicious websites.  </li>
 <li id="howToProtectYourselfFromPhishing_3">  Always check the URL: `https://www.myetherwallet.com`.  </li>
 <li id="howToProtectYourselfFromPhishing_4">  Always make sure the URL bar has `MYETHERWALLET Inc [US]` in green.  </li>
 <li id="howToProtectYourselfFromPhishing_5">  Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.  </li>
@@ -244,7 +244,7 @@ Phishers send you a message with a link to a website that looks just like MyEthe
 <li id="howToProtectYourselfFromLoss_5">  If you have more than 1-week's worth of pay worth of cryptocurrency, get a hardware wallet. No excuses. It's worth it. I promise.  </li>
 </ul>
 
-<p><strong><a href="https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html" id="moreSecurityTips">More Security Tips!</a></strong></p>
+<p><strong><a href="https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html" id="moreSecurityTips">More Security Tips!</a></strong></p>
 
 </div>
 <div class="col col-sm-4 offset-sm-1">
@@ -263,19 +263,19 @@ Phishers send you a message with a link to a website that looks just like MyEthe
 </h3>
 
 <ul>
-<li>  [Get a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html).  </li>
-<li>  [How to set up MEW + MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html).  </li>
-<li>  [How to run MEW Offline / Locally](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html).  </li>
-<li>  [How to send via Ledger hardware wallet](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html).  </li>
-<li>  [How to send via TREZOR hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/trezor-sending-to-trezor-device.html).  </li>
-<li>  [How to send via MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html).  </li>
-<li>  [How to create a new wallet](https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html).  </li>
-<li>  [How to back up your wallet](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html).  </li>
-<li>  [How to verify you have access to the wallet](https://myetherwallet.github.io/knowledge-base/getting-started/accessing-your-new-eth-wallet.html).  </li>
-<li>  [How to send funds to your wallet](https://myetherwallet.github.io/knowledge-base/faq/buying-selling-exchanging-eth-tokens-fiat.html).  </li>
-<li>  [How to check your balance](https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html).  </li>
+<li>  [Get a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html).  </li>
+<li>  [How to set up MEW + MetaMask](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html).  </li>
+<li>  [How to run MEW Offline / Locally](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html).  </li>
+<li>  [How to send via Ledger hardware wallet](https://kb.myetherwallet.com/migration/moving-from-private-key-to-ledger-hardware-wallet.html).  </li>
+<li>  [How to send via TREZOR hardware wallet](https://kb.myetherwallet.com/hardware-wallets/trezor-sending-to-trezor-device.html).  </li>
+<li>  [How to send via MetaMask](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html).  </li>
+<li>  [How to create a new wallet](https://kb.myetherwallet.com/getting-started/creating-a-new-wallet-on-myetherwallet.html).  </li>
+<li>  [How to back up your wallet](https://kb.myetherwallet.com/getting-started/backing-up-your-new-wallet.html).  </li>
+<li>  [How to verify you have access to the wallet](https://kb.myetherwallet.com/getting-started/accessing-your-new-eth-wallet.html).  </li>
+<li>  [How to send funds to your wallet](https://kb.myetherwallet.com/faq/buying-selling-exchanging-eth-tokens-fiat.html).  </li>
+<li>  [How to check your balance](https://kb.myetherwallet.com/getting-started/checking-balance-of-my-account.html).  </li>
 <li>  [Prefer a video walkthrough? Here's one.](https://youtu.be/phht73IvUDI?t=58)  </li>
-<li>  [More Security Tips!](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)  </li>
+<li>  [More Security Tips!](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)  </li>
 </ul>
 
 </div>

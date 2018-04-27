@@ -63,7 +63,7 @@
 </ul>
 
 <p id="wtdbaeam_p10">
-  If this seems very overwhelming, <a href="https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html" target="_blank">we recommend purchasing a Ledger or TREZOR hardware wallet</a>. These help keep your keys safe and stored in an "offline" device, rather than on your computer. In this case, you don't have to worry about files or strings of characters; instead you just connect your hardware wallet to your computer.
+  If this seems very overwhelming, <a href="https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html" target="_blank">we recommend purchasing a Ledger or TREZOR hardware wallet</a>. These help keep your keys safe and stored in an "offline" device, rather than on your computer. In this case, you don't have to worry about files or strings of characters; instead you just connect your hardware wallet to your computer.
 </p>
 
 ---

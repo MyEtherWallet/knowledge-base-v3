@@ -13,4 +13,4 @@ In order to send data (e.g. sending tokens) with your transaction via your Ledge
 * On your device, open the Ethereum application
 * Enable the "Contract data"
 
-For more information about Using Ledger with MyEtherWallet, [please click here](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-ledger-hardware-wallet.html).
+For more information about Using Ledger with MyEtherWallet, [please click here](https://kb.myetherwallet.com/migration/moving-from-private-key-to-ledger-hardware-wallet.html).

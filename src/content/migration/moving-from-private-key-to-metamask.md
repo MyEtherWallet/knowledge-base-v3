@@ -80,8 +80,8 @@ Damn!
 
 ### Warning!
 
-*  If you are sending a huge amount of tokens or ETH, please send a small, test amount first. Or, consider [getting a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html) or [running MEW offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html). This ensures you are as secure as possible.
+*  If you are sending a huge amount of tokens or ETH, please send a small, test amount first. Or, consider [getting a hardware wallet](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html) or [running MEW offline](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html). This ensures you are as secure as possible.
 
 
 
-### [Read more about transferring funds](https://myetherwallet.github.io/knowledge-base/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).
+### [Read more about transferring funds](https://kb.myetherwallet.com/how-do-i-send-ether-from-one-wallet-to-another?from_search=true).

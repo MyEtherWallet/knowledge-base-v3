@@ -17,7 +17,7 @@ This error appears on [etherscan.io](https://etherscan.io) when a sender tries t
 
 #### Generally this is due to a few possible events:
 
-*   When adding a [custom token](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html):
+*   When adding a [custom token](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html):
     *   You specified the incorrect token contract address (resulting in an attempt to send a token that you have none of).
     *   You specified the incorrect token decimal (resulting in an attempt to send 50,000,000 of a token, as opposed to 5,000 of it).
 *   When sending a default token:
@@ -25,6 +25,6 @@ This error appears on [etherscan.io](https://etherscan.io) when a sender tries t
 
 #### How can I stop this from happening?
 
-*   Remove and [re-add the custom token](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html).
+*   Remove and [re-add the custom token](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html).
     *   Be sure to specify the correct decimals and token contract address this time (look up the name of the token on [ethplorer](https://ethplorer.io)).
 *   Make sure that you are attempting to send either the same amount of tokens that you have, or less.

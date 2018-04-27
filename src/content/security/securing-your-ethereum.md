@@ -19,7 +19,7 @@ One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and ma
 *   [Buy a Ledger Nano S](https://www.ledgerwallet.com/r/fa4b?path=/products/)
 *   [Buy a TREZOR](https://trezor.io/?a=myetherwallet.com)
 
-If you don't want one of these nifty devices, use [cold storage](https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html) or simply run [MyEtherWallet offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html) for a majority of your savings. Please. Pretty please.
+If you don't want one of these nifty devices, use [cold storage](https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html) or simply run [MyEtherWallet offline](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html) for a majority of your savings. Please. Pretty please.
 
 ### 2. Bookmark your crypto sites.
 *  Use those bookmarks and only those.
@@ -27,7 +27,7 @@ If you don't want one of these nifty devices, use [cold storage](https://myether
 
 ### 3. Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) to warn you if you go to a malicious website.
 
-### 4. [Run MEW Locally / Offline](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html).
+### 4. [Run MEW Locally / Offline](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html).
 
 ### 5. Do not trust messages or addresses or URLs sent via private message. Always verify information w/ a secondary source.
 *  Don’t click any link regarding anything crypto, money, banking, or a service like Dropbox / Google Drive / Gmail in any email ever.

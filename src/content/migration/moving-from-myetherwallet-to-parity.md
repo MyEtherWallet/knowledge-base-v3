@@ -19,4 +19,4 @@
 *  `/home/you/.local/share/io.parity.ethereum`
 
 
-### [How to get your keystore fille](https://myetherwallet.github.io/knowledge-base/migration/location-of-mist-geth-wallet-files.html)
+### [How to get your keystore fille](https://kb.myetherwallet.com/migration/location-of-mist-geth-wallet-files.html)

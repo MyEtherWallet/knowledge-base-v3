@@ -24,8 +24,8 @@ At the end of the day, it's up to you though.
 
 ### Related Reading
 
-- [What is Gas?](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
+- [What is Gas?](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)
 
-- [How to See & Add Custom Tokens](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
+- [How to See & Add Custom Tokens](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html)
 
-- [Which tokens does MEW support?](https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)
+- [Which tokens does MEW support?](https://kb.myetherwallet.com/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)

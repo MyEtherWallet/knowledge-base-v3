@@ -30,7 +30,6 @@ We recommend you periodically update your local version of MyEtherWallet, as we 
 
 ### Related Reading
 
-* [How To Make An Offline Transaction](https://myetherwallet.github.io/knowledge-base/offline/making-offline-transaction-on-myetherwallet.html)
+* [How To Make An Offline Transaction](https://kb.myetherwallet.com/offline/making-offline-transaction-on-myetherwallet.html)
 
-* [Checking the Balance of Your Account](https://myetherwallet.github.io/knowledge-base/getting-started/checking-balance-of-my-account.html)
-
+* [Checking the Balance of Your Account](https://kb.myetherwallet.com/getting-started/checking-balance-of-my-account.html)

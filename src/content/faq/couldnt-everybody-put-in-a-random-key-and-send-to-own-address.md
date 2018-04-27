@@ -43,7 +43,7 @@ Of course, this all assumes that keys are generated in a truly random way & with
 -  [BIP-39s (mnemonic phrases & Ledger Hardware Wallets)](https://www.reddit.com/r/ledgerwallet/comments/6cjvam/probability_of_seed_phrase_collisionbrute_forcing/
 )
 
-- [How does it ensure that it doesn't give different people the same key?](https://myetherwallet.github.io/knowledge-base/security/ethereum-two-people-same-private-key.html)
+- [How does it ensure that it doesn't give different people the same key?](https://kb.myetherwallet.com/security/ethereum-two-people-same-private-key.html)
 
 - [Not all private keys are valid on the curve](https://crypto.stackexchange.com/questions/30269/are-all-possible-ec-private-keys-valid)
 
@@ -61,4 +61,3 @@ Of course, this all assumes that keys are generated in a truly random way & with
 - [http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392](http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392)
 
 - [http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver](http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver)
-

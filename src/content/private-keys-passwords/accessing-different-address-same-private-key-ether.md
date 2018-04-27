@@ -34,9 +34,9 @@ Scroll to the bottom of https://www.myetherwallet.com/helpers.html, enter your p
 
 - Finding multiple missing characters in private key: https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a
 
-- Find multiple missing characters of the very end of a private key: https://myetherwallet.github.io/knowledge-base/private-keys-passwords/missing-characters-of-private-key.html
+- Find multiple missing characters of the very end of a private key: https://kb.myetherwallet.com/private-keys-passwords/missing-characters-of-private-key.html
 
-- Find 1 missing character anywhere in private key (fast): 
+- Find 1 missing character anywhere in private key (fast):
 
 ```
     const hdkey = require('ethereumjs-wallet/hdkey');

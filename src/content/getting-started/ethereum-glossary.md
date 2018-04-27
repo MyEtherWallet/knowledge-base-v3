@@ -14,7 +14,7 @@
   This is a list of terms you might encounter when using the MyEtherWallet interface.
 </p>
 
-#### [You can also read in Spanish](https://myetherwallet.github.io/knowledge-base/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
+#### [You can also read in Spanish](https://kb.myetherwallet.com/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum), thanks to [faraggi](https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md)
 
 ---
 
@@ -129,7 +129,7 @@
     Never type the word-phrase on your computer. It defeats the purpose of your hardware wallet.
   </li>
   <li id="hardwarew_l5">
-    <a href='https://myetherwallet.github.io/knowledge-base/hardware-wallets/' target='_blank'> See here for more information about Hardware Wallets</a>
+    <a href='https://kb.myetherwallet.com/hardware-wallets/' target='_blank'> See here for more information about Hardware Wallets</a>
   </li>
 </ul>
 

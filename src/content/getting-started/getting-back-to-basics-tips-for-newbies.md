@@ -13,14 +13,14 @@
 
 1. Never hand-type your address.
 
-2. Use the version of your address that has uppercase letters. [Ethereum address has Lower and Upper Case Letters](https://myetherwallet.github.io/knowledge-base/addresses/my-ethereum-address-has-uppercase-and-lowercase-letters.html)
+2. Use the version of your address that has uppercase letters. [Ethereum address has Lower and Upper Case Letters](https://kb.myetherwallet.com/addresses/my-ethereum-address-has-uppercase-and-lowercase-letters.html)
 3. Never hand type your private key / keystore file. Triple-check the words for mnemonic keys if hand typing (there are still mistakes you can make).
 
 4. Always send a small amount of ETH, ensure everything goes well & it arrives at the destination you wanted it to, before sending all the ETH.
 
-5. For new wallets, especially [cold storage](https://myetherwallet.github.io/knowledge-base/offline/ethereum-cold-storage-with-myetherwallet.html), send small amount in, send small amount **out** from new wallet, before sending full amount in in.
+5. For new wallets, especially [cold storage](https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html), send small amount in, send small amount **out** from new wallet, before sending full amount in in.
 
-6. [Save and back up your private key](https://myetherwallet.github.io/knowledge-base/getting-started/backing-up-your-new-wallet.html) in a separate location BEFORE sending ETH/Tokens to it.
+6. [Save and back up your private key](https://kb.myetherwallet.com/getting-started/backing-up-your-new-wallet.html) in a separate location BEFORE sending ETH/Tokens to it.
 
 7. Don't email your private key.
 

@@ -12,7 +12,7 @@
 
 ### Preface
 
-The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html).
+The following assumes you are **not** using a Ledger or TREZOR hardware wallet. Due to their ease of use and security, [we recommend a hardware wallet for cold storage](https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html).
 
 To save / backup your Ledger or TREZOR device, simply write down the 24-word phrase on the card they provide and keep it very, very safe. Never put this key on an online device or type it in to MyEtherWallet.com.
 
@@ -70,6 +70,6 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 ### Related Reading
 
-* [What is the difference between private key & Keystore / UTC file?](https://myetherwallet.github.io/knowledge-base/private-keys-passwords/difference-beween-private-key-and-keystore-file.html)
+* [What is the difference between private key & Keystore / UTC file?](https://kb.myetherwallet.com/private-keys-passwords/difference-beween-private-key-and-keystore-file.html)
 
-* [Protecting yourself and your funds](https://myetherwallet.github.io/knowledge-base/security/securing-your-ethereum.html)
+* [Protecting yourself and your funds](https://kb.myetherwallet.com/security/securing-your-ethereum.html)

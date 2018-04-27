@@ -28,7 +28,7 @@ The number displayed in that error message is the amount required to cover the c
 
 ### Related Reading
 
-*   [What is Gas?](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)
+*   [What is Gas?](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)
 *   [What is gas (StackExchange)](https://ethereum.stackexchange.com/questions/3/what-is-gas-and-transaction-fee-in-ethereum)
 *   [What is gas? (CryptoCompare)](https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/)
 *   [Can someone explain gas to me?](https://www.reddit.com/r/ethereum/comments/271qdz/can_someone_explain_the_concept_of_gas_in_ethereum/)

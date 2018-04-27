@@ -44,7 +44,7 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 
 0.  On the ["Send Ether & Tokens"](https://www.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
 1.  In the sidebar, click the `https://etherscan.io` link under `Transaction History` or `How to See your Tokens`.
-2.  Click the dropdown in the right-upper quadrant. It's labeled `Token Tracker`. 
+2.  Click the dropdown in the right-upper quadrant. It's labeled `Token Tracker`.
 3.  Click the token that you aren't seeing on MEW.
 4.  Copy the string next to `Contact Address`.
 6.  Back on MEW, click the `Add Custom Token` button on the right sidebar.
@@ -62,8 +62,8 @@ To remove a custom token, click the little ( - ) icon next to your token. This w
 
 ### Related Reading
 
-- [Showing & Loading Custom Tokens](https://myetherwallet.github.io/knowledge-base/tokens/showing-and-loading-tokens.html)
+- [Showing & Loading Custom Tokens](https://kb.myetherwallet.com/tokens/showing-and-loading-tokens.html)
 
-- [Can I store any coin in MyEtherWallet?](https://myetherwallet.github.io/knowledge-base/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)
+- [Can I store any coin in MyEtherWallet?](https://kb.myetherwallet.com/faq/sending-bitcoin-btc-ltc-xmr-to-myetherwallet.html)
 
-- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html)
+- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://kb.myetherwallet.com/tokens/token-creators-add-your-token-to-myetherwallet.html)

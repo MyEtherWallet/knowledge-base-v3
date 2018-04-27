@@ -19,11 +19,11 @@ However, for additional functionality (like protecting it with a password) there
 
 ### MetaMask
 
-* [Learn More Here](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html)
+* [Learn More Here](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html)
 
 ### Ledger or TREZOR or Digital Bitbox Hardware Wallets
 
-* [Learn More Here](https://myetherwallet.github.io/knowledge-base/hardware-wallet-recommends)
+* [Learn More Here](https://kb.myetherwallet.com/hardware-wallet-recommends)
 
 ### Keystore File (UTC / JSON)
 
@@ -32,7 +32,7 @@ However, for additional functionality (like protecting it with a password) there
 * This Keystore file matches the format used by Mist so you can easily import it in the future.
 * Make sure to have multiple backups.
 
-![](https://myetherwallet.github.io/knowledge-base/images/wallet-types/keystore-file.jpg)
+![](https://kb.myetherwallet.com/images/wallet-types/keystore-file.jpg)
 
 ### Mnemonic Phrases
 
@@ -45,14 +45,14 @@ However, for additional functionality (like protecting it with a password) there
 
 * This is the unencrypted text version of your private key, meaning no password is necessary.
 * If someone were to find your unencrypted private key, they could access your wallet without a password.
-* For this reason, encrypted versions are typically recommended. To learn about how you can encrypt your private key, [click here for more information](https://myetherwallet.github.io/knowledge-base/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html).
+* For this reason, encrypted versions are typically recommended. To learn about how you can encrypt your private key, [click here for more information](https://kb.myetherwallet.com/private-keys-passwords/how-to-change-ethereum-account-password-unencrypted-encrypted.html).
 * However, you should print the paper wallet or save this in an **offline** environment (like a piece of paper or USB drive). This ensures a lost password does not result in lost ETH, and acts as another backup.
 
-![](https://myetherwallet.github.io/knowledge-base/images/wallet-types/private-key.jpg)
+![](https://kb.myetherwallet.com/images/wallet-types/private-key.jpg)
 
 ### Parity Phrase -- deprecated
 
-* [Learn More Here](https://myetherwallet.github.io/knowledge-base/private-keys-passwords/parity-phrases-are-no-longer-supported.html)
+* [Learn More Here](https://kb.myetherwallet.com/private-keys-passwords/parity-phrases-are-no-longer-supported.html)
 
 ### JSON File (unencrypted) -- deprecated
 

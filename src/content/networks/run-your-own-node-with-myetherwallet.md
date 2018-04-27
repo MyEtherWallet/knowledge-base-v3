@@ -21,7 +21,7 @@ You will be using MEW to sign and then broadcast the TXs via your node. You will
 
 ### Specifics to Connect To Your Local Node
 
-##### [First, download and run MEW locally.](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html)
+##### [First, download and run MEW locally.](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html)
 
 * You must run MyEtherWallet locally. This is due to the fact that our SSL website won't connect to your non-SSL local node.
 

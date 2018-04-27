@@ -81,4 +81,4 @@ TREZOR made a clear and easy to follow guide on how to restore your TREZOR [here
 
 ### Troubleshooting
 
-TREZOR has an extensive knowledge base that you can find [here](https://trezor.io/support/), as well as MyEtherWallet's [here](https://myetherwallet.github.io/knowledge-base/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [TREZOR](https://satoshilabs.kayako.com/conversation/new/2) or [MyEtherWallet](https://myetherwallet.github.io/knowledge-base/).
+TREZOR has an extensive knowledge base that you can find [here](https://trezor.io/support/), as well as MyEtherWallet's [here](https://kb.myetherwallet.com/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [TREZOR](https://satoshilabs.kayako.com/conversation/new/2) or [MyEtherWallet](https://kb.myetherwallet.com/).

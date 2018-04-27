@@ -15,6 +15,6 @@
 
 You can receive any ERC20 token by simply sending it to your Ethereum address (that´s the one starting with "0x....").
 
-If the token is not in our default token list, you will need to [add it as a custom token](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html) 
+If the token is not in our default token list, you will need to [add it as a custom token](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html) 
 
-#### Please do NOT send your tokens to the token contract address, or you might lose them forever. 
+#### Please do NOT send your tokens to the token contract address, or you might lose them forever.

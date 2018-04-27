@@ -18,14 +18,14 @@ You can use [Bity.com](https://bity.com/) or [Shapeshift.io](http://shapeshift.i
 
 We recommend [Exodus.io](https://www.exodus.io/) as a client-side, mutli-coin solution.
 
-Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://myetherwallet.github.io/knowledge-base/send/sending-and-adding-tokens.html)
+Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). However, [any ERC-20 token can be added to your local interface by following these instructions.](https://kb.myetherwallet.com/send/sending-and-adding-tokens.html)
 
 
 ### Related Reading
 
-- [How can I add a non-default token to MEW?](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
+- [How can I add a non-default token to MEW?](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html)
 
-- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://myetherwallet.github.io/knowledge-base/tokens/token-creators-add-your-token-to-myetherwallet.html)
+- [I am throwing a #FOMOFest (aka a token sale, token creation period, ICO) and want to add my token to MEW for all my investors. What do I do?](https://kb.myetherwallet.com/tokens/token-creators-add-your-token-to-myetherwallet.html)
 
 
 ### Default Tokens
@@ -124,4 +124,3 @@ Here is a list of default ERC-20 tokens that MEW supports (as of May 28, 2017). 
 *  XAUR
 *  XID
 *  XRL
-

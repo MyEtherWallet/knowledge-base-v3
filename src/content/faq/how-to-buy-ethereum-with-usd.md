@@ -26,13 +26,13 @@ Secondly, most of the people involved in this world are pretty technical and som
 
 ### Still with me? Good! Let's dive deeper!
 
-- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
+- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://kb.myetherwallet.com/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
 
-- [Learn how to protect your funds!](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
+- [Learn how to protect your funds!](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)
 
-- [10 Tips for Noobs](https://myetherwallet.github.io/knowledge-base/getting-started/getting-back-to-basics-tips-for-newbies.html) & [Words are Hard](https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html) are both great intros.
+- [10 Tips for Noobs](https://kb.myetherwallet.com/getting-started/getting-back-to-basics-tips-for-newbies.html) & [Words are Hard](https://kb.myetherwallet.com/getting-started/ethereum-glossary.html) are both great intros.
 
-- [And even more links to awesome things just because](https://myetherwallet.github.io/knowledge-base/diving-deeper/)
+- [And even more links to awesome things just because](https://kb.myetherwallet.com/diving-deeper/)
 
 
 
@@ -73,7 +73,7 @@ Then create a Ethereum Wallet account and back it up. In Circle or Coinbase, sen
 
 ### Alternative steps 6-8:
 
-Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://myetherwallet.github.io/knowledge-base/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
+Mist is highly recommended but some people have issues installing & syncing it. If for some reason you cannot get it to run, here is a list of easily accessible wallets. Follow the instructions provided by each of these wallets to back up your information. In Jaxx, that is a mnemonic. In MyEtherWallet, [read this](https://kb.myetherwallet.com/how-do-i-move-from-coinbase-to-myetherwallet-exchange-slash-hosted-wallet-mew
 ).
 
 
@@ -92,13 +92,13 @@ Mist is highly recommended but some people have issues installing & syncing it. 
 
 I have outlined the steps above like you should do it all as fast as possible. Stop. Breath. There is no rush. Take your time moving your funds from an exchange to your own wallet. Test with a small amount first. Get the feel for things and make mistakes with *small amounts* rather than all your money! If you skipped them earlier or didn't understand them, take the time to re-read it now.
 
-- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://myetherwallet.github.io/knowledge-base/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
+- [Understand the difference between a hosted wallet / exchange and client-side wallet before moving your ETH to your own wallet.](https://kb.myetherwallet.com/getting-started/whats-the-difference-between-an-exchange-and-myetherwallet.html)
 
-- [Learn how to protect your funds!](https://myetherwallet.github.io/knowledge-base/getting-started/protecting-yourself-and-your-funds.html)
+- [Learn how to protect your funds!](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)
 
-- [10 Tips for Noobs](https://myetherwallet.github.io/knowledge-base/getting-started/getting-back-to-basics-tips-for-newbies.html) & [Words are Hard](https://myetherwallet.github.io/knowledge-base/getting-started/ethereum-glossary.html) are both great intros.
+- [10 Tips for Noobs](https://kb.myetherwallet.com/getting-started/getting-back-to-basics-tips-for-newbies.html) & [Words are Hard](https://kb.myetherwallet.com/getting-started/ethereum-glossary.html) are both great intros.
 
-- [And even more links to awesome things just because](https://myetherwallet.github.io/knowledge-base/diving-deeper/)
+- [And even more links to awesome things just because](https://kb.myetherwallet.com/diving-deeper/)
 
 
 

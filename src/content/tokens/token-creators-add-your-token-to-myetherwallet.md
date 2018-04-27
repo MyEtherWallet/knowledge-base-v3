@@ -11,7 +11,7 @@
 
 
 
-#### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://myetherwallet.github.io/knowledge-base/send/adding-new-token-and-sending-custom-tokens.html)
+#### [If you are a person experimenting with tokens, you can add a token to your local version of MyEtherWallet](https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html)
 
 ### If you have a token that other people also have, or will have in the coming days, you can add it to our site. You will need to provide:
 

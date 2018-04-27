@@ -93,4 +93,4 @@ Ledger made a clear and easy to follow guide on how to restore your Nano S [here
 
 ### Troubleshooting
 
-Ledger has an extensive knowledge base that you can find [here](https://ledger.zendesk.com/), as well as MyEtherWallet's [here](https://myetherwallet.github.io/knowledge-base/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [Ledger](https://ledger.zendesk.com/hc/en-us/requests/new) or [MyEtherWallet](mailto:support@myetherwallet.com).
+Ledger has an extensive knowledge base that you can find [here](https://ledger.zendesk.com/), as well as MyEtherWallet's [here](https://kb.myetherwallet.com/). There is a big chance that it's already listed on one of them. If not, feel free to contact either [Ledger](https://ledger.zendesk.com/hc/en-us/requests/new) or [MyEtherWallet](mailto:support@myetherwallet.com).

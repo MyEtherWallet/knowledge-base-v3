@@ -17,4 +17,4 @@ Make sure that you unzip all the contents of the .zip into a separate, empty fol
 If you don't unzip the folder, or only unzip the `index.html` file, the page won't be loaded correctly. Be sure to use a modern browser like Chrome or Firefox as well.
 
 ### Related Reading
-- [How to run MyEtherWallet offline / locally](https://myetherwallet.github.io/knowledge-base/offline/running-myetherwallet-locally.html)
+- [How to run MyEtherWallet offline / locally](https://kb.myetherwallet.com/offline/running-myetherwallet-locally.html)

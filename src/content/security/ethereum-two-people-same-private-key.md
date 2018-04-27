@@ -65,7 +65,7 @@ Even if the blockchain is in active, vigorous use for the next ten thousand year
 
 ### Related
 
-- [Couldn't everybody put in random private keys, look for a balance, and send to their own address?](https://myetherwallet.github.io/knowledge-base/faq/couldnt-everybody-put-in-a-random-key-and-send-to-own-address.html)
+- [Couldn't everybody put in random private keys, look for a balance, and send to their own address?](https://kb.myetherwallet.com/faq/couldnt-everybody-put-in-a-random-key-and-send-to-own-address.html)
 
 
 ### Sources
