@@ -3,8 +3,8 @@ var ids = [
   "redWarningLink",
   // List Ids
   "breadCrumbHome",
-  "breadCrumbCategoryTitle",
-  "categoriesCategoryTitle",
+  "breadCrumbCategoryTitleGettingStarted",
+  "categoriesCategoryTitleGettingStarted",
   "categoryGettingStartedonMyEtherWalletcom",
   "categoryHowtoCreateaWallet",
   "categoryHowtoProperlySaveBackUpYourWallet",

@@ -3,8 +3,8 @@ var Japanese = {
   "redWarningLink": "方法を学ぶにはここをクリック！",
   // List Ids
   "breadCrumbHome": "ホーム",
-  "breadCrumbCategoryTitle": "はじめに",
-  "categoriesCategoryTitle": "はじめに",
+  "breadCrumbCategoryTitleGettingStarted": "はじめに",
+  "categoriesCategoryTitleGettingStarted": "はじめに",
   "categoryGettingStartedonMyEtherWalletcom": "MyEtherWallet.com入門",
   "categoryHowtoCreateaWallet": "ウォレットの作成方法",
   "categoryHowtoProperlySaveBackUpYourWallet": "ウォレットを適切に保存してバックアップする方法",

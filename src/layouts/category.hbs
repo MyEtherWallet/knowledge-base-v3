@@ -15,12 +15,12 @@
     <nav class="breadcrumbs">
       <a class="breadcrumbs__home" id="breadCrumbHome" href="{{base_url}}">Home</a>
       ›
-      <span id="breadCrumbCategoryTitle"> {{ this_category.title }} </span>
+      <span id="breadCrumbCategoryTitle{{titleBasedId this_category.title}}"> {{ this_category.title }} </span>
     </nav>
 
     <div class="block">
 
-      <h2 id="categoriesCategoryTitle">{{this_category.title}}</h2>
+      <h2 id="categoriesCategoryTitle{{titleBasedId this_category.title}}">{{this_category.title}}</h2>
 
       <ul class="list-group">
         {{#each pages}}

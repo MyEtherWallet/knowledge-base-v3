@@ -3,8 +3,8 @@ var Russian = {
   "redWarningLink": "Нажмите здесь, чтобы узнать как это сделать!",
   // List Ids
   "breadCrumbHome": "дома",
-  "breadCrumbCategoryTitle": "Начало работы",
-  "categoriesCategoryTitle": "Начало работы",
+  "breadCrumbCategoryTitleGettingStarted": "Начало работы",
+  "categoriesCategoryTitleGettingStarted": "Начало работы",
   "categoryGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com ",
   "categoryHowtoCreateaWallet": "Как создать кошелек",
   "categoryHowtoProperlySaveBackUpYourWallet": "",

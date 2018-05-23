@@ -3,8 +3,8 @@ var English = {
   "redWarningLink": "Click here to learn how!",
   // List Ids
   "breadCrumbHome": "Home",
-  "breadCrumbCategoryTitle": "Getting Started",
-  "categoriesCategoryTitle": "Getting Started",
+  "breadCrumbCategoryTitleGettingStarted": "Getting Started",
+  "categoriesCategoryTitleGettingStarted": "Getting Started",
   "categoryGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",
   "categoryHowtoCreateaWallet": "How To Create a Wallet",
   "categoryHowtoProperlySaveBackUpYourWallet": "How to Properly Save & Back Up Your Wallet",

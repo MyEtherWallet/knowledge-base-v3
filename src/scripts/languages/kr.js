@@ -3,8 +3,8 @@ var Korean = {
   "redWarningLink": "방법을 배우려면 여기를 클릭하십시오!",
   // List Ids
   "breadCrumbHome": "집",
-  "breadCrumbCategoryTitle": "시작하기",
-  "categoriesCategoryTitle": "시작하기",
+  "breadCrumbCategoryTitleGettingStarted": "시작하기",
+  "categoriesCategoryTitleGettingStarted": "시작하기",
   "categoryGettingStartedonMyEtherWalletcom": "MyEtherWallet.com으로 시작하기",
   "categoryHowtoCreateaWallet": "월렛을 생성하는 방법",
   "categoryHowtoProperlySaveBackUpYourWallet": "월렛을 올바르게 저장하고 백업하는 방법",
