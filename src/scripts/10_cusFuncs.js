@@ -32,17 +32,18 @@ function switchContent(lang) {
       break;
   }
 
-  ids.forEach(function(id) {
-    if(document.getElementById(id) !== null) {
-      if(langObject[id] !== "") {
-        document.getElementById(id).innerHTML = langObject[id];
+  for (var i = 0; i < ids.length; i++) {
+    var element = document.getElementById(ids[i])
+    if(element !== null) {
+      if(langObject[ids[i]] !== "") {
+        element.innerHTML = langObject[ids[i]];
       } else {
-        if(English[id] !== "") {
-          document.getElementById(id).innerHTML = English[id];
+        if(English[ids[i]] !== "") {
+          element.innerHTML = English[ids[i]];
         }
       }
     }
-  })
+  }
 }
 
 function displayWarning(lang) {
@@ -63,26 +64,30 @@ function selectLanguage(e) {
   dropdown = !dropdown;
 }
 
-if(localStorage.getItem('currentLang') !== null) {
-  currentLang.textContent = localStorage.getItem('currentLang');
-  switchContent(currentLang.textContent);
-} else {
-  localStorage.setItem('currentLang', 'English');
-  currentLang.textContent = 'English';
-  switchContent('English');
+function initLanguages() {
+  if(localStorage.getItem('currentLang') !== null) {
+    currentLang.textContent = localStorage.getItem('currentLang');
+    switchContent(currentLang.textContent);
+  } else {
+    localStorage.setItem('currentLang', 'English');
+    currentLang.textContent = 'English';
+    switchContent('English');
+  }
+
+  languages.forEach(function(language) {
+    var option = document.createElement('li');
+    if(language === currentLang.innerHTML) {
+      option.setAttribute('class', 'active');
+    }
+    option.addEventListener("click", selectLanguage, false);
+    option.textContent = language;
+    select.appendChild(option);
+  });
+
+  displayWarning(currentLang.textContent);
 }
 
-languages.forEach(function(language) {
-  var option = document.createElement('li');
-  if(language === currentLang.innerHTML) {
-    option.setAttribute('class', 'active');
-  }
-  option.addEventListener("click", selectLanguage, false);
-  option.textContent = language;
-  select.appendChild(option);
-});
-
-displayWarning(currentLang.textContent);
+window.onload = initLanguages;
 
 function getQueryString(name, url) {
     if (!url) url = window.location.href;
