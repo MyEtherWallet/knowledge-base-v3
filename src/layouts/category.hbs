@@ -26,7 +26,7 @@
         {{#each pages}}
           {{#if (eq cat_title ../this_category.title) }}
             <li>
-              <a class="list-group-item list-group-item-action" id="category{{titleBasedId title}}" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
+              <a class="list-group-item list-group-item-action" id="category{{titleBasedId ../this_category.title title}}" href="{{../base_url}}{{url}}" title="{{title}}">{{title}}</a>
             </li>
           {{/if}}
         {{/each}}
