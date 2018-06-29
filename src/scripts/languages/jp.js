@@ -20,6 +20,8 @@ var Japanese = {
   "categoryGettingStartedGettingStartedWithMyEtherWalletTutorialsforBeginners": "",
   "categorySecurityPhishingProtectingYourselfandYourFunds": "あなた自身とあなたの資金を守る",
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds": "",
+  "categorySecurityPhishingCalltoActionHelpuswthesePhishersPlease": "",
+  "categorySecurityPhishingCanIturnon2FAforMyEtherWallet": "",
   // Block Ids
   "categoryGettingStarted": "はじめに",
   "categorySecurityPhishing": "",
@@ -509,4 +511,5 @@ var Japanese = {
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6": "",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter": "",
   "-phuckphishers": "",
+  "articleCanIturnon2FAforMyEtherWallet": ""
 }

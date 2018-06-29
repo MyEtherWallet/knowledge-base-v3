@@ -20,6 +20,7 @@ var Russian = {
   "categoryGettingStartedGettingStartedWithMyEtherWalletTutorialsforBeginners": "",
   "categorySecurityPhishingProtectingYourselfandYourFunds": "Защита себя самого и своих средств",
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds": "Фишинг, Взлом, Кражи и утраченные деньги через фишинговые ссылки на Slack / Reddit / Google Ads.",
+  "categorySecurityPhishingCanIturnon2FAforMyEtherWallet": "Могу ли я включить двухфакторную защиту для MyEtherWallet?",
   // Block Ids
   "categoryGettingStarted": "Начало работы",
   "categorySecurityPhishing": "Безопасность и фишинг",
@@ -509,4 +510,15 @@ var Russian = {
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6": "Присоединяйтесь к нам в Slack - <a href='https://myetherwallet.herokuapp.com/' target='_blank'> Join our Slack to discuss and coordinate </a>",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter": "Спасибо за любую поддержку! В мире происходит уйма всякого дерьма, но мы верим, что все вместе - мы сможем его разгрести.",
   "-phuckphishers": "#нахермошенников",
+  "articleCanIturnon2FAforMyEtherWallet": "Могу ли я включить двухфакторную защиту для MyEtherWallet?",
+  "articleTitleCanIturnon2FAforMyEtherWallet": "Могу ли я включить двухфакторную защиту для MyEtherWallet?",
+  "no-and-if-you-landed-on-a-site-telling-you-that-you-could-they-are-lying-to-you-and-trying-to-steal-your-private-keys-": "Нет. И если вы обнаружили сайт, который говорит вам, что, якобы, можете – это сайт мошенников, который пытается вытянуть ваши приватные ключи.",
+  "canTurn2FA_p1": "<a href='https://en.wikipedia.org/wiki/Multi-factor_authentication'>[2FA / MFA]</a> (двухфакторная и мультифакторная защита) – это технологии защиты, предназначенные для ресурсов, которые обрабатывают и хранят информацию на своих серверах. Они призваны добавить дополнительный слой защиты, поверх связки логин/пароль.",
+  "topt-google-authenticator-": "TOPT (Google Authenticator / Аутентификатор Гугл)",
+  "topt_p1": "Time-based One-time Password (TOTP) / Одноразовые пароли с ограниченным сроком действия.",
+  "topt_p2": "Эта технология широко используется приложением Google Authenticator. Позволяет идентифицировать себя с помощью кода, генерируемого приложением, каждые N секунд. При регистрации через Google Authenticator на вашем устройстве и на сервере генерируется «секрет», который синхронизируется между устройствами в режиме онлайн.",
+  "topt_p3": "При попытке зайти на сайт, который вы защитили двухфакторной защитой, вам предложат ввести уникальный ключ, который ваше устройство генерирует каждые несколько секунд на базе «секрета», созданного при регистрации. «Секреты» со стороны сервера и вашего устройство работают синхронно. Таким образом, в каждый отдельный момент времени вы будете использовать по-настоящему уникальный ключ, который известен лишь вашему устройству и серверу.",
+  "topt_p4": "Успешный вход на сайт возможен только в том случае, если код, предложенный ваши и код, известный «секрету сервера» - совпадают.",
+  "the-blockchain-mew": ""
+
 }

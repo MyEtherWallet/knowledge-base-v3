@@ -20,6 +20,8 @@ var Korean = {
   "categoryGettingStartedGettingStartedWithMyEtherWalletTutorialsforBeginners": "",
   "categorySecurityPhishingProtectingYourselfandYourFunds": "개인 정보 및 자산 보호하기",
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds": "",
+  "categorySecurityPhishingCalltoActionHelpuswthesePhishersPlease": "",
+  "categorySecurityPhishingCanIturnon2FAforMyEtherWallet": "",
   // Block Ids
   "categoryGettingStarted": "시작하기",
   "categorySecurityPhishing": "",
@@ -509,4 +511,5 @@ var Korean = {
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6": "",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter": "",
   "-phuckphishers": "",
+  "articleCanIturnon2FAforMyEtherWallet": ""
 }

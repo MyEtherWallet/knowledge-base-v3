@@ -20,6 +20,8 @@ var English = {
   "categoryGettingStartedGettingStartedWithMyEtherWalletTutorialsforBeginners": "Getting Started With MyEtherWallet: Tutorials for Beginners 🎥",
   "categorySecurityPhishingProtectingYourselfandYourFunds": "Protecting Yourself and Your Funds",
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds": "Phish, Hacks, Thefts & stolen funds due to phishing messages on Slack / Reddit / Google Ads",
+  "categorySecurityPhishingCalltoActionHelpuswthesePhishersPlease": "",
+  "categorySecurityPhishingCanIturnon2FAforMyEtherWallet": "",
   // Block Ids
   "categoryGettingStarted": "Getting Started",
   "categorySecurityPhishing": "Security & Phishing",
@@ -509,4 +511,5 @@ var English = {
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6": "<a href='https://myetherwallet.herokuapp.com/' target='_blank'> Join our Slack to discuss and coordinate </a>",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter": "Thank you for everything. We literally wouldn't be in this shit situation without you supporting us. ?Kidding—it's all part of this crazy wild adventure called the future. We'll figure it out, but it's better together.",
   "-phuckphishers": "# phuckphishers",
+  "articleCanIturnon2FAforMyEtherWallet": ""
 }

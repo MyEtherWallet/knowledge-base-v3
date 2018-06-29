@@ -20,6 +20,8 @@ var ids = [
   "categoryGettingStartedGettingStartedWithMyEtherWalletTutorialsforBeginners",
   "categorySecurityPhishingProtectingYourselfandYourFunds",
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds",
+  "categorySecurityPhishingCalltoActionHelpuswthesePhishersPlease",
+  "categorySecurityPhishingCanIturnon2FAforMyEtherWallet",
   // Block Ids
   "categoryGettingStarted",
   "categorySecurityPhishing",
@@ -511,4 +513,13 @@ var ids = [
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter",
   "-phuckphishers",
+  "articleCanIturnon2FAforMyEtherWallet",
+  "articleTitleCanIturnon2FAforMyEtherWallet",
+  "no-and-if-you-landed-on-a-site-telling-you-that-you-could-they-are-lying-to-you-and-trying-to-steal-your-private-keys-",
+  "canTurn2FA_p1",
+  "topt-google-authenticator-",
+  "topt_p1",
+  "topt_p2",
+  "topt_p3",
+  "topt_p4",
 ];
