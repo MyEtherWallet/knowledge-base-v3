@@ -22,6 +22,7 @@ var Korean = {
   "categorySecurityPhishingPhishHacksTheftsstolenfundsduetophishingmessagesonSlackRedditGoogleAds": "",
   "categorySecurityPhishingCalltoActionHelpuswthesePhishersPlease": "",
   "categorySecurityPhishingCanIturnon2FAforMyEtherWallet": "",
+  "categorySecurityPhishingWhattodoifyouvehadyourfundsstolen": "",
   // Block Ids
   "categoryGettingStarted": "시작하기",
   "categorySecurityPhishing": "",
@@ -511,5 +512,21 @@ var Korean = {
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-l6": "",
   "5-only-if-you-are-careful-and-you-really-really-really-are-game-subfooter": "",
   "-phuckphishers": "",
-  "articleCanIturnon2FAforMyEtherWallet": ""
+  "articleCanIturnon2FAforMyEtherWallet": "",
+  "articleTitleCanIturnon2FAforMyEtherWallet": "",
+  "no-and-if-you-landed-on-a-site-telling-you-that-you-could-they-are-lying-to-you-and-trying-to-steal-your-private-keys-": "",
+  "canTurn2FA_p1": "",
+  "topt-google-authenticator-": "",
+  "topt_p1": "",
+  "topt_p2": "",
+  "topt_p3": "",
+  "turning2FaImg": "",
+  "topt_p4": "",
+  "topt_source": "",
+  "the-blockchain-mew": "",
+  "tbam_p1": "",
+  "tbam_p2": "",
+  "tbam_p3": "",
+  "or-you-know-spend-the-100-and-get-a-hardware-wallet-https-kb-myetherwallet-com-hardware-wallets-hardware-wallet-recommendations-html-it-s-worth-it-you-can-use-it-for-2fa-on-other-services-and-to-ensure-the-safety-and-security-of-your-funds-": "",
+  "turnOn2faMoreInfo": ""
 }
