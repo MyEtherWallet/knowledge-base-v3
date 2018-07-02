@@ -44,7 +44,7 @@ function titleBasedId(str) {
 }
 
 var Context = {
-  //base_url : 'file:///home/kvhnuke/GitHub/knowledge-base/dist/',
+  // base_url : 'file:///Users/yelpadillo/workspace/mew/knowledge-base/dist/',
   base_url : 'https://kb.myetherwallet.com/',
   //base_url : 'http://localhost/',
   pages : [
