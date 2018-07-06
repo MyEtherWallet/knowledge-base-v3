@@ -7,8 +7,14 @@ var Japanese = {
   breadCrumbCategoryTitleSecurityPhishing: "",
   "breadCrumbCategoryTitleSendingETHTokens": "",
   "breadCrumbCategoryTitleTokens": "",
-  // List ids
+  "breadCrumbCategoryTitleTransactions": "",
+  // List title
   categoriesCategoryTitleGettingStarted: "はじめに",
+  "categoriesCategoryTitleTransactions": "",
+  "categoriesCategoryTitleSecurityPhishing": "",
+  "categoriesCategoryTitleSendingETHTokens": "",
+  "categoriesCategoryTitleTokens": "",
+  // List ids
   categoryGettingStartedGettingStartedonMyEtherWalletcom: "MyEtherWallet.com入門",
   categoryGettingStartedHowtoCreateaWallet: "ウォレットの作成方法",
   categoryGettingStartedHowtoProperlySaveBackUpYourWallet: "ウォレットを適切に保存してバックアップする方法",
@@ -42,6 +48,7 @@ var Japanese = {
   categorySecurityPhishing: "",
   "categorySendingETHTokens": "",
   categoryTokens: "",
+  categoryTransactions: "",
   // Article Ids
   articleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com入門",
   articleTitleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com入門",

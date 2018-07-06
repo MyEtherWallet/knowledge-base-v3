@@ -7,8 +7,14 @@ var English = {
   "breadCrumbCategoryTitleSecurityPhishing": "Security & Phishing",
   "breadCrumbCategoryTitleSendingETHTokens": "Sending & Adding Tokens",
   "breadCrumbCategoryTitleTokens": "Tokens",
-  // List ids
+  "breadCrumbCategoryTitleTransactions": "Transactions",
+  // List title
   "categoriesCategoryTitleGettingStarted": "Getting Started",
+  "categoriesCategoryTitleTransactions": "Transactions",
+  "categoriesCategoryTitleSecurityPhishing": "Security & Phishing",
+  "categoriesCategoryTitleSendingETHTokens": "Sending ETH and Tokens",
+  "categoriesCategoryTitleTokens": "Tokens",
+  // List ids
   "categoryGettingStartedGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",
   "categoryGettingStartedHowtoCreateaWallet": "How To Create a Wallet",
   "categoryGettingStartedHowtoProperlySaveBackUpYourWallet": "How to Properly Save & Back Up Your Wallet",
@@ -42,6 +48,7 @@ var English = {
   "categorySecurityPhishing": "Security & Phishing",
   "categorySendingETHTokens": "Sending & Adding Tokens",
   categoryTokens: "Tokens",
+  categoryTransactions: "Transactions",
   // Article Ids
   "articleGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",
   "articleTitleGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",

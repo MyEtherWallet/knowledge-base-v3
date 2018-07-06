@@ -7,8 +7,14 @@ var Russian = {
   "breadCrumbCategoryTitleSecurityPhishing": "Безопасность и фишинг",
   "breadCrumbCategoryTitleSendingETHTokens": "Отправка и добавление Эфир (ether) и токенов",
   "breadCrumbCategoryTitleTokens": "жетоны",
-  // List ids
+  "breadCrumbCategoryTitleTransactions": "Транзакции",
+  // List title
   "categoriesCategoryTitleGettingStarted": "Начало работы",
+  "categoriesCategoryTitleTransactions": "Tранзакции",
+  "categoriesCategoryTitleSecurityPhishing": "Безопасность и фишинг",
+  "categoriesCategoryTitleSendingETHTokens": "Отправка и добавление Эфир (ether) и токенов",
+  "categoriesCategoryTitleTokens": "жетоны",
+  // List ids
   "categoryGettingStartedGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com ",
   "categoryGettingStartedHowtoCreateaWallet": "Как создать кошелек",
   "categoryGettingStartedHowtoProperlySaveBackUpYourWallet": "Как правильно сохранить и создать резервную копию своего кошелька",
@@ -42,6 +48,7 @@ var Russian = {
   "categorySecurityPhishing": "Безопасность и фишинг",
   "categorySendingETHTokens": "Отправка и добавление токенов",
   categoryTokens: "жетоны",
+  categoryTransactions: "",
   // Article Ids
   "articleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",
   "articleTitleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",

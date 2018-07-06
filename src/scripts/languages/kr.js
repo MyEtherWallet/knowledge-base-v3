@@ -7,8 +7,14 @@ var Korean = {
   breadCrumbCategoryTitleSecurityPhishing: "",
   "breadCrumbCategoryTitleSendingETHTokens": "",
   "breadCrumbCategoryTitleTokens": "",
-  // List ids
+  "breadCrumbCategoryTitleTransactions": "",
+  // List title
   categoriesCategoryTitleGettingStarted: "시작하기",
+  "categoriesCategoryTitleTransactions": "",
+  "categoriesCategoryTitleSecurityPhishing": "",
+  "categoriesCategoryTitleSendingETHTokens": "",
+  "categoriesCategoryTitleTokens": "",
+  // List ids
   categoryGettingStartedGettingStartedonMyEtherWalletcom: "MyEtherWallet.com으로 시작하기",
   categoryGettingStartedHowtoCreateaWallet: "월렛을 생성하는 방법",
   categoryGettingStartedHowtoProperlySaveBackUpYourWallet: "월렛을 올바르게 저장하고 백업하는 방법",
@@ -42,6 +48,7 @@ var Korean = {
   categorySecurityPhishing: "",
   categorySendingETHTokens: "",
   categoryTokens: "",
+  categoryTransactions: "",
   // Article Ids
   articleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com으로 시작하기",
   articleTitleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com으로 시작하기",

@@ -7,8 +7,14 @@ var ids = [
   "breadCrumbCategoryTitleSecurityPhishing",
   "breadCrumbCategoryTitleSendingETHTokens",
   "breadCrumbCategoryTitleTokens",
-  // List ids
+  "breadCrumbCategoryTitleTransactions",
+  // List titles
   "categoriesCategoryTitleGettingStarted",
+  "categoriesCategoryTitleTransactions",
+  "categoriesCategoryTitleSecurityPhishing",
+  "categoriesCategoryTitleSendingETHTokens",
+  "categoriesCategoryTitleTokens",
+  // List ids
   "categoryGettingStartedGettingStartedonMyEtherWalletcom",
   "categoryGettingStartedHowtoCreateaWallet",
   "categoryGettingStartedHowtoProperlySaveBackUpYourWallet",
@@ -42,6 +48,7 @@ var ids = [
   "categorySecurityPhishing",
   "categorySendingETHTokens",
   "categoryTokens",
+  "categoryTransactions",
   // Article Ids
   // Getting started
   "articleGettingStartedonMyEtherWalletcom",
@@ -753,5 +760,21 @@ var ids = [
   "2-using-etherscan-io",
   "nave20tokenwaact_uetherscanl1",
   "nave20tokenwaact_uetherscanl2",
-  "nave20tokenwaact_footer_link"
+  "nave20tokenwaact_footer_link",
+  "articleTransactionsareNotShowingUporPendingForever",
+  "articleTitleTransactionsareNotShowingUporPendingForever",
+  "tansuopf_p1",
+  "tansuopf_p2",
+  "helpful-tools-and-resources-to-get-your-tx-to-send",
+  "tansuopf_helpful_tools_l1",
+  "tansuopf_helpful_tools_l2",
+  "tansuopf_helpful_tools_l3",
+  "tansuopf_helpful_tools_l4",
+  "tansuopf_helpful_tools_l5",
+  "other-tips",
+  "tansuopf_other_l1",
+  "tansuopf_other_l2",
+  "tansuopf_other_l3",
+  "tansuopf_other_l4",
+  "for-visual-learners",
 ];
