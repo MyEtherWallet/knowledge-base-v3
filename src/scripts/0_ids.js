@@ -34,6 +34,7 @@ var ids = [
   // Block Ids
   "categoryGettingStarted",
   "categorySecurityPhishing",
+  "categorySendingETHTokens",
   // Article Ids
   // Getting started
   "articleGettingStartedonMyEtherWalletcom",

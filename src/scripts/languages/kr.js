@@ -34,6 +34,7 @@ var Korean = {
   // Block Ids
   categoryGettingStarted: "시작하기",
   categorySecurityPhishing: "",
+  "categorySendingETHTokens": "",
   // Article Ids
   articleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com으로 시작하기",
   articleTitleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com으로 시작하기",

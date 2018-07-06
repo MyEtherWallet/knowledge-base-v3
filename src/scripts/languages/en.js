@@ -34,6 +34,7 @@ var English = {
   // Block Ids
   "categoryGettingStarted": "Getting Started",
   "categorySecurityPhishing": "Security & Phishing",
+  "categorySendingETHTokens": "Sending & Adding Tokens",
   // Article Ids
   "articleGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",
   "articleTitleGettingStartedonMyEtherWalletcom": "Getting Started on MyEtherWallet.com",

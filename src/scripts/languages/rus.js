@@ -34,6 +34,7 @@ var Russian = {
   // Block Ids
   "categoryGettingStarted": "Начало работы",
   "categorySecurityPhishing": "Безопасность и фишинг",
+  "categorySendingETHTokens": "Отправка и добавление токенов",
   // Article Ids
   "articleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",
   "articleTitleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",

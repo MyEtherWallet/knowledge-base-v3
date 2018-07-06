@@ -34,6 +34,7 @@ var Japanese = {
   // Block Ids
   categoryGettingStarted: "はじめに",
   categorySecurityPhishing: "",
+  "categorySendingETHTokens": "",
   // Article Ids
   articleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com入門",
   articleTitleGettingStartedonMyEtherWalletcom: "MyEtherWallet.com入門",
