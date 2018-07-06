@@ -31,5 +31,6 @@
 ![](../images/tokens/loading-tokens-5.png)
 
 ----
-
-ps: Sometimes if you click a whole bunch of tokens really fast, the robots get confused and get stuck. Refreshing the page usually fixes the problem. If it persists, send us a message and include a screenshot and which token you can't seem to load.
+<p id="salt_p">
+  ps: Sometimes if you click a whole bunch of tokens really fast, the robots get confused and get stuck. Refreshing the page usually fixes the problem. If it persists, send us a message and include a screenshot and which token you can't seem to load.
+</p>

@@ -13,24 +13,40 @@
 <center>![](https://i.imgur.com/EsdYMSe.jpg)</center>
 
 
-A `Not a valid ERC-20 token` error can occur when an incorrect contract address was added as a custom token. Be sure to use the correct contract address, you can find the contract address by following either of the following instructions:
+<p id="nave20tokenwaact_p1">
+  A `Not a valid ERC-20 token` error can occur when an incorrect contract address was added as a custom token. Be sure to use the correct contract address, you can find the contract address by following either of the following instructions:
+</p>
 
 ### 1. Using Ethplorer.io
-1. Enter the name of the token you want to add to your MyEtherWallet interface.
-![](https://i.imgur.com/JU6vbU5.jpg)
-
-2. Use the contract address (not the creator address) for the custom token in MyEtherWallet. Be sure to use the correct decimals as well.
-![](https://i.imgur.com/eJXniQe.jpg)
-
-
+<ol>
+  <li>
+    <p id="nave20tokenwaact_uethplorerl1">Enter the name of the token you want to add to your MyEtherWallet interface.</p>
+    <img src="https://i.imgur.com/JU6vbU5.jpg"/>
+  </li>
+  <li>
+    <p id="nave20tokenwaact_uethplorerl2">Use the contract address (not the creator address) for the custom token in MyEtherWallet. Be sure to use the correct decimals as well.</p>
+    <img src="https://i.imgur.com/eJXniQe.jpg"/>
+  </li>
+</ol>
 
 ### 2. Using Etherscan.io
-1. Enter the name of the token you want to add to your MyEtherWallet interface.
-![](https://i.imgur.com/4U8Ccth.jpg)
-
-2. Use the contract address for the custom token and be sure to use the correct decimals as well.
-![](https://i.imgur.com/pWjnADx.jpg)
+<ol>
+  <li>
+    <p id="nave20tokenwaact_uetherscanl1">Enter the name of the token you want to add to your MyEtherWallet interface.</p>
+    <img src="https://i.imgur.com/4U8Ccth.jpg"/>
+  </li>
+  <li>
+    <p id="nave20tokenwaact_uetherscanl2">Use the contract address for the custom token and be sure to use the correct decimals as well.</p>
+    <img src="https://i.imgur.com/pWjnADx.jpg"/>
+  </li>
+</ol>
 
 
 #### Related Reading
-- [Adding Custom Ethereum (ERC-20) Tokens](https://kb.myetherwallet.com/tokens/adding-custom-ethereum-tokens.html)
+<ul>
+  <li id="nave20tokenwaact_footer_link">
+    <a href="https://kb.myetherwallet.com/tokens/adding-custom-ethereum-tokens.html" target="_blank">
+      Adding Custom Ethereum (ERC-20) Tokens
+    </a>
+  </li>
+</ul>
