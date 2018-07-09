@@ -195,31 +195,56 @@
       <article class="block block__content clearfix" itemscope itemtype="http://schema.org/Article">
           <h1 class="page__title" itemprop="headline" id="articleTitleWhatisNonce">What is Nonce?</h1>
           <div class="content">
-            <h3 id="in-ethereum-every-transaction-has-a-nonce-the-nonce-is-the-number-of-transactions-sent-from-a-given-address-">In Ethereum, every transaction has a <code>nonce</code>. The nonce is the <code>number of transactions sent from a given address.</code></h3>
-<p>Each time you send a transaction, the nonce increases by <code>1</code>. There are rules about what transactions are valid transactions and the nonce is used to enforce some of these rules. Specifically:</p>
+            <h3 id="in-ethereum-every-transaction-has-a-code-nonce-code-the-nonce-is-the-code-number-of-transactions-sent-from-a-given-address-code-">In Ethereum, every transaction has a <code>nonce</code>. The nonce is the <code>number of transactions sent from a given address.</code></h3>
+<p id="win_p1">
+  Nonce (in English, nonce - a number that can be used once) in cryptography is a one-time code selected in a random or pseudo-random manner that is used to securely transmit the main password, preventing a replay attack
+</p>
+
+<h3 id="nonce-is-the-number-assigned-to-transactions-sent-from-a-separate-address-">Nonce is the number assigned to transactions sent from a separate address.</h3>
+<p id="win_p2">
+  Each time you send a transaction, the nonce increases by <code>1</code>. There are rules about what transactions are valid transactions and the nonce is used to enforce some of these rules. Specifically:
+</p>
+
 <ul>
-<li><p><strong>Transactions must be in Order:</strong> You cannot have a transaction with a nonce of <code>1</code> mined before one with a nonce of <code>0</code>.</p>
-</li>
-<li><p><strong>No Skipping!</strong> You cannot have a transaction with a nonce of <code>2</code> mined if you have not already sent transactions with a nonce of <code>1</code> and <code>0</code>.</p>
-</li>
+  <li id="win_l1">
+    <b>Transactions must be in Order:</b> You cannot have a transaction with a nonce of <code>1</code> mined before one with a nonce of <code>0</code>.
+  </li>
+  <li id="win_l2">
+    <b>No Skipping!</b> You cannot have a transaction with a nonce of <code>2</code> mined if you have not already sent transactions with a nonce of <code>1</code> and <code>0</code>.
+  </li>
 </ul>
+
 <h3 id="why-">Why?</h3>
-<p>This field prevents double-spends as the nonce is the order the transactions go in. In order for a double-spend to be &quot;successful&quot;, you typically...</p>
+<p id="win_p3">
+  This field prevents double-spends as the nonce is the order the transactions go in. In order for a double-spend to be &quot;successful&quot;, you typically...
+</p>
+
 <ul>
-<li><p>Send a transaction to one party</p>
-</li>
-<li><p>Wait for it to register</p>
-</li>
-<li><p>Collect something in return from this first transaction</p>
-</li>
-<li><p>Quickly send another transaction with a high gas price</p>
-</li>
-<li><p>Have this second transaction mined first, therefore invalidating the first transaction.</p>
-</li>
+  <li id="win_w_l1">
+    Send a transaction to one party
+  </li>
+  <li id="win_w_l2">
+    Wait for it to register
+  </li>
+  <li id="win_w_l3">
+    Collect something in return from this first transaction
+  </li>
+  <li id="win_w_l4">
+    Quickly send another transaction with a high gas price
+  </li>
+  <li id="win_w_l5">
+    Have this second transaction mined first, therefore invalidating the first transaction.
+  </li>
 </ul>
-<p>This is why exchanges wait for you to have a certain number of confirmations before allowing you to trade freshly-deposited funds.</p>
+
+<p id="win_p4">
+  This is why exchanges wait for you to have a certain number of confirmations before allowing you to trade freshly-deposited funds.
+</p>
+
 <h3 id="in-ethereum-the-above-is-not-possible">In Ethereum, the above is not possible</h3>
-<p>In Ethereum, this method of &quot;double-spending&quot; is not possible because each transaction has a nonce included with it. Even if you attempt to do the above, it will not work as the second transaction (nonce of <code>3</code>) cannot be mined before the first transaction (nonce of <code>2</code>).</p>
+<p id="win_p5">
+  In Ethereum, this method of &quot;double-spending&quot; is not possible because each transaction has a nonce included with it. Even if you attempt to do the above, it will not work as the second transaction (nonce of <code>3</code>) cannot be mined before the first transaction (nonce of <code>2</code>).
+</p>
 
           </div>
 

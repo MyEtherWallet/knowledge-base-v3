@@ -19,28 +19,28 @@
 ### Helpful Tools and Resources to Get Your TX to Send
 <ul>
   <li id="tansuopf_helpful_tools_l1">
-    <a href="https://etherscan.io/txsPending" target=""_blank>
+    <a href="https://etherscan.io/txsPending" target="_blank">
       See all the transactions that are pending here
     </a>
   </li>
   <li id="tansuopf_helpful_tools_l2">
-    <a href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html" target=""_blank>
+    <a href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html" target="_blank">
       Learn about <b>Gas</b>, <b>TX Fees</b>, and how to get your TX to go through
     </a>
   </li>
   <li id="tansuopf_helpful_tools_l3">
-    <a href="https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html" target=""_blank>
+    <a href="https://kb.myetherwallet.com/transactions/check-status-of-ethereum-transaction.html" target="_blank">
       Replace a <b>pending TX</b> that you sent with too low gas
     </a>
   </li>
   <li id="tansuopf_helpful_tools_l4">
-    <a href="https://ethgasstation.info/" target=""_blank>
+    <a href="https://ethgasstation.info/" target="_blank">
       See what the <b>optimal gas price</b> is here (at 12/07/2017 @ 12:00am PT it was <b>61</b> GWEI)
     </a>
   </li>
   <li id="tansuopf_helpful_tools_l5">
-    <a href="https://kb.myetherwallet.com/transactions/what-is-nonce.html" target=""_blank>
-      Learn about **Nonce** and how it controls which transactions are mined, or not mined
+    <a href="https://kb.myetherwallet.com/transactions/what-is-nonce.html" target="_blank">
+      Learn about <b>Nonce</b> and how it controls which transactions are mined, or not mined
     </a>
   </li>
 </ul>
@@ -69,9 +69,12 @@
 </p>
 
 ### For Visual Learners
-
-![](../images/transactions/txpool_01.jpg)
-
-![](../images/transactions/txpool_02.jpg)
-
-![](../images/tx_pool_infographic.png)
+<div id="fvl_img1">
+  <img src="../images/transactions/txpool_01.jpg" />
+</div>
+<div id="fvl_img2">
+  <img src="../images/transactions/txpool_02.jpg" />
+</div>
+<div id="fvl_img3">
+  <img src="../images/tx_pool_infographic.png" />
+</div>
