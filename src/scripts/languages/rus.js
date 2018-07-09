@@ -14,7 +14,7 @@ var Russian = {
   "categoriesCategoryTitleSecurityPhishing": "Безопасность и фишинг",
   "categoriesCategoryTitleSendingETHTokens": "Отправка и добавление Эфир (ether) и токенов",
   "categoriesCategoryTitleTokens": "жетоны",
-  "categoriesCategoryTitleTransactions": "операции",
+  "categoriesCategoryTitleTransactions": "Транзакции",
   // List ids
   "categoryGettingStartedGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com ",
   "categoryGettingStartedHowtoCreateaWallet": "Как создать кошелек",
@@ -54,7 +54,7 @@ var Russian = {
   "categorySecurityPhishing": "Безопасность и фишинг",
   "categorySendingETHTokens": "Отправка и добавление токенов",
   categoryTokens: "жетоны",
-  categoryTransactions: "операции",
+  categoryTransactions: "Транзакции",
   // Article Ids
   "articleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",
   "articleTitleGettingStartedonMyEtherWalletcom": "Начало работы на MyEtherWallet.com",
