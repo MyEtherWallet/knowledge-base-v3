@@ -197,118 +197,206 @@
           <div class="content">
             <h3 id="how-can-i-check-on-the-status-of-my-transaction-">How can I check on the status of my transaction?</h3>
 <ul>
-<li><p><a href="https://etherscan.io/txsPending">Etherscan&#39;s Pending Transactions</a></p>
-</li>
-<li><p><a href="https://www.myetherwallet.com/#check-tx-status">Our Check TX Status</a></p>
-</li>
-<li><p>Our Check TX Status Page via TX hash: <a href="https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status">https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status</a></p>
-</li>
-</ul>
+  <li id="hcicotsomt_l1">
+    <a href="https://etherscan.io/txsPending" target="_blank">Etherscan&#39;s Pending Transactions</a>
+  </li>
+  <li id="hcicotsomt_l2">
+    <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">Our Check TX Status</a>
+  </li>
+  <li id="hcicotsomt_l3">
+    <p>
+      Our Check TX Status Page via TX hash:
+      <a href="https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status" target="_blank">
+      https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status
+      </a>
+    </p>
+  </li>
+</ul>  
+
 <h3 id="can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent-">Can I cancel, override, overwrite, replace, or do anything once a transaction has been sent?</h3>
-<p><strong>99.9999999999999999% of the time the answer is NO.</strong></p>
-<p>Once a transaction has been mined and is included in a block on the blockchain, it cannot be canceled or replaced.</p>
-<p>During times of normal volume, transactions are mined within seconds and do not spend any length of time in the transaction pool. There is simply not enough time to cancel or replace or override a transaction once it has been sent.</p>
-<p><strong>However....</strong></p>
-<p>During times of extremely high volume (like we&#39;ve seen during the Bancor and Status Token Contribution periods), transactions could be pending for hours, if not days, before being mined.</p>
-<p>During these times it is theoretically possible to replace an existing transaction with a new transaction with a higher gas price.</p>
-<p>The second transaction, theoretically, will be mined before the first transaction, effectively &quot;canceling&quot; the first transaction.</p>
-<p>The easiest way to do this is by sending a <code>0 ETH</code> transaction to <code>your own address</code> with the same nonce and higher gas price. This will &quot;cancel&quot; your first transaction.</p>
-<p>There is no guarantee this will work, nor that it will work every time. This tool is very, very new. Please use at your own risk.</p>
+<p><b id="cioorodaoathbs_b1">
+  99.9999999999999999% of the time the answer is NO.
+</b></p>
+<p id="cioorodaoathbs_p1">
+  Once a transaction has been mined and is included in a block on the blockchain, it cannot be canceled or replaced.
+</p>
+
+<p id="cioorodaoathbs_p2">
+  During times of normal volume, transactions are mined within seconds and do not spend any length of time in the transaction pool. There is simply not enough time to cancel or replace or override a transaction once it has been sent.
+</p>
+
+<p><b id="cioorodaoathbs_b2">However....</b></p>
+<p id="cioorodaoathbs_p3">
+  During times of extremely high volume (like we&#39;ve seen during the Bancor and Status Token Contribution periods), transactions could be pending for hours, if not days, before being mined.
+</p>
+<p id="cioorodaoathbs_p4">
+  During these times it is theoretically possible to replace an existing transaction with a new transaction with a higher gas price.
+</p>
+<p id="cioorodaoathbs_p5">
+  The second transaction, theoretically, will be mined before the first transaction, effectively &quot;canceling&quot; the first transaction.
+</p>
+<p id="cioorodaoathbs_p6">
+  The easiest way to do this is by sending a <code>0 ETH</code> transaction to <code>your own address</code> with the same nonce and higher gas price. This will &quot;cancel&quot; your first transaction.
+</p>
+<p id="cioorodaoathbs_p7">
+  There is no guarantee this will work, nor that it will work every time. This tool is very, very new. Please use at your own risk.
+</p>
+
 <hr>
 <h5 id="do-not-take-this-article-or-features-on-myetherwallet-as-an-indication-that-you-can-cancel-a-transaction-you-accidentally-sent-to-the-wrong-address-or-get-your-eth-back-once-it-has-been-sent-">Do not take this article or features on MyEtherWallet as an indication that you can cancel a transaction you accidentally sent to the wrong address, or get your ETH back once it has been sent.</h5>
-<h5 id="it-is-only-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-">It is <strong>only</strong> regarding finding, checking, and potentially replacing transactions that have been stuck in the transaction pool for very long period of time.</h5>
+<h5 id="it-is-b-only-b-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-">It is <b>only</b> regarding finding, checking, and potentially replacing transactions that have been stuck in the transaction pool for very long period of time.</h5>
 <hr>
 <h3 id="how-to-check-the-status-of-a-transaction">How to Check the Status of a Transaction</h3>
 <ol>
-<li><p>Go to our <a href="https://www.myetherwallet.com/#check-tx-status">Check TX Status</a> Page</p>
-</li>
-<li><p>Copy &amp; paste the transaction hash into the field provided.</p>
-</li>
-<li><p>Click the <code>Check TX Status</code> button.</p>
-</li>
-<li><p>Details will appear depending on the state of the transaction. It could be...</p>
-<ul>
-<li><p><strong>Transaction Found:</strong> Your transaction was successfully mined and is on the blockchain. Click the link provided.</p>
-<ul>
-<li>If you see a red ( ! ) symbol, or a &quot;BAD INSTRUCTION&quot; or &quot;OUT OF GAS&quot; error message, it means that the transaction was not successfully <em>sent</em>. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an &quot;Out of Gas&quot; error, you should double the gas limit you specified originally.</li>
-<li>If you do not see any errors, your transaction was successfully sent. Your ETH or Tokens are where you sent them. If this balance has not been credited to your hosted wallet or exchange account ~24 hours after sending, please <a href="https://kb.myetherwallet.com/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do">contact that service</a>. Send them the <em>link</em> to your transaction and ask them, nicely, to look into your situation.</li>
-</ul>
-</li>
-<li><p><strong>Transaction Not Found:</strong> This transaction cannot be found in the TX Pool of the node you are connected to. However, it could be in a different TX Pool, waiting to be mined. Please use the dropdown in the upper-right to select a different ETH node (e.g. <code>ETH (Etherscan.io)</code> or <code>ETH (Infura.io)</code> or <code>ETH (MyEtherWallet)</code>) and check again.</p>
-</li>
-<li><p><strong>Pending Transaction Found:</strong> Your transaction was located in the TX Pool of the node you are connected to. It is currently pending (waiting to be mined). There is a chance you can cancel or replace this transaction.</p>
-</li>
-</ul>
-</li>
+  <li id="htctsoat_l1">
+    Go to our <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">Check TX Status</a> Page
+  </li>
+  <li id="htctsoat_l2">
+    Copy &amp; paste the transaction hash into the field provided.
+  </li>
+  <li id="htctsoat_l3">
+    Click the <code>Check TX Status</code> button.
+  </li>
+  <li>
+    <p id="htctsoat_l4_p">
+      Details will appear depending on the state of the transaction. It could be...
+    </p>
+    <ul>
+      <li>
+        <p id="htctsoat_l4_p_l1_p">
+          <b>Transaction Found:</b> Your transaction was successfully mined and is on the blockchain. Click the link provided.
+        </p>
+        <ul>
+          <li id="htctsoat_l4_l1_l1">
+            If you see a red ( ! ) symbol, or a &quot;BAD INSTRUCTION&quot; or &quot;OUT OF GAS&quot; error message, it means that the transaction was not successfully <em>sent</em>. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an &quot;Out of Gas&quot; error, you should double the gas limit you specified originally.
+          </li>
+          <li id="htctsoat_l4_l1_l2">
+            If you do not see any errors, your transaction was successfully sent. Your ETH or Tokens are where you sent them. If this balance has not been credited to your hosted wallet or exchange account ~24 hours after sending, please
+            <a href="https://kb.myetherwallet.com/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do" target="_blank">contact that service</a>. Send them the <em>link</em> to your transaction and ask them, nicely, to look into your situation.
+          </li>
+        </ul>
+      </li>
+      <li id="htctsoat_l4_p_l2">
+        <b>Transaction Not Found:</b> This transaction cannot be found in the TX Pool of the node you are connected to. However, it could be in a different TX Pool, waiting to be mined. Please use the dropdown in the upper-right to select a different ETH node (e.g. <code>ETH (Etherscan.io)</code> or <code>ETH (Infura.io)</code> or <code>ETH (MyEtherWallet)</code>) and check again.
+      </li>
+      <li id="htctsoat_l4_p_l3">
+        <b>Pending Transaction Found:</b> Your transaction was located in the TX Pool of the node you are connected to. It is currently pending (waiting to be mined). There is a chance you can cancel or replace this transaction.
+      </li>
+    </ul>
+  </li>
 </ol>
+
+
 <h3 id="-replacing-vs-canceling-transactions">&quot;Replacing&quot; vs &quot;Canceling&quot; Transactions</h3>
 <ul>
-<li><p><strong>Canceling</strong>: Generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / being included in the blockchain.</p>
-</li>
-<li><p><strong>Replacing</strong>: Generating a <code>XX  ETH</code> transaction to <code>Someone Else&#39;s Address</code> with the purpose of doing something (e.g. sending, revealing an ENS bid) <em>while simultaneously</em> not having a previous transaction go through.</p>
-</li>
+  <li id="rvct_l1">
+    <b>Canceling</b>: Generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / being included in the blockchain.
+  </li>
+  <li id="rvct_l2">
+    <b>Replacing</b>: Generating a <code>XX  ETH</code> transaction to <code>Someone Else&#39;s Address</code> with the purpose of doing something (e.g. sending, revealing an ENS bid) <em>while simultaneously</em> not having a previous transaction go through.
+  </li>
 </ul>
-<p>The reason we recommend <code>Canceling</code> over  <code>Replacing</code> is that it is not guaranteed your second transaction will actually replace your first one. Your first transaction could still be mined first, invalidating your second transaction. Choosing to replace a transaction with a new one could lead to more confusion, headaches, and pending ETH, or ETH spent unnecessarily in the form of gas. This is especially true if your first transaction is mined anyways, which is possible.</p>
+
+<p id="rvct_p">
+  The reason we recommend <code>Canceling</code> over  <code>Replacing</code> is that it is not guaranteed your second transaction will actually replace your first one. Your first transaction could still be mined first, invalidating your second transaction. Choosing to replace a transaction with a new one could lead to more confusion, headaches, and pending ETH, or ETH spent unnecessarily in the form of gas. This is especially true if your first transaction is mined anyways, which is possible.
+</p>
+
+
 <h4 id="canceling-a-transaction">Canceling a Transaction</h4>
-<p><strong>Canceling</strong> means generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / &quot;being included in the blockchain&quot; / &quot;being stuck&quot;</p>
+<p id="cat_p">
+  <b>Canceling</b> means generating a <code>0 ETH</code> transaction to <code>Your Own Address</code> with the purpose of preventing a previous transaction from &quot;going through&quot; / &quot;being mined&quot; / &quot;being included in the blockchain&quot; / &quot;being stuck&quot;
+</p>
+
 <ol>
-<li><p>Go to <a href="https://www.myetherwallet.com/#check-tx-status">https://www.myetherwallet.com/#check-tx-status</a></p>
-</li>
-<li><p>Paste your TX hash.</p>
-<ul>
-<li>If it says pending, you can cancel it</li>
-<li>If it says not found, click the button again, waiting a few seconds between each click. This will poll different nodes. If that doesn&#39;t work, change the network in the top-right corner to Etherscan, Infura, MyEtherWallet, and Giveth and check for the TX hash each time you switch.</li>
-<li>If it says found, you cannot cancel it.</li>
-</ul>
-</li>
-<li><p>If it says pending, unlock the wallet you used to send the original transaction.</p>
-</li>
-<li><p>Don&#39;t change any fields. These are already filled in for you. If you change something, it will not work as intended, bad things could happen, and you have no one to blame but yourself.</p>
-</li>
-<li><p>Click the <code>Send Transaction</code> Button.</p>
-</li>
-<li><p>A dialog will appear. Click the &quot;Yes, I&#39;m Sure&quot; button to send.</p>
-</li>
-<li><p>A new <code>TX Hash</code> will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn&#39;t show up immediately, stop. Breath. Count to 20. <em>Then</em> click refresh.</p>
-</li>
+  <li id="cat_l1">
+    Go to <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">https://www.myetherwallet.com/#check-tx-status</a>
+  </li>
+  <li>
+    <p id="cat_l2_p">Paste your TX hash.</p>
+    <ul>
+      <li id="cat_l2_l1">If it says pending, you can cancel it</li>
+      <li id="cat_l2_l2">If it says not found, click the button again, waiting a few seconds between each click. This will poll different nodes. If that doesn&#39;t work, change the network in the top-right corner to Etherscan, Infura, MyEtherWallet, and Giveth and check for the TX hash each time you switch.</li>
+      <li id="cat_l2_l3">If it says found, you cannot cancel it.</li>
+    </ul>
+  </li>
+  <li id="cat_l3">
+    If it says pending, unlock the wallet you used to send the original transaction.
+  </li>
+  <li id="cat_l4">
+    Don&#39;t change any fields. These are already filled in for you. If you change something, it will not work as intended, bad things could happen, and you have no one to blame but yourself.
+  </li>
+  <li id="cat_l5">
+    Click the <code>Send Transaction</code> Button.
+  </li>
+  <li id="cat_l6">
+    A dialog will appear. Click the &quot;Yes, I&#39;m Sure&quot; button to send.
+  </li>
+  <li id="cat_l7">
+    A new <code>TX Hash</code> will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn&#39;t show up immediately, stop. Breath. Count to 20. <em>Then</em> click refresh.
+  </li>
 </ol>
+
+
 <h4 id="replacing-a-transaction-advanced-users-only-">Replacing a Transaction (Advanced Users Only)</h4>
-<p><strong>Replacing</strong>: Generating a <code>XX  ETH</code> transaction to <code>Someone Else&#39;s Address</code> with the purpose of doing something (e.g. sending, revealing an ENS bid) <em>while simultaneously</em> not having a previous transaction go through.</p>
+<p id="ratauo_p1">
+  <b>Replacing</b>: Generating a <code>XX  ETH</code> transaction to <code>Someone Else&#39;s Address</code> with the purpose of doing something (e.g. sending, revealing an ENS bid) <em>while simultaneously</em> not having a previous transaction go through.
+</p>
+
 <ol>
-<li><p>Unlock the wallet you used to send the original transaction.</p>
-</li>
-<li><p><strong>To Address:</strong> Replace the address with whatever address you wish to send to.</p>
-</li>
-<li><p><strong>Amount:</strong> Change from <code>0</code> to the amount of ETH you wish to send.</p>
-</li>
-<li><p><strong>Gas Limit:</strong> If sending a standard ETH transaction, you can use <code>21000</code>. Sending tokens is ~<code>200000</code>. Otherwise, just leave as is.</p>
-</li>
-<li><p><strong>Gas Price:</strong> This field is already pre-filled  with <code>Gas Price of Previous Transaction</code> + <code>10 GWEI</code>. Leave as is, unless this is super super duper urgent, then you may choose to raise it. Keep in mind, the higher the gas price, the higher the TX fee (<code>Gas Limit</code> * <code>Gas Price</code>). Be careful!</p>
-</li>
-<li><p><strong>Nonce:</strong> Leave as is. If you change this, it will not replace the transaction you are hoping it will replace.</p>
-</li>
-<li><p>Click the <code>Send Transaction</code> Button.</p>
-</li>
-<li><p>A dialog will appear. Carefully review all information displayed. Click the &quot;Yes, I&#39;m Sure&quot; button to send.</p>
-</li>
-<li><p>A new <code>TX Hash</code> will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn&#39;t show up immediately, stop. Breath. Count to 20. <em>Then</em> click refresh.</p>
-</li>
+  <li id="ratauo_l1">
+    Unlock the wallet you used to send the original transaction.
+  </li>
+  <li id="ratauo_l2">
+    <b>To Address:</b> Replace the address with whatever address you wish to send to.
+  </li>
+  <li id="ratauo_l3">
+    <b>Amount:</b> Change from <code>0</code> to the amount of ETH you wish to send.
+  </li>
+  <li id="ratauo_l4">
+    <b>Gas Limit:</b> If sending a standard ETH transaction, you can use <code>21000</code>. Sending tokens is ~<code>200000</code>. Otherwise, just leave as is.
+  </li>
+  <li id="ratauo_l5">
+    <b>Gas Price:</b> This field is already pre-filled  with <code>Gas Price of Previous Transaction</code> + <code>10 GWEI</code>. Leave as is, unless this is super super duper urgent, then you may choose to raise it. Keep in mind, the higher the gas price, the higher the TX fee (<code>Gas Limit</code> * <code>Gas Price</code>). Be careful!
+  </li>
+  <li id="ratauo_l6">
+    <b>Nonce:</b> Leave as is. If you change this, it will not replace the transaction you are hoping it will replace.
+  </li>
+  <li id="ratauo_l7">
+    Click the <code>Send Transaction</code> Button.
+  </li>
+  <li id="ratauo_l8">
+    A dialog will appear. Carefully review all information displayed. Click the &quot;Yes, I&#39;m Sure&quot; button to send.
+  </li>
+  <li id="ratauo_l9">
+    A new <code>TX Hash</code> will appear in the green bar across the bottom. Click the link to view it and see if you were successful. If it doesn&#39;t show up immediately, stop. Breath. Count to 20. <em>Then</em> click refresh.
+  </li>
 </ol>
+
 <h3 id="final-notes">Final Notes</h3>
 <ul>
-<li><p>The TX fee is is NOT paid to us—it is paid to the miners for including your transaction in a block. We are still a free, open-source service.</p>
-</li>
-<li><p>The TX pool varies from node to node. This means that a TX may be pending in <code>ETH (Infura.io)</code>&#39;s txpool, but <em>not</em> <code>ETH (MyEtherWallet)</code>&#39;s txpool. For this reason, you should try all three nodes we offer.</p>
-</li>
-<li><p>If possible, use the same computer / browser that you used to send the transaction. We are working on further mitigating internal differences between our 10 nodes and their 10 txpools. For now, using the same computer / browser will increase liklihood you connect to the same as before if you are using the <code>ETH (MyEtherWallet)</code> node.</p>
-</li>
+  <li id="fn_l1">
+    The TX fee is is NOT paid to us—it is paid to the miners for including your transaction in a block. We are still a free, open-source service.
+  </li>
+  <li id="fn_l2">
+    The TX pool varies from node to node. This means that a TX may be pending in <code>ETH (Infura.io)</code>&#39;s txpool, but <em>not</em> <code>ETH (MyEtherWallet)</code>&#39;s txpool. For this reason, you should try all three nodes we offer.
+  </li>
+  <li id="fn_l3">
+    If possible, use the same computer / browser that you used to send the transaction. We are working on further mitigating internal differences between our 10 nodes and their 10 txpools. For now, using the same computer / browser will increase liklihood you connect to the same as before if you are using the <code>ETH (MyEtherWallet)</code> node.
+  </li>
 </ul>
+
 <h3 id="related-articles">Related Articles</h3>
 <ul>
-<li><p><a href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html">You can learn more about gas &amp; gas limit vs gas price here.</a></p>
-</li>
-<li><p><a href="https://kb.myetherwallet.com/transactions/what-is-nonce.html">You can learn more about nonce here</a></p>
-</li>
+  <li id="ra_l1">
+    <a href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html" target="_blank">
+      You can learn more about gas &amp; gas limit vs gas price here.
+    </a>
+  </li>
+  <li id="ra_l2">
+    <a href="https://kb.myetherwallet.com/transactions/what-is-nonce.html" target="_blank">
+      You can learn more about nonce here
+    </a>
+  </li>
 </ul>
 
           </div>
