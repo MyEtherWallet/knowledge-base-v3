@@ -854,7 +854,7 @@ var Russian = {
   "cioorodaoathbs_p6": "Вы можете легко попробовать провести подобный опыт. Отправьте 0 ETH на свой собственный адрес, с тем же nonce и более высокой ценой в GAS. Это “отменит” вашу первую транзакцию.",
   "cioorodaoathbs_p7": "Нет никаких гарантий, что это сработает, а если сработает, то нет гарантий, что успех повторится при идентичных условиях. Этот механизм очень, очень новый. Использовать его можно лишь на свой риск.",
   "do-not-take-this-article-or-features-on-myetherwallet-as-an-indication-that-you-can-cancel-a-transaction-you-accidentally-sent-to-the-wrong-address-or-get-your-eth-back-once-it-has-been-sent-": "Не воспринимайте эту статью или факт существования этого механизма как доказательство того, что вы всегда сможете отменить транзакцию, которую отправили не на тот адрес или же вернуть средства назад, после того, как отправили их.",
-  "it-is-only-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-": "Эта механика призвана исправить проблему “ намертво зависших” в пуле транзакций, ничего более.",
+  "it-is-b-only-b-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-": "Эта механика призвана исправить проблему “ намертво зависших” в пуле транзакций, ничего более.",
   "how-to-check-the-status-of-a-transaction": "Как проверить текущий статус транзакции",
   "htctsoat_l1": "Перейдите на нашу страницу <a href=\"https://www.myetherwallet.com/#check-tx-status\" target=\"_blank\">Проверки статуса транзакции</a>",
   "htctsoat_l2": "Скопируйте и вставьте хэш транзакции в поле ввода",

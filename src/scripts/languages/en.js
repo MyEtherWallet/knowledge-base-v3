@@ -853,7 +853,7 @@ var English = {
   "cioorodaoathbs_p6": "The easiest way to do this is by sending a <code>0 ETH</code> transaction to `your own address` with the same nonce and higher gas price. This will \"cancel\" your first transaction.",
   "cioorodaoathbs_p7": "There is no guarantee this will work, nor that it will work every time. This tool is very, very new. Please use at your own risk.",
   "do-not-take-this-article-or-features-on-myetherwallet-as-an-indication-that-you-can-cancel-a-transaction-you-accidentally-sent-to-the-wrong-address-or-get-your-eth-back-once-it-has-been-sent-": "Do not take this article or features on MyEtherWallet as an indication that you can cancel a transaction you accidentally sent to the wrong address, or get your ETH back once it has been sent.",
-  "it-is-only-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-": "It is <b>only</b> regarding finding, checking, and potentially replacing transactions that have been stuck in the transaction pool for very long period of time.",
+  "it-is-b-only-b-regarding-finding-checking-and-potentially-replacing-transactions-that-have-been-stuck-in-the-transaction-pool-for-very-long-period-of-time-": "It is <b>only</b> regarding finding, checking, and potentially replacing transactions that have been stuck in the transaction pool for very long period of time.",
   "how-to-check-the-status-of-a-transaction": "How to Check the Status of a Transaction",
   "htctsoat_l1": "Go to our <a href=\"https://www.myetherwallet.com/#check-tx-status\" target=\"_blank\">Check TX Status</a> Page",
   "htctsoat_l2": "Copy & paste the transaction hash into the field provided.",
