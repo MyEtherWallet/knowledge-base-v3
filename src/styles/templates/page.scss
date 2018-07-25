@@ -125,6 +125,10 @@ body.is-embedded {
   flex-direction: column;
   justify-content: space-between;
 
+  img {
+    width: 300px;
+  }
+
   p {
     margin-bottom: 5px;
   }
@@ -142,10 +146,6 @@ body.is-embedded {
     >:first-child {
       flex: 45;
     }
-  }
-
-  img {
-    width: 300px;
   }
 
   >:not(:first-child) {
