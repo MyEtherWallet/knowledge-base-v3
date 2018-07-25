@@ -112,6 +112,6 @@
   	</div>
 	</div>
   <p>
-    To download the MEWconnect app, visit <a href="mewconnect.myetherwallet.com" target="blank">mewconnect.myetherwallet.com</a>.
+    To download the MEWconnect app, visit <a href="https://kb.myetherwallet.com/getting-started/mewconnect.myetherwallet.com" target="blank">https://kb.myetherwallet.com/getting-started/mewconnect.myetherwallet.com</a>.
   </p>
 </div>
