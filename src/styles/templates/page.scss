@@ -117,3 +117,66 @@ body.is-embedded {
     text-decoration: underline;
   }
 }
+
+// Mew conenct getting started
+.mewconnect-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  .right-image {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    >:last-child {
+      flex: 40;
+      text-align: center;
+    }
+
+    >:first-child {
+      flex: 45;
+    }
+  }
+
+  img {
+    width: 300px;
+  }
+
+  >:not(:first-child) {
+    margin-top: 40px;
+  }
+
+  .left-image {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    >:first-child {
+      flex: 40;
+      text-align: center;
+    }
+
+    >:last-child {
+      flex: 45;
+    }
+  }
+
+  >p:last-child {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .mewconnect-container {
+    .left-image,
+    .right-image {
+      flex-direction: column;
+    }
+  }
+}
