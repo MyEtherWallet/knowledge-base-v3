@@ -9,11 +9,19 @@
 
 ---%
 
+<ol>
+  <li id="sgpatsl_l1">
+    First, <a href="https://i.imgur.com/qm50zD1.gif" target="_blank"> you can follow the gif here</a>.  
+  </li>
+  <li id="sgpatsl_l2">
+    You can use the offline tab (you can also use it online) to manually set the gas price for a transaction. <a href="https://kb.myetherwallet.com/offline/making-offline-transaction-on-myetherwallet.html" target="_blank"> Our guide on how to send a transaction via this tab is here</a>.
+  </li>
+</ol>
 
-1. First, [you can follow the gif here](https://i.imgur.com/qm50zD1.gif).  
+<p id="sgpatsl_p1">
+  Please note that the TX Fee is the <code>gas limit * gas price</code>. This means that a contract transactions with a gas limit of <code>200000</code> using a gas price of <code>150 GWEI</code> would cost</code>`0.03 ETH</code>, or <code>~$9.00 USD</code>.
+</p>
 
-2. You can use the offline tab (you can also use it online) to manually set the gas price for a transaction. [Our guide on how to send a transaction via this tab is here](https://kb.myetherwallet.com/offline/making-offline-transaction-on-myetherwallet.html).
-
-Please note that the TX Fee is the `gas limit * gas price`. This means that a contract transactions with a gas limit of `200000` using a gas price of `150 GWEI` would cost `0.03 ETH`, or `~$9.00 USD`.
-
-If you are unfamiliar with how gas limit & gas price work together, [please check out our pretty rockin' guide on gas first.](https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html)
+<p id="sgpatsl_p2">
+  If you are unfamiliar with how gas limit & gas price work together, <a href="https://kb.myetherwallet.com/gas/what-is-gas-ethereum.html" target="_blank"> please check out our pretty rockin' guide on gas first. </a>
+</p>

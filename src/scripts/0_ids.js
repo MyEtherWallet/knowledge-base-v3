@@ -8,6 +8,7 @@ var ids = [
   "breadCrumbCategoryTitleSendingETHTokens",
   "breadCrumbCategoryTitleTokens",
   "breadCrumbCategoryTitleTransactions",
+  "breadCrumbCategoryTitleGasTransactionFees",
   // List titles
   "categoriesCategoryTitleGettingStarted",
   "categoriesCategoryTitleTransactions",
@@ -15,6 +16,7 @@ var ids = [
   "categoriesCategoryTitleSendingETHTokens",
   "categoriesCategoryTitleTokens",
   "categoriesCategoryTitleTransactions",
+  "categoriesCategoryTitleGasTransactionFees",
   // List ids
   "categoryGettingStartedGettingStartedonMyEtherWalletcom",
   "categoryGettingStartedHowtoCreateaWallet",
@@ -50,12 +52,16 @@ var ids = [
   "categoryTransactionsTransactionFailedOutofGas",
   "categoryTransactionsTransactionFailedTXFeenotRefunded",
   "categoryTransactionsCheckingorReplacingaTXAfteritsBeenSent",
+  "categoryGasTransactionFeesErrorCannotsendduetoInsufficientfunds",
+  "categoryGasTransactionFeesSettingGasPriceAboveTheSliderLimits",
+  "categoryGasTransactionFeesDoyouhaveaminimumrequirementtotransferoutofMyEtherWallet",
   // Block Ids
   "categoryGettingStarted",
   "categorySecurityPhishing",
   "categorySendingETHTokens",
   "categoryTokens",
   "categoryTransactions",
+  "categoryGasTransactionFees",
   // Article Ids
   // Getting started
   "articleGettingStartedonMyEtherWalletcom",
@@ -899,5 +905,24 @@ var ids = [
   "fn_l3",
   "related-articles",
   "ra_l1",
-  "ra_l2"
+  "ra_l2",
+  "articleErrorCannotsendduetoInsufficientfunds",
+  "articleTitleErrorCannotsendduetoInsufficientfunds",
+  "ecsdtif_p1",
+  "ecsdtif_p2",
+  "solution-send-0-01-eth-to-that-account-in-order-to-be-able-to-make-the-transaction-",
+  "ssettaiotbatmtt_p1",
+  "ssettaiotbatmtt_p2",
+  "articleSettingGasPriceAboveTheSliderLimits",
+  "articleTitleSettingGasPriceAboveTheSliderLimits",
+  "sgpatsl_l1",
+  "sgpatsl_l2",
+  "sgpatsl_p1",
+  "sgpatsl_p2",
+  "articleDoyouhaveaminimumrequirementtotransferoutofMyEtherWallet",
+  "articleTitleDoyouhaveaminimumrequirementtotransferoutofMyEtherWallet",
+  "dyhamrttoomew_p1",
+  "dyhamrttoomew_p2",
+  "dyhamrttoomew_p3",
+  "dyhamrttoomew_p4",
 ];
