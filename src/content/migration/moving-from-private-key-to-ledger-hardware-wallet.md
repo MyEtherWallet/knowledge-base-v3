@@ -98,7 +98,7 @@ If you are coming from an old wallet and want your ETH and tokens on your new, s
 Please be advised ETH will be required for gas to move any tokens held in your old wallet.  
 
 <h3 style="text-align: center; text-decoration: underline;"> How Do I Restore My Ledger to a New Device? </h3>  
-Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledgerwallet.com/hc/en-us/articles/115005165309-How-to-import-recover-a-backup-on-a-Nano-S.html">here</a>.  
+Ledger made a clear and easy to follow guide on how to restore your Ledger device <a href="https://support.ledgerwallet.com/hc/en-us/articles/360000609933-Lost-device-PIN-code-or-recovery-phrase">here</a>.  
 <h3 style="text-align: center; text-decoration: underline;"> Troubleshooting </h3>  
 Most issues with the Ledger can be fixed by making sure Browser Support and Contract Data are turned to ‘Yes’, all the firmware is updated to it’s latest release, and trying a new connecting cable.  
 
