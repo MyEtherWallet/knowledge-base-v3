@@ -40,17 +40,15 @@
       <p>Step 1. Select "Back Up" on your wallets homepage</p>
       <p>Step 2. Click "Back Up Now"</p>
       <p> Step 3. Get a pen and paper ready. Then press ‘Start’.</p>
-      <p>
-      This step is very important. Make sure you pick a password that
-      is not easy to guess, but also write it down with pen and paper.
-      If you forget it, we cannot recover it for you. There is only one other way to recover a wallet, and we’ll get to that soon.
-      </p>
       <p>Step 4. Enter in your password to verify you’re you.</p>
       <p>Step 5. WRITE DOWN YOUR SEED WORDS. </p>
       <p>
       This is the single most important piece of information about your wallet. These 12 words will decide the future of your funds. Do not lose them, and do not screenshot them.
       </p>
       <p>Step 6. Pass the seed word check test. You’re done! All backed up and ready to connect to MEW.</p>
+      <p>
+        You're done! All backed up and ready to connect to MEW
+      </p>
   	</div>
 	</div>
   <div class="right-image">
