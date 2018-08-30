@@ -210,7 +210,7 @@ var English = {
   "articleTitleProtectingYourselfandYourFunds": "Protecting Yourself and Your Funds",
   "1-get-yourself-a-ledger-or-trezor-hardware-wallet-": "1. Get yourself a Ledger or TREZOR Hardware wallet.",
   "pyayfp_1": "One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and many other coins is via a <strong>Ledger Nano S</strong> or <strong>TREZOR</strong>. Both are hardware wallets. Both work with MyEtherWallet.com. And both cost less $100 ( &lt; 0.1 ETH ).",
-  "pyayfl_1": "<a href='https://www.ledgerwallet.com/r/fa4b?path=/products/' target='_blank'>Buy a Ledger Nano S</a>",
+  "pyayfl_1": "<a href='https://www.ledger.com/products/ledger-nano-s?r=fa4b' target='_blank'>Buy a Ledger Nano S</a>",
   "pyayfl_2": "<a href='https://trezor.io/?a=myetherwallet.com' target='_blank'> Buy a TREZOR</a>",
   "pyayfp_2": "If you don't want one of these nifty devices, use <a href='https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html' target='_blank'>cold storage </a> for a majority of your savings. Please. Pretty please.",
   "2-bookmark-your-crypto-sites-": "2. Bookmark your crypto sites.",

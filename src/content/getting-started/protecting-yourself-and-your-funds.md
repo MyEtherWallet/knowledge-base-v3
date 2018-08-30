@@ -18,7 +18,7 @@ One of the safest &amp; easiest ways to store your ETH, Tokens, ETC, BTC, and ma
 </p>
 <ul>
   <li id="pyayfl_1">
-    <a href='https://www.ledgerwallet.com/r/fa4b?path=/products/' target='_blank'>Buy a Ledger Nano S</a>
+    <a href='https://www.ledger.com/products/ledger-nano-s?r=fa4b' target='_blank'>Buy a Ledger Nano S</a>
   </li>
   <li id="pyayfl_2">
     <a href='https://trezor.io/?a=myetherwallet.com' target='_blank'> Buy a TREZOR</a>

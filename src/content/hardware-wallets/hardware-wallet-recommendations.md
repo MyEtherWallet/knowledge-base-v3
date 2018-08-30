@@ -12,7 +12,7 @@
 
 One of the safest & easiest ways to store your ETH, Tokens, ETC, BTC, and many other coins is via a **Ledger Nano S** or **TREZOR**. Both are hardware wallets. Both work with MyEtherWallet.com. And both cost less than $100 ( < 0.1 ETH ).
 
-*   [Buy a Ledger Nano S](https://www.ledgerwallet.com/r/fa4b?path=/products/)
+*   [Buy a Ledger Nano S](https://www.ledger.com/products/ledger-nano-s?r=fa4b)
 *   [Buy a TREZOR](https://trezor.io/?a=myetherwallet.com)
 *   [Buy a Digital Bitbox](https://digitalbitbox.com/?ref=mew)
 

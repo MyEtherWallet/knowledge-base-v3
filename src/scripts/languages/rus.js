@@ -210,7 +210,7 @@ var Russian = {
   "articleTitleProtectingYourselfandYourFunds": "Защита себя самого и своих средств",
   "1-get-yourself-a-ledger-or-trezor-hardware-wallet-": "1. Заведите аппаратный кошелек Ledger или TREZOR.",
   "pyayfp_1": "Устройства <b> Ledger Nano S</b> и <b>TREZOR</b> - это один из самых безопасных и легких способов хранить свой Эфир (ETH), Токены, Классический Эфир (ETC), Биткоины и много других криптовалют. И тот и другой - аппаратные кошельки. И тот, и другой работают с MyEtherWallet.com. Оба стоят дешевле 100$ (< 0.1 ETH).",
-  "pyayfl_1": "<a href='https://www.ledgerwallet.com/r/fa4b?path=/products/' target='_blank'>Приобрести Ledger Nano S</a>",
+  "pyayfl_1": "<a href='https://www.ledger.com/products/ledger-nano-s?r=fa4b' target='_blank'>Приобрести Ledger Nano S</a>",
   "pyayfl_2": "<a href='https://trezor.io/?a=myetherwallet.com' target='_blank'>Приобрести TREZOR</a>",
   "pyayfp_2": "Если Вы не хотите одно из этих классных устройств, используйте для своих сбережений методы <a href='https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html' target='_blank'>\"холодного\" хранения</a>. Пожалуйста! Ну пожалуйста!",
   "2-bookmark-your-crypto-sites-": "2. Добавьте в закладки свои криптовалютные сайты.",

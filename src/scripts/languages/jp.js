@@ -210,7 +210,7 @@ var Japanese = {
   articleTitleProtectingYourselfandYourFunds: "あなた自身とあなたの資金を守る",
   "1-get-yourself-a-ledger-or-trezor-hardware-wallet-": "1. LedgerかTREZORハードウェアウォレットを手に入れてください。",
   pyayfp_1: "ETH、トークン、ETC、BTC、その他の多くのコインを保管する最も安全で簡単な方法の1つは、Ledger Nano SまたはTREZORです。どちらもハードウェアの財布です。どちらもMyEtherWallet.comで動作します。そして両方とも100ドル以下（<0.1ETH）で購入可能です。",
-  pyayfl_1: "<a href='https://www.ledgerwallet.com/r/fa4b?path=/products/' target='_blank'>Ledger Nano Sを買う</a>",
+  pyayfl_1: "<a href='https://www.ledger.com/products/ledger-nano-s?r=fa4b' target='_blank'>Ledger Nano Sを買う</a>",
   pyayfl_2: "<a href='https://trezor.io/?a=myetherwallet.com' target='_blank'>TREZORを買う</a>",
   pyayfp_2: "これらの素晴らしいデバイスを必要としない場合は、コールドストレージを使って、あなたの財産の大部分を保管してください。お願いします、本当にお願いします。",
   "2-bookmark-your-crypto-sites-": "2.クリプト関連のサイトをブックマークする。",

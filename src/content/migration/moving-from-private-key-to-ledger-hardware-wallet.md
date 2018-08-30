@@ -10,7 +10,7 @@
 ---%
 
 
-The Ledger Nano S is one of the most secure and intuitive cryptocurrency hardware wallets out there. It is available for purchase [here](https://www.ledgerwallet.com/r/fa4b?path=/products/). <em> *Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.* </em>
+The Ledger Nano S is one of the most secure and intuitive cryptocurrency hardware wallets out there. It is available for purchase [here](https://www.ledger.com/products/ledger-nano-s?r=fa4b). <em> *Please purchase hardware wallets from the original source. Hardware wallets bought off ebay or from other vendors cannot be guaranteed secure.* </em>
 
 
 This particular hardware wallet supports a wide range of cryptocurrencies, but this guide is specifically made for accessing Ethereum and ERC-20 tokens while using MyEtherWallet.

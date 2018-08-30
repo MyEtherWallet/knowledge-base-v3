@@ -210,7 +210,7 @@ var Korean = {
   articleTitleProtectingYourselfandYourFunds: "개인 정보 및 자산 보호하기",
   "1-get-yourself-a-ledger-or-trezor-hardware-wallet-": "1. 레저(Ledger) 또는 트레저( TREZOR) 하드웨어 월렛을 구입하십시오.",
   pyayfp_1: "ETH, Tokens, ETC, BTC 등 기타 여러 코인을 저장하는 가장 안전하고도 쉬운 방법 중 하나는 레저 나노 S(Ledger Nano S) 또는 트레저(TREZOR) 를 사용하는 것입니다. 둘 다 MyEtherWallet.com에서 작동합니다. 둘 다 비용은 $100 ( < 0.1 ETH ) 이하입니다.",
-  pyayfl_1: "<a href='https://www.ledgerwallet.com/r/fa4b?path=/products/' target='_blank'>레저 나노 S(Ledger Nano S) 구매</a>",
+  pyayfl_1: "<a href='https://www.ledger.com/products/ledger-nano-s?r=fa4b' target='_blank'>레저 나노 S(Ledger Nano S) 구매</a>",
   pyayfl_2: "<a href='https://trezor.io/?a=myetherwallet.com' target='_blank'> 트레저(TREZOR) 구매</a>",
   pyayfp_2: "이 훌륭한 장치 중 어느 하나도 원하지 않는다면 대부분 저축의 목적으로, <a href='https://kb.myetherwallet.com/offline/ethereum-cold-storage-with-myetherwallet.html' target='_blank'>콜드 스토리지</a>를 사용하시기 바랍니다. 정말 간곡히 부탁드립니다.",
   "2-bookmark-your-crypto-sites-": "2. 귀하의 암호화 사이트를 북마크하시기 바랍니다.",
