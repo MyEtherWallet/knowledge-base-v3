@@ -154,6 +154,6 @@ If you don't want one of these nifty devices, use <a href='https://kb.myetherwal
 #### 20. Lastly: use your brain
 <ul>
   <li id="pyayfl_22">
-    Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest fucker on Earth...or if you find yourself asking, "I wonder why I haven't seen this on reddit yet", there is likely a reason.
+    Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest person on Earth...or if you find yourself asking, "I wonder why I haven't seen this on reddit yet", there is likely a reason.
   </li>
 </ul>

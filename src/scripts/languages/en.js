@@ -251,7 +251,7 @@ var English = {
   "18-a-href-https-chrome-google-com-webstore-detail-myetherwallet-nlbmnnijcnlegkjjpcfjclmcfggfefdm-hl-en-target-_blank-download-the-mew-chrome-extension-a-": "<a href='https://chrome.google.com/webstore/detail/myetherwallet/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en' target='_blank'> 18. Download the MEW Chrome Extension</a>.",
   "19-only-unlock-your-wallet-when-you-want-to-send-a-transaction-check-your-balance-via-a-href-https-etherscan-io-target-_blank-https-etherscan-io-a-a-href-https-ethplorer-io-target-_blank-https-ethplorer-io-a-": "19. ONLY unlock your wallet when you want to send a transaction. Check your balance via <a href='https://etherscan.io/' target='_blank'> https://etherscan.io/ </a>, <a href='https://ethplorer.io/' target='_blank'>https://ethplorer.io/</a>",
   "20-lastly-use-your-brain": "20. Lastly: use your brain",
-  "pyayfl_22": "Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest fucker on Earth...or if you find yourself asking, \"I wonder why I haven't seen this on reddit yet\", there is likely a reason.",
+  "pyayfl_22": "Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest person on Earth...or if you find yourself asking, \"I wonder why I haven't seen this on reddit yet\", there is likely a reason.",
   // Checking the balance of your account
   "articleCheckingtheBalanceofYourAccount": "Checking the Balance of Your Account",
   "articleTitleCheckingtheBalanceofYourAccount": "Checking the Balance of Your Account",
