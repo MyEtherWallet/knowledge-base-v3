@@ -165,7 +165,7 @@ var Japanese = {
   cannotRecoverKey_2: "私たちはあなたがEthereumブロックチェーンにアクセスすることを可能にする、クライアントサイドのインターフェイスです。 いつの日か数百万ドルの価値になるものであるかのように、鍵を保護してバックアップしてください。",
   "related-reading": "関連記事",
   relatedReading_1: "<a href='https://kb.myetherwallet.com/private-keys-passwords/difference-beween-private-key-and-keystore-file.html' target='_blank'>秘密鍵とKeystore / UTC ファイルの違いはなんですか？ </a>",
-  relatedReading_2: "<a href='https://kb.myetherwallet.com/security/securing-your-ethereum.html' target='_blank'>あなた自身とあなたの資産を守る </a>",
+  relatedReading_2: "<a href='https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html' target='_blank'>あなた自身とあなたの資産を守る </a>",
   "short-version-advanced-users-only-": "短縮版（上級者向け）",
   shortVer_1: "<a href='https://www.myetherwallet.com/' target='_blank'>https://www.myetherwallet.com/</a> へ行く。",
   shortVer_2: "強固で覚えやすいパスワードを入力する。",

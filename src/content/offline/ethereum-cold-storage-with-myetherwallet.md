@@ -72,4 +72,4 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 * [What is the difference between private key & Keystore / UTC file?](https://kb.myetherwallet.com/private-keys-passwords/difference-beween-private-key-and-keystore-file.html)
 
-* [Protecting yourself and your funds](https://kb.myetherwallet.com/security/securing-your-ethereum.html)
+* [Protecting yourself and your funds](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)

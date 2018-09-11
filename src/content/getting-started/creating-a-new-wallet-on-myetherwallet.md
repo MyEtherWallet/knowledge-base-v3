@@ -90,7 +90,7 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 <ul>
   <li id="relatedReading_1"> [What is the difference between private key & Keystore / UTC file?](https://kb.myetherwallet.com/private-keys-passwords/difference-beween-private-key-and-keystore-file.html)</li>
 
-  <li id="relatedReading_2"> [Protecting yourself and your funds](https://kb.myetherwallet.com/security/securing-your-ethereum.html)</li>
+  <li id="relatedReading_2"> [Protecting yourself and your funds](https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html)</li>
 </ul>
 
 ### Short Version (Advanced Users Only)

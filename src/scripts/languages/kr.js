@@ -165,7 +165,7 @@ var Korean = {
   cannotRecoverKey_2: "저희는 이더리움(Ethereum) 블록 체인과 상호 작용할 수 있는 클라이언트 측 인터페이스 입니다. 언젠가 가치가 있는 수백만 달러와 같은 열쇠를 안전하게 보관하시기 바랍니다.",
   "related-reading": "관련 자료",
   relatedReading_1: "<a target='_blank' href='https://kb.myetherwallet.com/private-keys-passwords/difference-beween-private-key-and-keystore-file.html'>개인 사유 키 및 Keystore/ UTC 파일의 차이는 무엇일까요?</a>",
-  relatedReading_2: "<a target='_blank' href='https://kb.myetherwallet.com/security/securing-your-ethereum.html'>스스로의 자금을 보호하는 방법</a>",
+  relatedReading_2: "<a target='_blank' href='https://kb.myetherwallet.com/getting-started/protecting-yourself-and-your-funds.html'>스스로의 자금을 보호하는 방법</a>",
   "short-version-advanced-users-only-": "요약 버전 (상위 사용자 전용)",
   shortVer_1: "<a target='_blank' href='https://www.myetherwallet.com/'> https://www.myetherwallet.com/ </a> 으로 이동합니다..",
   shortVer_2: "강력하지만 기억하기 쉬운 비밀번호를 입력하십시오.",
