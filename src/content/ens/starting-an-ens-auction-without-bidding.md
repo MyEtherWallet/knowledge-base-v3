@@ -13,7 +13,7 @@
 You can open an auction without bidding. It's not the simplest thing in the world, but it's not the worst. It looks harder than it is:
 
 *  Go to [https://www.myetherwallet.com/helpers.html](https://www.myetherwallet.com/helpers.html)
-*  Find `NS Debugger & Data Grabber`
+*  Find `ENS Debugger & Data Grabber`
 *  Type the name (without .eth) under `ENS Name you Bid on`
 *  Copy the data provided under `Start Auction Data`
 *  In a new tab, go to [https://www.myetherwallet.com/#send-transaction](https://www.myetherwallet.com/#send-transaction) and unlock the wallet you wish to start the auction with
