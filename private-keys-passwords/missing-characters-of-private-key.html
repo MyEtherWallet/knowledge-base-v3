@@ -230,11 +230,9 @@
  base private key      : afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b15781404
  missing chars         : 8
  it will be quiet now. if you don&#39;t see anything below me, it&#39;s working on finding your key.
- If you see something below that doesn&#39;t say &#39;FOUND KEY!&#39;, you have an error
-</code></pre><p>When it&#39;s done it will show:</p>
+ If you see something below that doesn&#39;t say &#39;FOUND KEY!&#39;, you have an error</code></pre><p>When it&#39;s done it will show:</p>
 <pre><code> ********************************** FOUND PRIVATE KEY: afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890
- matching address 0x06A85356DCb5b307096726FB86A78c59D38e08ee
-</code></pre><ul>
+ matching address 0x06A85356DCb5b307096726FB86A78c59D38e08ee</code></pre><ul>
 <li>If you see anything besides that, you have an error and it&#39;s not longer searching for your key.</li>
 <li>If the error says, &quot;Invalid private key&quot;, the key snippet your provided is invalid. It must be hex characters.</li>
 <li>If you get an &quot;out of memory&quot; error, have to go to work, or your computer turns off, no worries. Just run it again.</li>
@@ -243,7 +241,7 @@
 <li>It takes ~15mins to find 6 digits.</li>
 <li>It will ~3 days to find 8</li>
 </ul>
-<h3 id="the-code-for-this-is-here-https-gist-github-com-tayvano-7755e3e8d8b64581d5ff2865087b93f8-https-gist-github-com-tayvano-7755e3e8d8b64581d5ff2865087b93f8-or-below-">The code for this is here: <a href="https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8">https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8</a> or below:</h3>
+<h3 id="the-code-for-this-is-here-https-gist-github-com-tayvano-7755e3e8d8b64581d5ff2865087b93f8-or-below-">The code for this is here: <a href="https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8">https://gist.github.com/tayvano/7755e3e8d8b64581d5ff2865087b93f8</a> or below:</h3>
 <pre><code>const util   = require(&#39;ethereumjs-util&#39;)
 const Wallet = require(&#39;ethereumjs-wallet&#39;)
 
@@ -289,8 +287,7 @@ for(var i = 0; i &lt;= maxVal; i++){
   if (i % 100000 === 0) {
     console.log(&#39;checked&#39;, i, &#39;keys&#39;);
   }
-}
-</code></pre><hr>
+}</code></pre><hr>
 <h3 id="related">Related</h3>
 <ul>
 <li><p>Finding multiple missing characters in private key: <a href="https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a">https://gist.github.com/domalak/f72414b6be6bbe497416f11bfe0d224a</a></p>

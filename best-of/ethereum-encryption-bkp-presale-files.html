@@ -255,16 +255,16 @@
 <pre><code>def recover_bkp_pw(bkp,pw):
 return getseed(bkp[&#39;withpw&#39;],pw,bkp[&#39;ethaddr&#39;])
 ....
-&quot;withpw&quot;: aes.encryptData(pbkdf2(pw),seed).encode(&#39;hex&#39;),
-</code></pre><p>or...</p>
+&quot;withpw&quot;: aes.encryptData(pbkdf2(pw),seed).encode(&#39;hex&#39;),</code></pre><p>or...</p>
 <pre><code>def recover_bkp_wallet(bkp,wallet):
 return getseed(bkp[&#39;withwallet&#39;],wallet[&#39;bkp&#39;],bkp[&#39;ethaddr&#39;])
 ...
-&quot;withwallet&quot;: aes.encryptData(pbkdf2(wallet[&#39;bkp&#39;]),seed).encode(&#39;hex&#39;),
-</code></pre><p>Get it now?</p>
+&quot;withwallet&quot;: aes.encryptData(pbkdf2(wallet[&#39;bkp&#39;]),seed).encode(&#39;hex&#39;),</code></pre><p>Get it now?</p>
 <hr>
 <blockquote>
 <p>no</p>
+</blockquote>
+<blockquote>
 <p>how does all this stuff tie together &amp; is there a way to bruteforce a presale file with hashcat if you&#39;ve forgotten the password and you&#39;ve already tried walletrecoveryservices.com?</p>
 </blockquote>
 <hr>

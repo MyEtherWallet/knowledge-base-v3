@@ -207,8 +207,7 @@
     at emitNone (events.js:110:20)
     at IncomingMessage.emit (events.js:207:7)
     at endReadableNT (_stream_readable.js:1047:12)
-    at _combinedTickCallback (internal/process/next_tick.js:102:11)
-</code></pre><p>(<a href="https://ethereum.stackexchange.com/questions/24737/myetherwallet-json-rpc-interface-ratelimiting/25113#25113">source</a>)</p>
+    at _combinedTickCallback (internal/process/next_tick.js:102:11)</code></pre><p>(<a href="https://ethereum.stackexchange.com/questions/24737/myetherwallet-json-rpc-interface-ratelimiting/25113#25113">source</a>)</p>
 <p>MyEtherWallet, at the time of this writing, rate-limits at 400 requests / minute (or about 6 requests / second). This is in order to prevent DDOS&#39;s like we have seen before, or people using our nodes to excess and making us pay an even larger bill. Our goal is to allow individuals to interact with Ethereum, not provide uber-robust infrastructure for all your heart&#39;s desires. This should be more than enough for a single person&#39;s use, but feel free to tell us why you need more and we can adjust.</p>
 <p>If you are going to be using it more than 400 req / minute on average, or just want to ensure uptime, we strongly recommend you get your own node.</p>
 <p>Our backend infrastructure is on AWS and is open-source via Docker + CloudFormation walkthrough thingy and you can actually do it yourself and run your own public or private node via these instructions: <a href="https://github.com/MyEtherWallet/docker-geth-lb">https://github.com/MyEtherWallet/docker-geth-lb</a></p>
