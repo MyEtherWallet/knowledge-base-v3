@@ -207,8 +207,14 @@ should barf and catch fire. Instead it silently accepts this failure and continu
 <p>So really, you&#39;re asking what we are using and whether or not that system has enough entropy, even on a new computer. First, here&#39;s the W3 spec for the WebCryptoAPI:</p>
 <blockquote>
 <p>The Crypto interface represents an interface to general purpose cryptographic functionality including a cryptographically strong pseudo-random number generator seeded with truly random values.</p>
+</blockquote>
+<blockquote>
 <p>Implementations should generate cryptographically random values using well-established cryptographic pseudo-random number generators seeded with high-quality entropy, such as from an operating-system entropy source (e.g., &quot;/dev/urandom&quot;). This specification provides no lower-bound on the information theoretic entropy present in cryptographically random values, but implementations should make a best effort to provide as much entropy as practicable.</p>
+</blockquote>
+<blockquote>
 <p>Note This interface defines a synchronous method for obtaining cryptographically random values. While some devices and implementations may support truly random cryptographic number generators or provide interfaces that block when there is insufficient entropy, implementations are discouraged from using these sources when implementing getRandomValues, both for performance and to avoid depleting the system of entropy. Instead, these sources should be used to seed a cryptographic pseudo-random number generator that can then return suitable values efficiently.</p>
+</blockquote>
+<blockquote>
 <p>To guarantee enough performance, implementations are not using a truly random number generator, but they are using a pseudo-random number generator seeded with a value with enough entropy. The PRNG used differs from one implementation to the other but is suitable for cryptographic usages. Implementations are also required to use a seed with enough entropy, like a system-level entropy source.</p>
 </blockquote>
 <p>Source: <a href="https://www.w3.org/TR/WebCryptoAPI/#Crypto-method-getRandomValues">https://www.w3.org/TR/WebCryptoAPI/#Crypto-method-getRandomValues</a> &amp; <a href="https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues">https://developer.mozilla.org/en-US/docs/Web/API/RandomSource/getRandomValues</a></p>
@@ -235,18 +241,36 @@ should barf and catch fire. Instead it silently accepts this failure and continu
 <p>and then ...</p>
 <blockquote>
 <p>&quot;So, when RDRAND isn&#39;t available, RAND_bytes is literally just reading from /dev/urandom (or RtlGenRandom on Windows) anyway.</p>
+</blockquote>
+<blockquote>
 <p>(When RDRAND is available, it&#39;s a little more complex. It&#39;s RDRAND xor a urandom-seeded thread-local ChaCha20 stream, refreshed every N calls or M bytes for some N and M. But that&#39;s mostly for performance.)&quot;</p>
 </blockquote>
-<p>So on windows we&#39;re looking at <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa387694(v=vs.85">RtlGenRandom</a>.aspx) (which will be CyrptGenRandom at some point.) CryptGenRandom is based on RtlGenRandom but we don&#39;t really know what the differences are.  But we do know more about how RtlGenRandom works:</p>
+<p>So on windows we&#39;re looking at <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa387694(v=vs.85).aspx">RtlGenRandom</a> (which will be CyrptGenRandom at some point.) CryptGenRandom is based on RtlGenRandom but we don&#39;t really know what the differences are.  But we do know more about how RtlGenRandom works:</p>
 <blockquote>
 <p>RtlGenRandom generates as specified in <a href="http://csrc.nist.gov/publications/fips/archive/fips186-2/fips186-2.pdf">FIPS 186-2 appendix 3.1</a> with SHA-1 as the G function. And with entropy from:</p>
+</blockquote>
+<blockquote>
 <p>The current process ID (GetCurrentProcessID).</p>
+</blockquote>
+<blockquote>
 <p>The current thread ID (GetCurrentThreadID).</p>
+</blockquote>
+<blockquote>
 <p>The tick count since boot time (GetTickCount).</p>
+</blockquote>
+<blockquote>
 <p>The current time (GetLocalTime).</p>
+</blockquote>
+<blockquote>
 <p>Various high-precision performance counters (QueryPerformanceCounter).</p>
+</blockquote>
+<blockquote>
 <p>An MD4 hash of the user&#39;s environment block, which includes username, computer name, and search path.</p>
+</blockquote>
+<blockquote>
 <p>High-precision internal CPU counters, such as RDTSC, RDMSR, RDPMC</p>
+</blockquote>
+<blockquote>
 <p>[omitted: long lists of low-level system information fields and performance counters]</p>
 </blockquote>
 <p>So you should be fine. Except for the whole &quot;well what is FIPS and how do I know if what is specified in there is good or not?&quot;</p>

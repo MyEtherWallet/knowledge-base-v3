@@ -200,7 +200,7 @@
   This is a list of terms you might encounter when using the MyEtherWallet interface.
 </p>
 
-<h4 id="-you-can-also-read-in-spanish-https-kb-myetherwallet-com-las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum-thanks-to-faraggi-https-github-com-faraggi-words-are-hard-es-blob-master-words-are-hard-es-md-"><a href="https://kb.myetherwallet.com/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum">You can also read in Spanish</a>, thanks to <a href="https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md">faraggi</a></h4>
+<h4 id="you-can-also-read-in-spanish-thanks-to-faraggi"><a href="https://kb.myetherwallet.com/las-palabras-son-dificiles-definiendo-terminos-comunes-de-ethereum">You can also read in Spanish</a>, thanks to <a href="https://github.com/faraggi/words-are-hard-es/blob/master/words-are-hard-es.md">faraggi</a></h4>
 <hr>
 <h3 id="wallet">Wallet</h3>
 <ul>
@@ -211,17 +211,17 @@
 
 <h3 id="account">Account</h3>
 <ul>
-  <li id="account_l1">A public &amp; private keypair that &quot;holds&quot; your funds.</li>
+  <li id="account_l1">A public & private keypair that "holds" your funds.</li>
 
   <li id="account_l2">Your funds are actually stored on the blockchain, not in the wallet or account.</li>
 
   <li id="account_l3"> Just like your Reddit account has a <code> username (public)</code> and <code> password (private)</code>, so does your Ethereum account. For additional security, you can use a password to encrypt your private key which would result in a <code> username (public)</code> and <code> password (private)</code> and <code> password for that password (private + more secure)</code>. See the <code> Keystore File</code> section. </li>
 </ul>
 
-<h3 id="address-_-public-key-_">Address <em>(&quot;Public Key&quot;)</em></h3>
+<h3 id="address-public-key-">Address <em>(&quot;Public Key&quot;)</em></h3>
 <ul>
   <li id="address_l1">You use this to send funds <b>to</b> an account.</li>
-  <li id="address_l2">Sometimes referred to as the &quot;public key&quot;</li>
+  <li id="address_l2">Sometimes referred to as the "public key"</li>
   <li id="address_l3">A string made up of <code>0x</code> + <code>40 hexadecimal characters</code>.</li>
   <li id="address_l4">In Ethereum, the address begins with <code>0x</code>.</li>
   <li id="address_l5">Example: <code>0x06A85356DCb5b307096726FB86A78c59D38e08ee</code></li>
@@ -231,8 +231,8 @@
 <ul>
   <li id="pubk_l1">In cryptography, you have a keypair: the public and private key.</li>
   <li id="pubk_l2">You can derive a public key from a private key, but cannot derive a private key from a public key.</li>
-  <li id="pubk_l3">(Advanced) In Ethereum, the address &quot;acts&quot; like the public key, but it&#39;s not actually the public key.</li>
-  <li id="pubk_l4">(Advanced) In Ethereum, the public key is derived from the private key and is 128 hex characters. You then take the <code>&quot;SHA3&quot; (Keccak-256)</code> hash of this (64 characters), take the last 40 characters, and prefix with <code>0x</code>, give you your 42-character address.</li>
+  <li id="pubk_l3">(Advanced) In Ethereum, the address "acts" like the public key, but it's not actually the public key.</li>
+  <li id="pubk_l4">(Advanced) In Ethereum, the public key is derived from the private key and is 128 hex characters. You then take the <code>"SHA3" (Keccak-256)</code> hash of this (64 characters), take the last 40 characters, and prefix with <code>0x</code>, give you your 42-character address.</li>
 </ul>
 
 <h3 id="private-key">Private Key</h3>
@@ -242,7 +242,7 @@
   <li id="privk_3">A string of 64 hexadecimal characters.</li>
   <li id="privk_4">(<a href='https://crypto.stackexchange.com/questions/30269/are-all-possible-ec-private-keys-valid' target='_blank'>Almost</a>) every string of 64 hexadecimal characters is a private key.</li>
   <li id="privk_5">If you hand-type a private key differently today than yesterday, you will access a different wallet. Never hand type your private key.</li>
-  <li id="privk_6">This is the string you need to send from your account. Without it you cannot access your funds. Although, you don&#39;t need to save this raw, unencrypted private key in this format. You can saving the fancy versions of it (e.g. the Keystore File / Mnemonic Phrase).</li>
+  <li id="privk_6">This is the string you need to send from your account. Without it you cannot access your funds. Although, you don't need to save this raw, unencrypted private key in this format. You can saving the fancy versions of it (e.g. the Keystore File / Mnemonic Phrase).</li>
   <li id="privk_7">Example: <code>afdfd9c3d2095ef696594f6cedcae59e72dcd697e2a7521b1578140422a4f890</code></li>
 </ul>
 
@@ -266,7 +266,7 @@
     Example of File Name: <code>UTC--2017-07-02T20-33-09.177Z--06a85356dcb5b307096726fb86a78c59d38e08ee</code>
   </li>
   <li id="keystoref_l7">
-    Example of Contents: <code>{&quot;version&quot;:3,&quot;id&quot;:&quot;aa811d53-fe9a-44a2-bd1c-e737007b5591&quot;,&quot;address&quot;:&quot;06a85356dcb5b307096726fb86a78c59d38e08ee&quot;,&quot;Crypto&quot;:{&quot;ciphertext&quot;:&quot;f5a7cc8d4b8cf93510b0d0d057f3a52ac79fd48e619e0638c4ffd978ca180248&quot;,&quot;cipherparams&quot;:{&quot;iv&quot;:&quot;975ab00192e2dd74170e91ca59c0b0bd&quot;},&quot;cipher&quot;:&quot;aes-128-ctr&quot;,&quot;kdf&quot;:&quot;scrypt&quot;,&quot;kdfparams&quot;:{&quot;dklen&quot;:32,&quot;salt&quot;:&quot;0210f0d0b99e440dfbceb36373304638bac093a367ee7da6411cd165f7aa907a&quot;,&quot;n&quot;:1024,&quot;r&quot;:8,&quot;p&quot;:1},&quot;mac&quot;:&quot;8197a747a3855a10546a2ff939c36470daed78e393b670efa0c12fe3b23dd7e3&quot;}}</code>
+    Example of Contents: <code>{"version":3,"id":"aa811d53-fe9a-44a2-bd1c-e737007b5591","address":"06a85356dcb5b307096726fb86a78c59d38e08ee","Crypto":{"ciphertext":"f5a7cc8d4b8cf93510b0d0d057f3a52ac79fd48e619e0638c4ffd978ca180248","cipherparams":{"iv":"975ab00192e2dd74170e91ca59c0b0bd"},"cipher":"aes-128-ctr","kdf":"scrypt","kdfparams":{"dklen":32,"salt":"0210f0d0b99e440dfbceb36373304638bac093a367ee7da6411cd165f7aa907a","n":1024,"r":8,"p":1},"mac":"8197a747a3855a10546a2ff939c36470daed78e393b670efa0c12fe3b23dd7e3"}}</code>
   </li>
   <li id="keystoref_l8">
     (pw: <code>mypassword</code>)
@@ -288,7 +288,7 @@
     Originates from <a href='https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki' target='_blank'>BIP 39 Spec</a>.
   </li>
   <li id="mphrase_l5">
-    The accounts you can access with this phrase are determined by the &quot;path&quot;.
+    The accounts you can access with this phrase are determined by the "path".
   </li>
   <li id="mphrase_l6">
     Example 12-words: <code>brain surround have swap horror body response double fire dumb bring hazard</code>
@@ -301,13 +301,13 @@
 <h3 id="hardware-wallet-">Hardware Wallet:</h3>
 <ul>
   <li id="hardwarew_l1">
-    Typically, a single-purpose device that &quot;holds&quot; your private key(s), ensuring your private keys are safe.
+    Typically, a single-purpose device that "holds" your private key(s), ensuring your private keys are safe.
   </li>
   <li id="hardwarew_l2">
     Typically, they use a 24-word phrase. This phrase you should write down (not on your computer) and store separately from your hardware wallet.
   </li>
   <li id="hardwarew_l3">
-    If you lose your hardware wallet, you can still gain access to your accounts &amp; funds via the word-phrase you wrote down.
+    If you lose your hardware wallet, you can still gain access to your accounts & funds via the word-phrase you wrote down.
   </li>
   <li id="hardwarew_l4">
     Never type the word-phrase on your computer. It defeats the purpose of your hardware wallet.
@@ -332,7 +332,7 @@
     <a href='http://i.imgur.com/FvyLewS.jpg' target=''> Example 2 </a>
   </li>
   <li id="addressIdent_l5">
-    <em>Note: the above addresses are a single character different but have remarkably different icons &amp; colors. Magic!</em>
+    <em>Note: the above addresses are a single character different but have remarkably different icons & colors. Magic!</em>
   </li>
 </ul>
 
@@ -368,7 +368,7 @@
     <a href='https://www.reddit.com/r/ethereum/comments/45y8m7/brain_wallets_are_now_generally_shunned_by/' target='_blank'> Brain wallet are insecure. </a>
   </li>
   <li id="bw_l5">
-    Don&#39;t use brain wallets.
+    Don't use brain wallets.
   </li>
 </ul>
 
@@ -376,13 +376,13 @@
 <h3 id="entropy">Entropy</h3>
 <ul>
   <li id="entropy_l1">
-    Also known as &quot;randomness&quot;.
+    Also known as "randomness".
   </li>
   <li id="entropy_l2">
     The more random something is, the more entropy it has, and the more secure it is.
   </li>
   <li id="entropy_l3">
-    Usually defined in &quot;bits of entropy&quot; or the number of years it would take to brute-force a <b>____</b> (e.g. private key) derived with that much entropy.
+    Usually defined in "bits of entropy" or the number of years it would take to brute-force a <b>\_\_\_\_</b> (e.g. private key) derived with that much entropy.
   </li>
   <li id="entropy_l4">
     Ethereum private keys are 256-bit keys
@@ -395,9 +395,11 @@
 <h3 id="derive-derivation">Derive / Derivation</h3>
 <ul>
   <li id="deriveDeriv_l1">
-    To derive something is to obtain it from an original source.<br>  </li>
+    To derive something is to obtain it from an original source.  
+  </li>
   <li id="deriveDeriv_l2">
-    For example, if we were to derive a Keystore from a private key and a password, this means that the Keystore is made from these two sources.<br>  </li>
+    For example, if we were to derive a Keystore from a private key and a password, this means that the Keystore is made from these two sources.  
+  </li>
   <li id="deriveDeriv_l3">
     The Keystore is a product of the two, thus it is derived from them.
   </li>
@@ -422,11 +424,14 @@
     An unencrypted private key is 64 characters long, and it is used to unlock or restore wallets.
   </li>
   <li id="encvunenc_l2">
-    An encrypted key is also 64 letters long and is a regular private key that has gone through the process of encryption, as defined above.<br>  </li>
+    An encrypted key is also 64 letters long and is a regular private key that has gone through the process of encryption, as defined above.  
+  </li>
   <li id="encvunenc_l3">
-    For example, if the world ‘Apple’ was your shortened private key, then it was encrypted three letters down the alphabet, your new shortened encrypted key would be ‘Dssoh’. Since you know the way to encrypt this key, you could derive the original private key from it by reversing the method of encryption.<br>  </li>
+    For example, if the world ‘Apple’ was your shortened private key, then it was encrypted three letters down the alphabet, your new shortened encrypted key would be ‘Dssoh’. Since you know the way to encrypt this key, you could derive the original private key from it by reversing the method of encryption.   
+  </li>
   <li id="encvunenc_l4">
-    Usually encrypted private keys are kept within the extension or device they are encrypted by, and they remain out of sight from the user. This is meant to add another layer of security to keep a user’s wallet information safe.<br>  </li>
+    Usually encrypted private keys are kept within the extension or device they are encrypted by, and they remain out of sight from the user. This is meant to add another layer of security to keep a user’s wallet information safe.   
+  </li>
 </ul>
 
 <h3 id="decentralize-decentralization">Decentralize / Decentralization</h3>
