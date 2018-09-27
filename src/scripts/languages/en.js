@@ -678,7 +678,7 @@ var English = {
   "wtdiysttwa_b": "In order to ensure your security & privacy, no sensitive data is ever saved, stored, or transmitted when you use MyEtherWallet. We only have access to the information that is publicly available on the blockchain.",
   "unfortunately-this-means-we-cannot-": "Unfortunately, this means we cannot:",
   "wtdiysttwa_l1": "Reverse or cancel transactions",
-  "wtdiysttwa_l2": "Access you account",
+  "wtdiysttwa_l2": "Access your account",
   "wtdiysttwa_l3": "Recover your account",
   "wtdiysttwa_l4": "Send your ETH or Tokens from one address to another",
   "wtdiysttwa_l5": "Recover your private key",

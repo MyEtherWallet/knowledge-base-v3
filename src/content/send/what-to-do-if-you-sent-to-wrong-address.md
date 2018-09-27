@@ -23,7 +23,7 @@
     Reverse or cancel transactions
   </li>
   <li id="wtdiysttwa_l2">
-    Access you account
+    Access your account
   </li>
   <li id="wtdiysttwa_l3">
     Recover your account

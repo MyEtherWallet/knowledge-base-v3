@@ -30,7 +30,7 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 0.  On the ["Send Ether & Tokens"](https://www.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
 1.  In a new tab, go to [Ethplorer.io](https://ethplorer.io/) 
 2.  Type in the name of the token into their search bar, or navigate to your address and click on the token's name from that page. 
-3.  At the very top on this page page is the address.
+3.  At the very top on this page is the address.
 4.  Below that there is a field called "decimals", which is a number between 0 and 18.
 6.  Back on MEW, click the `Add Custom Token` button on the right sidebar.
 7.  Paste the `Address` from the top of the Ethplorer.io page

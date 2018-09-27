@@ -18,7 +18,7 @@ We're really sorry but MyEtherWallet is not a "web wallet". You do not create an
 ##### Unfortunately, this means we cannot:
 
 *   Recover your private key
-*   Access you account
+*   Access your account
 *   Recover or reset your password
 *   Reverse or cancel transactions
 *   Recover your account
