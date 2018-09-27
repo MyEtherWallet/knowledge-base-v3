@@ -71,6 +71,3 @@
 ---
 
 ---
-<p id="wtdbaeam_internal">
-  <em> Internal note: <a href='https://ethereum.stackexchange.com/questions/23714/what-is-the-difference-between-an-exchange-like-coinbase-and-a-wallet-like-jaxx/23715#23715' target='_blank'>Also on StackExchange here </a> —edits should be made in both locations</em>
-</p>

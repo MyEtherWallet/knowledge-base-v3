@@ -39,6 +39,3 @@ Best of luck!
 ---
 
 ---
-
-Internal Note
-Keep in sync with: *ENS - Start Auction w/o Bidding*

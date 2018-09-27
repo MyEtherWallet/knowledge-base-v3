@@ -1,5 +1,5 @@
 {
-"title"       : "Does MyEtherAPI limit on the amount of requests I can make?",
+"title"       : "Does MyEtherWallet.com api limit on the amount of requests I can make?",
 "sort"        : "15",
 "category"    : "Diving Deeper",
 "description" : "Diving Deeper",

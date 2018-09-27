@@ -383,7 +383,6 @@ var English = {
   "wtdbaeam_l4": "Don't save it to cloud storage",
   "wtdbaeam_l5": "Don't have Team Viewer or other remote access software on your computer",
   "wtdbaeam_p10": "If this seems very overwhelming, <a href='https://kb.myetherwallet.com/hardware-wallets/hardware-wallet-recommendations.html' target='_blank'>we recommend purchasing a Ledger or TREZOR hardware wallet</a>. These help keep your keys safe and stored in an \"offline\" device, rather than on your computer. In this case, you don't have to worry about files or strings of characters; instead you just connect your hardware wallet to your computer.",
-  "wtdbaeam_internal": "<em> Internal note: <a href='https://ethereum.stackexchange.com/questions/23714/what-is-the-difference-between-an-exchange-like-coinbase-and-a-wallet-like-jaxx/23715#23715' target='_blank'>Also on StackExchange here </a> —edits should be made in both locations</em>",
   // Quicktips
   "articleMyEtherWalletsQuickTips": "MyEtherWallet's QuickTips",
   "articleTitleMyEtherWalletsQuickTips": "MyEtherWallet's QuickTips",
@@ -736,7 +735,7 @@ var English = {
   "acet_step7": "<b> Step 7: </b> Save the custom token, and you’re all set! Your token should appear in the default list, with a remove button “(-)”, and the balance should match what shows on etherscan.io.",
   "acet_p2": "Here is a sample of the MAD token, for reference to what this information will look like:",
   "common-issues-": "Common Issues:",
-  "acet_l1": "Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherapi.io”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.",
+  "acet_l1": "Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherwallet.com”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.",
   "acet_l2": "Receiving any errors? Please make sure that this is an ERC-20 token that appears on etherscan.io, that you don’t have any spaces before or after the address, and that all information is entered accurately. If you are still having issues, try another network/node as mentioned in the previous bullet.",
   "acet_l3": "Need a checksummed contract address? In Step 5, click the contract address of the token. This will take you to another form of the address, which includes both upper and lower-case letters.",
   "acet_l4": "Tokens disappearing everytime you close the browser? This is the cause of a local cache cleaning software, such as CCleaner. Please make sure that your browser isn’t being constantly cleared of information, as all custom token information is stored locally.",

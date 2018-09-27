@@ -19,7 +19,7 @@ I’m really sorry but MyEtherWallet is not a "web wallet". You do not create an
 *   Recover or reset your password
 *   Recover your private key
 *   Reverse or cancel transactions
-*   Access you account
+*   Access your account
 *   Recover your account
 *   Send your ETH or Tokens from one address to another
 

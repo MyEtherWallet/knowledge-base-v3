@@ -9,12 +9,12 @@
 
 ---%
   <p id="acet_p1">
-    If you have a token that you would like to access on our interface, but don’t see it on our default list, you can add the token locally in your own interface as a custom token. This can be achieved relatively easy from the following steps.  
+    If you have a token that you would like to access on our interface, but don’t see it on our default list, you can add the token locally in your own interface as a custom token. This can be achieved relatively easy from the following steps.
   </p>
 
   <em id="acet_em">
     Disclaimer: None of your ETH or tokens are stored on our site. All of your funds are on the blockchain itself, so removing custom tokens and seeing ‘0’ balances does not mean your tokens are lost! We are only an interface to interact with the blockchain.
-  </em>  
+  </em>
   <div style="padding: 0 35px;">
   <p id="acet_step1">
     <b>Step 1:</b> Access your wallet on our site. This can be done under the “View Wallet Info” tab on the main page of our interface. Choose whichever method of access you usually choose.
@@ -43,19 +43,19 @@
   </p>
   </div>
 
-  <p id="acet_p2"> Here is a sample of the MAD token, for reference to what this information will look like: </p>  
+  <p id="acet_p2"> Here is a sample of the MAD token, for reference to what this information will look like: </p>
 
   ```
-    Symbol: MAD  
-    Contract Address: 0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875  
-    Decimal: 18  
+    Symbol: MAD
+    Contract Address: 0x5B09A0371C1DA44A8E24D36Bf5DEb1141a84d875
+    Decimal: 18
 
-  ```  
+  ```
 
   ### Common Issues:
   <ul>
     <li id="acet_l1">
-      Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherapi.io”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.
+      Balance loading as 0? Check etherscan.io at your public address. Is the token balance there? If so, try accessing another network/node in the upper right hand corner of our interface. It defaults to “Network ETH myetherwallet.com”, so try any other ETH network! I.e. ‘giveth.io’, ‘infura.io’, or ‘etherscan.io’.
     </li>
     <li id="acet_l2">
       Receiving any errors? Please make sure that this is an ERC-20 token that appears on etherscan.io, that you don’t have any spaces before or after the address, and that all information is entered accurately. If you are still having issues, try another network/node as mentioned in the previous bullet.

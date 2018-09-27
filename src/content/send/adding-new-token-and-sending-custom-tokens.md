@@ -46,9 +46,9 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 1.  In the sidebar, click the `https://etherscan.io` link under `Transaction History` or `How to See your Tokens`.
 2.  Click the dropdown in the right-upper quadrant. It's labeled `Token Tracker`.
 3.  Click the token that you aren't seeing on MEW.
-4.  Copy the string next to `Contact Address`.
+4.  Copy the string next to `Contract Address`.
 6.  Back on MEW, click the `Add Custom Token` button on the right sidebar.
-7.  Paste the `Contact Address`.
+7.  Paste the `Contract Address`.
 8.  Type in what you want to call it - the name or the symbol.
 9.  Return to Etherscan.io. Look for the number (between 0 and 18) next to `Token Decimals`.
 10. Enter this under `Decimals` on MEW.

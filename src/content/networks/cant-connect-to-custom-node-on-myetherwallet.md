@@ -13,7 +13,7 @@
 *   Verify the URL you entered is correct.
 *   Verify the port you entered is correct.
 *   Verify that if you are connecting to an http:// node you are running MyEtherWallet locally (NOT over https://).
-*   Verify you are is running with:
+*   Verify you are running with:
       *  `geth --rpc --rpccorsdomain "null" --keystore "dont_put_secret_files_here_ever"`
       *  parity is running with `parity --rpccorsdomain "*" --keys-path "dont_put_secret_files_here_ever"`
 *   Verify your node is actually up and running.

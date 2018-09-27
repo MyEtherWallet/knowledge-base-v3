@@ -30,8 +30,6 @@
 
 10. Double & triple check your work. Look at what you are sending. Look at how much you are sending. Look at what address you are sending too.
 
-Be fucking careful.
-
 ### Hardware Wallets
 
 One of the safest & easiest ways to store your ETH, Tokens, ETC, BTC, and many other coins is via a Ledger Nano S or TREZOR. The device itself holds the keys and signs transactions for you. This ensures your keys aren't ever on any internet-connected device. Phishers can't get them. Malware can't get them. Keyloggers can't get them.
