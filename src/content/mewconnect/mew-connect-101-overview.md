@@ -1,7 +1,7 @@
 {
-"title" : "MEWConnect 101: Wallet Overview",
+"title" : "MEWconnect 101: Wallet Overview",
 "sort" : "5",
-"category" : "MEWConnect",
+"category" : "MEWconnect",
 "description" : "Getting Started",
 "date_published" : "2018-10-26T08:00:00+08:00",
 "date_modified" : "2018-10-26T08:00:00+08:00"

@@ -1,7 +1,7 @@
 {
-"title" : "MEWConnect 101: Make a Transaction",
+"title" : "MEWconnect 101: Make a Transaction",
 "sort" : "4",
-"category" : "MEWConnect",
+"category" : "MEWconnect",
 "description" : "Getting Started",
 "date_published" : "2018-10-26T08:00:00+08:00",
 "date_modified" : "2018-10-26T08:00:00+08:00"
