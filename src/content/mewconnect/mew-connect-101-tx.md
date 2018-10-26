@@ -9,5 +9,4 @@
 
 ---%
 
-<div class="video__wrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/nMefcCPr2ZU" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMefcCPr2ZU" frameborder="0" allowfullscreen></iframe>
