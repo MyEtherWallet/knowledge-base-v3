@@ -1,7 +1,7 @@
 {
 "title" : "MEWconnect User Guide",
-"sort" : "13",
-"category" : "Getting Started",
+"sort" : "7",
+"category" : "MEWConnect",
 "description" : "Getting Started",
 "date_published" : "2018-07-24T08:00:00+08:00",
 "date_modified" : "2018-07-24T08:00:00+08:00"
