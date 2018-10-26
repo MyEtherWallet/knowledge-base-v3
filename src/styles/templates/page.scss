@@ -18,7 +18,8 @@
   text-align: center;
 }
 
-.meta__helpful { }
+.meta__helpful {
+}
 
 .meta__updated {
   color: $gray-light;
@@ -61,13 +62,10 @@
   }
 }
 
-
-
 #welcome-to-mew img {
   max-width: 250px;
   height: auto;
 }
-
 
 // Hide some stuff in embed mode
 body.is-embedded {
@@ -83,7 +81,7 @@ body.is-embedded {
 .dropdown {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid $white;
-  padding: .3em .6rem;
+  padding: 0.3em 0.6rem;
 
   a {
     color: $black;
@@ -138,17 +136,17 @@ body.is-embedded {
     display: flex;
     justify-content: space-between;
 
-    >:last-child {
+    > :last-child {
       flex: 40;
       text-align: center;
     }
 
-    >:first-child {
+    > :first-child {
       flex: 45;
     }
   }
 
-  >:not(:first-child) {
+  > :not(:first-child) {
     margin-top: 40px;
   }
 
@@ -157,17 +155,17 @@ body.is-embedded {
     display: flex;
     justify-content: space-between;
 
-    >:first-child {
+    > :first-child {
       flex: 40;
       text-align: center;
     }
 
-    >:last-child {
+    > :last-child {
       flex: 45;
     }
   }
 
-  >p:last-child {
+  > p:last-child {
     text-align: center;
   }
 }
@@ -179,4 +177,9 @@ body.is-embedded {
       flex-direction: column;
     }
   }
+}
+
+.video-container {
+  height: 350px;
+  width: 600px;
 }
