@@ -29,6 +29,7 @@ Close all other Ethereum applications, Ledger applications, and MyEtherWallet ta
 
 ### Other Troubleshooting Tips
 
+*   Try issuing the transaction while Ledger's Ethereum app is open to "Use wallet to view accounts".
 *   Restart your computer (Do not be lazy. Restart it FIRST).
 *   Use Google Chrome.
 *   Make sure you don't have any other apps that connect to your Ledger open (e.g. the Ledger Bitcoin Chrome app, Mist, etc.)
