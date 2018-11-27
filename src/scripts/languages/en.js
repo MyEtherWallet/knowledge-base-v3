@@ -789,8 +789,6 @@ var English = {
   "tansuopf_any_questions": "If you have any other questions, please let us know, but your answer is likely in the links above.",
   "tansuopf_thanks": "Thank you for understanding.",
   "for-visual-learners" : "For Visual Learners",
-  "fvl_img1" : "<img src=\"../images/transactions/txpool_01.jpg\" />",
-  "fvl_img2" : "<img src=\"../images/transactions/txpool_02.jpg\" />",
   "fvl_img3" : "<img src=\"../images/tx_pool_infographic.png\" />",
   "articleTransactionhasaBadjumpdestinationorOutofGaserror": "Transaction has a [Bad jump destination] or [Out of Gas] error",
   "articleTitleTransactionhasaBadjumpdestinationorOutofGaserror": "Transaction has a [Bad jump destination] or [Out of Gas] error",

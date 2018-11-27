@@ -45,7 +45,7 @@
   </li>
 </ul>
 
-### Other Tips  
+### Other Tips
 
 <ul>
   <li id="tansuopf_other_l1">
@@ -69,12 +69,6 @@
 </p>
 
 ### For Visual Learners
-<div id="fvl_img1">
-  <img src="../images/transactions/txpool_01.jpg" />
-</div>
-<div id="fvl_img2">
-  <img src="../images/transactions/txpool_02.jpg" />
-</div>
 <div id="fvl_img3">
   <img src="../images/tx_pool_infographic.png" />
 </div>

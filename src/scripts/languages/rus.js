@@ -792,8 +792,6 @@ var Russian = {
   "tansuopf_any_questions": "Если у вас остались вопросы - пожалуйста, свяжитесь с нами и расскажите о проблеме, однако, скорее всего, ответ на ваш вопрос уже есть в ссылках, представленных выше.",
   "tansuopf_thanks": "Спасибо за понимание.",
   "for-visual-learners" : "Для тех, кто воспринимает информацию визуально",
-  "fvl_img1" : "<img src=\"../images/transactions/txpool_01_rus.png\" />",
-  "fvl_img2" : "<img src=\"../images/transactions/txpool_02_rus.png\" />",
   "fvl_img3" : "<img src=\"../images/transactions/tx_pool_infographic_rus.png\" />",
   "articleTransactionhasaBadjumpdestinationorOutofGaserror": "Транзакция получает ошибку [Bad jump destination] или [Out of Gas]. (неверное направление транзакции) или (недостаточно Gas)",
   "articleTitleTransactionhasaBadjumpdestinationorOutofGaserror": "Транзакция получает ошибку [Bad jump destination] или [Out of Gas]. (неверное направление транзакции) или (недостаточно Gas)",

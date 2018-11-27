@@ -792,8 +792,6 @@ var ids = [
   "tansuopf_any_questions",
   "tansuopf_thanks",
   "for-visual-learners",
-  "fvl_img1",
-  "fvl_img2",
   "fvl_img3",
   "articleTransactionhasaBadjumpdestinationorOutofGaserror",
   "articleTitleTransactionhasaBadjumpdestinationorOutofGaserror",
