@@ -66,6 +66,9 @@
     <li id="acet_l4">
       Tokens disappearing everytime you close the browser? This is the cause of a local cache cleaning software, such as CCleaner. Please make sure that your browser isn’t being constantly cleared of information, as all custom token information is stored locally.
     </li>
+    <li id="acet_l5">
+      Receiving message that token is already a default? Try adding it again with a '2' after the symbol's name. For example, 'XYZ' > 'XYZ2'.
+    </li>
   </ul>
 
 <p id="acet_p3">

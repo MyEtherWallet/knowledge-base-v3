@@ -739,6 +739,7 @@ var English = {
   "acet_l2": "Receiving any errors? Please make sure that this is an ERC-20 token that appears on etherscan.io, that you don’t have any spaces before or after the address, and that all information is entered accurately. If you are still having issues, try another network/node as mentioned in the previous bullet.",
   "acet_l3": "Need a checksummed contract address? In Step 5, click the contract address of the token. This will take you to another form of the address, which includes both upper and lower-case letters.",
   "acet_l4": "Tokens disappearing everytime you close the browser? This is the cause of a local cache cleaning software, such as CCleaner. Please make sure that your browser isn’t being constantly cleared of information, as all custom token information is stored locally.",
+  "acet_l5": "Receiving message that token is already a default? Try adding it again with a '2' after the symbol's name. For example, 'XYZ' > 'XYZ2'.",
   "acet_p3": "If you are still experiencing issues, have further questions, or want us to find a token’s address and decimal count for you, please contact us at <a href=\"mailto:support@myetherwallet.com\" target=\"_blank\"> support@myetherwallet.com</a> and we would be happy to assist you! -<em> Stephen #MEWForce</em>",
   "acet_footer_l": "<a href=\"https://kb.myetherwallet.com/send/adding-new-token-and-sending-custom-tokens.html\" target=\"_blank\"> Adding a New Token & Sending Custom Tokens </a>",
   "articleReceivingtokens": "How to receive ERC20 tokens",
