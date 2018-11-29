@@ -1,5 +1,5 @@
 {
-"title"       : "Getting Through The Shit Times",
+"title"       : "Getting Through The Hard Times",
 "sort"        : "30",
 "category"    : "Diving Deeper",
 "description" : "Diving Deeper",
@@ -28,7 +28,7 @@ That "we" includes *you*. You are part of this. The fact that you've lost crypto
 
 ### Take 10 deep breathes and go for a walk outside.
 
-The universe is so much larger and has so much more to offer than money and cryptocurrencies. Don't let one incident ruin that potential. Relax and break the gut-wrenching cycle by enjoying the world outside your computer screen. Or, at least go outside and then bitch about how fucking cold it is outside to your friend. That's tangible, and you can discuss these horrors with the people in your life, even if they don't know what cryptocurrency is. 
+The universe is so much larger and has so much more to offer than money and cryptocurrencies. Don't let one incident ruin that potential. Relax and break the gut-wrenching cycle by enjoying the world outside your computer screen. Or, at least go outside and then bitch about how fucking cold it is outside to your friend. That's tangible, and you can discuss these horrors with the people in your life, even if they don't know what cryptocurrency is.
 
 ### Don't double-down on your losses
 
@@ -48,7 +48,7 @@ Time is the best healer. Yelling at your friends, random people on the internet,
 
 This shit is **not** easy, but I've found it's easiest to educate yourself by educating those around you. Sharing experiences, answering questions on [StackExchange](https://ethereum.stackexchange.com/), talking to people on reddit, and reading everything you can find will give you an immense amount of knowledge.
 
-Sharing what you learn with others is far more rewarding than watching the price. Remember: the world is far more than money, especially this digital money that most of the universe literally doesn't know exists. Sharing what you know, making friends, preventing somebody else from experiencing what you experienced is magical. 
+Sharing what you learn with others is far more rewarding than watching the price. Remember: the world is far more than money, especially this digital money that most of the universe literally doesn't know exists. Sharing what you know, making friends, preventing somebody else from experiencing what you experienced is magical.
 
 If you can send a single message, answer a single question, write a single post and that prevents just one person from losing, you have made the world a better place. If you can make this space a little more accessible to newcomers, you have created real value that will continue to grow and spread.
 

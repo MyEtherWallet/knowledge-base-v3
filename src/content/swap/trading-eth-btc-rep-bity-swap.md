@@ -1,5 +1,5 @@
 {
-"title" : "Swapping ETH, BTC, REP on MyEtherWallet via Bity",
+"title" : "Swapping ETH, BTC, REP via Bity",
 "sort" : "02",
 "category" : "Swap",
 "description" : "Swap",
