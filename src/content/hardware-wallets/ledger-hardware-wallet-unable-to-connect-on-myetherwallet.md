@@ -15,6 +15,6 @@
 *   Restart your computer (Do not be lazy. Restart it FIRST).
 *   Use Google Chrome.
 *   Make sure you don't have any other apps that connect to your Ledger open (e.g. the Ledger Bitcoin Chrome app, Mist, etc.)
-*   Make sure you have contract data turned ON. (This options is found under the Ethereum section on the Ledger Nano S device itself)
+*   Make sure you have contract data turned ON. (This option is found under the Ethereum section on the Ledger Nano S device itself)
 *   That you are confirming any transactions via your Ledger.
 *   Try a different USB cable
