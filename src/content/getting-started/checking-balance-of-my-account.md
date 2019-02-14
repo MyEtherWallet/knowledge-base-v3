@@ -28,4 +28,4 @@
 
 ### MyEtherWallet
 <p id='myetherwallet_p'>
-You can also enter your address on MyEtherWallet's <a href='https://www.myetherwallet.com/#view-wallet-info' target='_blank'>View Wallet Info</a> page by selecting the "View With Address Only" option at the bottom. Note: This only allows your to **view** your balances, **NOT** access you wallet to send funds. Remember, you must have the private key in order to access your account. </p>
+You can also enter your address on MyEtherWallet's <a href='https://vintage.myetherwallet.com/#view-wallet-info' target='_blank'>View Wallet Info</a> page by selecting the "View With Address Only" option at the bottom. Note: This only allows your to **view** your balances, **NOT** access you wallet to send funds. Remember, you must have the private key in order to access your account. </p>

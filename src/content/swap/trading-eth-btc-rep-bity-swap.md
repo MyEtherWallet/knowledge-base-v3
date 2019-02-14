@@ -11,7 +11,7 @@
 
 _"How do I swap my ETH for BTC or BTC for ETH?"_
 
-* Go to the Swap page: <a href="https://www.myetherwallet.com/#swap" data-cke-saved-href="https://www.myetherwallet.com/#swap">https://www.myetherwallet.com/#swap</a>
+* Go to the Swap page: <a href="https://vintage.myetherwallet.com/#swap" data-cke-saved-href="https://vintage.myetherwallet.com/#swap">https://vintage.myetherwallet.com/#swap</a>
 * Enter the amount of ETH / BTC / REP you would like to exchange.
 * Click the "Let's do this!" button.
 * Enter your receiving ETH or BTC address.
@@ -24,7 +24,7 @@ Please be sure to send the correct amount of BTC in _addition_ to the TX fee. Th
 * If sending ETH, unlock your wallet and send the transaction.
 * The ETH or BTC will show up in the address you entered in Step #4.
 
-If you are having issues with your Swap, please **go to [the swap page on MyEtherWallet.com](https://www.myetherwallet.com/#swap) and click the `"Issue with your Swap? Contact support"` link near the bottom of the page**.
+If you are having issues with your Swap, please **go to [the swap page on MyEtherWallet.com](https://vintage.myetherwallet.com/#swap) and click the `"Issue with your Swap? Contact support"` link near the bottom of the page**.
 
 This will send an email to both us and support@bity.com with the information we need from you in order to look into the issue. Namely:
 

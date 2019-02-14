@@ -28,6 +28,6 @@ This will import your file into geth and convert it to the latest (V3) keystore 
 *   Linux: `~/.ethereum`
 *   Windows: `%APPDATA%\Ethereum`
 
-Copy that file, and select it on https://www.myetherwallet.com and you are good to go!
+Copy that file, and select it on https://vintage.myetherwallet.com and you are good to go!
 
 Moving foward, use this file. Keep a backup of it, and the old file just in case.

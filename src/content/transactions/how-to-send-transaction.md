@@ -15,7 +15,7 @@
 
 <ol>
   <li id="htsat_l1">
-    Navigate to the <a href="https://www.myetherwallet.com/#send-transaction" target="_blank"> Send Ether & Tokens page </a>
+    Navigate to the <a href="https://vintage.myetherwallet.com/#send-transaction" target="_blank"> Send Ether & Tokens page </a>
   </li>
   <li id="htsat_l2">
     Select how you would like to <a href="https://kb.myetherwallet.com/getting-started/accessing-your-new-eth-wallet.html" target="_blank"> access your wallet and unlock it </a>.

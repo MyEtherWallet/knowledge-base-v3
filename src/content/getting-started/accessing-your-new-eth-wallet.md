@@ -19,7 +19,7 @@
 ### Accessing your Wallet
 <ul>
   <li id="ayw_1">
-    Navigate to the <a href="https://www.myetherwallet.com/#send-transaction">Send Page</a>.
+    Navigate to the <a href="https://vintage.myetherwallet.com/#send-transaction">Send Page</a>.
   </li>
   <li id="ayw_2">
     Select your keystore file or your private key.
@@ -64,7 +64,7 @@
 </p>
 
 <p id="thefuture_3">
-  While you are at it, you should bookmark [https://www.myetherwallet.com](https://www.myetherwallet.com) as well.
+  While you are at it, you should bookmark [https://vintage.myetherwallet.com](https://vintage.myetherwallet.com) as well.
 </p>
 
 <p id="thefuture_4">
@@ -76,7 +76,7 @@
 </p>
 
 
-### Related Reading  
+### Related Reading
 
 <ul>
   <li id="relatedReading_3">

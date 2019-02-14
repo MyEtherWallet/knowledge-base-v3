@@ -26,7 +26,7 @@ You had to unlock your wallet in order to obtain your address from MyEtherWallet
 
 If you think you may have mistyped a private key, here is a snippet that will help you check each letter for a mis-type. Keep in mind, this assumes you mistyped a single character. If you mistyped more than one, it will take exponentially longer.
 
-Scroll to the bottom of https://www.myetherwallet.com/helpers.html, enter your private key and address and see if that resolves to anything.
+Scroll to the bottom of https://vintage.myetherwallet.com/helpers.html, enter your private key and address and see if that resolves to anything.
 
 ---
 

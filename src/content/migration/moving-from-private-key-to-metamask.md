@@ -49,9 +49,9 @@ Damn!
 
 ### Transferring your Funds
 
-1. You can now see your brand new account, balance, and transaction history. To transfer your funds from your old account to your newly setup MetaMask wallet, head to [MyEtherWallet.com](https://www.myetherwallet.com/#send-transaction).
+1. You can now see your brand new account, balance, and transaction history. To transfer your funds from your old account to your newly setup MetaMask wallet, head to [MyEtherWallet.com](https://vintage.myetherwallet.com/#send-transaction).
 
-2. First, check to be sure you are on the correct site. Is the URL www.myetherwallet.com? Does it say MYETHERWALLET Inc [US] in the URL bar? Does the URL have any funky characters or is it mispelled (e.g. myehterwallet)?
+2. First, check to be sure you are on the correct site. Is the URL vintage.myetherwallet.com? Does it say MYETHERWALLET Inc [US] in the URL bar? Does the URL have any funky characters or is it mispelled (e.g. myehterwallet)?
 
 3. No? Okay! Onwards!
 
@@ -75,7 +75,7 @@ Damn!
 
 11. Repeat with all your tokens and then, last but not least, your ETH.
 
-12. Next time you want to send your ETH or Tokens, simply go to [MyEtherWallet](https://www.myetherwallet.com/), click the "Metamask / Mist" option, and click "Connect to MetaMask" button. You will instantly connect. How easy is that?!
+12. Next time you want to send your ETH or Tokens, simply go to [MyEtherWallet](https://vintage.myetherwallet.com/), click the "Metamask / Mist" option, and click "Connect to MetaMask" button. You will instantly connect. How easy is that?!
 
 
 ### Warning!

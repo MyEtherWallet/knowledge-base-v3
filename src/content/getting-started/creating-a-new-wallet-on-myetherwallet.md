@@ -23,7 +23,7 @@ To save / backup your Ledger or TREZOR device, simply write down the 24-word phr
 ### How To
 
 <ul>
-  <li id="howTo_1"> Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/). </li>
+  <li id="howTo_1"> Go to [https://vintage.myetherwallet.com/](https://vintage.myetherwallet.com/). </li>
   <li>
     <p id="howTo_2">Enter a strong but easy to remember password. Do not forget it. </p>
     <ul>
@@ -95,7 +95,7 @@ We are a client-side interface that allows you to interact with the Ethereum blo
 
 ### Short Version (Advanced Users Only)
 <ol>
-  <li id="shortVer_1"> Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/). </li>
+  <li id="shortVer_1"> Go to [https://vintage.myetherwallet.com/](https://vintage.myetherwallet.com/). </li>
   <li id="shortVer_2"> Enter a strong but easy to remember password. </li>
   <li id="shortVer_3"> Click the `"Create New Wallet"` button. </li>
   <li id="shortVer_4"> Click the `"Download"` button & save your `Keystore / UTC` file. Back it up. </li>

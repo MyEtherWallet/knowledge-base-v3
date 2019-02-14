@@ -43,7 +43,7 @@ Good! :)
 
 ### Then, unlock your wallet and copy the address from the sidebar.
 
-1.  Go to [https://www.myetherwallet.com/](https://www.myetherwallet.com/#send-transaction).
+1.  Go to [https://vintage.myetherwallet.com/](https://vintage.myetherwallet.com/#send-transaction).
 2.  Go to 'Send Ether & Tokens'.
 3.  Unlock your wallet via your private key or keystore file.
 4.  Your address can be seen on the right-hand side, next to a colorful icon.

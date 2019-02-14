@@ -17,17 +17,17 @@
     <a href="https://etherscan.io/txsPending" target="_blank">Etherscan's Pending Transactions</a>
   </li>
   <li id="hcicotsomt_l2">
-    <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">Our Check TX Status</a>
+    <a href="https://vintage.myetherwallet.com/#check-tx-status" target="_blank">Our Check TX Status</a>
   </li>
   <li id="hcicotsomt_l3">
     <p>
       Our Check TX Status Page via TX hash:
-      <a href="https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status" target="_blank">
-      https://www.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status
+      <a href="https://vintage.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status" target="_blank">
+      https://vintage.myetherwallet.com/?txHash=0x04f6ab30d52a6fa2551b41aafedc531aa8ead1ed145a6f748328df1855a40e63#check-tx-status
       </a>
     </p>
   </li>
-</ul>  
+</ul>
 
 ### Can I cancel, override, overwrite, replace, or do anything once a transaction has been sent?
 
@@ -72,7 +72,7 @@
 
 <ol>
   <li id="htctsoat_l1">
-    Go to our <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">Check TX Status</a> Page
+    Go to our <a href="https://vintage.myetherwallet.com/#check-tx-status" target="_blank">Check TX Status</a> Page
   </li>
   <li id="htctsoat_l2">
     Copy & paste the transaction hash into the field provided.
@@ -134,7 +134,7 @@
 
 <ol>
   <li id="cat_l1">
-    Go to <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">https://www.myetherwallet.com/#check-tx-status</a>
+    Go to <a href="https://vintage.myetherwallet.com/#check-tx-status" target="_blank">https://vintage.myetherwallet.com/#check-tx-status</a>
   </li>
   <li>
     <p id="cat_l2_p">Paste your TX hash.</p>

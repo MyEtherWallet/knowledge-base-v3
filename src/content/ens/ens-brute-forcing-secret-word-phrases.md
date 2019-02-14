@@ -26,7 +26,7 @@ I'm posting this in case anyone else is finding themselves in the same situation
 
 What you need to know is the account you bid from and the amount, this will not work without that information. If you have that then go to [section 1 of this troubleshooting page](https://kb.myetherwallet.com/ens/ens-debugging-a-bad-instruction-reveal.html) and follow the instructions in order to get the `New Bid Data` string which is the combination of the `MethodId:" and "[0]:` from your bid transaction.
 
-Once you have that all you need to do is replace the information that the four variables at the top of the python script are currently set to. The variable names correspond with the fields under the ENS Debugger on the [MEW Helpers Page](https://www.myetherwallet.com/helpers.html).
+Once you have that all you need to do is replace the information that the four variables at the top of the python script are currently set to. The variable names correspond with the fields under the ENS Debugger on the [MEW Helpers Page](https://vintage.myetherwallet.com/helpers.html).
 
 Putting in the address you bid from, ENS name you bid on, amount you bid, and your three word secret into that page will display the `New Bid Data` output that needs to match what you get from your bid transaction. The python script will run through all the possible three word combinations until it finds the New Bid Data output that matches what's on your bid transaction (which you put into the python script). Once the script has finished you can test the result by filling out the MEW Helpers Page.
 

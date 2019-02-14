@@ -52,7 +52,7 @@
     Try switching the network in the top-right to use a different node. There are 4 nodes that allow you to interact with ETH: MyEtherWallet, Etherscan, Infura, and Giveth. If one is not working, simply choose another one.
   </li>
   <li id="tansuopf_other_l2">
-    If you get a transaction hash for your transaction but it isn't showing up on Etherscan, you can check & replace the transaction with one with a higher gas price here: <a href="https://www.myetherwallet.com/#check-tx-status" target="_blank">https://www.myetherwallet.com/#check-tx-status</a>
+    If you get a transaction hash for your transaction but it isn't showing up on Etherscan, you can check & replace the transaction with one with a higher gas price here: <a href="https://vintage.myetherwallet.com/#check-tx-status" target="_blank">https://vintage.myetherwallet.com/#check-tx-status</a>
   </li>
   <li id="tansuopf_other_l3">
     If you sent <b>FROM an exchange</b>, your best bet is to just be patient. I know we received over 1000 messages in the past 24 hours, I can't imagine what an exchange's inbox looks like right now. :(

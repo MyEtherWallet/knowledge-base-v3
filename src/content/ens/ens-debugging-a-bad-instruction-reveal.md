@@ -24,7 +24,7 @@ Once you find this, copy and paste the value in the "Input Data" into a text doc
 
 ### 2\. Check to see if the information you saved matches the information you sent with your bid.
 
-*   Go to [https://www.myetherwallet.com/helpers.html](https://www.myetherwallet.com/helpers.html)
+*   Go to [https://vintage.myetherwallet.com/helpers.html](https://vintage.myetherwallet.com/helpers.html)
 *   Scroll to the "ENS" section and enter the following:
 *   The address you bid from
 *   ENS Name you Bid On _(no '.eth' at the end!)_, or the namehash from your long string under "Hashed ENS Name (Label Hash)"
@@ -43,14 +43,14 @@ When you do this, the following four fields will populate with long data. You wa
 
 ### 4\. Once you match the string successfully, you can reveal your bid manually using this exact information.
 
-Copy the "Reveal Data" string and go to [https://www.myetherwallet.com/#send-transaction](https://www.myetherwallet.com/#send-transaction) and unlock the wallet for the address that you placed the bid on. This address should also be the same address entered on the https://www.myetherwallet.com/helpers.html.
+Copy the "Reveal Data" string and go to [https://vintage.myetherwallet.com/#send-transaction](https://vintage.myetherwallet.com/#send-transaction) and unlock the wallet for the address that you placed the bid on. This address should also be the same address entered on the https://vintage.myetherwallet.com/helpers.html.
 
 Enter the following information into the fields:
 
 *   To: 0x6090a6e47849629b7245dfa1ca21d94cd15878ef
 *   Amount: 0 ETH
 *   Gas Limit: 200000
-*   Data: From the "Reveal Data" field on [https://www.myetherwallet.com/helpers.html](https://www.myetherwallet.com/helpers.html)
+*   Data: From the "Reveal Data" field on [https://vintage.myetherwallet.com/helpers.html](https://vintage.myetherwallet.com/helpers.html)
 
 ### 5\. Generate and sign your transaction.
 

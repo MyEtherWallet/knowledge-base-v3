@@ -116,7 +116,7 @@
 </p>
 
 <p id="mewQuickT_27">
-  27. Double check the URL: it's always <a href='https://www.myetherwallet.com'> https://www.myetherwallet.com</a>
+  27. Double check the URL: it's always <a href='https://vintage.myetherwallet.com'> https://vintage.myetherwallet.com</a>
 </p>
 
 <p id="mewQuickT_28">
@@ -140,7 +140,7 @@
 </p>
 
 <p id="mewQuickT_33">
-  33. If you mistyped your private key, you can try the tool at the bottom of our helpers page: <a href='https://www.myetherwallet.com/helpers.html' target='_blank'>https://www.myetherwallet.com/helpers.htm</a>
+  33. If you mistyped your private key, you can try the tool at the bottom of our helpers page: <a href='https://vintage.myetherwallet.com/helpers.html' target='_blank'>https://vintage.myetherwallet.com/helpers.htm</a>
 </p>
 
 <p id="mewQuickT_34">
@@ -192,7 +192,7 @@
 </p>
 
 <p id="mewQuickT_46">
-  46. Our helpers page is full of nifty helpers, like WEI <-> ETH converter and debugging ENS reveals! <a href='https://www.myetherwallet.com/helpers.html' target='_blank'> https://www.myetherwallet.com/helpers.htm</a>
+  46. Our helpers page is full of nifty helpers, like WEI <-> ETH converter and debugging ENS reveals! <a href='https://vintage.myetherwallet.com/helpers.html' target='_blank'> https://vintage.myetherwallet.com/helpers.htm</a>
 </p>
 
 <p id="mewQuickT_47">

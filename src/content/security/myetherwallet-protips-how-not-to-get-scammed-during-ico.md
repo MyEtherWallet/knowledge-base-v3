@@ -88,7 +88,7 @@
 </div>
 
 <p id="aamsyaotcmt_p1">
-  And finally, when you go to contribute, make sure you are on a legit version of <a src="https://www.myetherwallet.com/" target="_target">MyEtherWallet.com</a>
+  And finally, when you go to contribute, make sure you are on a legit version of <a src="https://vintage.myetherwallet.com/" target="_target">MyEtherWallet.com</a>
 </p>
 <p id="aamsyaotcmt_p2">
   Check the URL. Check the SSL. Check the v3.9.9.5 (for district0x only). Don't rely on the version number, but its another good way to easily spot a scam site.

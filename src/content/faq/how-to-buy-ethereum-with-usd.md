@@ -79,7 +79,7 @@ Mist is highly recommended but some people have issues installing & syncing it. 
 
 **Just, MAKE SURE YOU BACK IT UP PLEASE.**
 
-- [MyEtherWallet.com](http://www.myetherwallet.com/) or [MEW Chrome Extension](https://www.reddit.com/r/ethereum/comments/44vbef/myetherwallet_chrome_extension_the_beta_has/)
+- [MyEtherWallet.com](http://vintage.myetherwallet.com/) or [MEW Chrome Extension](https://www.reddit.com/r/ethereum/comments/44vbef/myetherwallet_chrome_extension_the_beta_has/)
 
 - [JAXX](http://jaxx.io/) - multi-platform, multi-currency
 

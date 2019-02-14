@@ -47,7 +47,7 @@ Therefore, the total TX fee will be 0.00042 Ether.
 
 Sending tokens will typically take `~50000` gas to `~100000` gas, so the total TX fee increases to `0.001 ETH - 0.002 ETH`.
 
-[You can use our tool to calculate GWEI <-> WEI <-> USD here](https://www.myetherwallet.com/helpers.html), which can be helpful when you want to know your TX fee in ETH, rather than GWEI.
+[You can use our tool to calculate GWEI <-> WEI <-> USD here](https://vintage.myetherwallet.com/helpers.html), which can be helpful when you want to know your TX fee in ETH, rather than GWEI.
 
 
 ### Gas Limit

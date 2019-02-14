@@ -27,7 +27,7 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 
 #### via Ethplorer.io
 
-0.  On the ["Send Ether & Tokens"](https://www.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
+0.  On the ["Send Ether & Tokens"](https://vintage.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
 1.  In a new tab, go to [Ethplorer.io](https://ethplorer.io/) 
 2.  Type in the name of the token into their search bar, or navigate to your address and click on the token's name from that page. 
 3.  At the very top on this page is the address.
@@ -42,7 +42,7 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 
 #### via Etherscan.io
 
-0.  On the ["Send Ether & Tokens"](https://www.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
+0.  On the ["Send Ether & Tokens"](https://vintage.myetherwallet.com/#send-transaction) page on MEW, click `View Balance Only (Must use one of above options to send)` and paste *your* address.
 1.  In the sidebar, click the `https://etherscan.io` link under `Transaction History` or `How to See your Tokens`.
 2.  Click the dropdown in the right-upper quadrant. It's labeled `Token Tracker`.
 3.  Click the token that you aren't seeing on MEW.

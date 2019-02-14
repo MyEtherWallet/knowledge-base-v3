@@ -15,7 +15,7 @@ _I sent ETC to my ETH wallet by mistake._
 
 In order to see your ETC and interact with the ETC chain, you must first be on an ETC node.
 
-1. Select "ETC (Epool.io)" in the node-switcher in the top-right corner of [https://www.myetherwallet.com/](https://www.myetherwallet.com/)
+1. Select "ETC (Epool.io)" in the node-switcher in the top-right corner of [https://vintage.myetherwallet.com/](https://vintage.myetherwallet.com/)
 
 2. Unlock your wallet to send ETC to interact with the ETC chain.
 

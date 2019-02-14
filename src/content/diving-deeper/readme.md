@@ -37,7 +37,7 @@ If you want to help contribute, here's what you need to know to get it up and ru
 
     *   `index.html` is for MyEtherWallet.com.
     *   `cx-wallet.html` is the main page for the Chrome Extension.
-    *   `embedded.html` is for [https://www.myetherwallet.com/embedded.html](https://www.myetherwallet.com/embedded.html).
+    *   `embedded.html` is for [https://vintage.myetherwallet.com/embedded.html](https://vintage.myetherwallet.com/embedded.html).
 *   You can control what shows up on MyEtherWallet.com vs the Chrome Extension by using: `@@if (site === 'cx' ) { ... }` and `@@if (site === 'mew' ) { ... }`. Check out `sendTransaction.tpl` to see it in action. The former will only compile to the Chrome Extension. The latter only to MyEtherWallet.com.
 
 *   embedded.html is for embedding the wallet generation into third-party sites. [Read more about it and how to listen for the address generated here.](https://www.reddit.com/r/ethereum/comments/4gn37o/embeddable_myetherwallet_super_simple_wallet/)

@@ -16,7 +16,7 @@ MyEtherWallet aims to deliver an easy-to-use and secure platform. Due to a rapid
 
 1.  [Generate a new wallet, securely. ](https://kb.myetherwallet.com/getting-started/creating-a-new-wallet-on-myetherwallet.html)
 2.  [Back up your new wallet, securely.](https://kb.myetherwallet.com/getting-started/backing-up-your-new-wallet.html)
-3.  Go to the [Send page.](https://www.myetherwallet.com/#send-transaction)
+3.  Go to the [Send page.](https://vintage.myetherwallet.com/#send-transaction)
 4.  Unlock your new wallet. 
 5.  Copy your address on the right hand side.
 6.  Go to [https://github.com/kvhnuke/etherwallet/releases/tag/v3.9.0](https://github.com/kvhnuke/etherwallet/releases/tag/v3.9.0)
@@ -25,7 +25,7 @@ MyEtherWallet aims to deliver an easy-to-use and secure platform. Due to a rapid
 9.  Unlock your **old wallet** via your Parity Phrase.
 10.  Paste your address from the **new wallet** you just generated into the "To Address" field.
 11.  Send 0.1 ETH to your new address. Ensure it goes through.
-12.  In a new tab, go to [the current version of MyEtherWallet](https://www.myetherwallet.com/#send-transaction). Unlock your **new wallet**, and send 0.00245 ETH back to your original address. Ensure that it goes through.
+12.  In a new tab, go to [the current version of MyEtherWallet](https://vintage.myetherwallet.com/#send-transaction). Unlock your **new wallet**, and send 0.00245 ETH back to your original address. Ensure that it goes through.
 13.  Copy your **new address** once again.
 14.  Return to the old version of MyEtherWallet. 
 15.  If you have Tokens: send any **tokens** you have to your **new wallet**. 

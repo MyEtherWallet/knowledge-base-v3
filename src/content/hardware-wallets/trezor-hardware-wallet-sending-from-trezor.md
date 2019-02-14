@@ -11,7 +11,7 @@
 
 Here is how you can unlock your wallet, access your ETH and Tokens, and send from your TREZOR hardware wallet:
 
-1. Go to [https://www.myetherwallet.com/#send-transaction](https://www.myetherwallet.com/#send-transaction).
+1. Go to [https://vintage.myetherwallet.com/#send-transaction](https://vintage.myetherwallet.com/#send-transaction).
 
 2. Check to make sure you are using an ETH node by looking at the Network Switcher in the top-right corner.
 

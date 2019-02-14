@@ -187,7 +187,7 @@ Phishers send you a message with a link to a website that looks just like MyEthe
 </p>
 <ul>
 <li id="howToProtectYourselfFromPhishing_2">  Use the [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://kb.myetherwallet.com/migration/moving-from-private-key-to-metamask.html) Chrome Extension to block malicious websites.  </li>
-<li id="howToProtectYourselfFromPhishing_3">  Always check the URL: `https://www.myetherwallet.com`.  </li>
+<li id="howToProtectYourselfFromPhishing_3">  Always check the URL: `https://vintage.myetherwallet.com`.  </li>
 <li id="howToProtectYourselfFromPhishing_4">  Always make sure the URL bar has `MYETHERWALLET Inc [US]` in green.  </li>
 <li id="howToProtectYourselfFromPhishing_5">  Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.  </li>
 <li id="howToProtectYourselfFromPhishing_6">  Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.  </li>

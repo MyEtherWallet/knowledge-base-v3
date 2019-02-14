@@ -53,7 +53,7 @@ Now your TREZOR is all set-up and ready to be used!
 
 ### Using the TREZOR with MyEtherWallet
 
-It's time to access our TREZOR using MyEtherWallet! In order to do so, go to [MyEtherWallet.com](https://www.myetherwallet.com/), enter the "Send Ether & Tokens" tab, and click the "TREZOR" option.
+It's time to access our TREZOR using MyEtherWallet! In order to do so, go to [MyEtherWallet.com](https://vintage.myetherwallet.com/), enter the "Send Ether & Tokens" tab, and click the "TREZOR" option.
 
 <img src="https://i.imgur.com/m70B73U.jpg" >
 

@@ -51,7 +51,7 @@ You will be using MEW to sign and then broadcast the TXs via your node. You will
 
 * This should immediately connect or an error message will display.
 
-* Go to https://www.myetherwallet.com/#view-wallet-info and unlock via "View with Address Only"
+* Go to https://vintage.myetherwallet.com/#view-wallet-info and unlock via "View with Address Only"
 
 * Verify balances are loading correctly.
 
@@ -63,11 +63,11 @@ You will be using MEW to sign and then broadcast the TXs via your node. You will
 
 #####  Run geth or parity with correct flags
 
-* Geth: `geth --datadir eth-mainnet --syncmode=light --rpcaddr "localhost" --rpc  --rpccorsdomain="https://www.myetherwallet.com/" --unlock 1 console`
+* Geth: `geth --datadir eth-mainnet --syncmode=light --rpcaddr "localhost" --rpc  --rpccorsdomain="https://vintage.myetherwallet.com/" --unlock 1 console`
 
 ##### Connect to your Node Hosted Somewhere
 
-* Go to `https://www.myetherwallet.com/` or your local `index.html` in the MEW folder
+* Go to `https://vintage.myetherwallet.com/` or your local `index.html` in the MEW folder
 
 * In upper right corner there is a node switcher. Here is where you can select which node / chain you are connected to.
 
@@ -93,7 +93,7 @@ You will be using MEW to sign and then broadcast the TXs via your node. You will
 
 * This should immediately connect or an error message will display.
 
-* If no errors, go to https://www.myetherwallet.com/#view-wallet-info and unlock via "View with Address Only"
+* If no errors, go to https://vintage.myetherwallet.com/#view-wallet-info and unlock via "View with Address Only"
 
 * Verify balances are loading correctly.
 

@@ -12,16 +12,16 @@
 
 You can open an auction without bidding. It's not the simplest thing in the world, but it's not the worst. It looks harder than it is:
 
-*  Go to [https://www.myetherwallet.com/helpers.html](https://www.myetherwallet.com/helpers.html)
+*  Go to [https://vintage.myetherwallet.com/helpers.html](https://vintage.myetherwallet.com/helpers.html)
 *  Find `ENS Debugger & Data Grabber`
 *  Type the name (without .eth) under `ENS Name you Bid on`
 *  Copy the data provided under `Start Auction Data`
-*  In a new tab, go to [https://www.myetherwallet.com/#send-transaction](https://www.myetherwallet.com/#send-transaction) and unlock the wallet you wish to start the auction with
+*  In a new tab, go to [https://vintage.myetherwallet.com/#send-transaction](https://vintage.myetherwallet.com/#send-transaction) and unlock the wallet you wish to start the auction with
 *  Enter the following information into the fields:
     *  To: `0x6090a6e47849629b7245dfa1ca21d94cd15878ef`
     *  Amount: `0 ETH`
     *  Gas Limit: `00000`
-    *  Data: From the `Start Auction Data` field on [https://www.myetherwallet.com/helpers.html](https://www.myetherwallet.com/helpers.html)
+    *  Data: From the `Start Auction Data` field on [https://vintage.myetherwallet.com/helpers.html](https://vintage.myetherwallet.com/helpers.html)
     *  Send your transaction
 *  Go to etherscan.io and type the name-you-bid-on.eth in the search bar. It should take you a page similar to [https://etherscan.io/enslookup?q=yourname.eth](https://etherscan.io/enslookup?q=yourname.eth)
 *  Look under `Related Txns` for the start auction call you just made.

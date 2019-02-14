@@ -47,7 +47,7 @@ You need whatever it outputs when you hit "query" to match the string in your or
 
 ##### Next, combine that string into one long string and use that as the data field:
 
-1.  Go to [https://www.myetherwallet.com/#send-transaction](https://www.myetherwallet.com/#send-transaction)
+1.  Go to [https://vintage.myetherwallet.com/#send-transaction](https://vintage.myetherwallet.com/#send-transaction)
 2.  Send to: `0x6090a6e47849629b7245dfa1ca21d94cd15878ef`
 3.  Amount: `0`
 4.  Data: `0x47872b42[NAME YOU BID ON HASH]0000000000000000000000000000000000000000000000000000000000000000[VALUE HEX][SECRET HASH]`
