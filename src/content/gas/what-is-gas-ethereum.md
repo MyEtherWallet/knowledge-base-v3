@@ -18,7 +18,7 @@ Ethereum is the network, also known as the blockchain. Ether (ETH) is the fuel f
 
 You are paying for the *computation*, regardless of whether your transaction succeeds or fails. Even if it fails, the miners must validate and execute your transaction *(compute)* and therefore you must pay for that computation just like you would pay for a successful transaction.
 
-You can see your TX fee (`gas limit` * `gas price`) in ETH & USD when you search for your transaction on [etherscan.io](https://etherscan.io/tx/0x9f5080adb96fc251fb87387ec4a1f77506cb59e14ef1d87d3a018a0cd41a9eeb). This is not a TX  fee that MyEtherWallet, or any other service provider, receives. This fee is paid to miners for mining transactions, putting them into blocks, and securing the blockchain.
+You can see your TX fee (`gas used` * `gas price`) in ETH & USD when you search for your transaction on [etherscan.io](https://etherscan.io/tx/0x9f5080adb96fc251fb87387ec4a1f77506cb59e14ef1d87d3a018a0cd41a9eeb). This is not a TX  fee that MyEtherWallet, or any other service provider, receives. This fee is paid to miners for mining transactions, putting them into blocks, and securing the blockchain.
 
 
 ### Overview
@@ -28,7 +28,7 @@ You can see your TX fee (`gas limit` * `gas price`) in ETH & USD when you search
 *   Gas Limit
 *   Gas Price
 
-The total cost of a transaction (the "TX fee") is the `Gas Limit` * `Gas Price`.
+The total cost of a transaction (the "TX fee") is the `Gas Used` * `Gas Price`.
 
 Typically, if someone just says "Gas", they are talking about the "Gas Limit".
 
