@@ -206,7 +206,7 @@
 *  PRSP                            : [Web](http://www.prsp.me) · [Support](mailto:prspme@gmail.com)
 *  QAU / Quantum                   : [Web](http://www.quantumproject.org/) · [Support](mailto:support@quantumproject.org)
 *  QTQ / TiiQu's Q Token           : [Web](http://tiiqu.com/) · [Support](mailto:samuel.hr@tiiqu.com) · [Github](https://github.com/TiiQu-Network/TiiQu-Network) · [Reddit](https://www.reddit.com/r/TiiQu/) · [Slack](https://tiiqu.slack.com) · [Twitter](https://twitter.com/tiiqu_network)
-*  RDN / Radien Network            : [Web](https://raiden.network/) · [Support](mailto:contact@raiden.network) · [Chat](https://riot.im/app/#/room/#raiden-network:matrix.org) · [Reddit](https://www.reddit.com/r/raidennetwork/)
+*  RDN / Raiden Network            : [Web](https://raiden.network/) · [Support](mailto:contact@raiden.network) · [Chat](https://riot.im/app/#/room/#raiden-network:matrix.org) · [Reddit](https://www.reddit.com/r/raidennetwork/)
 *  Realto.ai:                      : [Web](https://www.rialto.ai) · [Contact](mailto:connect@rialto.ai) · [Suppport](mailto:support@rialto.ai)
 *  REBL / Rebellious               : [Web](https://www.rebellious.io) · [Chat](https://discord.gg/q4yBxct) · [Forum](https://bitcointalk.org/index.php?topic=2357352.0) · [Telegram](https://t.me/RebelliousCoin) · [Twitter](https://twitter.com/RebelliousCoin)
 *  REP / Augur                     : [Web](https://augur.net) · [Reddit](https://www.reddit.com/r/Augur/) · [Slack](https://invite.augur.net/)
