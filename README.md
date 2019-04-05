@@ -1,3 +1,5 @@
+# This repo is deprecated, please refer to [Knowledge Base v5](https://github.com/MyEtherWallet/knowledge-base-v5) for latest development
+
 # MyEtherWallet Knowledge Base
 Live site can be found [here](https://myetherwallet.github.io/knowledge-base/).
 
