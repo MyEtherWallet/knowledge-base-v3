@@ -58,7 +58,7 @@ Any ERC-20 token can be added to your local MEW interface by following these ins
 
 ### Removing Custom Tokens
 
-To remove a custom token, click the little ( - ) icon next to your token. This will remove it from the interface. It is not deleting or removing the tokens themselves. They are still safely in your wallet, we promise.
+To remove a custom token, click the little ( - ) icon next to your token. This will remove it from the interface (browser?). It is not deleting or removing the tokens themselves. They are still safely in your wallet, we promise.
 
 ### Related Reading
 
