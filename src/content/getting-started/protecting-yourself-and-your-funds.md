@@ -151,7 +151,14 @@ If you don't want one of these nifty devices, use <a href='https://kb.myetherwal
 
 ### 19. ONLY unlock your wallet when you want to send a transaction. Check your balance via <a href='https://etherscan.io/' target='_blank'> https://etherscan.io/ </a>, <a href='https://ethplorer.io/' target='_blank'>https://ethplorer.io/</a>
 
-#### 20. Lastly: use your brain
+### 20. Encrypt your hard drive with BitLocker.
+<ul>
+  <li id="pyayfl_21">
+    Encrypting your hard drive with BitLocker is a great idea, however it's time consuming, just google "how to encrypt hard drive with bitlocker" to get more information.
+  </li>
+</ul>
+
+#### 21. Lastly: use your brain
 <ul>
   <li id="pyayfl_22">
     Think for a moment. Don't assume, ask. Don't blindly follow, question. If something doesn't seem right...if you feel like the luckiest person on Earth...or if you find yourself asking, "I wonder why I haven't seen this on reddit yet", there is likely a reason.
